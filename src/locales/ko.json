@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "explore": "둘러보기",
+    "myStudy": "내 학습장 (준비중)"
+  },
+  "common": {
+    "back": "뒤로",
+    "episodes": "에피소드",
+    "interactiveScript": "인터랙티브 스크립트",
+    "language": "언어 설정"
+  }
+}

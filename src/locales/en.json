@@ -1,0 +1,12 @@
+{
+  "menu": {
+    "explore": "Explore",
+    "myStudy": "My Study (Coming Soon)"
+  },
+  "common": {
+    "back": "Back",
+    "episodes": "Episodes",
+    "interactiveScript": "Interactive Script",
+    "language": "Language"
+  }
+}
