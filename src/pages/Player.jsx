@@ -1,9 +1,14 @@
 import { useState, useRef, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'; // 👈 1. 번역 엔진 불러오기!
 
 export default function Player() {
   const { epId } = useParams();
   
+  // 👈 2. 현재 선택된 언어 확인하기
+  const { i18n } = useTranslation();
+  const lang = i18n.language === 'ko' ? 'ko' : 'en'; 
+
   const [epData, setEpData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -122,14 +127,18 @@ export default function Player() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-6 md:py-10">
       
-      {/* 1. 상단 재생기 (디자인 정밀화) */}
       <div className="bg-white p-6 md:p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 mb-8 text-center sticky top-4 md:top-8 z-10 transition-all backdrop-blur-xl bg-white/90">
         <Link to={`/course/real-reaction`} className="text-gray-400 absolute left-6 top-6 hover:text-gray-600 flex items-center gap-1 text-sm font-medium">
           ← 뒤로
         </Link>
         <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1.5 mt-2 md:mt-0">EPISODE {epId}</p>
-        <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 mb-1.5">{epData.metadata.title}</h1>
-        <p className="text-indigo-600 font-semibold text-sm mb-8">{epData.metadata.course || '리얼 리액션'}</p>
+        
+        {/* 🚨 핵심 수정 부분! 에러가 났던 객체를 언어에 맞춰서 안전하게 출력합니다! */}
+        <h1 className="text-2xl font-extrabold tracking-tight text-gray-900 mb-1.5">
+          {epData.metadata.title[lang] || epData.metadata.title.en}
+        </h1>
+        
+        <p className="text-indigo-600 font-semibold text-sm mb-8">리얼 리액션</p>
         
         <div className="flex items-center justify-center gap-8">
           <button className="text-gray-300 hover:text-gray-500 font-bold text-2xl transition-colors">⏪</button>
@@ -143,7 +152,6 @@ export default function Player() {
         </div>
       </div>
 
-      {/* 2. 대본 영역 */}
       <div className="px-2 md:px-4">
         <h2 className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-8 border-b border-gray-100 pb-3">
           Interactive Script
@@ -155,9 +163,6 @@ export default function Player() {
 
             const isMina = item.speaker.includes('Mina') || item.speaker.includes('MINA');
             const isPlaying = currentIndex === index; 
-            
-            // ✨ [핵심 수정] 괄호 안에 있는 글자(감정 지시문)를 정규식으로 완벽하게 삭제합니다!
-            // 예: "MINA (황당해하며)" -> "MINA"
             const cleanSpeakerName = item.speaker.replace(/\s*\(.*?\)\s*/g, '').trim();
 
             return (
@@ -167,7 +172,6 @@ export default function Player() {
                 className={`flex flex-col items-start gap-1.5 p-3 -mx-3 rounded-2xl transition-all duration-500 ${isPlaying ? 'bg-indigo-50/60 border-l-[3px] border-indigo-500 pl-5 shadow-sm' : 'border-l-[3px] border-transparent pl-5'}`}
               >
                 
-                {/* 깔끔해진 화자 이름 렌더링 */}
                 <span className={`text-[11px] font-bold uppercase tracking-wider ${isMina ? 'text-indigo-500' : 'text-gray-400'}`}>
                   {cleanSpeakerName}
                 </span>
