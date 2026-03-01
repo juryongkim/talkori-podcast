@@ -6,8 +6,8 @@ export default function MyStudy() {
   const [savedScript, setSavedScript] = useState([]);
   
   const [activeTab, setActiveTab] = useState('voca');
-  const [selectedFolder, setSelectedFolder] = useState('all'); // 'all' 또는 특정 epId
-  const [isFolderMenuOpen, setIsFolderMenuOpen] = useState(false); // 모바일 폴더 메뉴 토글
+  const [selectedFolder, setSelectedFolder] = useState('all'); // 'all' 또는 특정 날짜("YYYY-MM-DD")
+  const [isFolderMenuOpen, setIsFolderMenuOpen] = useState(false); 
   
   const audioRef = useRef(null);
   const CDN_BASE_URL = "https://talkori.b-cdn.net/podcast/reaction";
@@ -45,36 +45,53 @@ export default function MyStudy() {
     audio.play().catch(e => console.error("재생 에러:", e));
   };
 
-  // ✨ 저장된 데이터에서 존재하는 에피소드 ID(폴더명)만 추출해서 오름차순 정렬
+  // ✨ 에피소드가 아닌 '날짜(dateSaved)' 기준으로 고유 폴더 추출 후 "최신순(내림차순)" 정렬
   const getUniqueFolders = () => {
-    const epIds = new Set([
-      ...savedVoca.map(v => v.epId),
-      ...savedScript.map(s => s.epId)
+    const dates = new Set([
+      ...savedVoca.map(v => v.dateSaved || 'old'),
+      ...savedScript.map(s => s.dateSaved || 'old')
     ]);
-    return Array.from(epIds).filter(Boolean).sort((a, b) => parseInt(a) - parseInt(b));
+    
+    return Array.from(dates).sort((a, b) => {
+      // '이전 기록'은 항상 맨 뒤로
+      if (a === 'old') return 1;
+      if (b === 'old') return -1;
+      // 날짜 문자열(YYYY-MM-DD) 내림차순 정렬
+      return b.localeCompare(a); 
+    });
   };
 
   const folders = getUniqueFolders();
 
-  // ✨ 선택된 폴더(에피소드)에 맞게 데이터 필터링
-  const filteredVoca = selectedFolder === 'all' ? savedVoca : savedVoca.filter(v => v.epId === selectedFolder);
-  const filteredScript = selectedFolder === 'all' ? savedScript : savedScript.filter(s => s.epId === selectedFolder);
+  // ✨ 선택된 날짜 폴더에 맞게 데이터 필터링
+  const filteredVoca = selectedFolder === 'all' 
+    ? savedVoca 
+    : savedVoca.filter(v => (v.dateSaved || 'old') === selectedFolder);
+    
+  const filteredScript = selectedFolder === 'all' 
+    ? savedScript 
+    : savedScript.filter(s => (s.dateSaved || 'old') === selectedFolder);
 
-  // ✨ 좌측 폴더 리스트 컴포넌트
+  // ✨ 날짜 포맷 예쁘게 바꾸기 (예: "2026-03-02" -> "2026년 3월 2일")
+  const formatDate = (dateStr) => {
+    if (dateStr === 'old') return '이전 저장 기록';
+    const [y, m, d] = dateStr.split('-');
+    return `${y}년 ${parseInt(m)}월 ${parseInt(d)}일`;
+  };
+
   const FolderListContent = () => (
     <div className="flex flex-col h-full bg-white">
       <div className="p-6 border-b border-gray-100 shrink-0">
         <div className="flex items-center gap-3 mb-2">
-          <span className="text-3xl">📚</span>
+          <span className="text-3xl">📅</span>
           <h2 className="text-lg font-extrabold text-gray-900 leading-tight">
-            My Folders
+            학습 날짜별 보기
           </h2>
         </div>
         <p className="text-sm font-bold text-gray-400">총 {savedVoca.length + savedScript.length}개의 북마크</p>
       </div>
       
       <div className="flex-1 overflow-y-auto p-4 space-y-2">
-        {/* '전체 보기' 폴더 */}
         <div 
           onClick={() => { setSelectedFolder('all'); setIsFolderMenuOpen(false); }}
           className={`flex items-center justify-between p-3 rounded-xl cursor-pointer transition-all ${selectedFolder === 'all' ? 'bg-indigo-50 border border-indigo-100' : 'hover:bg-gray-50 border border-transparent'}`}
@@ -82,7 +99,7 @@ export default function MyStudy() {
           <div className="flex items-center gap-3">
             <span className="text-xl">📁</span>
             <p className={`text-sm font-bold ${selectedFolder === 'all' ? 'text-indigo-900' : 'text-gray-700'}`}>
-              모든 에피소드
+              전체 모아보기
             </p>
           </div>
           <span className="text-xs font-bold bg-white px-2 py-1 rounded-md text-gray-500 shadow-sm">
@@ -90,22 +107,22 @@ export default function MyStudy() {
           </span>
         </div>
 
-        {/* 개별 에피소드 폴더들 */}
-        {folders.map(epId => {
-          const epVocaCount = savedVoca.filter(v => v.epId === epId).length;
-          const epScriptCount = savedScript.filter(s => s.epId === epId).length;
+        {/* 날짜 폴더 렌더링 */}
+        {folders.map(dateKey => {
+          const epVocaCount = savedVoca.filter(v => (v.dateSaved || 'old') === dateKey).length;
+          const epScriptCount = savedScript.filter(s => (s.dateSaved || 'old') === dateKey).length;
           const totalCount = epVocaCount + epScriptCount;
 
           return (
             <div 
-              key={epId}
-              onClick={() => { setSelectedFolder(epId); setIsFolderMenuOpen(false); }}
-              className={`flex items-center justify-between p-3 rounded-xl cursor-pointer transition-all ${selectedFolder === epId ? 'bg-indigo-50 border border-indigo-100' : 'hover:bg-gray-50 border border-transparent'}`}
+              key={dateKey}
+              onClick={() => { setSelectedFolder(dateKey); setIsFolderMenuOpen(false); }}
+              className={`flex items-center justify-between p-3 rounded-xl cursor-pointer transition-all ${selectedFolder === dateKey ? 'bg-indigo-50 border border-indigo-100' : 'hover:bg-gray-50 border border-transparent'}`}
             >
               <div className="flex items-center gap-3">
-                <span className="text-xl">📂</span>
-                <p className={`text-sm font-bold ${selectedFolder === epId ? 'text-indigo-900' : 'text-gray-700'}`}>
-                  EPISODE {epId}
+                <span className="text-xl">🗓️</span>
+                <p className={`text-sm font-bold ${selectedFolder === dateKey ? 'text-indigo-900' : 'text-gray-700'}`}>
+                  {formatDate(dateKey)}
                 </p>
               </div>
               <span className="text-xs font-bold bg-white px-2 py-1 rounded-md text-gray-500 shadow-sm">
@@ -121,12 +138,10 @@ export default function MyStudy() {
   return (
     <div className="flex w-full min-h-screen bg-gray-50">
       
-      {/* --- 💻 [PC 전용] 좌측 폴더 사이드바 --- */}
       <aside className="hidden lg:flex flex-col w-[320px] xl:w-[380px] bg-white border-r border-gray-200 h-screen sticky top-0 shrink-0 shadow-[4px_0_24px_rgba(0,0,0,0.02)] z-10">
         <FolderListContent />
       </aside>
 
-      {/* --- 📱 [모바일 전용] 우측 슬라이드 폴더 메뉴 --- */}
       {isFolderMenuOpen && (
         <div className="lg:hidden fixed inset-0 z-50 flex">
           <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" onClick={() => setIsFolderMenuOpen(false)}></div>
@@ -137,25 +152,22 @@ export default function MyStudy() {
         </div>
       )}
 
-      {/* --- 메인 학습장 영역 --- */}
       <main className="flex-1 w-full relative">
         <div className="max-w-3xl mx-auto px-4 py-8 md:px-8 pb-32">
           
-          {/* 상단 스티키 헤더 */}
           <div className="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-gray-200 mb-6 sticky top-4 z-20 transition-all">
-            
             <button 
               onClick={() => setIsFolderMenuOpen(true)}
               className="lg:hidden absolute right-6 top-6 text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-indigo-100 transition-colors"
             >
-              ☰ 폴더 선택
+              ☰ 날짜 선택
             </button>
 
             <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-gray-900 mb-2">
-              {selectedFolder === 'all' ? '전체 북마크' : `EPISODE ${selectedFolder} 복습`}
+              {selectedFolder === 'all' ? '전체 북마크' : formatDate(selectedFolder)}
             </h1>
             <p className="text-gray-500 font-medium text-sm mb-6">
-              내가 별표 친 단어와 문장만 모아서 집중 학습하세요!
+              선택한 날짜에 저장한 단어와 문장만 집중 복습하세요!
             </p>
 
             <div className="flex border-t border-gray-100 pt-4">
@@ -174,16 +186,14 @@ export default function MyStudy() {
             </div>
           </div>
 
-          {/* 리스트 영역 */}
           <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 md:p-8 min-h-[50vh]">
             
-            {/* 📚 단어장 렌더링 */}
             {activeTab === 'voca' && (
               <div className="space-y-4">
                 {filteredVoca.length === 0 ? (
                   <div className="text-center py-20 text-gray-400 font-medium">
                     <span className="text-3xl block mb-3">☆</span>
-                    이 폴더에 저장된 단어가 없습니다.
+                    이 날짜에 저장된 단어가 없습니다.
                   </div>
                 ) : (
                   filteredVoca.map((voca, idx) => (
@@ -192,12 +202,10 @@ export default function MyStudy() {
                         <div>
                           {selectedFolder === 'all' && (
                             <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block mb-1">
-                              EPISODE {voca.epId}
+                              {formatDate(voca.dateSaved || 'old')} (EP.{voca.epId})
                             </span>
                           )}
-                          <h3 className="text-xl font-extrabold text-gray-900">
-                            {voca.word}
-                          </h3>
+                          <h3 className="text-xl font-extrabold text-gray-900">{voca.word}</h3>
                         </div>
                         <div className="flex items-center gap-2">
                           <button onClick={() => playAudio(voca.epId, voca.audio)} className="w-8 h-8 rounded-full flex items-center justify-center bg-indigo-50 text-indigo-600 hover:bg-indigo-100 transition-colors">▶</button>
@@ -216,20 +224,19 @@ export default function MyStudy() {
               </div>
             )}
 
-            {/* 📝 문장 렌더링 */}
             {activeTab === 'script' && (
               <div className="space-y-4">
                 {filteredScript.length === 0 ? (
                   <div className="text-center py-20 text-gray-400 font-medium">
                     <span className="text-3xl block mb-3">☆</span>
-                    이 폴더에 저장된 문장이 없습니다.
+                    이 날짜에 저장된 문장이 없습니다.
                   </div>
                 ) : (
                   filteredScript.map((item, idx) => (
                     <div key={idx} className="flex flex-col items-start gap-1 p-4 rounded-xl transition-all duration-300 border bg-white border-gray-100 hover:border-indigo-100">
                       <div className="flex justify-between items-start w-full mb-1">
                         <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block mb-1">
-                          {selectedFolder === 'all' ? `EPISODE ${item.epId} • ` : ''}{item.speaker}
+                          {selectedFolder === 'all' ? `${formatDate(item.dateSaved || 'old')} • ` : ''}EP.{item.epId} • {item.speaker}
                         </span>
                         <div className="flex items-center gap-2">
                           <button onClick={() => playAudio(item.epId, item.audio)} className="w-8 h-8 rounded-full flex items-center justify-center bg-indigo-50 text-indigo-600 hover:bg-indigo-100 transition-colors">▶</button>
