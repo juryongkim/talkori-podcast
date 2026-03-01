@@ -89,7 +89,7 @@ export default function Player() {
     setCurrentIndex(null);
     setPlayingVocaIndex(null);
     setActiveTab(tab);
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // 탭 바꿀 때 맨 위로
+    window.scrollTo({ top: 0, behavior: 'smooth' }); 
   };
 
   const playLine = (index) => {
@@ -124,7 +124,6 @@ export default function Player() {
     audio.play().catch(e => console.error("재생 에러:", e));
     setCurrentIndex(index);
 
-    // 스크롤 위치 조정 (스티키 헤더에 가리지 않게 중앙으로)
     if (lineRefs.current[index] && activeTab === 'script') {
       lineRefs.current[index].scrollIntoView({ behavior: "smooth", block: "center" });
     }
@@ -169,9 +168,9 @@ export default function Player() {
 
   if (isLoading || !epData) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-[#F5F5F7]">
+      <div className="flex flex-col items-center justify-center min-h-screen bg-[#f2f2f7]">
         {isLoading ? (
-          <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-indigo-600 mb-4"></div>
+          <div className="animate-spin rounded-full h-10 w-10 border-t-2 border-b-2 border-[#5449e9] mb-4"></div>
         ) : (
           <p className="text-xl font-bold text-gray-700">에피소드를 찾을 수 없어요. 😢</p>
         )}
@@ -180,75 +179,65 @@ export default function Player() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F5F5F7] pb-32">
+    // 스티치가 지정한 배경색(#f2f2f7) 적용
+    <div className="min-h-screen bg-[#f2f2f7] text-gray-900 font-sans flex flex-col">
       
-      {/* 🌟 통합 스티키(Sticky) 헤더: PC & 모바일 공통으로 상단에 딱 붙습니다! */}
-      <div className="sticky top-0 z-40 bg-white/80 backdrop-blur-2xl border-b border-gray-200/50 shadow-sm px-4 md:px-8 pt-4 md:pt-6 pb-0 transition-all">
-        <div className="max-w-4xl mx-auto">
+      {/* --- 🌟 상단 스티키 헤더 (Stitch 디자인 완벽 이식) --- */}
+      <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-xl border-b border-gray-200/50 px-4 md:px-8 pt-4 pb-0 shadow-sm">
+        <div className="max-w-3xl mx-auto">
           
-          {/* 헤더 상단: 뒤로가기 & 뱃지 */}
-          <div className="flex justify-between items-start mb-2 md:mb-4">
-            <Link to={`/course/${epData.metadata.course}`} className="text-indigo-600 hover:text-indigo-800 font-bold text-sm inline-flex items-center gap-1 transition-colors">
+          <div className="flex items-center justify-between mb-4">
+            <Link to={`/course/${epData.metadata.course}`} className="text-gray-400 font-bold text-sm hover:text-[#5449e9] transition-colors">
               ← Back
             </Link>
-            <div className="flex gap-2">
-              <span className="hidden md:inline-block text-xs font-bold text-gray-500 bg-gray-100 px-2 py-0.5 rounded-md">⏱ {epData.metadata.duration[lang]}</span>
-              {epData.metadata.level && (
-                <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-md">{epData.metadata.level}</span>
-              )}
-            </div>
+            <h1 className="text-[11px] font-bold tracking-[0.1em] uppercase text-gray-500">Now Playing</h1>
+            <div className="w-10"></div> {/* 여백 밸런스용 */}
           </div>
 
-          {/* 헤더 중앙: 제목 & 플레이어 컨트롤 */}
-          <div className="flex items-center justify-between gap-4 mb-4 md:mb-6">
-            <div className="flex-1">
-              <p className="text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">EPISODE {epData.metadata.id}</p>
-              <h1 className="text-2xl md:text-4xl font-extrabold tracking-tight text-gray-900 leading-tight line-clamp-2">
+          {/* 재생 정보 카드 */}
+          <div className="bg-white rounded-2xl p-2.5 flex items-center gap-3 border border-gray-100 shadow-[0_2px_10px_-1px_rgba(0,0,0,0.05)] mb-4">
+            <div className={`w-12 h-12 rounded-xl shrink-0 flex items-center justify-center text-2xl shadow-inner bg-gradient-to-br ${courseData?.theme || 'from-indigo-400 to-purple-500'}`}>
+              {courseData?.icon || '🎙️'}
+            </div>
+            <div className="flex-1 min-w-0">
+              <p className="text-gray-900 font-bold text-[13px] md:text-sm leading-tight truncate">
                 {epData.metadata.title[lang] || epData.metadata.title.en}
-              </h1>
+              </p>
+              <p className="text-[#5449e9] font-medium text-[11px] md:text-xs truncate">
+                {courseData?.title[lang] || 'Talkori Course'} • Ep. {epData.metadata.id}
+              </p>
             </div>
-
-            {/* PC 전용 우측 재생 컨트롤 (모바일은 하단바 유지) */}
-            <div className="hidden md:flex items-center gap-3 shrink-0">
-              <button onClick={() => handleNavigate(prevEpId)} disabled={!prevEpId} className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-200 disabled:opacity-30 transition-colors">
-                <span className="text-lg">⏪</span>
-              </button>
-              <button onClick={togglePlayAll} className={`w-14 h-14 rounded-full flex items-center justify-center transition-all shadow-md text-white ${isPlayingAll ? 'bg-indigo-600' : 'bg-gray-900 hover:scale-105 hover:shadow-lg'}`}>
-                <span className="text-2xl ml-1">{isPlayingAll ? '⏸' : '▶'}</span>
-              </button>
-              <button onClick={() => handleNavigate(nextEpId)} disabled={!nextEpId} className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-gray-200 disabled:opacity-30 transition-colors">
-                <span className="text-lg">⏩</span>
-              </button>
-            </div>
+            <button onClick={togglePlayAll} className="text-[#5449e9] pr-2 hover:scale-110 transition-transform">
+              <span className="text-3xl">{isPlayingAll ? '⏸' : '▶'}</span>
+            </button>
           </div>
 
-          {/* 헤더 하단: 탭 (스크롤해도 헤더와 함께 따라다님) */}
-          <div className="flex gap-6 border-t border-gray-100/50 pt-1">
+          {/* 탭 네비게이션 */}
+          <div className="flex">
             <button 
               onClick={() => handleTabChange('script')}
-              className={`pb-3 text-sm md:text-base font-extrabold transition-all duration-300 border-b-[3px] ${activeTab === 'script' ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-400 hover:text-gray-600'}`}
+              className={`flex-1 text-center pb-3 text-sm font-bold transition-all ${activeTab === 'script' ? 'text-[#5449e9] border-b-[2.5px] border-[#5449e9]' : 'text-gray-400 hover:text-gray-600'}`}
             >
-              📝 대본
+              📝 대본 (Script)
             </button>
             <button 
               onClick={() => handleTabChange('voca')}
-              className={`pb-3 text-sm md:text-base font-extrabold transition-all duration-300 border-b-[3px] ${activeTab === 'voca' ? 'border-indigo-600 text-indigo-600' : 'border-transparent text-gray-400 hover:text-gray-600'}`}
+              className={`flex-1 text-center pb-3 text-sm font-bold transition-all ${activeTab === 'voca' ? 'text-[#5449e9] border-b-[2.5px] border-[#5449e9]' : 'text-gray-400 hover:text-gray-600'}`}
             >
-              📚 단어장
+              📚 단어장 (Vocabulary)
             </button>
           </div>
-
         </div>
-      </div>
+      </header>
 
-      <div className="max-w-3xl mx-auto px-4 py-8 md:py-12">
+      {/* --- 메인 콘텐츠 영역 (pb-40으로 하단 플레이어에 가리지 않게 여백 확보) --- */}
+      <main className="flex-1 max-w-3xl w-full mx-auto px-4 py-6 space-y-4 pb-40">
         
-        {/* --- 🎵 옵션 A: 애플 뮤직 가사창 감성의 스크립트 --- */}
+        {/* 📝 스크립트 탭 */}
         {activeTab === 'script' && (
-          <div className="space-y-10 md:space-y-14">
+          <div className="space-y-4">
             {epData.content.map((item, index) => {
               if (item.type === 'FX') return null;
-              const isMina = item.speaker.includes('Mina') || item.speaker.includes('MINA');
               const isPlaying = currentIndex === index; 
               const cleanSpeakerName = item.speaker.replace(/\s*\(.*?\)\s*/g, '').trim();
 
@@ -256,31 +245,37 @@ export default function Player() {
                 <div 
                   key={index} 
                   ref={(el) => (lineRefs.current[index] = el)}
-                  // 🔥 핵심: 재생 중인 문장은 또렷하게, 안 읽은 문장은 흐리고 반투명하게!
-                  className={`flex flex-col items-start gap-2 transition-all duration-700 ease-in-out ${isPlaying ? 'opacity-100 scale-100 transform-none' : 'opacity-30 scale-95 hover:opacity-60 cursor-pointer'}`}
                   onClick={() => { setIsPlayingAll(false); playLine(index); }}
+                  className={`rounded-[24px] p-6 transition-all duration-300 cursor-pointer border ${isPlaying ? 'bg-[#f0f0ff] border-[#5449e9]/20 shadow-[0_4px_20px_-1px_rgba(84,73,233,0.15)] scale-[1.01]' : 'bg-white border-transparent shadow-[0_4px_20px_-1px_rgba(0,0,0,0.05)] hover:border-gray-100 hover:shadow-md'}`}
                 >
-                  <span className={`text-xs md:text-sm font-extrabold uppercase tracking-widest transition-colors ${isPlaying ? (isMina ? 'text-indigo-600' : 'text-gray-900') : 'text-gray-500'}`}>
-                    {cleanSpeakerName}
-                  </span>
-
-                  {/* 재생 가능(한국어) 대사 */}
-                  {item.playable ? (
-                    <p className={`text-3xl md:text-5xl font-extrabold tracking-tighter leading-[1.2] transition-colors ${isPlaying ? 'text-gray-900' : 'text-gray-500'}`}>
-                      {item.text}
-                    </p>
-                  ) : (
-                    // 재생 불가능(영어) 대사
-                    <p className={`text-2xl md:text-4xl font-bold tracking-tight leading-[1.2] transition-colors ${isPlaying ? 'text-gray-800' : 'text-gray-400'}`}>
-                      {item.text}
-                    </p>
-                  )}
-
-                  {/* 번역문 */}
+                  <div className="flex justify-between items-start mb-3">
+                    <div>
+                      <p className={`font-semibold text-xs uppercase tracking-wider mb-1 ${isPlaying ? 'text-[#5449e9]' : 'text-gray-400'}`}>
+                        {cleanSpeakerName}
+                      </p>
+                      {item.playable ? (
+                        <h2 className={`text-xl md:text-2xl font-bold leading-snug tracking-tight ${isPlaying ? 'text-gray-900' : 'text-gray-800'}`}>
+                          {item.text}
+                        </h2>
+                      ) : (
+                        <h2 className={`text-lg md:text-xl font-medium leading-snug ${isPlaying ? 'text-gray-800' : 'text-gray-600'}`}>
+                          {item.text}
+                        </h2>
+                      )}
+                    </div>
+                    {item.playable && (
+                      <button className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ml-4 ${isPlaying ? 'bg-[#5449e9]/10 text-[#5449e9]' : 'bg-gray-50 text-gray-300'}`}>
+                        <span className="text-lg">{isPlaying ? '🔊' : '▶'}</span>
+                      </button>
+                    )}
+                  </div>
+                  
                   {item.translation && (
-                    <p className={`text-lg md:text-xl font-medium mt-2 transition-colors ${isPlaying ? 'text-gray-500' : 'text-gray-400'}`}>
-                      {item.translation}
-                    </p>
+                    <div className={`rounded-xl p-4 border mt-3 ${isPlaying ? 'bg-white/60 border-[#5449e9]/10' : 'bg-gray-50 border-gray-100'}`}>
+                      <p className="text-sm font-medium text-gray-600 leading-relaxed">
+                        {item.translation}
+                      </p>
+                    </div>
                   )}
                 </div>
               );
@@ -288,80 +283,107 @@ export default function Player() {
           </div>
         )}
 
-        {/* --- 📚 단어장 (VOCA) --- */}
+        {/* 📚 단어장 탭 (Stitch의 사전 레이아웃 100% 반영) */}
         {activeTab === 'voca' && (
-          <div className="space-y-6">
+          <div className="space-y-4">
             {!epData.vocabulary || epData.vocabulary.length === 0 ? (
               <div className="text-center py-20 text-gray-400 font-medium">등록된 단어가 없습니다.</div>
             ) : (
               epData.vocabulary.map((voca, idx) => {
                 const isPlayingVoca = playingVocaIndex === idx;
                 return (
-                  <div key={idx} className={`p-6 md:p-8 rounded-[2rem] border transition-all duration-300 ${isPlayingVoca ? 'border-indigo-500 bg-white shadow-xl scale-[1.02]' : 'border-transparent bg-white/60 shadow-sm hover:bg-white hover:shadow-md cursor-pointer'}`} onClick={() => playVoca(idx)}>
-                    <div className="flex justify-between items-start gap-4">
-                      <div className="flex-1">
-                        <h3 className={`text-3xl md:text-4xl font-extrabold mb-2 tracking-tight ${isPlayingVoca ? 'text-indigo-700' : 'text-gray-900'}`}>{voca.word}</h3>
-                        <p className="text-lg md:text-xl font-bold text-indigo-500/80 mb-4">{voca.meaning}</p>
-                        {voca.example && (
-                          <div className="bg-gray-50/80 rounded-2xl p-4 md:p-5">
-                            <p className="text-base md:text-lg font-medium text-gray-700 leading-relaxed">{voca.example}</p>
-                          </div>
-                        )}
+                  <div 
+                    key={idx} 
+                    onClick={() => playVoca(idx)}
+                    className={`rounded-[24px] p-6 transition-all duration-300 cursor-pointer border ${isPlayingVoca ? 'bg-[#f0f0ff] border-[#5449e9]/20 shadow-[0_4px_20px_-1px_rgba(84,73,233,0.15)] scale-[1.01]' : 'bg-white border-transparent shadow-[0_4px_20px_-1px_rgba(0,0,0,0.05)] hover:border-gray-100'}`}
+                  >
+                    <div className="flex justify-between items-start mb-4">
+                      <div>
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 leading-none tracking-tight">
+                          {voca.word}
+                        </h2>
+                        <p className={`font-semibold text-xs mt-2 uppercase tracking-wider ${isPlayingVoca ? 'text-[#5449e9]' : 'text-gray-400'}`}>
+                          {voca.meaning}
+                        </p>
                       </div>
-                      <button 
-                        className={`shrink-0 w-14 h-14 rounded-full flex items-center justify-center transition-all ${isPlayingVoca ? 'bg-indigo-600 text-white shadow-lg' : 'bg-gray-100 text-gray-400 hover:bg-indigo-50 hover:text-indigo-600'}`}
-                      >
-                        <span className={`${isPlayingVoca ? 'animate-pulse' : ''} text-2xl ml-1`}>{isPlayingVoca ? '🔊' : '▶'}</span>
+                      <button className={`shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors ${isPlayingVoca ? 'bg-[#5449e9]/10 text-[#5449e9]' : 'bg-gray-50 text-gray-400'}`}>
+                        <span className="text-lg">{isPlayingVoca ? '🔊' : '▶'}</span>
                       </button>
                     </div>
+                    
+                    {voca.example && (
+                      <div className={`rounded-xl p-4 border ${isPlayingVoca ? 'bg-white/60 border-[#5449e9]/10' : 'bg-gray-50 border-gray-100'}`}>
+                        <p className="text-sm font-medium text-gray-600 leading-relaxed">
+                          "{voca.example}"
+                        </p>
+                      </div>
+                    )}
                   </div>
                 );
               })
             )}
           </div>
         )}
-
-        {/* --- 🇰🇷 연관 에피소드 리스트 --- */}
-        <div className="mt-16 pt-10 border-t border-gray-200/50">
-          <h3 className="text-xl font-extrabold text-gray-900 mb-6 tracking-tight">주변 에피소드</h3>
-          <div className="bg-white/60 backdrop-blur-md rounded-[2rem] border border-gray-100/50 overflow-hidden shadow-sm p-4 md:p-6">
-            <div className="space-y-2">
-              {adjacentEpisodes.map((ep) => {
-                const isCurrent = ep.id === epId;
-                return (
-                  <div 
-                    key={ep.id} 
-                    onClick={() => !isCurrent && handleNavigate(ep.id)}
-                    className={`flex items-center gap-4 p-4 rounded-2xl transition-all ${isCurrent ? 'bg-white shadow-md border border-gray-100 cursor-default' : 'hover:bg-white cursor-pointer border border-transparent hover:shadow-sm'}`}
-                  >
-                    <div className={`w-12 h-12 shrink-0 rounded-full flex items-center justify-center text-sm font-bold ${isCurrent ? 'bg-indigo-600 text-white shadow-md' : 'bg-gray-100 text-gray-500'}`}>
-                      {isCurrent ? '▶' : ep.id}
-                    </div>
-                    <div className="flex-1">
-                      <p className={`text-lg font-bold line-clamp-1 tracking-tight ${isCurrent ? 'text-indigo-700' : 'text-gray-800'}`}>
-                        {ep.title[lang]}
-                      </p>
-                    </div>
+        
+        {/* 🇰🇷 주변 에피소드 리스트 */}
+        <div className="mt-8">
+          <h3 className="text-[13px] font-bold text-gray-400 uppercase tracking-widest mb-4 px-2">More Episodes</h3>
+          <div className="space-y-2">
+            {adjacentEpisodes.map((ep) => {
+              const isCurrent = ep.id === epId;
+              return (
+                <div 
+                  key={ep.id} 
+                  onClick={() => !isCurrent && handleNavigate(ep.id)}
+                  className={`flex items-center gap-4 p-4 rounded-[20px] transition-all ${isCurrent ? 'bg-white shadow-sm border border-gray-100 cursor-default' : 'bg-white/50 border border-transparent hover:bg-white cursor-pointer hover:shadow-sm'}`}
+                >
+                  <div className={`w-10 h-10 shrink-0 rounded-full flex items-center justify-center text-xs font-bold ${isCurrent ? 'bg-[#5449e9] text-white shadow-md' : 'bg-gray-100 text-gray-500'}`}>
+                    {isCurrent ? '▶' : ep.id}
                   </div>
-                );
-              })}
-            </div>
+                  <div className="flex-1">
+                    <p className={`text-sm md:text-base font-bold line-clamp-1 ${isCurrent ? 'text-[#5449e9]' : 'text-gray-800'}`}>
+                      {ep.title[lang]}
+                    </p>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
 
-      </div>
+      </main>
 
-      {/* --- 📱 모바일 하단 고정 플레이어 컨트롤러 --- */}
-      <div className="fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-2xl border-t border-gray-200/50 p-3 pb-safe z-50 flex items-center justify-between md:hidden shadow-[0_-10px_40px_rgba(0,0,0,0.05)]">
-        <button onClick={() => handleNavigate(prevEpId)} disabled={!prevEpId} className="p-3 text-gray-500 disabled:opacity-30 hover:text-indigo-600">
-          <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M8.445 14.832A1 1 0 0010 14v-2.798l5.445 3.63A1 1 0 0017 14V6a1 1 0 00-1.555-.832L10 8.798V6a1 1 0 00-1.555-.832l-6 4a1 1 0 000 1.664l6 4z"/></svg>
-        </button>
-        <button onClick={togglePlayAll} className={`w-16 h-16 rounded-full flex items-center justify-center transition-all shadow-xl text-white ${isPlayingAll ? 'bg-indigo-600 scale-95' : 'bg-gray-900 hover:scale-105'}`}>
-          <span className="text-2xl ml-1">{isPlayingAll ? '⏸' : '▶'}</span>
-        </button>
-        <button onClick={() => handleNavigate(nextEpId)} disabled={!nextEpId} className="p-3 text-gray-500 disabled:opacity-30 hover:text-indigo-600">
-          <svg className="w-7 h-7" fill="currentColor" viewBox="0 0 20 20"><path d="M11.555 5.168A1 1 0 0010 6v2.798L4.555 5.168A1 1 0 003 6v8a1 1 0 001.555.832L10 11.202V14a1 1 0 001.555.832l6-4a1 1 0 000-1.664l-6-4z"/></svg>
-        </button>
+      {/* --- 📱 스티치표 블랙 플로팅 플레이어 (전체 화면 공통 하단 고정) --- */}
+      <div className="fixed bottom-6 left-4 right-4 z-40 max-w-md mx-auto">
+        <div className="bg-gray-900/95 backdrop-blur-lg rounded-2xl px-5 py-4 flex items-center justify-between shadow-[0_10px_40px_rgba(0,0,0,0.3)] border border-white/10">
+          
+          <div className="flex items-center gap-3 min-w-0 flex-1">
+            <div className={`w-10 h-10 rounded-lg shrink-0 flex items-center justify-center text-xl bg-gradient-to-br ${courseData?.theme || 'from-indigo-400 to-purple-500'}`}>
+              {courseData?.icon || '🎙️'}
+            </div>
+            <div className="truncate pr-4">
+              <p className="text-white text-sm font-bold truncate">
+                {epData.metadata.title[lang] || epData.metadata.title.en}
+              </p>
+              <p className="text-gray-400 text-xs truncate">
+                {activeTab === 'script' ? '스크립트 학습 중' : '단어장 학습 중'}
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-center gap-4 shrink-0">
+            <button onClick={() => handleNavigate(prevEpId)} disabled={!prevEpId} className="text-gray-400 disabled:opacity-30 hover:text-white transition-colors">
+              <span className="text-xl">⏪</span>
+            </button>
+            <button onClick={togglePlayAll} className="text-white hover:scale-110 transition-transform">
+              <span className="text-3xl">{isPlayingAll ? '⏸' : '▶'}</span>
+            </button>
+            <button onClick={() => handleNavigate(nextEpId)} disabled={!nextEpId} className="text-gray-400 disabled:opacity-30 hover:text-white transition-colors">
+              <span className="text-xl">⏩</span>
+            </button>
+          </div>
+
+        </div>
       </div>
 
     </div>
