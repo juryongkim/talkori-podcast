@@ -79,21 +79,30 @@ export default function MyStudy() {
     return `${y}년 ${parseInt(m)}월 ${parseInt(d)}일`;
   };
 
-  // ==========================================
-  // ✨ [핵심] PDF 내보내기 마법의 함수
+// ==========================================
+  // ✨ [수정됨] PDF 내보내기 마법의 함수 (에러 방지 강력 버전)
   // ==========================================
   const exportToPDF = async () => {
-    setIsExporting(true); // 버튼 상태를 '저장 중...'으로 변경
-    
-    // 캡처할 영역의 ID (리스트가 있는 흰색 박스)
-    const element = document.getElementById('pdf-print-area'); 
+    setIsExporting(true); 
     
     try {
-      // 1. 화면 캡처 (고화질 옵션)
-      const canvas = await html2canvas(element, { scale: 2, useCORS: true });
+      // 1. 렌더링 대기 (UI가 완전히 그려진 후 캡처하도록 0.3초 여유를 줍니다)
+      await new Promise(resolve => setTimeout(resolve, 300));
+
+      const element = document.getElementById('pdf-print-area'); 
+      if (!element) throw new Error("PDF로 변환할 영역을 찾을 수 없습니다.");
+      
+      // 2. 캡처 (투명 배경 방지를 위해 흰색 배경 강제 지정)
+      const canvas = await html2canvas(element, { 
+        scale: 2, 
+        useCORS: true,
+        backgroundColor: '#ffffff', // ✨ 핵심: 배경색 명시
+        logging: false
+      });
+      
       const imgData = canvas.toDataURL('image/png');
 
-      // 2. A4 사이즈 PDF 생성
+      // 3. A4 사이즈 PDF 생성
       const pdf = new jsPDF('p', 'mm', 'a4');
       const pdfWidth = pdf.internal.pageSize.getWidth();
       const pdfHeight = pdf.internal.pageSize.getHeight();
@@ -108,23 +117,25 @@ export default function MyStudy() {
       pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
       heightLeft -= pdfHeight;
 
-      // 내용이 길어서 A4 한 장을 넘어가면 자동으로 새 페이지 생성하여 붙여넣기
-      while (heightLeft >= 0) {
+      // 내용이 길어서 A4 한 장을 넘어가면 자동으로 새 페이지 생성
+      // (기존 >= 0 에서 > 0 으로 변경하여 무한루프/빈페이지 에러 방지)
+      while (heightLeft > 0) {
         position = heightLeft - imgHeight;
         pdf.addPage();
         pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
         heightLeft -= pdfHeight;
       }
 
-      // 3. 파일 다운로드 트리거
+      // 4. 파일 다운로드 트리거
       const fileName = selectedFolder === 'all' ? 'Talkori_All_Study_Notes.pdf' : `Talkori_Study_${selectedFolder}.pdf`;
       pdf.save(fileName);
       
     } catch (error) {
-      console.error("PDF 생성 중 오류 발생:", error);
-      alert("PDF 저장 중 오류가 발생했습니다.");
+      console.error("PDF 생성 중 오류 상세:", error);
+      // 어떤 에러인지 정확히 화면에 띄워줍니다.
+      alert(`PDF 저장 실패: ${error.message}`); 
     } finally {
-      setIsExporting(false); // 저장 완료 후 버튼 원상복구
+      setIsExporting(false); 
     }
   };
   // ==========================================
