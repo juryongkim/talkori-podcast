@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Home from './pages/Home';
@@ -16,13 +17,13 @@ function LanguageSelector() {
   );
 }
 
-// 💻 PC용 사이드바 (기존과 동일)
+// 💻 PC용 사이드바
 function Sidebar() {
   const location = useLocation();
   const isHome = location.pathname === '/';
   const { t } = useTranslation(); 
   return (
-    <aside className="hidden md:flex flex-col w-64 border-r border-gray-100 bg-gray-50/30 p-6 h-screen sticky top-0 flex-shrink-0 justify-between">
+    <aside className="hidden md:flex flex-col w-64 border-r border-gray-100 bg-gray-50/30 p-6 h-screen sticky top-0 flex-shrink-0 justify-between z-10">
       <div>
         <Link to="/" className="flex items-center gap-2 mb-10 hover:opacity-80 transition-opacity">
           <span className="text-2xl">🎙️</span>
@@ -33,6 +34,7 @@ function Sidebar() {
           <Link to="/" className={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors font-semibold ${isHome ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
             <span className="text-xl">🏠</span> {t('menu.explore')}
           </Link>
+          {/* 나중에 My Study 페이지 만들면 링크로 변경 */}
           <div className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-gray-400 cursor-not-allowed font-semibold">
             <span className="text-xl">📚</span> {t('menu.myStudy')}
           </div>
@@ -46,53 +48,58 @@ function Sidebar() {
   );
 }
 
-// 📱 모바일용 하단 탭 바 (애플 팟캐스트 스타일!)
-function BottomNav() {
-  const location = useLocation();
-  const isHome = location.pathname === '/';
+function App() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { t } = useTranslation();
 
-  return (
-    <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-white/90 backdrop-blur-xl border-t border-gray-200 pb-safe z-50">
-      <div className="flex justify-around items-center h-16">
-        <Link to="/" className={`flex flex-col items-center justify-center w-full h-full space-y-1 ${isHome ? 'text-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
-          <span className="text-2xl leading-none">🏠</span>
-          <span className="text-[10px] font-bold">{t('menu.explore')}</span>
-        </Link>
-        <div className="flex flex-col items-center justify-center w-full h-full space-y-1 text-gray-300 cursor-not-allowed">
-          <span className="text-2xl leading-none grayscale opacity-50">📚</span>
-          <span className="text-[10px] font-bold">Study</span>
-        </div>
-      </div>
-    </nav>
-  );
-}
+  const toggleMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
+  const closeMenu = () => setIsMobileMenuOpen(false);
 
-function App() {
   return (
     <BrowserRouter>
       <div className="flex min-h-screen bg-white text-gray-900 font-sans antialiased">
         <Sidebar />
-        <main className="flex-1 w-full relative pb-16 md:pb-0"> {/* 모바일 하단바 공간(pb-16) 확보 */}
+
+        <main className="flex-1 w-full relative">
           
-          {/* 📱 모바일용 얇고 세련된 상단 헤더 */}
+          {/* 📱 모바일 상단 헤더 (햄버거 메뉴 포함) */}
           <header className="md:hidden flex items-center justify-between px-5 py-3 border-b border-gray-100 sticky top-0 bg-white/90 backdrop-blur-xl z-40">
-            <Link to="/" className="text-xl font-extrabold tracking-tight text-gray-900 flex items-center gap-1.5">
-              🎙️ Talkori
-            </Link>
+            <div className="flex items-center gap-3">
+              <button onClick={toggleMenu} className="text-2xl text-gray-700 focus:outline-none">
+                {isMobileMenuOpen ? '✕' : '☰'}
+              </button>
+              <Link to="/" className="text-xl font-extrabold tracking-tight text-gray-900 flex items-center gap-1.5" onClick={closeMenu}>
+                🎙️ Talkori
+              </Link>
+            </div>
             <LanguageSelector />
           </header>
 
-          <div className="pb-24">
+          {/* 📱 모바일 슬라이드 메뉴 */}
+          {isMobileMenuOpen && (
+            <div className="md:hidden fixed inset-0 z-30 bg-black/20 backdrop-blur-sm" onClick={closeMenu}>
+              <div className="absolute top-14 left-0 w-64 h-full bg-white shadow-2xl p-6 flex flex-col" onClick={e => e.stopPropagation()}>
+                <div className="space-y-2 mt-4">
+                  <Link to="/" onClick={closeMenu} className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-indigo-50 text-gray-900 font-bold text-lg">
+                    <span>🏠</span> {t('menu.explore')}
+                  </Link>
+                  <div className="flex items-center gap-3 px-3 py-3 rounded-xl text-gray-400 font-bold text-lg opacity-50">
+                    <span>📚</span> {t('menu.myStudy')} (준비중)
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* 메인 라우팅 영역 */}
+          <div className="pb-10">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/course/:courseId" element={<CourseDetail />} />
               <Route path="/player/:epId" element={<Player />} />
             </Routes>
           </div>
-
-          {/* 👈 하단 탭 바 장착! */}
-          <BottomNav />
+          
         </main>
       </div>
     </BrowserRouter>
