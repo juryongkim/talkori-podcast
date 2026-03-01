@@ -1,0 +1,50 @@
+[
+  {
+    "id": "real-reaction",
+    "title": "Real Reaction",
+    "koreanTitle": "리얼 리액션",
+    "publisher": "Talkori Original",
+    "description": "한국인의 찐 리액션과 뉘앙스를 완벽하게 마스터하세요! 교과서에는 없는 진짜 살아있는 한국어 대화가 펼쳐집니다.",
+    "icon": "😲",
+    "theme": "from-indigo-500 to-purple-600",
+    "status": "active",
+    "episodes": [
+      {
+        "id": "001",
+        "title": "말도 안 돼! (No way!)",
+        "description": "John이 지하철에서 비둘기를 만났다? 진짜 놀랐을 때 쓰는 한국어 리액션을 배워봅시다.",
+        "duration": "3분 20초",
+        "dataFile": "ep001.json"
+      },
+      {
+        "id": "002",
+        "title": "진짜요? 대박! (Really? Awesome!)",
+        "description": "미나가 준비한 깜짝 소식! 리액션의 꽃, '대박'의 다양한 쓰임새를 알아봅니다.",
+        "duration": "4분 15초",
+        "dataFile": "ep002.json"
+      }
+    ]
+  },
+  {
+    "id": "kpop-korean",
+    "title": "K-Pop Korean",
+    "koreanTitle": "K-Pop 한국어",
+    "publisher": "Talkori Music",
+    "description": "최신 K-Pop 가사 속에 숨겨진 진짜 한국어 표현과 문화를 배워보세요.",
+    "icon": "🎵",
+    "theme": "from-pink-400 to-rose-500",
+    "status": "coming-soon",
+    "episodes": []
+  },
+  {
+    "id": "survival-korean",
+    "title": "Survival Korean",
+    "koreanTitle": "생존 한국어",
+    "publisher": "Talkori Basic",
+    "description": "한국 생활, 취업, 여행에 당장 필요한 100% 실전 생존 한국어 회화.",
+    "icon": "🌏",
+    "theme": "from-teal-400 to-emerald-500",
+    "status": "coming-soon",
+    "episodes": []
+  }
+]
