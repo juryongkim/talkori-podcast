@@ -1,8 +1,19 @@
 {
   "metadata": {
-    "ep_id": "001",
-    "title": "Episode 001",
-    "course": "Real Reaction"
+    "id": "001",
+    "title": {
+      "en": "No way! (말도 안 돼!)",
+      "ko": "말도 안 돼! (No way!)"
+    },
+    "description": {
+      "en": "John met a pigeon in the subway? Let's learn Korean reactions for when you are truly surprised.",
+      "ko": "John이 지하철에서 비둘기를 만났다? 진짜 놀랐을 때 쓰는 한국어 리액션을 배워봅시다."
+    },
+    "duration": {
+      "en": "3 min 20 sec",
+      "ko": "3분 20초"
+    },
+    "course": "real-reaction"
   },
   "content": [
     {

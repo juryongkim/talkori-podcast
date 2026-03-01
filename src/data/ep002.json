@@ -1,8 +1,19 @@
 {
   "metadata": {
-    "ep_id": "002",
-    "title": "Episode 002",
-    "course": "Real Reaction"
+    "id": "002",
+    "title": {
+      "en": "Really? Awesome! (진짜요? 대박!)",
+      "ko": "진짜요? 대박! (Really? Awesome!)"
+    },
+    "description": {
+      "en": "Mina's surprise news! Learn the various uses of '대박' (Daebak).",
+      "ko": "미나가 준비한 깜짝 소식! 리액션의 꽃, '대박'의 다양한 쓰임새를 알아봅니다."
+    },
+    "duration": {
+      "en": "4 min 15 sec",
+      "ko": "4분 15초"
+    },
+    "course": "real-reaction"
   },
   "content": [
     {

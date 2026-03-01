@@ -40,7 +40,7 @@
           "ko": "진짜요? 대박! (Really? Awesome!)"
         },
         "description": {
-          "en": "Mina's surprise news! Learn the various uses of '대박' (Daebak), the ultimate Korean reaction.",
+          "en": "Mina's surprise news! Learn the various uses of '대박' (Daebak).",
           "ko": "미나가 준비한 깜짝 소식! 리액션의 꽃, '대박'의 다양한 쓰임새를 알아봅니다."
         },
         "duration": {
@@ -48,6 +48,22 @@
           "ko": "4분 15초"
         },
         "dataFile": "ep002.json"
+      },
+      {
+        "id": "003",
+        "title": {
+          "en": "Right! My thoughts exactly!",
+          "ko": "맞아 맞아! 내 말이!"
+        },
+        "description": {
+          "en": "Conversations become much more fun when you react well. Learn the difference between 'Maja' and 'Nae-mari' to show strong agreement.",
+          "ko": "한국인 친구와 대화할 때 리액션만 잘해도 대화가 즐거워집니다. 격한 공감을 표현하는 '맞아'와 '내 말이'의 차이를 배워보세요."
+        },
+        "duration": {
+          "en": "4 min 45 sec",
+          "ko": "4분 45초"
+        },
+        "dataFile": "ep003.json"
       }
     ]
   },
