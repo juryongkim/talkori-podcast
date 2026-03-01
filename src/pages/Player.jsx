@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next'; // ✨ 다국어 제목 처리를 위해 추가
+import { useTranslation } from 'react-i18next';
 
 export default function Player() {
   const { epId } = useParams();
@@ -10,7 +10,6 @@ export default function Player() {
   const [epData, setEpData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // ✨ [추가] 탭 상태 및 단어장 재생 상태
   const [activeTab, setActiveTab] = useState('script');
   const [playingVocaIndex, setPlayingVocaIndex] = useState(null);
 
@@ -20,10 +19,58 @@ export default function Player() {
   const audioRef = useRef(null);
   const autoPlayRef = useRef(false);
   const lineRefs = useRef([]);
-  
   const lastPlayedIndexRef = useRef(0); 
 
   const CDN_BASE_URL = "https://talkori.b-cdn.net/podcast/reaction";
+
+  // ==========================================
+  // ✨ [Phase 1 핵심 추가] 로컬 스토리지 북마크 로직
+  // ==========================================
+  
+  // 1. 단어장 저장 state (초기값은 로컬 스토리지에서 불러옴)
+  const [savedVoca, setSavedVoca] = useState(() => {
+    const saved = localStorage.getItem('talkori_saved_voca');
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  // 2. 대본 문장 저장 state
+  const [savedScript, setSavedScript] = useState(() => {
+    const saved = localStorage.getItem('talkori_saved_script');
+    return saved ? JSON.parse(saved) : [];
+  });
+
+  // 3. state가 바뀔 때마다 로컬 스토리지에 자동 저장 (동기화)
+  useEffect(() => {
+    localStorage.setItem('talkori_saved_voca', JSON.stringify(savedVoca));
+  }, [savedVoca]);
+
+  useEffect(() => {
+    localStorage.setItem('talkori_saved_script', JSON.stringify(savedScript));
+  }, [savedScript]);
+
+  // 4. 단어 북마크 토글 함수
+  const toggleVocaBookmark = (voca, e) => {
+    e.stopPropagation(); // 플레이어 재생 클릭과 겹치지 않게 방지
+    const isSaved = savedVoca.some(v => v.word === voca.word);
+    if (isSaved) {
+      setSavedVoca(savedVoca.filter(v => v.word !== voca.word)); // 삭제
+    } else {
+      setSavedVoca([...savedVoca, { ...voca, epId }]); // 추가 (에피소드 출처도 함께 저장)
+    }
+  };
+
+  // 5. 문장 북마크 토글 함수
+  const toggleScriptBookmark = (item, e) => {
+    e.stopPropagation();
+    const isSaved = savedScript.some(s => s.text === item.text);
+    if (isSaved) {
+      setSavedScript(savedScript.filter(s => s.text !== item.text)); // 삭제
+    } else {
+      setSavedScript([...savedScript, { ...item, epId }]); // 추가
+    }
+  };
+
+  // ==========================================
 
   const setIsPlayingAll = (value) => {
     setIsPlayingAllState(value);
@@ -35,10 +82,10 @@ export default function Player() {
     setIsLoading(true);
     setEpData(null);
     setCurrentIndex(null);
-    setPlayingVocaIndex(null); // 탭 바뀔 때 단어장 초기화
+    setPlayingVocaIndex(null);
     setIsPlayingAll(false);
     lastPlayedIndexRef.current = 0; 
-    setActiveTab('script'); // 에피소드 들어오면 무조건 스크립트 탭
+    setActiveTab('script'); 
 
     import(`../data/ep${epId}.json`)
       .then((module) => {
@@ -55,7 +102,6 @@ export default function Player() {
     };
   }, [epId]);
 
-  // ✨ [추가] 탭 변경 핸들러
   const handleTabChange = (tab) => {
     if (audioRef.current) audioRef.current.pause();
     setIsPlayingAll(false);
@@ -66,7 +112,7 @@ export default function Player() {
 
   const playLine = (index) => {
     if (audioRef.current) audioRef.current.pause();
-    setPlayingVocaIndex(null); // 대사 틀면 단어장 하이라이트 끄기
+    setPlayingVocaIndex(null); 
 
     const item = epData.content[index];
     lastPlayedIndexRef.current = index; 
@@ -104,7 +150,6 @@ export default function Player() {
     }
   };
 
-  // ✨ [추가] 단어장 개별 재생 함수
   const playVoca = (index) => {
     if (audioRef.current) audioRef.current.pause();
     setIsPlayingAll(false);
@@ -124,7 +169,7 @@ export default function Player() {
   };
 
   const togglePlayAll = () => {
-    if (activeTab === 'voca') setActiveTab('script'); // 전체재생은 스크립트 기준
+    if (activeTab === 'voca') setActiveTab('script'); 
 
     if (isPlayingAll) {
       if (audioRef.current) audioRef.current.pause();
@@ -145,7 +190,7 @@ export default function Player() {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-600 mb-4"></div>
-        <p className="text-gray-500 font-medium">에피소드를 불러오는 중입니다...</p>
+        <p className="text-gray-500 font-medium">에피소드를 불러오는 중...</p>
       </div>
     );
   }
@@ -161,7 +206,6 @@ export default function Player() {
     );
   }
 
-  // ✨ 에러 방지: 구형/신형 제목 구조 모두 안전하게 처리
   const displayTitle = typeof epData.metadata.title === 'object' 
     ? (epData.metadata.title[lang] || epData.metadata.title.en)
     : epData.metadata.title;
@@ -169,7 +213,7 @@ export default function Player() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-8 md:px-8 bg-gray-50 min-h-screen">
       
-      {/* --- 🌟 원본 100% 유지: 상단 스티키 플레이어 --- */}
+      {/* --- 상단 스티키 플레이어 --- */}
       <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-200 mb-6 text-center sticky top-4 z-10 transition-all">
         <Link to="/course/real-reaction" className="text-gray-400 absolute left-6 top-6 hover:text-gray-600 text-sm font-bold">
           ← List
@@ -191,7 +235,6 @@ export default function Player() {
           <button className="text-gray-400 hover:text-gray-600 font-bold text-xl">⏩</button>
         </div>
 
-        {/* ✨ [추가] 플레이어 하단에 탭 네비게이션 딱! 붙이기 */}
         <div className="flex border-t border-gray-100 pt-4 mt-2">
           <button 
             onClick={() => handleTabChange('script')}
@@ -208,37 +251,50 @@ export default function Player() {
         </div>
       </div>
 
-      {/* --- 메인 컨텐츠 영역 --- */}
       <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 md:p-8 pb-32">
         
         <h2 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-6 border-b border-gray-100 pb-2">
           {activeTab === 'script' ? 'Interactive Script' : 'Vocabulary List'}
         </h2>
         
-        {/* 📝 스크립트 영역 (원본 완벽 유지!) */}
+        {/* 📝 스크립트 영역 */}
         {activeTab === 'script' && (
           <div className="space-y-6">
             {epData.content.map((item, index) => {
               if (item.type === 'FX') return null;
 
-              // 대소문자 상관없이 미나 잡기
               const isMina = item.speaker.toUpperCase().includes('MINA');
               const isPlaying = currentIndex === index; 
+              // ✨ 해당 문장이 저장되어 있는지 확인
+              const isSaved = savedScript.some(s => s.text === item.text);
 
               return (
                 <div 
                   key={index} 
                   ref={(el) => (lineRefs.current[index] = el)}
-                  className={`flex flex-col items-start gap-1 p-2 -mx-2 rounded-xl transition-all duration-300 ${isPlaying ? 'bg-indigo-50/50 border-l-4 border-indigo-400 pl-4' : 'border-l-4 border-transparent pl-4'}`}
+                  className={`relative flex flex-col items-start gap-1 p-2 -mx-2 rounded-xl transition-all duration-300 ${isPlaying ? 'bg-indigo-50/50 border-l-4 border-indigo-400 pl-4' : 'border-l-4 border-transparent pl-4 hover:bg-gray-50/50'}`}
                 >
-                  <span className={`text-xs font-bold uppercase ${isMina ? 'text-indigo-500' : 'text-gray-400'}`}>
-                    {item.speaker} {item.emotion && <span className="font-normal opacity-70">({item.emotion})</span>}
-                  </span>
+                  <div className="flex justify-between items-center w-full">
+                    <span className={`text-xs font-bold uppercase ${isMina ? 'text-indigo-500' : 'text-gray-400'}`}>
+                      {item.speaker} {item.emotion && <span className="font-normal opacity-70">({item.emotion})</span>}
+                    </span>
+                    
+                    {/* ✨ 문장 북마크 버튼 추가 */}
+                    {item.playable && (
+                      <button 
+                        onClick={(e) => toggleScriptBookmark(item, e)}
+                        className={`text-xl transition-transform hover:scale-110 ${isSaved ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400'}`}
+                        title="내 학습장에 저장"
+                      >
+                        {isSaved ? '★' : '☆'}
+                      </button>
+                    )}
+                  </div>
 
                   {item.playable ? (
                     <p 
                       onClick={() => handleLineClick(index)}
-                      className={`text-xl font-bold cursor-pointer rounded-lg transition-colors flex items-center gap-2 group
+                      className={`text-xl font-bold cursor-pointer rounded-lg transition-colors flex items-center gap-2 group pr-8
                         ${isPlaying ? 'text-indigo-600' : 'text-gray-900 hover:text-indigo-500'}
                       `}
                     >
@@ -250,7 +306,7 @@ export default function Player() {
                   ) : (
                     <p 
                       onClick={() => handleLineClick(index)}
-                      className={`text-lg px-2 py-1 -ml-2 rounded-lg transition-colors cursor-pointer
+                      className={`text-lg px-2 py-1 -ml-2 rounded-lg transition-colors cursor-pointer pr-8
                         ${isPlaying ? 'text-indigo-600 font-bold' : 'text-gray-800 hover:text-gray-600'}
                       `}
                     >
@@ -286,7 +342,7 @@ export default function Player() {
           </div>
         )}
 
-        {/* 📚 단어장 영역 (원본의 깔끔한 톤앤매너로 제작) */}
+        {/* 📚 단어장 영역 */}
         {activeTab === 'voca' && (
           <div className="space-y-4">
             {!epData.vocabulary || epData.vocabulary.length === 0 ? (
@@ -294,6 +350,8 @@ export default function Player() {
             ) : (
               epData.vocabulary.map((voca, idx) => {
                 const isPlayingVoca = playingVocaIndex === idx;
+                // ✨ 해당 단어가 저장되어 있는지 확인
+                const isSaved = savedVoca.some(v => v.word === voca.word);
 
                 return (
                   <div 
@@ -301,9 +359,18 @@ export default function Player() {
                     className={`flex flex-col items-start gap-1 p-4 rounded-xl transition-all duration-300 border ${isPlayingVoca ? 'bg-indigo-50/50 border-indigo-200 shadow-sm' : 'bg-white border-gray-100 hover:border-indigo-100'}`}
                   >
                     <div className="flex justify-between items-start w-full mb-1">
-                      <h3 className={`text-xl font-extrabold ${isPlayingVoca ? 'text-indigo-700' : 'text-gray-900'}`}>
+                      <h3 className={`text-xl font-extrabold flex items-center gap-2 ${isPlayingVoca ? 'text-indigo-700' : 'text-gray-900'}`}>
                         {voca.word}
+                        {/* ✨ 단어 북마크 버튼 추가 */}
+                        <button 
+                          onClick={(e) => toggleVocaBookmark(voca, e)}
+                          className={`text-xl transition-transform hover:scale-110 mb-1 ${isSaved ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400'}`}
+                          title="단어장에 저장"
+                        >
+                          {isSaved ? '★' : '☆'}
+                        </button>
                       </h3>
+                      
                       <button 
                         onClick={() => playVoca(idx)}
                         className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${isPlayingVoca ? 'bg-indigo-600 text-white' : 'bg-gray-50 text-gray-400 hover:bg-indigo-50 hover:text-indigo-600'}`}
@@ -331,7 +398,6 @@ export default function Player() {
         )}
 
       </div>
-
     </div>
   );
 }
