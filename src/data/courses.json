@@ -20,39 +20,47 @@
       {
         "id": "001",
         "title": {
-          "en": "No way! (말도 안 돼!)",
-          "ko": "말도 안 돼! (No way!)"
+          "en": "Really? Awesome!",
+          "ko": "진짜요? 대박!"
         },
         "description": {
-          "en": "John met a pigeon in the subway? Let's learn Korean reactions for when you are truly surprised.",
-          "ko": "John이 지하철에서 비둘기를 만났다? 진짜 놀랐을 때 쓰는 한국어 리액션을 배워봅시다."
-        },
-        "duration": {
-          "en": "3 min 20 sec",
-          "ko": "3분 20초"
-        },
-        "dataFile": "ep001.json"
-      },
-      {
-        "id": "002",
-        "title": {
-          "en": "Really? Awesome! (진짜요? 대박!)",
-          "ko": "진짜요? 대박! (Really? Awesome!)"
-        },
-        "description": {
-          "en": "Mina's surprise news! Learn the various uses of '대박' (Daebak).",
-          "ko": "미나가 준비한 깜짝 소식! 리액션의 꽃, '대박'의 다양한 쓰임새를 알아봅니다."
+          "en": "Mina's surprise news! Learn about '대박' (Daebak).",
+          "ko": "미나가 준비한 깜짝 소식! 리액션의 꽃 '대박'의 다양한 쓰임새를 알아봅니다."
         },
         "duration": {
           "en": "4 min 15 sec",
           "ko": "4분 15초"
         },
+        "level": "초급",
+        "tags": [
+          "리액션. 놀람. 일상"
+        ],
+        "dataFile": "ep001.json"
+      },
+      {
+        "id": "002",
+        "title": {
+          "en": "Are you serious? For real?",
+          "ko": "진짜야? 진심이야?"
+        },
+        "description": {
+          "en": "John's ridiculous joke surprised Mina. Learn various reactions to confirm if what someone said is actually true.",
+          "ko": "존의 황당한 농담에 미나가 깜짝 놀랐어요. 상대방의 말이 사실인지 확인하는 다양한 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 20 sec",
+          "ko": "5분 20초"
+        },
+        "level": "초급",
+        "tags": [
+          "리액션. 확인. 의심. 일상"
+        ],
         "dataFile": "ep002.json"
       },
       {
         "id": "003",
         "title": {
-          "en": "Right! My thoughts exactly!(맞아! 맞아!)",
+          "en": "Right! My thoughts exactly!",
           "ko": "맞아 맞아! 내 말이!"
         },
         "description": {
@@ -63,6 +71,10 @@
           "en": "4 min 45 sec",
           "ko": "4분 45초"
         },
+        "level": "초급",
+        "tags": [
+          "리액션. 공감. 동의. 일상"
+        ],
         "dataFile": "ep003.json"
       }
     ]

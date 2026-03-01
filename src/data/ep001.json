@@ -2,17 +2,21 @@
   "metadata": {
     "id": "001",
     "title": {
-      "en": "No way! (말도 안 돼!)",
-      "ko": "말도 안 돼! (No way!)"
+      "en": "Really? Awesome! 진짜요? 대박!",
+      "ko": "진짜요? 대박!"
     },
     "description": {
-      "en": "John met a pigeon in the subway? Let's learn Korean reactions for when you are truly surprised.",
-      "ko": "John이 지하철에서 비둘기를 만났다? 진짜 놀랐을 때 쓰는 한국어 리액션을 배워봅시다."
+      "en": "Mina's surprise news! Learn about '대박' (Daebak).",
+      "ko": "미나가 준비한 깜짝 소식! 리액션의 꽃 '대박'의 다양한 쓰임새를 알아봅니다."
     },
     "duration": {
-      "en": "3 min 20 sec",
-      "ko": "3분 20초"
+      "en": "4 min 15 sec",
+      "ko": "4분 15초"
     },
+    "level": "초급",
+    "tags": [
+      "리액션. 놀람. 일상"
+    ],
     "course": "real-reaction"
   },
   "content": [
@@ -775,6 +779,50 @@
       "playable": true,
       "seq": 60,
       "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "진짜",
+      "meaning": "Really. Real",
+      "example": "이거 진짜 맛있어요. (This is really delicious.)",
+      "audio": "RR_001_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "말도 안 돼",
+      "meaning": "No way. Unbelievable",
+      "example": "그 소문은 말도 안 돼. (That rumor is unbelievable.)",
+      "audio": "RR_001_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "거짓말",
+      "meaning": "Lie. Lying",
+      "example": "거짓말하지 마세요. (Please don't lie.)",
+      "audio": "RR_001_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "설마",
+      "meaning": "Surely not. No way",
+      "example": "설마 그게 사실일까요? (Surely that can't be true?)",
+      "audio": "RR_001_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "대박",
+      "meaning": "Awesome. Jackpot",
+      "example": "우와. 오늘 날씨 대박이다. (Wow. Today's weather is awesome.)",
+      "audio": "RR_001_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "너무해요",
+      "meaning": "To be too much. To be mean",
+      "example": "정말 너무해요. (You are really being too much.)",
+      "audio": "RR_001_v006.mp3",
+      "seq": 6
     }
   ]
 }

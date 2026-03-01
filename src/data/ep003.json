@@ -2,7 +2,7 @@
   "metadata": {
     "id": "003",
     "title": {
-      "en": "Right! My thoughts exactly!",
+      "en": "Right! My thoughts exactly! 맞아 맞아!",
       "ko": "맞아 맞아! 내 말이!"
     },
     "description": {
@@ -13,6 +13,10 @@
       "en": "4 min 45 sec",
       "ko": "4분 45초"
     },
+    "level": "초급",
+    "tags": [
+      "리액션. 공감. 동의. 일상"
+    ],
     "course": "real-reaction"
   },
   "content": [
@@ -527,6 +531,50 @@
       "playable": true,
       "seq": 41,
       "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "맞아",
+      "meaning": "Right. Correct",
+      "example": "제 말이 맞아요. (I am right.)",
+      "audio": "RR_003_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "그러니까",
+      "meaning": "Exactly. That's why",
+      "example": "그러니까 제 말은요. (So. What I mean is.)",
+      "audio": "RR_003_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "내 말이",
+      "meaning": "My thoughts exactly",
+      "example": "내 말이 그 말이야. (That's exactly what I'm saying.)",
+      "audio": "RR_003_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "비싸다",
+      "meaning": "To be expensive",
+      "example": "이 가방은 너무 비싸요. (This bag is too expensive.)",
+      "audio": "RR_003_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "사람",
+      "meaning": "Person. People",
+      "example": "여기에 사람이 아주 많아요. (There are so many people here.)",
+      "audio": "RR_003_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "편하다",
+      "meaning": "To be comfortable. To be convenient",
+      "example": "이 신발은 정말 편해요. (These shoes are really comfortable.)",
+      "audio": "RR_003_v006.mp3",
+      "seq": 6
     }
   ]
 }

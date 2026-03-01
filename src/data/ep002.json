@@ -2,17 +2,21 @@
   "metadata": {
     "id": "002",
     "title": {
-      "en": "Really? Awesome! (진짜요? 대박!)",
-      "ko": "진짜요? 대박! (Really? Awesome!)"
+      "en": "Are you serious? For real? 진짜야? 진심이야?",
+      "ko": "진짜야? 진심이야?"
     },
     "description": {
-      "en": "Mina's surprise news! Learn the various uses of '대박' (Daebak).",
-      "ko": "미나가 준비한 깜짝 소식! 리액션의 꽃, '대박'의 다양한 쓰임새를 알아봅니다."
+      "en": "John's ridiculous joke surprised Mina. Learn various reactions to confirm if what someone said is actually true.",
+      "ko": "존의 황당한 농담에 미나가 깜짝 놀랐어요. 상대방의 말이 사실인지 확인하는 다양한 리액션을 배워봅니다."
     },
     "duration": {
-      "en": "4 min 15 sec",
-      "ko": "4분 15초"
+      "en": "5 min 20 sec",
+      "ko": "5분 20초"
     },
+    "level": "초급",
+    "tags": [
+      "리액션. 확인. 의심. 일상"
+    ],
     "course": "real-reaction"
   },
   "content": [
@@ -591,6 +595,50 @@
       "playable": true,
       "seq": 46,
       "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "진짜",
+      "meaning": "Real. Really",
+      "example": "이거 진짜예요? (Is this real?)",
+      "audio": "RR_002_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "정말",
+      "meaning": "True. Really",
+      "example": "정말 감사합니다. (Thank you very much.)",
+      "audio": "RR_002_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "진심",
+      "meaning": "Sincerity. Heart",
+      "example": "제 진심을 알아주세요. (Please know my sincerity.)",
+      "audio": "RR_002_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "농담",
+      "meaning": "Joke",
+      "example": "방금 한 말은 농담이에요. (What I just said is a joke.)",
+      "audio": "RR_002_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "속이다",
+      "meaning": "To trick. To deceive",
+      "example": "저를 속이지 마세요. (Please don't trick me.)",
+      "audio": "RR_002_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "리얼하다",
+      "meaning": "To be realistic",
+      "example": "연기가 정말 리얼하네요. (The acting is really realistic.)",
+      "audio": "RR_002_v006.mp3",
+      "seq": 6
     }
   ]
 }
