@@ -1,11 +1,18 @@
 import { useState, useRef, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'; // ✨ 다국어 제목 처리를 위해 추가
 
 export default function Player() {
   const { epId } = useParams();
+  const { i18n } = useTranslation();
+  const lang = i18n.language === 'ko' ? 'ko' : 'en'; 
   
   const [epData, setEpData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+
+  // ✨ [추가] 탭 상태 및 단어장 재생 상태
+  const [activeTab, setActiveTab] = useState('script');
+  const [playingVocaIndex, setPlayingVocaIndex] = useState(null);
 
   const [currentIndex, setCurrentIndex] = useState(null);
   const [isPlayingAll, setIsPlayingAllState] = useState(false);
@@ -14,7 +21,6 @@ export default function Player() {
   const autoPlayRef = useRef(false);
   const lineRefs = useRef([]);
   
-  // ✨ [핵심 추가] 마지막으로 들었던 문장 번호를 기억하는 '책갈피'
   const lastPlayedIndexRef = useRef(0); 
 
   const CDN_BASE_URL = "https://talkori.b-cdn.net/podcast/reaction";
@@ -29,8 +35,10 @@ export default function Player() {
     setIsLoading(true);
     setEpData(null);
     setCurrentIndex(null);
+    setPlayingVocaIndex(null); // 탭 바뀔 때 단어장 초기화
     setIsPlayingAll(false);
-    lastPlayedIndexRef.current = 0; // 방에 새로 들어오면 책갈피도 0번으로 초기화!
+    lastPlayedIndexRef.current = 0; 
+    setActiveTab('script'); // 에피소드 들어오면 무조건 스크립트 탭
 
     import(`../data/ep${epId}.json`)
       .then((module) => {
@@ -47,12 +55,20 @@ export default function Player() {
     };
   }, [epId]);
 
+  // ✨ [추가] 탭 변경 핸들러
+  const handleTabChange = (tab) => {
+    if (audioRef.current) audioRef.current.pause();
+    setIsPlayingAll(false);
+    setCurrentIndex(null);
+    setPlayingVocaIndex(null);
+    setActiveTab(tab);
+  };
+
   const playLine = (index) => {
     if (audioRef.current) audioRef.current.pause();
+    setPlayingVocaIndex(null); // 대사 틀면 단어장 하이라이트 끄기
 
     const item = epData.content[index];
-    
-    // ✨ 오디오를 재생할 때마다 "나 방금 여기 읽었어!" 하고 책갈피를 꽂아둡니다.
     lastPlayedIndexRef.current = index; 
     
     if (!item || !item.audio) {
@@ -72,7 +88,6 @@ export default function Player() {
       if (autoPlayRef.current) {
         playLine(index + 1);
       } else {
-        // 개별 재생이 끝났을 때만 하이라이트를 끕니다. (하지만 책갈피는 그대로 남아있습니다!)
         setCurrentIndex(null);
       }
     };
@@ -81,7 +96,7 @@ export default function Player() {
     audio.play().catch(e => console.error("재생 에러:", e));
     setCurrentIndex(index);
 
-    if (lineRefs.current[index]) {
+    if (lineRefs.current[index] && activeTab === 'script') {
       lineRefs.current[index].scrollIntoView({
         behavior: "smooth",
         block: "center",
@@ -89,18 +104,33 @@ export default function Player() {
     }
   };
 
+  // ✨ [추가] 단어장 개별 재생 함수
+  const playVoca = (index) => {
+    if (audioRef.current) audioRef.current.pause();
+    setIsPlayingAll(false);
+    setCurrentIndex(null); 
+
+    const item = epData.vocabulary[index];
+    if (!item || !item.audio) return;
+
+    const audioUrl = `${CDN_BASE_URL}/ep${epId}/${item.audio}`;
+    const audio = new Audio(audioUrl);
+
+    audio.onended = () => setPlayingVocaIndex(null);
+    
+    audioRef.current = audio;
+    audio.play().catch(e => console.error("단어 재생 에러:", e));
+    setPlayingVocaIndex(index);
+  };
+
   const togglePlayAll = () => {
+    if (activeTab === 'voca') setActiveTab('script'); // 전체재생은 스크립트 기준
+
     if (isPlayingAll) {
-      // ⏸️ 일시정지 누를 때
       if (audioRef.current) audioRef.current.pause();
       setIsPlayingAll(false);
-      // UX 개선: 일시정지해도 currentIndex를 null로 만들지 않아서 파란색 하이라이트가 유지됩니다!
     } else {
-      // ▶️ 전체 재생 누를 때
       setIsPlayingAll(true);
-      
-      // ✨ 마법의 로직: 현재 멈춰있는 문장(currentIndex)이 있으면 거기서부터, 
-      // 개별 클릭으로 다 듣고 하이라이트가 꺼졌다면 기억해둔 책갈피(lastPlayedIndexRef)부터 재생!
       const startIdx = currentIndex !== null ? currentIndex : lastPlayedIndexRef.current;
       playLine(startIdx);
     }
@@ -131,18 +161,26 @@ export default function Player() {
     );
   }
 
+  // ✨ 에러 방지: 구형/신형 제목 구조 모두 안전하게 처리
+  const displayTitle = typeof epData.metadata.title === 'object' 
+    ? (epData.metadata.title[lang] || epData.metadata.title.en)
+    : epData.metadata.title;
+
   return (
     <div className="max-w-2xl mx-auto px-4 py-8 md:px-8 bg-gray-50 min-h-screen">
       
+      {/* --- 🌟 원본 100% 유지: 상단 스티키 플레이어 --- */}
       <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-200 mb-6 text-center sticky top-4 z-10 transition-all">
-        <Link to="/course/real-reaction" className="text-gray-400 absolute left-6 top-6 hover:text-gray-600">
-          ↓ 닫기
+        <Link to="/course/real-reaction" className="text-gray-400 absolute left-6 top-6 hover:text-gray-600 text-sm font-bold">
+          ← List
         </Link>
-        <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">EPISODE {epId}</p>
-        <h1 className="text-xl font-extrabold tracking-tight text-gray-900 mb-1">{epData.metadata.title}</h1>
-        <p className="text-indigo-600 font-medium text-sm mb-6">리얼 리액션</p>
+        <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1 mt-2 md:mt-0">EPISODE {epId}</p>
+        <h1 className="text-xl font-extrabold tracking-tight text-gray-900 mb-1 line-clamp-2">
+          {displayTitle}
+        </h1>
+        <p className="text-indigo-600 font-medium text-sm mb-6">Real Reaction</p>
         
-        <div className="flex items-center justify-center gap-8">
+        <div className="flex items-center justify-center gap-8 mb-4">
           <button className="text-gray-400 hover:text-gray-600 font-bold text-xl">⏪</button>
           <button 
             onClick={togglePlayAll}
@@ -152,80 +190,146 @@ export default function Player() {
           </button>
           <button className="text-gray-400 hover:text-gray-600 font-bold text-xl">⏩</button>
         </div>
+
+        {/* ✨ [추가] 플레이어 하단에 탭 네비게이션 딱! 붙이기 */}
+        <div className="flex border-t border-gray-100 pt-4 mt-2">
+          <button 
+            onClick={() => handleTabChange('script')}
+            className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'script' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}
+          >
+            📝 대본 (Script)
+          </button>
+          <button 
+            onClick={() => handleTabChange('voca')}
+            className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'voca' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}
+          >
+            📚 단어장 (Vocabulary)
+          </button>
+        </div>
       </div>
 
+      {/* --- 메인 컨텐츠 영역 --- */}
       <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 md:p-8 pb-32">
+        
         <h2 className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-6 border-b border-gray-100 pb-2">
-          Interactive Script
+          {activeTab === 'script' ? 'Interactive Script' : 'Vocabulary List'}
         </h2>
         
-        <div className="space-y-6">
-          {epData.content.map((item, index) => {
-            if (item.type === 'FX') return null;
+        {/* 📝 스크립트 영역 (원본 완벽 유지!) */}
+        {activeTab === 'script' && (
+          <div className="space-y-6">
+            {epData.content.map((item, index) => {
+              if (item.type === 'FX') return null;
 
-            const isMina = item.speaker === 'Mina';
-            const isPlaying = currentIndex === index; 
+              // 대소문자 상관없이 미나 잡기
+              const isMina = item.speaker.toUpperCase().includes('MINA');
+              const isPlaying = currentIndex === index; 
 
-            return (
-              <div 
-                key={index} 
-                ref={(el) => (lineRefs.current[index] = el)}
-                className={`flex flex-col items-start gap-1 p-2 -mx-2 rounded-xl transition-all duration-300 ${isPlaying ? 'bg-indigo-50/50 border-l-4 border-indigo-400 pl-4' : 'border-l-4 border-transparent pl-4'}`}
-              >
-                
-                <span className={`text-xs font-bold uppercase ${isMina ? 'text-indigo-500' : 'text-gray-400'}`}>
-                  {item.speaker} {item.emotion && <span className="font-normal opacity-70">({item.emotion})</span>}
-                </span>
+              return (
+                <div 
+                  key={index} 
+                  ref={(el) => (lineRefs.current[index] = el)}
+                  className={`flex flex-col items-start gap-1 p-2 -mx-2 rounded-xl transition-all duration-300 ${isPlaying ? 'bg-indigo-50/50 border-l-4 border-indigo-400 pl-4' : 'border-l-4 border-transparent pl-4'}`}
+                >
+                  <span className={`text-xs font-bold uppercase ${isMina ? 'text-indigo-500' : 'text-gray-400'}`}>
+                    {item.speaker} {item.emotion && <span className="font-normal opacity-70">({item.emotion})</span>}
+                  </span>
 
-                {item.playable ? (
-                  <p 
-                    onClick={() => handleLineClick(index)}
-                    className={`text-xl font-bold cursor-pointer rounded-lg transition-colors flex items-center gap-2 group
-                      ${isPlaying ? 'text-indigo-600' : 'text-gray-900 hover:text-indigo-500'}
-                    `}
-                  >
-                    {item.text} 
-                    <span className={`text-sm transition-colors ${isPlaying ? 'text-indigo-600 animate-pulse' : 'text-gray-300 group-hover:text-indigo-400'}`}>
-                      {isPlaying ? '🔊' : '▶'}
-                    </span>
-                  </p>
-                ) : (
-                  <p 
-                    onClick={() => handleLineClick(index)}
-                    className={`text-lg px-2 py-1 -ml-2 rounded-lg transition-colors cursor-pointer
-                      ${isPlaying ? 'text-indigo-600 font-bold' : 'text-gray-800 hover:text-gray-600'}
-                    `}
-                  >
-                    {item.text}
-                  </p>
-                )}
-
-                {item.translation && (
-                  <p className="text-sm text-gray-500 font-medium mb-1 pl-2 border-l-2 border-gray-200">
-                    {item.translation}
-                  </p>
-                )}
-
-                {item.insight && (
-                  <div className="mt-2 bg-white/80 border border-indigo-100 p-3 rounded-lg w-full shadow-sm">
-                    <h4 className="font-bold text-indigo-900 text-sm flex items-center gap-1">
-                      💡 {item.insight.title}
-                    </h4>
-                    <p className="text-indigo-800/80 text-sm mt-1 leading-relaxed">
-                      {item.insight.description}
+                  {item.playable ? (
+                    <p 
+                      onClick={() => handleLineClick(index)}
+                      className={`text-xl font-bold cursor-pointer rounded-lg transition-colors flex items-center gap-2 group
+                        ${isPlaying ? 'text-indigo-600' : 'text-gray-900 hover:text-indigo-500'}
+                      `}
+                    >
+                      {item.text} 
+                      <span className={`text-sm transition-colors ${isPlaying ? 'text-indigo-600 animate-pulse' : 'text-gray-300 group-hover:text-indigo-400'}`}>
+                        {isPlaying ? '🔊' : '▶'}
+                      </span>
                     </p>
-                    {item.insight.usage_tip && (
-                      <p className="text-indigo-600/70 text-xs mt-2 font-medium bg-indigo-50 inline-block px-2 py-1 rounded">
-                        Tip: {item.insight.usage_tip}
+                  ) : (
+                    <p 
+                      onClick={() => handleLineClick(index)}
+                      className={`text-lg px-2 py-1 -ml-2 rounded-lg transition-colors cursor-pointer
+                        ${isPlaying ? 'text-indigo-600 font-bold' : 'text-gray-800 hover:text-gray-600'}
+                      `}
+                    >
+                      {item.text}
+                    </p>
+                  )}
+
+                  {item.translation && (
+                    <p className="text-sm text-gray-500 font-medium mb-1 pl-2 border-l-2 border-gray-200">
+                      {item.translation}
+                    </p>
+                  )}
+
+                  {item.insight && (
+                    <div className="mt-2 bg-white/80 border border-indigo-100 p-3 rounded-lg w-full shadow-sm">
+                      <h4 className="font-bold text-indigo-900 text-sm flex items-center gap-1">
+                        💡 {item.insight.title}
+                      </h4>
+                      <p className="text-indigo-800/80 text-sm mt-1 leading-relaxed">
+                        {item.insight.description}
                       </p>
+                      {item.insight.usage_tip && (
+                        <p className="text-indigo-600/70 text-xs mt-2 font-medium bg-indigo-50 inline-block px-2 py-1 rounded">
+                          Tip: {item.insight.usage_tip}
+                        </p>
+                      )}
+                    </div>
+                  )}
+                  
+                </div>
+              );
+            })}
+          </div>
+        )}
+
+        {/* 📚 단어장 영역 (원본의 깔끔한 톤앤매너로 제작) */}
+        {activeTab === 'voca' && (
+          <div className="space-y-4">
+            {!epData.vocabulary || epData.vocabulary.length === 0 ? (
+              <div className="text-center py-10 text-gray-400 font-medium">등록된 단어가 없습니다.</div>
+            ) : (
+              epData.vocabulary.map((voca, idx) => {
+                const isPlayingVoca = playingVocaIndex === idx;
+
+                return (
+                  <div 
+                    key={idx} 
+                    className={`flex flex-col items-start gap-1 p-4 rounded-xl transition-all duration-300 border ${isPlayingVoca ? 'bg-indigo-50/50 border-indigo-200 shadow-sm' : 'bg-white border-gray-100 hover:border-indigo-100'}`}
+                  >
+                    <div className="flex justify-between items-start w-full mb-1">
+                      <h3 className={`text-xl font-extrabold ${isPlayingVoca ? 'text-indigo-700' : 'text-gray-900'}`}>
+                        {voca.word}
+                      </h3>
+                      <button 
+                        onClick={() => playVoca(idx)}
+                        className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${isPlayingVoca ? 'bg-indigo-600 text-white' : 'bg-gray-50 text-gray-400 hover:bg-indigo-50 hover:text-indigo-600'}`}
+                      >
+                        <span className="text-sm">{isPlayingVoca ? '🔊' : '▶'}</span>
+                      </button>
+                    </div>
+                    
+                    <p className="text-sm font-bold text-indigo-500 mb-2">
+                      {voca.meaning}
+                    </p>
+                    
+                    {voca.example && (
+                      <div className="bg-gray-50 rounded-lg p-3 w-full border border-gray-100/50">
+                        <p className="text-sm text-gray-600 font-medium">
+                          {voca.example}
+                        </p>
+                      </div>
                     )}
                   </div>
-                )}
-                
-              </div>
-            );
-          })}
-        </div>
+                );
+              })
+            )}
+          </div>
+        )}
+
       </div>
 
     </div>
