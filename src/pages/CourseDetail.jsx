@@ -71,8 +71,8 @@ export default function CourseDetail() {
           onChange={(e) => setSortOrder(e.target.value)}
           className="text-sm font-semibold text-gray-600 bg-gray-50 border-none rounded-lg px-3 py-2 cursor-pointer hover:bg-gray-100 focus:ring-0 outline-none transition-colors"
         >
-          <option value="desc">⬇️ 최신순</option>
-          <option value="asc">⬆️ 1화부터</option>
+          <option value="desc">⬇️ Latest</option>
+          <option value="asc">⬆️ From episode 1</option>
         </select>
       </div>
 
