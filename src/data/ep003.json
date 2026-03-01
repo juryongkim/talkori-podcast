@@ -1,0 +1,532 @@
+{
+  "metadata": {
+    "id": "003",
+    "title": {
+      "en": "Right! My thoughts exactly!",
+      "ko": "맞아 맞아! 내 말이!"
+    },
+    "description": {
+      "en": "Conversations become much more fun when you react well. Learn the difference between 'Maja' and 'Nae-mari' to show strong agreement.",
+      "ko": "한국인 친구와 대화할 때 리액션만 잘해도 대화가 즐거워집니다. 격한 공감을 표현하는 '맞아'와 '내 말이'의 차이를 배워보세요."
+    },
+    "duration": {
+      "en": "4 min 45 sec",
+      "ko": "4분 45초"
+    },
+    "course": "real-reaction"
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up guys. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분. 벌써 세 번째 시간이에요. 미나입니다.",
+      "translation": "Hello everyone. It is already our third episode. I'm Mina.",
+      "lang": "KO",
+      "audio": "RR_003_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "한숨 쉬며",
+      "text": "Mina. Finding a good apartment in Seoul is so hard. The rent is just too high.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "격하게 공감하며",
+      "text": "맞아 맞아.",
+      "translation": "Right. Right.",
+      "lang": "KO",
+      "audio": "RR_003_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": {
+        "title": "맞아 맞아",
+        "description": "Saying 'Right' twice to show strong agreement",
+        "usage_tip": "Adding '요' to the end (맞아요) makes it polite."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "속상한 듯",
+      "text": "서울 집값은 정말 너무 비싸요.",
+      "translation": "The housing prices in Seoul are really too expensive.",
+      "lang": "KO",
+      "audio": "RR_003_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "놀라며",
+      "text": "Oh. You just said it twice. '맞아 맞아'. Is that for extra emphasis.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s006.mp3",
+      "playable": false,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "맞아요. 한국 사람들은 공감할 때 같은 말을 두 번씩 자주 해요.",
+      "translation": "That's right. Koreans often say the same word twice when they agree.",
+      "lang": "KO",
+      "audio": "RR_003_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "웃으며",
+      "text": "I love that. Today. We are diving into how to agree like a local.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Okay Mina. Besides '맞아'. What else can I say to show I'm on the same page.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "그럴 땐. 그러니까. 라고 해보세요.",
+      "translation": "In that case. Try saying 'Geureonikka'.",
+      "lang": "KO",
+      "audio": "RR_003_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "그러니까",
+        "description": "Means 'Exactly' or 'That's what I'm saying'",
+        "usage_tip": "Used when the other person summarizes your thoughts perfectly."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "그러니까.",
+      "translation": "Exactly.",
+      "lang": "KO",
+      "audio": "RR_003_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "생각하며",
+      "text": "It feels like saying. That's why. Or. Therefore.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s012.mp3",
+      "playable": false,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "칭찬하며",
+      "text": "맞아요. 하지만 리액션으로 쓸 때는. You took the words right out of my mouth. 라는 뜻이 돼요.",
+      "translation": "True. But as a reaction. It means 'You took the words right out of my mouth'.",
+      "lang": "KO",
+      "audio": "RR_003_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "That's cool. Any other expressions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "자신 있게",
+      "text": "이건 제가 정말 좋아하는 표현인데요. 내 말이. 라고 합니다.",
+      "translation": "This is an expression I really like. It is 'Nae-mari'.",
+      "lang": "KO",
+      "audio": "RR_003_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": {
+        "title": "내 말이",
+        "description": "Literally 'My words'",
+        "usage_tip": "It means 'That's what I'm saying' or 'My thoughts exactly'."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "내 말이.",
+      "translation": "My thoughts exactly.",
+      "lang": "KO",
+      "audio": "RR_003_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "확인하며",
+      "text": "Can I use this with my boss.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "깜짝 놀라며",
+      "text": "아니요. 그건 안 돼요.",
+      "translation": "No. You can't do that.",
+      "lang": "KO",
+      "audio": "RR_003_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "진지하게",
+      "text": "격식 있는 자리에서는. 제 말이요. 라고 해야 해요.",
+      "translation": "In formal settings. You should say 'Je mariyo'.",
+      "lang": "KO",
+      "audio": "RR_003_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": {
+        "title": "제 말이요",
+        "description": "The polite version of 'Nae-mari'",
+        "usage_tip": "Perfect for agreeing with superiors or people you aren't close to."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "Let's try this in a conversation. We are talking about a very popular but crowded cafe.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "지친 목소리로",
+      "text": "John. 저 카페 정말 예쁘긴 한데. 사람이 너무 많아요.",
+      "translation": "John. That cafe is really pretty. But there are too many people.",
+      "lang": "KO",
+      "audio": "RR_003_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "격하게 고개를 끄덕이며",
+      "text": "맞아 맞아.",
+      "translation": "Right. Right.",
+      "lang": "KO",
+      "audio": "RR_003_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "불평하며",
+      "text": "We waited for an hour just for two lattes.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "그러니까요. 커피 마시려다 병나겠어요.",
+      "translation": "Exactly. I'm going to get sick just trying to drink coffee.",
+      "lang": "KO",
+      "audio": "RR_003_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "And the music was way too loud. I couldn't even hear you.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "박수를 치며",
+      "text": "제 말이요.",
+      "translation": "My thoughts exactly.",
+      "lang": "KO",
+      "audio": "RR_003_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "어이없어하며",
+      "text": "카페에서 소리를 질러야 한다니까요.",
+      "translation": "I'm saying we have to scream at the cafe.",
+      "lang": "KO",
+      "audio": "RR_003_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "장난스럽게",
+      "text": "Next time. Let's just go to a convenience store for coffee.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "웃으며",
+      "text": "내 말이. 거기가 훨씬 편해요.",
+      "translation": "My thoughts exactly. It's much more comfortable there.",
+      "lang": "KO",
+      "audio": "RR_003_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "만족하며",
+      "text": "Wow. I feel so much more connected when I use these.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "공감은 대화의 마법 같은 거예요.",
+      "translation": "Agreement is like magic in a conversation.",
+      "lang": "KO",
+      "audio": "RR_003_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our agreement reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. 맞아 맞아.",
+      "translation": "Right. Right.",
+      "lang": "EN",
+      "audio": "RR_003_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. 그러니까.",
+      "translation": "Exactly.",
+      "lang": "EN",
+      "audio": "RR_003_s034.mp3",
+      "playable": false,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. 내 말이.",
+      "translation": "My thoughts exactly. Casual.",
+      "lang": "EN",
+      "audio": "RR_003_s035.mp3",
+      "playable": false,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. 제 말이요.",
+      "translation": "My thoughts exactly. Polite.",
+      "lang": "EN",
+      "audio": "RR_003_s036.mp3",
+      "playable": false,
+      "seq": 36,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. 그러게요.",
+      "translation": "Indeed. I know right.",
+      "lang": "EN",
+      "audio": "RR_003_s037.mp3",
+      "playable": false,
+      "seq": 37,
+      "insight": {
+        "title": "그러게요",
+        "description": "A general way to agree with someone's observation",
+        "usage_tip": "Very commonly used for small talk about weather or news."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 친구의 말에 오늘 배운 표현으로 답해 보세요.",
+      "translation": "Everyone. Try responding to your friends with the expressions we learned today.",
+      "lang": "KO",
+      "audio": "RR_003_s038.mp3",
+      "playable": true,
+      "seq": 38,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. See you next time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s039.mp3",
+      "playable": false,
+      "seq": 39,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요.",
+      "translation": "See you again next time.",
+      "lang": "KO",
+      "audio": "RR_003_s040.mp3",
+      "playable": true,
+      "seq": 40,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "활기차게",
+      "text": "안녕.",
+      "translation": "Bye.",
+      "lang": "KO",
+      "audio": "RR_003_s041.mp3",
+      "playable": true,
+      "seq": 41,
+      "insight": null
+    }
+  ]
+}
