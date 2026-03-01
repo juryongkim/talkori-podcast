@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import html2canvas from 'html2canvas'; // ✨ PDF 캡처용
+import { toPng } from 'html-to-image'; // ✨ PDF 캡처용
 import { jsPDF } from 'jspdf';         // ✨ PDF 생성용
 
 export default function MyStudy() {
@@ -80,49 +80,50 @@ export default function MyStudy() {
   };
 
 // ==========================================
-  // ✨ [수정됨] PDF 내보내기 마법의 함수 (에러 방지 강력 버전)
+  // ✨ [완결판] PDF 내보내기 마법의 함수 (oklch 에러 완벽 해결)
   // ==========================================
   const exportToPDF = async () => {
     setIsExporting(true); 
     
     try {
-      // 1. 렌더링 대기 (UI가 완전히 그려진 후 캡처하도록 0.3초 여유를 줍니다)
+      // 1. UI 렌더링 대기
       await new Promise(resolve => setTimeout(resolve, 300));
 
       const element = document.getElementById('pdf-print-area'); 
       if (!element) throw new Error("PDF로 변환할 영역을 찾을 수 없습니다.");
       
-      // 2. 캡처 (투명 배경 방지를 위해 흰색 배경 강제 지정)
-      const canvas = await html2canvas(element, { 
-        scale: 2, 
-        useCORS: true,
-        backgroundColor: '#ffffff', // ✨ 핵심: 배경색 명시
-        logging: false
+      // ✨ 2. 최신 엔진(html-to-image)으로 캡처 진행 (최신 CSS 완벽 지원)
+      const dataUrl = await toPng(element, { 
+        backgroundColor: '#ffffff',
+        pixelRatio: 2, // 고화질
+        style: {
+          margin: '0', // 캡처 시 여백 틀어짐 방지
+        }
       });
-      
-      const imgData = canvas.toDataURL('image/png');
 
       // 3. A4 사이즈 PDF 생성
       const pdf = new jsPDF('p', 'mm', 'a4');
       const pdfWidth = pdf.internal.pageSize.getWidth();
       const pdfHeight = pdf.internal.pageSize.getHeight();
       
+      // 원본 DOM 요소의 비율을 계산
+      const elementWidth = element.offsetWidth;
+      const elementHeight = element.offsetHeight;
       const imgWidth = pdfWidth;
-      const imgHeight = (canvas.height * pdfWidth) / canvas.width;
+      const imgHeight = (elementHeight * pdfWidth) / elementWidth;
 
       let heightLeft = imgHeight;
       let position = 0;
 
       // 첫 페이지 추가
-      pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+      pdf.addImage(dataUrl, 'PNG', 0, position, imgWidth, imgHeight);
       heightLeft -= pdfHeight;
 
       // 내용이 길어서 A4 한 장을 넘어가면 자동으로 새 페이지 생성
-      // (기존 >= 0 에서 > 0 으로 변경하여 무한루프/빈페이지 에러 방지)
       while (heightLeft > 0) {
         position = heightLeft - imgHeight;
         pdf.addPage();
-        pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+        pdf.addImage(dataUrl, 'PNG', 0, position, imgWidth, imgHeight);
         heightLeft -= pdfHeight;
       }
 
@@ -132,7 +133,6 @@ export default function MyStudy() {
       
     } catch (error) {
       console.error("PDF 생성 중 오류 상세:", error);
-      // 어떤 에러인지 정확히 화면에 띄워줍니다.
       alert(`PDF 저장 실패: ${error.message}`); 
     } finally {
       setIsExporting(false); 
