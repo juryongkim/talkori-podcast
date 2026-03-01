@@ -2,19 +2,20 @@ import { useState, useRef, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 export default function Player() {
-  const { epId } = useParams(); // URL에서 001, 002를 가져옵니다.
+  const { epId } = useParams();
   
-  // 📚 데이터 상태 관리 (동적으로 불러온 JSON을 담을 빈 상자)
   const [epData, setEpData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // 🎵 오디오 및 스크롤 상태 관리
   const [currentIndex, setCurrentIndex] = useState(null);
   const [isPlayingAll, setIsPlayingAllState] = useState(false);
   
   const audioRef = useRef(null);
   const autoPlayRef = useRef(false);
   const lineRefs = useRef([]);
+  
+  // ✨ [핵심 추가] 마지막으로 들었던 문장 번호를 기억하는 '책갈피'
+  const lastPlayedIndexRef = useRef(0); 
 
   const CDN_BASE_URL = "https://talkori.b-cdn.net/podcast/reaction";
 
@@ -23,36 +24,36 @@ export default function Player() {
     autoPlayRef.current = value;
   };
 
-  // 🪄 [핵심!] URL(epId)이 바뀔 때마다 알맞은 JSON 파일을 알아서 불러옵니다!
   useEffect(() => {
-    // 1. 방에 새로 들어왔으니 기존 재생되던 소리는 끄고, 로딩 상태로 만듭니다.
     if (audioRef.current) audioRef.current.pause();
     setIsLoading(true);
     setEpData(null);
     setCurrentIndex(null);
     setIsPlayingAll(false);
+    lastPlayedIndexRef.current = 0; // 방에 새로 들어오면 책갈피도 0번으로 초기화!
 
-    // 2. 동적으로 파일 불러오기 (예: ../data/ep002.json)
     import(`../data/ep${epId}.json`)
       .then((module) => {
-        setEpData(module.default); // 성공적으로 불러오면 상자에 담습니다.
-        setIsLoading(false); // 로딩 끝!
+        setEpData(module.default);
+        setIsLoading(false);
       })
       .catch((err) => {
-        console.error("데이터를 불러오지 못했습니다:", err);
+        console.error("데이터 로드 실패:", err);
         setIsLoading(false);
       });
       
-    // 컴포넌트가 꺼질 때(뒤로가기 등) 소리 끄기
     return () => {
       if (audioRef.current) audioRef.current.pause();
     };
-  }, [epId]); // epId가 바뀔 때마다 이 useEffect가 다시 실행됩니다.
+  }, [epId]);
 
   const playLine = (index) => {
     if (audioRef.current) audioRef.current.pause();
 
     const item = epData.content[index];
+    
+    // ✨ 오디오를 재생할 때마다 "나 방금 여기 읽었어!" 하고 책갈피를 꽂아둡니다.
+    lastPlayedIndexRef.current = index; 
     
     if (!item || !item.audio) {
       if (autoPlayRef.current && index < epData.content.length - 1) {
@@ -71,6 +72,7 @@ export default function Player() {
       if (autoPlayRef.current) {
         playLine(index + 1);
       } else {
+        // 개별 재생이 끝났을 때만 하이라이트를 끕니다. (하지만 책갈피는 그대로 남아있습니다!)
         setCurrentIndex(null);
       }
     };
@@ -89,12 +91,17 @@ export default function Player() {
 
   const togglePlayAll = () => {
     if (isPlayingAll) {
+      // ⏸️ 일시정지 누를 때
       if (audioRef.current) audioRef.current.pause();
       setIsPlayingAll(false);
-      setCurrentIndex(null);
+      // UX 개선: 일시정지해도 currentIndex를 null로 만들지 않아서 파란색 하이라이트가 유지됩니다!
     } else {
+      // ▶️ 전체 재생 누를 때
       setIsPlayingAll(true);
-      const startIdx = currentIndex !== null ? currentIndex : 0;
+      
+      // ✨ 마법의 로직: 현재 멈춰있는 문장(currentIndex)이 있으면 거기서부터, 
+      // 개별 클릭으로 다 듣고 하이라이트가 꺼졌다면 기억해둔 책갈피(lastPlayedIndexRef)부터 재생!
+      const startIdx = currentIndex !== null ? currentIndex : lastPlayedIndexRef.current;
       playLine(startIdx);
     }
   };
@@ -104,7 +111,6 @@ export default function Player() {
     playLine(index);
   };
 
-  // ⏳ 데이터가 아직 도착하지 않았을 때 보여줄 로딩 화면
   if (isLoading) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
@@ -114,7 +120,6 @@ export default function Player() {
     );
   }
 
-  // ❌ 에러가 났거나 파일이 없을 때 보여줄 화면
   if (!epData) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
@@ -126,7 +131,6 @@ export default function Player() {
     );
   }
 
-  // ✨ 드디어 렌더링! (ep001Data -> epData 로 모두 변경되었습니다)
   return (
     <div className="max-w-2xl mx-auto px-4 py-8 md:px-8 bg-gray-50 min-h-screen">
       
