@@ -1,10 +1,14 @@
 import { useState, useRef, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import ep001Data from '../data/ep001.json';
 
 export default function Player() {
-  const { epId } = useParams();
+  const { epId } = useParams(); // URL에서 001, 002를 가져옵니다.
   
+  // 📚 데이터 상태 관리 (동적으로 불러온 JSON을 담을 빈 상자)
+  const [epData, setEpData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+  // 🎵 오디오 및 스크롤 상태 관리
   const [currentIndex, setCurrentIndex] = useState(null);
   const [isPlayingAll, setIsPlayingAllState] = useState(false);
   
@@ -19,21 +23,39 @@ export default function Player() {
     autoPlayRef.current = value;
   };
 
+  // 🪄 [핵심!] URL(epId)이 바뀔 때마다 알맞은 JSON 파일을 알아서 불러옵니다!
   useEffect(() => {
+    // 1. 방에 새로 들어왔으니 기존 재생되던 소리는 끄고, 로딩 상태로 만듭니다.
+    if (audioRef.current) audioRef.current.pause();
+    setIsLoading(true);
+    setEpData(null);
+    setCurrentIndex(null);
+    setIsPlayingAll(false);
+
+    // 2. 동적으로 파일 불러오기 (예: ../data/ep002.json)
+    import(`../data/ep${epId}.json`)
+      .then((module) => {
+        setEpData(module.default); // 성공적으로 불러오면 상자에 담습니다.
+        setIsLoading(false); // 로딩 끝!
+      })
+      .catch((err) => {
+        console.error("데이터를 불러오지 못했습니다:", err);
+        setIsLoading(false);
+      });
+      
+    // 컴포넌트가 꺼질 때(뒤로가기 등) 소리 끄기
     return () => {
       if (audioRef.current) audioRef.current.pause();
     };
-  }, []);
+  }, [epId]); // epId가 바뀔 때마다 이 useEffect가 다시 실행됩니다.
 
   const playLine = (index) => {
     if (audioRef.current) audioRef.current.pause();
 
-    const item = ep001Data.content[index];
+    const item = epData.content[index];
     
-    // 🚨 핵심 수정 부분: item.playable 조건 삭제!
-    // 재생 버튼 유무와 상관없이 오디오 파일(item.audio)만 있으면 무조건 재생합니다.
     if (!item || !item.audio) {
-      if (autoPlayRef.current && index < ep001Data.content.length - 1) {
+      if (autoPlayRef.current && index < epData.content.length - 1) {
         playLine(index + 1);
       } else {
         setIsPlayingAll(false);
@@ -82,6 +104,29 @@ export default function Player() {
     playLine(index);
   };
 
+  // ⏳ 데이터가 아직 도착하지 않았을 때 보여줄 로딩 화면
+  if (isLoading) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-indigo-600 mb-4"></div>
+        <p className="text-gray-500 font-medium">에피소드를 불러오는 중입니다...</p>
+      </div>
+    );
+  }
+
+  // ❌ 에러가 났거나 파일이 없을 때 보여줄 화면
+  if (!epData) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+        <p className="text-xl font-bold text-gray-700 mb-4">앗! 에피소드를 찾을 수 없어요. 😢</p>
+        <Link to="/course/real-reaction" className="text-indigo-600 hover:underline">
+          목록으로 돌아가기
+        </Link>
+      </div>
+    );
+  }
+
+  // ✨ 드디어 렌더링! (ep001Data -> epData 로 모두 변경되었습니다)
   return (
     <div className="max-w-2xl mx-auto px-4 py-8 md:px-8 bg-gray-50 min-h-screen">
       
@@ -90,7 +135,7 @@ export default function Player() {
           ↓ 닫기
         </Link>
         <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">EPISODE {epId}</p>
-        <h1 className="text-xl font-extrabold tracking-tight text-gray-900 mb-1">{ep001Data.metadata.title}</h1>
+        <h1 className="text-xl font-extrabold tracking-tight text-gray-900 mb-1">{epData.metadata.title}</h1>
         <p className="text-indigo-600 font-medium text-sm mb-6">리얼 리액션</p>
         
         <div className="flex items-center justify-center gap-8">
@@ -111,7 +156,7 @@ export default function Player() {
         </h2>
         
         <div className="space-y-6">
-          {ep001Data.content.map((item, index) => {
+          {epData.content.map((item, index) => {
             if (item.type === 'FX') return null;
 
             const isMina = item.speaker === 'Mina';
@@ -129,7 +174,6 @@ export default function Player() {
                 </span>
 
                 {item.playable ? (
-                  // 미나의 한국어 대사 (클릭 가능)
                   <p 
                     onClick={() => handleLineClick(index)}
                     className={`text-xl font-bold cursor-pointer rounded-lg transition-colors flex items-center gap-2 group
@@ -142,9 +186,8 @@ export default function Player() {
                     </span>
                   </p>
                 ) : (
-                  // 🚨 존의 영어 대사 (클릭 버튼은 없지만, 자동 재생 시 색깔이 예쁘게 변하도록 수정!)
                   <p 
-                    onClick={() => handleLineClick(index)} // 혹시 몰라 존 대사도 클릭하면 들리게 숨겨뒀습니다!
+                    onClick={() => handleLineClick(index)}
                     className={`text-lg px-2 py-1 -ml-2 rounded-lg transition-colors cursor-pointer
                       ${isPlaying ? 'text-indigo-600 font-bold' : 'text-gray-800 hover:text-gray-600'}
                     `}
