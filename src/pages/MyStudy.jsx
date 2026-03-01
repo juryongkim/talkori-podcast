@@ -1,14 +1,19 @@
 import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import html2canvas from 'html2canvas'; // ✨ PDF 캡처용
+import { jsPDF } from 'jspdf';         // ✨ PDF 생성용
 
 export default function MyStudy() {
   const [savedVoca, setSavedVoca] = useState([]);
   const [savedScript, setSavedScript] = useState([]);
   
   const [activeTab, setActiveTab] = useState('voca');
-  const [selectedFolder, setSelectedFolder] = useState('all'); // 'all' 또는 특정 날짜("YYYY-MM-DD")
+  const [selectedFolder, setSelectedFolder] = useState('all');
   const [isFolderMenuOpen, setIsFolderMenuOpen] = useState(false); 
   
+  // ✨ PDF 다운로드 로딩 상태 관리
+  const [isExporting, setIsExporting] = useState(false);
+
   const audioRef = useRef(null);
   const CDN_BASE_URL = "https://talkori.b-cdn.net/podcast/reaction";
 
@@ -45,7 +50,6 @@ export default function MyStudy() {
     audio.play().catch(e => console.error("재생 에러:", e));
   };
 
-  // ✨ 에피소드가 아닌 '날짜(dateSaved)' 기준으로 고유 폴더 추출 후 "최신순(내림차순)" 정렬
   const getUniqueFolders = () => {
     const dates = new Set([
       ...savedVoca.map(v => v.dateSaved || 'old'),
@@ -53,17 +57,14 @@ export default function MyStudy() {
     ]);
     
     return Array.from(dates).sort((a, b) => {
-      // '이전 기록'은 항상 맨 뒤로
       if (a === 'old') return 1;
       if (b === 'old') return -1;
-      // 날짜 문자열(YYYY-MM-DD) 내림차순 정렬
       return b.localeCompare(a); 
     });
   };
 
   const folders = getUniqueFolders();
 
-  // ✨ 선택된 날짜 폴더에 맞게 데이터 필터링
   const filteredVoca = selectedFolder === 'all' 
     ? savedVoca 
     : savedVoca.filter(v => (v.dateSaved || 'old') === selectedFolder);
@@ -72,62 +73,93 @@ export default function MyStudy() {
     ? savedScript 
     : savedScript.filter(s => (s.dateSaved || 'old') === selectedFolder);
 
-  // ✨ 날짜 포맷 예쁘게 바꾸기 (예: "2026-03-02" -> "2026년 3월 2일")
   const formatDate = (dateStr) => {
     if (dateStr === 'old') return '이전 저장 기록';
     const [y, m, d] = dateStr.split('-');
     return `${y}년 ${parseInt(m)}월 ${parseInt(d)}일`;
   };
 
+  // ==========================================
+  // ✨ [핵심] PDF 내보내기 마법의 함수
+  // ==========================================
+  const exportToPDF = async () => {
+    setIsExporting(true); // 버튼 상태를 '저장 중...'으로 변경
+    
+    // 캡처할 영역의 ID (리스트가 있는 흰색 박스)
+    const element = document.getElementById('pdf-print-area'); 
+    
+    try {
+      // 1. 화면 캡처 (고화질 옵션)
+      const canvas = await html2canvas(element, { scale: 2, useCORS: true });
+      const imgData = canvas.toDataURL('image/png');
+
+      // 2. A4 사이즈 PDF 생성
+      const pdf = new jsPDF('p', 'mm', 'a4');
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = pdf.internal.pageSize.getHeight();
+      
+      const imgWidth = pdfWidth;
+      const imgHeight = (canvas.height * pdfWidth) / canvas.width;
+
+      let heightLeft = imgHeight;
+      let position = 0;
+
+      // 첫 페이지 추가
+      pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+      heightLeft -= pdfHeight;
+
+      // 내용이 길어서 A4 한 장을 넘어가면 자동으로 새 페이지 생성하여 붙여넣기
+      while (heightLeft >= 0) {
+        position = heightLeft - imgHeight;
+        pdf.addPage();
+        pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+        heightLeft -= pdfHeight;
+      }
+
+      // 3. 파일 다운로드 트리거
+      const fileName = selectedFolder === 'all' ? 'Talkori_All_Study_Notes.pdf' : `Talkori_Study_${selectedFolder}.pdf`;
+      pdf.save(fileName);
+      
+    } catch (error) {
+      console.error("PDF 생성 중 오류 발생:", error);
+      alert("PDF 저장 중 오류가 발생했습니다.");
+    } finally {
+      setIsExporting(false); // 저장 완료 후 버튼 원상복구
+    }
+  };
+  // ==========================================
+
   const FolderListContent = () => (
     <div className="flex flex-col h-full bg-white">
       <div className="p-6 border-b border-gray-100 shrink-0">
         <div className="flex items-center gap-3 mb-2">
           <span className="text-3xl">📅</span>
-          <h2 className="text-lg font-extrabold text-gray-900 leading-tight">
-            학습 날짜별 보기
-          </h2>
+          <h2 className="text-lg font-extrabold text-gray-900 leading-tight">학습 날짜별 보기</h2>
         </div>
         <p className="text-sm font-bold text-gray-400">총 {savedVoca.length + savedScript.length}개의 북마크</p>
       </div>
       
       <div className="flex-1 overflow-y-auto p-4 space-y-2">
-        <div 
-          onClick={() => { setSelectedFolder('all'); setIsFolderMenuOpen(false); }}
-          className={`flex items-center justify-between p-3 rounded-xl cursor-pointer transition-all ${selectedFolder === 'all' ? 'bg-indigo-50 border border-indigo-100' : 'hover:bg-gray-50 border border-transparent'}`}
-        >
+        <div onClick={() => { setSelectedFolder('all'); setIsFolderMenuOpen(false); }} className={`flex items-center justify-between p-3 rounded-xl cursor-pointer transition-all ${selectedFolder === 'all' ? 'bg-indigo-50 border border-indigo-100' : 'hover:bg-gray-50 border border-transparent'}`}>
           <div className="flex items-center gap-3">
             <span className="text-xl">📁</span>
-            <p className={`text-sm font-bold ${selectedFolder === 'all' ? 'text-indigo-900' : 'text-gray-700'}`}>
-              전체 모아보기
-            </p>
+            <p className={`text-sm font-bold ${selectedFolder === 'all' ? 'text-indigo-900' : 'text-gray-700'}`}>전체 모아보기</p>
           </div>
-          <span className="text-xs font-bold bg-white px-2 py-1 rounded-md text-gray-500 shadow-sm">
-            {savedVoca.length + savedScript.length}
-          </span>
+          <span className="text-xs font-bold bg-white px-2 py-1 rounded-md text-gray-500 shadow-sm">{savedVoca.length + savedScript.length}</span>
         </div>
 
-        {/* 날짜 폴더 렌더링 */}
         {folders.map(dateKey => {
           const epVocaCount = savedVoca.filter(v => (v.dateSaved || 'old') === dateKey).length;
           const epScriptCount = savedScript.filter(s => (s.dateSaved || 'old') === dateKey).length;
           const totalCount = epVocaCount + epScriptCount;
 
           return (
-            <div 
-              key={dateKey}
-              onClick={() => { setSelectedFolder(dateKey); setIsFolderMenuOpen(false); }}
-              className={`flex items-center justify-between p-3 rounded-xl cursor-pointer transition-all ${selectedFolder === dateKey ? 'bg-indigo-50 border border-indigo-100' : 'hover:bg-gray-50 border border-transparent'}`}
-            >
+            <div key={dateKey} onClick={() => { setSelectedFolder(dateKey); setIsFolderMenuOpen(false); }} className={`flex items-center justify-between p-3 rounded-xl cursor-pointer transition-all ${selectedFolder === dateKey ? 'bg-indigo-50 border border-indigo-100' : 'hover:bg-gray-50 border border-transparent'}`}>
               <div className="flex items-center gap-3">
                 <span className="text-xl">🗓️</span>
-                <p className={`text-sm font-bold ${selectedFolder === dateKey ? 'text-indigo-900' : 'text-gray-700'}`}>
-                  {formatDate(dateKey)}
-                </p>
+                <p className={`text-sm font-bold ${selectedFolder === dateKey ? 'text-indigo-900' : 'text-gray-700'}`}>{formatDate(dateKey)}</p>
               </div>
-              <span className="text-xs font-bold bg-white px-2 py-1 rounded-md text-gray-500 shadow-sm">
-                {totalCount}
-              </span>
+              <span className="text-xs font-bold bg-white px-2 py-1 rounded-md text-gray-500 shadow-sm">{totalCount}</span>
             </div>
           );
         })}
@@ -156,48 +188,62 @@ export default function MyStudy() {
         <div className="max-w-3xl mx-auto px-4 py-8 md:px-8 pb-32">
           
           <div className="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-gray-200 mb-6 sticky top-4 z-20 transition-all">
-            <button 
-              onClick={() => setIsFolderMenuOpen(true)}
-              className="lg:hidden absolute right-6 top-6 text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-indigo-100 transition-colors"
-            >
+            <button onClick={() => setIsFolderMenuOpen(true)} className="lg:hidden absolute right-6 top-6 text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-indigo-100 transition-colors">
               ☰ 날짜 선택
             </button>
 
-            <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-gray-900 mb-2">
-              {selectedFolder === 'all' ? '전체 북마크' : formatDate(selectedFolder)}
-            </h1>
+            <div className="flex justify-between items-start mb-2">
+              <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-gray-900">
+                {selectedFolder === 'all' ? '전체 북마크' : formatDate(selectedFolder)}
+              </h1>
+              
+              {/* ✨ PDF 다운로드 버튼 */}
+              <button 
+                onClick={exportToPDF}
+                disabled={isExporting || (filteredVoca.length === 0 && filteredScript.length === 0)}
+                className={`hidden md:flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold transition-all ${isExporting ? 'bg-gray-100 text-gray-400 cursor-not-allowed' : 'bg-indigo-50 text-indigo-600 hover:bg-indigo-600 hover:text-white shadow-sm'}`}
+              >
+                <span className="text-lg">📥</span> 
+                {isExporting ? 'PDF 생성 중...' : 'PDF로 내보내기'}
+              </button>
+            </div>
+            
             <p className="text-gray-500 font-medium text-sm mb-6">
               선택한 날짜에 저장한 단어와 문장만 집중 복습하세요!
             </p>
 
             <div className="flex border-t border-gray-100 pt-4">
-              <button 
-                onClick={() => setActiveTab('voca')}
-                className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'voca' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}
-              >
+              <button onClick={() => setActiveTab('voca')} className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'voca' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
                 단어장 ({filteredVoca.length})
               </button>
-              <button 
-                onClick={() => setActiveTab('script')}
-                className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'script' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}
-              >
+              <button onClick={() => setActiveTab('script')} className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'script' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
                 주요 문장 ({filteredScript.length})
               </button>
             </div>
+            
+            {/* 모바일용 PDF 다운로드 버튼 (작은 화면용) */}
+            <button 
+              onClick={exportToPDF}
+              disabled={isExporting || (filteredVoca.length === 0 && filteredScript.length === 0)}
+              className={`md:hidden mt-4 w-full flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold transition-all ${isExporting ? 'bg-gray-100 text-gray-400 cursor-not-allowed' : 'bg-indigo-50 text-indigo-600 hover:bg-indigo-100'}`}
+            >
+              <span className="text-lg">📥</span> 
+              {isExporting ? 'PDF 생성 중...' : '현재 화면 PDF로 저장하기'}
+            </button>
           </div>
 
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 md:p-8 min-h-[50vh]">
+          {/* ✨ id="pdf-print-area" 이 div 안의 내용이 PDF로 캡처됩니다! */}
+          <div id="pdf-print-area" className="bg-white rounded-3xl shadow-sm border border-gray-200 p-6 md:p-8 min-h-[50vh]">
             
             {activeTab === 'voca' && (
               <div className="space-y-4">
                 {filteredVoca.length === 0 ? (
-                  <div className="text-center py-20 text-gray-400 font-medium">
-                    <span className="text-3xl block mb-3">☆</span>
-                    이 날짜에 저장된 단어가 없습니다.
+                  <div className="text-center py-20 text-gray-400 font-medium" data-html2canvas-ignore>
+                    <span className="text-3xl block mb-3">☆</span>이 날짜에 저장된 단어가 없습니다.
                   </div>
                 ) : (
                   filteredVoca.map((voca, idx) => (
-                    <div key={idx} className="flex flex-col items-start gap-1 p-4 rounded-xl transition-all duration-300 border bg-white border-gray-100 hover:border-indigo-100">
+                    <div key={idx} className="flex flex-col items-start gap-1 p-4 rounded-xl border bg-white border-gray-100">
                       <div className="flex justify-between items-start w-full mb-1">
                         <div>
                           {selectedFolder === 'all' && (
@@ -207,9 +253,10 @@ export default function MyStudy() {
                           )}
                           <h3 className="text-xl font-extrabold text-gray-900">{voca.word}</h3>
                         </div>
-                        <div className="flex items-center gap-2">
-                          <button onClick={() => playAudio(voca.epId, voca.audio)} className="w-8 h-8 rounded-full flex items-center justify-center bg-indigo-50 text-indigo-600 hover:bg-indigo-100 transition-colors">▶</button>
-                          <button onClick={() => removeVoca(voca.word)} className="text-yellow-400 hover:scale-110 text-2xl transition-transform" title="저장 취소">★</button>
+                        {/* data-html2canvas-ignore: 재생/삭제 버튼은 PDF에 인쇄 안 되게 숨김 */}
+                        <div className="flex items-center gap-2" data-html2canvas-ignore>
+                          <button onClick={() => playAudio(voca.epId, voca.audio)} className="w-8 h-8 rounded-full flex items-center justify-center bg-indigo-50 text-indigo-600">▶</button>
+                          <button onClick={() => removeVoca(voca.word)} className="text-yellow-400 text-2xl">★</button>
                         </div>
                       </div>
                       <p className="text-sm font-bold text-indigo-500 mb-2">{voca.meaning}</p>
@@ -227,20 +274,19 @@ export default function MyStudy() {
             {activeTab === 'script' && (
               <div className="space-y-4">
                 {filteredScript.length === 0 ? (
-                  <div className="text-center py-20 text-gray-400 font-medium">
-                    <span className="text-3xl block mb-3">☆</span>
-                    이 날짜에 저장된 문장이 없습니다.
+                  <div className="text-center py-20 text-gray-400 font-medium" data-html2canvas-ignore>
+                    <span className="text-3xl block mb-3">☆</span>이 날짜에 저장된 문장이 없습니다.
                   </div>
                 ) : (
                   filteredScript.map((item, idx) => (
-                    <div key={idx} className="flex flex-col items-start gap-1 p-4 rounded-xl transition-all duration-300 border bg-white border-gray-100 hover:border-indigo-100">
+                    <div key={idx} className="flex flex-col items-start gap-1 p-4 rounded-xl border bg-white border-gray-100">
                       <div className="flex justify-between items-start w-full mb-1">
                         <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block mb-1">
                           {selectedFolder === 'all' ? `${formatDate(item.dateSaved || 'old')} • ` : ''}EP.{item.epId} • {item.speaker}
                         </span>
-                        <div className="flex items-center gap-2">
-                          <button onClick={() => playAudio(item.epId, item.audio)} className="w-8 h-8 rounded-full flex items-center justify-center bg-indigo-50 text-indigo-600 hover:bg-indigo-100 transition-colors">▶</button>
-                          <button onClick={() => removeScript(item.text)} className="text-yellow-400 hover:scale-110 text-2xl transition-transform" title="저장 취소">★</button>
+                        <div className="flex items-center gap-2" data-html2canvas-ignore>
+                          <button onClick={() => playAudio(item.epId, item.audio)} className="w-8 h-8 rounded-full flex items-center justify-center bg-indigo-50 text-indigo-600">▶</button>
+                          <button onClick={() => removeScript(item.text)} className="text-yellow-400 text-2xl">★</button>
                         </div>
                       </div>
                       <p className="text-lg font-bold text-gray-900 leading-snug mb-1">{item.text}</p>
