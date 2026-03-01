@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import Home from './pages/Home';
 import CourseDetail from './pages/CourseDetail';
 import Player from './pages/Player';
+import MyStudy from './pages/MyStudy'; // ✨ 1. 내 학습장 컴포넌트 불러오기!
 
 // 🌐 언어 선택기
 function LanguageSelector() {
@@ -21,7 +22,9 @@ function LanguageSelector() {
 function Sidebar() {
   const location = useLocation();
   const isHome = location.pathname === '/';
+  const isMyStudy = location.pathname === '/my-study'; // ✨ 현재 내 학습장인지 확인
   const { t } = useTranslation(); 
+  
   return (
     <aside className="hidden md:flex flex-col w-64 border-r border-gray-100 bg-gray-50/30 p-6 h-screen sticky top-0 flex-shrink-0 justify-between z-10">
       <div>
@@ -34,10 +37,11 @@ function Sidebar() {
           <Link to="/" className={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors font-semibold ${isHome ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
             <span className="text-xl">🏠</span> {t('menu.explore')}
           </Link>
-          {/* 나중에 My Study 페이지 만들면 링크로 변경 */}
-          <div className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-gray-400 cursor-not-allowed font-semibold">
-            <span className="text-xl">📚</span> {t('menu.myStudy')}
-          </div>
+          
+          {/* ✨ 2. 내 학습장 메뉴 연결 및 활성화 처리 */}
+          <Link to="/my-study" className={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors font-semibold ${isMyStudy ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
+            <span className="text-xl">📚</span> My Study
+          </Link>
         </div>
       </div>
       <div className="mt-auto border-t border-gray-200 pt-5">
@@ -83,9 +87,10 @@ function App() {
                   <Link to="/" onClick={closeMenu} className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-indigo-50 text-gray-900 font-bold text-lg">
                     <span>🏠</span> {t('menu.explore')}
                   </Link>
-                  <div className="flex items-center gap-3 px-3 py-3 rounded-xl text-gray-400 font-bold text-lg opacity-50">
-                    <span>📚</span> {t('menu.myStudy')} (준비중)
-                  </div>
+                  {/* ✨ 3. 모바일 메뉴에도 My Study 연결 */}
+                  <Link to="/my-study" onClick={closeMenu} className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-indigo-50 text-gray-900 font-bold text-lg">
+                    <span>📚</span> My Study
+                  </Link>
                 </div>
               </div>
             </div>
@@ -97,6 +102,8 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/course/:courseId" element={<CourseDetail />} />
               <Route path="/player/:epId" element={<Player />} />
+              {/* ✨ 4. My Study 페이지 라우트 등록! */}
+              <Route path="/my-study" element={<MyStudy />} />
             </Routes>
           </div>
           
