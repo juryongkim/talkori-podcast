@@ -100,7 +100,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="flex min-h-screen bg-white text-gray-900 font-sans antialiased">
+      <div className="flex min-h-[100dvh] bg-white text-gray-900 font-sans antialiased overflow-x-hidden">
         <Sidebar />
 
         <main className="flex-1 w-full relative">
