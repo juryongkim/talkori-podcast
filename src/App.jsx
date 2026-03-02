@@ -147,7 +147,7 @@ function App() {
             </Routes>
 
             {/* ✨ 바코드 멸망 빔: 모바일 하단에 보이지 않는 120px 짜리 벽돌을 끼워 넣어서 스크롤을 강제로 더 늘려버립니다! */}
-            <div className="h-[120px] w-full md:h-10 opacity-0 pointer-events-none text-transparent">
+            <div className="h-[150px] w-full md:h-10 opacity-0 pointer-events-none text-transparent">
               여백 공간입니다
             </div>
 
