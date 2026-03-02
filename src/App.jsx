@@ -138,7 +138,7 @@ function App() {
             </div>
           )}
 
-          <div className="pb-32 mdLpb-10">
+          <div className="pb-32 md:pb-10">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/course/:courseId" element={<CourseDetail />} />
