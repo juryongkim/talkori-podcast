@@ -19,6 +19,9 @@ export default function Player() {
   
   // ✨ 4. 배속 설정 (1.0 -> 0.8 -> 0.6)
   const [playbackRate, setPlaybackRate] = useState(1.0);
+
+  // ✨ 프리미엄 모달 팝업 상태 (추가됨)
+  const [showPremiumModal, setShowPremiumModal] = useState(false);
   
   const audioRef = useRef(null);
   const autoPlayRef = useRef(false);
@@ -287,7 +290,8 @@ export default function Player() {
               key={ep.id} 
               onClick={() => { 
                 if (isLocked) {
-                  alert("프리미엄 구독 후 이용 가능한 에피소드입니다. 🔒\n(본 사이트에서 결제 후 이용해 주세요!)");
+                  // ✨ 모달 띄우기로 변경됨
+                  setShowPremiumModal(true);
                   return;
                 }
                 if (!isCurrent) navigate(`/player/${ep.id}`); 
@@ -491,6 +495,40 @@ export default function Player() {
           </div>
         </div>
       </main>
+
+      {/* ==================================================== */}
+      {/* ✨ 프리미엄 모달 팝업 UI */}
+      {/* ==================================================== */}
+      {showPremiumModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm animate-fade-in">
+          <div className="bg-white rounded-[24px] p-8 md:p-10 max-w-sm w-full text-center shadow-2xl transform transition-all scale-100">
+            <div className="text-5xl mb-4">🔒</div>
+            <h3 className="text-2xl font-extrabold text-gray-900 mb-3 tracking-tight">Premium Content</h3>
+            <p className="text-gray-500 text-sm leading-relaxed mb-8">
+              This lesson is for premium members only.<br/>
+              Upgrade now to get <strong className="text-gray-700">unlimited access to</strong><br/>
+              all classes and the wordbook!
+            </p>
+            <button
+              onClick={() => {
+                // 부모 사이트(talkori.com)로 결제창 오픈 신호 보내기
+                window.parent.postMessage('openUpgradePage', '*');
+              }}
+              className="w-full bg-[#3b32f5] hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-colors mb-4 shadow-md text-[15px]"
+            >
+              Upgrade Now 🚀
+            </button>
+            <button
+              onClick={() => setShowPremiumModal(false)}
+              className="text-gray-400 text-sm font-medium hover:text-gray-600 transition-colors"
+            >
+              Maybe later
+            </button>
+          </div>
+        </div>
+      )}
+      {/* ==================================================== */}
+
     </div>
   );
 }

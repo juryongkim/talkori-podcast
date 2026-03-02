@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react'; // ✨ useEffect 추가됨
 import { BrowserRouter, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Home from './pages/Home';
@@ -82,6 +82,21 @@ function App() {
 
   const toggleMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const closeMenu = () => setIsMobileMenuOpen(false);
+
+  // ==========================================
+  // ✨ [보안] 외부 직접 접속 차단 (Iframe 전용 락)
+  // ==========================================
+  useEffect(() => {
+    // 로컬 환경(개발 중)인지 확인
+    const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    
+    // window.self === window.top 이면 "아이프레임 밖(직접 접속)"이라는 뜻입니다.
+    if (window.self === window.top && !isLocalhost) {
+      // 본 사이트로 강제 이동시켜 버립니다.
+      window.location.href = 'https://talkori.com'; 
+    }
+  }, []);
+  // ==========================================
 
   return (
     <BrowserRouter>
