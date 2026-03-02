@@ -2,7 +2,7 @@
   "metadata": {
     "id": "001",
     "title": {
-      "en": "Really? Awesome! 진짜요? 대박!",
+      "en": "Really? Awesome!",
       "ko": "진짜요? 대박!"
     },
     "description": {
@@ -13,9 +13,9 @@
       "en": "4 min 15 sec",
       "ko": "4분 15초"
     },
-    "level": "Beginner",
+    "level": "초급",
     "tags": [
-      "Reaction. Surprise. Daily life."
+      "리액션. 놀람. 일상"
     ],
     "course": "real-reaction"
   },

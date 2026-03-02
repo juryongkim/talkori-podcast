@@ -1,0 +1,492 @@
+{
+  "metadata": {
+    "id": "007",
+    "title": {
+      "en": "I didn't see that coming! 전혀 생각지도 못했어요!",
+      "ko": "전혀 생각지도 못했어요!"
+    },
+    "description": {
+      "en": "When you're surprised by something sudden! Learn the difference between 'Saeng-gak-ji-do mot-haet-da' and 'Ye-sang-ha-ji mot-haet-da'.",
+      "ko": "갑작스러운 일에 깜짝 놀랐을 때! '생각지도 못했다'와 '예상하지 못했다'의 차이를 재미있게 배워봅니다."
+    },
+    "duration": {
+      "en": "5 min 15 sec",
+      "ko": "5분 15초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Surprise. Unexpected. Daily Life"
+    ],
+    "course": "real-reaction"
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up world. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 오늘도 즐거운 한국어 시간입니다. 미나입니다.",
+      "translation": "Hello everyone~! It's a fun Korean class again today. I'm Mina.",
+      "lang": "KO",
+      "audio": "RR_007_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "깜짝 놀란 듯",
+      "text": "Mina. I just saw my neighbor. Walking a pet pig. A real giant pig.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "크게 웃으며",
+      "text": "하하하! \"그건 정말 생각지도 못했네요~!\"",
+      "translation": "Hahaha! I really didn't see that coming~!",
+      "lang": "KO",
+      "audio": "RR_007_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": {
+        "title": "생각지도 못했다",
+        "description": "Didn't even think about it",
+        "usage_tip": "Used for something so out of the ordinary that it never crossed your mind."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "I know. I was so shocked. I almost dropped my phone.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "재미있어하며",
+      "text": "와~ 정말 \"상상도 못할\" 일이네요! 오늘 주제가 바로 이거예요!",
+      "translation": "Wow~ that's something 'I couldn't even imagine'! This is our topic today!",
+      "lang": "KO",
+      "audio": "RR_007_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "상상도 못하다",
+        "description": "Couldn't even imagine",
+        "usage_tip": "A stronger version of 'I didn't see that coming'."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "It was so unexpected. How do I say. I didn't see that coming.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "가장 많이 쓰는 표현은. \"생각지도 못했어요.\" 예요.",
+      "translation": "The most common expression is. 'Saeng-gak-ji-do mot-hae-sseo-yo'.",
+      "lang": "KO",
+      "audio": "RR_007_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"생각지도 못했어요.\"",
+      "translation": "I didn't even think about it.",
+      "lang": "KO",
+      "audio": "RR_007_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "그리고 조금 더 격식 있게 말할 땐. \"예상하지 못했어요.\" 라고 합니다.",
+      "translation": "And when you speak a bit more formally. You say. 'Ye-sang-ha-ji mot-hae-sseo-yo'.",
+      "lang": "KO",
+      "audio": "RR_007_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "예상하지 못했다",
+        "description": "Didn't expect / Didn't predict",
+        "usage_tip": "'Ye-sang' means prediction or expectation."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "생각하며",
+      "text": "So \"Ye-sang\" is like a prediction.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "맞아요! 전혀 몰랐을 때는. \"전혀 생각지도 못했어요.\" 라고 하면 완벽해요!",
+      "translation": "Exactly! When you had no idea. 'Jeon-hyeo saeng-gak-ji-do mot-hae-sseo-yo' is perfect!",
+      "lang": "KO",
+      "audio": "RR_007_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"전혀..., 생각지도 못했어요~!\"",
+      "translation": "I didn't see that coming at all~!",
+      "lang": "KO",
+      "audio": "RR_007_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "비밀스럽게",
+      "text": "Mina. I have a surprise gift for you. Close your eyes.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기대하며",
+      "text": "와~ \"생각지도 못한 선물인데요~?\"",
+      "translation": "Wow~ a gift I didn't even think of~!",
+      "lang": "KO",
+      "audio": "RR_007_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "진지하게",
+      "text": "Keep them closed..., okay. Open them now!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s016.mp3",
+      "playable": false,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "깜짝 놀라며",
+      "text": "어?",
+      "translation": "Huh?",
+      "lang": "KO",
+      "audio": "RR_007_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "당황하며",
+      "text": "\"이게 뭐야~!\"",
+      "translation": "What is this~!",
+      "lang": "KO",
+      "audio": "RR_007_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "황당해하며",
+      "text": "존 씨. 이건 제 밀린 업무 서류잖아요!",
+      "translation": "John. These are my overdue work documents!",
+      "lang": "KO",
+      "audio": "RR_007_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "웃으며",
+      "text": "Happy surprise. I found them on the printer. I thought you needed them.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "허탈하게",
+      "text": "아~ \"이런 건 전혀 예상하지 못했어요...,\" 정말 기가 막히네요.",
+      "translation": "Ah~ I didn't see this coming at all..., truly breathtaking.",
+      "lang": "KO",
+      "audio": "RR_007_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "장난스럽게",
+      "text": "Did you like it.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "웃음 터뜨리며",
+      "text": "\"전혀요!\" 정말 꿈에도 몰랐어요!",
+      "translation": "Not at all! I didn't even know in my dreams!",
+      "lang": "KO",
+      "audio": "RR_007_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": {
+        "title": "꿈에도 몰랐다",
+        "description": "Didn't even know in one's dreams",
+        "usage_tip": "Used to emphasize that something was completely unexpected."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "These reactions are so useful for surprise parties. Or surprise homework.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 깜짝 놀랄 일이 생기면 오늘 배운 표현들을 꼭 써보세요!",
+      "translation": "Exactly. When something surprising happens. Make sure to use the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_007_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review the five reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"생각지도 못했어요.\"",
+      "translation": "I didn't even think about it.",
+      "lang": "EN",
+      "audio": "RR_007_s027.mp3",
+      "playable": false,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"전혀 생각지도 못했어요~!\"",
+      "translation": "I didn't see that coming at all~!",
+      "lang": "EN",
+      "audio": "RR_007_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"예상하지 못했어요.\"",
+      "translation": "I didn't expect it.",
+      "lang": "EN",
+      "audio": "RR_007_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"상상도 못했어요!\"",
+      "translation": "I couldn't even imagine it!",
+      "lang": "EN",
+      "audio": "RR_007_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"꿈에도 몰랐어요!\"",
+      "translation": "I never even dreamed of it!",
+      "lang": "EN",
+      "audio": "RR_007_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 예상치 못한 행운이 찾아오길 바랄게요!",
+      "translation": "I hope unexpected good luck finds you all!",
+      "lang": "KO",
+      "audio": "RR_007_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_007_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "생각지도 못하다",
+      "meaning": "To not even think of",
+      "example": "생각지도 못한 선물을 받았어요. (I received a gift I didn't even think of.)",
+      "audio": "RR_007_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "예상",
+      "meaning": "Prediction. Expectation",
+      "example": "제 예상이 맞았어요. (My prediction was right.)",
+      "audio": "RR_007_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "전혀",
+      "meaning": "At all. Completely",
+      "example": "전혀 모르겠어요. (I have no idea at all.)",
+      "audio": "RR_007_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "상상",
+      "meaning": "Imagination",
+      "example": "상상도 하기 싫어요. (I don't even want to imagine it.)",
+      "audio": "RR_007_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "꿈",
+      "meaning": "Dream",
+      "example": "어제 무서운 꿈을 꿨어요. (I had a scary dream yesterday.)",
+      "audio": "RR_007_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "행운",
+      "meaning": "Good luck",
+      "example": "당신에게 행운이 있길 바래요. (I wish you good luck.)",
+      "audio": "RR_007_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

@@ -31,9 +31,9 @@
           "en": "4 min 15 sec",
           "ko": "4분 15초"
         },
-        "level": "Beginner",
+        "level": "초급",
         "tags": [
-          "Reaction. Surprise. Daily life."
+          "리액션. 놀람. 일상"
         ],
         "dataFile": "ep001.json"
       },
@@ -51,9 +51,9 @@
           "en": "5 min 20 sec",
           "ko": "5분 20초"
         },
-        "level": "Beginner",
+        "level": "초급",
         "tags": [
-          "Reaction. Confirmation. Doubt. Daily life."
+          "리액션. 확인. 의심. 일상"
         ],
         "dataFile": "ep002.json"
       },
@@ -71,11 +71,91 @@
           "en": "4 min 45 sec",
           "ko": "4분 45초"
         },
-        "level": "Beginner",
+        "level": "초급",
         "tags": [
-          "Reaction. Empathy. Agreement. Daily life."
+          "리액션. 공감. 동의. 일상"
         ],
         "dataFile": "ep003.json"
+      },
+      {
+        "id": "004",
+        "title": {
+          "en": "What is going on! 도대체 이게 무슨 일이야!",
+          "ko": "도대체 이게 무슨 일이야!"
+        },
+        "description": {
+          "en": "Learn expressions for when something completely unexpected or absurd happens. Master reactions like \"What on earth!\"",
+          "ko": "정말 황당하고 믿기지 않는 일을 겪었을 때 쓰는 표현들을 배워봅니다. \"도대체\"와 \"이게 뭐야\"의 리액션을 마스터해봐요!"
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Shock. Confusion. Daily Life"
+        ],
+        "dataFile": "ep004.json"
+      },
+      {
+        "id": "005",
+        "title": {
+          "en": "Good heavens! Oh my goodness! 어머나! 세상에!",
+          "ko": "어머나! 세상에!"
+        },
+        "description": {
+          "en": "Learn exclamations used when you see something surprising or unbelievable. Feel the real vibe of \"Eomeona\" and \"Sesange\"!",
+          "ko": "깜짝 놀라거나 믿기 힘든 광경을 보았을 때 쓰는 감탄사들을 배워봅니다. \"어머나\"와 \"세상에\"의 리얼한 맛을 살려보세요!"
+        },
+        "duration": {
+          "en": "4 min 55 sec",
+          "ko": "4분 55초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Surprise. Exclamation. Daily Life"
+        ],
+        "dataFile": "ep005.json"
+      },
+      {
+        "id": "006",
+        "title": {
+          "en": "I'm speechless! It's breathtaking! 말이 안 나와요! 기가 막혀!",
+          "ko": "말이 안 나와요! 기가 막혀!"
+        },
+        "description": {
+          "en": "Moments when you're so surprised or shocked that you're speechless! Learn the two sides of \"Mal-mun-i mak-hi-da\" and \"Gi-ga mak-hi-da\".",
+          "ko": "너무 놀랍거나 황당해서 말이 안 나오는 순간! \"말문이 막히다\"와 \"기가 막히다\"의 두 가지 얼굴을 함께 알아봅니다."
+        },
+        "duration": {
+          "en": "5 min 30 sec",
+          "ko": "5분 30초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Speechless. Amazing. Absurd"
+        ],
+        "dataFile": "ep006.json"
+      },
+      {
+        "id": "007",
+        "title": {
+          "en": "I didn't see that coming! 전혀 생각지도 못했어요!",
+          "ko": "전혀 생각지도 못했어요!"
+        },
+        "description": {
+          "en": "When you're surprised by something sudden! Learn the difference between 'Saeng-gak-ji-do mot-haet-da' and 'Ye-sang-ha-ji mot-haet-da'.",
+          "ko": "갑작스러운 일에 깜짝 놀랐을 때! '생각지도 못했다'와 '예상하지 못했다'의 차이를 재미있게 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 15 sec",
+          "ko": "5분 15초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Surprise. Unexpected. Daily Life"
+        ],
+        "dataFile": "ep007.json"
       }
     ]
   },

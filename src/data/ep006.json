@@ -1,0 +1,560 @@
+{
+  "metadata": {
+    "id": "006",
+    "title": {
+      "en": "I'm speechless! It's breathtaking! 말이 안 나와요! 기가 막혀!",
+      "ko": "말이 안 나와요! 기가 막혀!"
+    },
+    "description": {
+      "en": "Moments when you're so surprised or shocked that you're speechless! Learn the two sides of \"Mal-mun-i mak-hi-da\" and \"Gi-ga mak-hi-da\".",
+      "ko": "너무 놀랍거나 황당해서 말이 안 나오는 순간! \"말문이 막히다\"와 \"기가 막히다\"의 두 가지 얼굴을 함께 알아봅니다."
+    },
+    "duration": {
+      "en": "5 min 30 sec",
+      "ko": "5분 30초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Speechless. Amazing. Absurd"
+    ],
+    "course": "real-reaction"
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up world. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 오늘도 여러분의 리액션을 책임질 미나입니다.",
+      "translation": "Hello everyone~! This is Mina. here to take care of your reactions again today.",
+      "lang": "KO",
+      "audio": "RR_006_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "감탄하는 목소리로",
+      "text": "Mina. I went to Bukhansan Mountain last weekend. And the view from the top was..., just wow. I couldn't say anything.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "공감하며",
+      "text": "와~ \"말문이 막히다\" 라고 하죠!",
+      "translation": "Wow~ we say 'Mal-mun-i mak-hi-da'!",
+      "lang": "KO",
+      "audio": "RR_006_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": {
+        "title": "말문이 막히다",
+        "description": "Literally 'The gate of words is blocked'",
+        "usage_tip": "Used when you are so overwhelmed by emotion or shock that you can't speak."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "감탄하며",
+      "text": "정말 너무 아름다워서 \"할 말을 잃다\" 라는 표현도 써요.",
+      "translation": "It's so beautiful that we also use the expression 'Hal mareul il-ta'.",
+      "lang": "KO",
+      "audio": "RR_006_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": {
+        "title": "할 말을 잃다",
+        "description": "To lose one's words",
+        "usage_tip": "Used when you are rendered speechless by a stunning or shocking situation."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "Exactly. I was just standing there like a statue.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s006.mp3",
+      "playable": false,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "익살스럽게",
+      "text": "그런데 존 씨..., 너무 황당해서 말이 안 나올 때도 있잖아요.",
+      "translation": "But John..., there are also times when you're speechless because something is so absurd.",
+      "lang": "KO",
+      "audio": "RR_006_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "공감하며",
+      "text": "Oh right. Like when my cat eats my homework.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "웃음 터뜨리며",
+      "text": "하하하! 그럴 땐 정말 \"기가 막히다\" 라고 해요!",
+      "translation": "Hahaha! In that case. We really say 'Gi-ga mak-hi-da'!",
+      "lang": "KO",
+      "audio": "RR_006_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"Gi-ga mak-hi-da\". I've heard that one before.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s010.mp3",
+      "playable": false,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Does it only mean something bad.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "아니요~! 아주 좋은 뜻도 있어요.",
+      "translation": "No~! It has a very good meaning too.",
+      "lang": "KO",
+      "audio": "RR_006_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "침을 삼키며",
+      "text": "음식이 진짜 맛있을 때도 \"와~ 맛이 기가 막히다!\" 라고 하거든요.",
+      "translation": "When food is really delicious. We say. 'Wow~ the taste is Gi-ga mak-hi-da!'",
+      "lang": "KO",
+      "audio": "RR_006_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "기가 막히다",
+        "description": "To be breathless / To be amazing",
+        "usage_tip": "It can mean both 'absurdly bad' or 'stunningly good' depending on the tone."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"맛이 기가 막히다~!\"",
+      "translation": "The taste is breathtaking~!",
+      "lang": "KO",
+      "audio": "RR_006_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "생각하며",
+      "text": "So it depends on the context and my face.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "맞아요! 웃으면서 말하면 감탄사. 인상을 쓰면서 말하면 황당함!",
+      "translation": "Correct! If you say it with a smile. It's admiration. If you frown. It's absurdity!",
+      "lang": "KO",
+      "audio": "RR_006_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "Got it. And what was the first one again. \"Mal-mun-i mak-hi-da\".",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "네. 이건 주로 너무 놀라거나 당황해서 \"말이 안 나오다\" 라는 상황에 딱이에요.",
+      "translation": "Yes. This is perfect for when you are so surprised or embarrassed that 'words don't come out'.",
+      "lang": "KO",
+      "audio": "RR_006_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"말문이 막히다...,\"",
+      "translation": "To be speechless...,",
+      "lang": "KO",
+      "audio": "RR_006_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "Let's try a situation. Imagine I just showed you a magic trick. I turned your phone into a real piece of chocolate.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "깜짝 놀라며",
+      "text": "헉! \"이게 뭐야~!\"",
+      "translation": "Huh! What is this~!",
+      "lang": "KO",
+      "audio": "RR_006_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "어이없어하며",
+      "text": "제 휴대폰이 초콜릿이 됐다구요?",
+      "translation": "You're saying my phone became chocolate?",
+      "lang": "KO",
+      "audio": "RR_006_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "자신 있게",
+      "text": "Yes. And it's 100 percent dark chocolate. Try a bite.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "황당해하며",
+      "text": "와..., 진짜 \"말문이 막히다\" 정말!",
+      "translation": "Wow..., I'm really speechless. Honestly!",
+      "lang": "KO",
+      "audio": "RR_006_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "부추기며",
+      "text": "Is it amazing. Or is it absurd.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "화난 듯 웃으며",
+      "text": "당연히 \"기가 막히다\" 이 말이죠!",
+      "translation": "Of course. I mean 'Gi-ga mak-hi-da'!",
+      "lang": "KO",
+      "audio": "RR_006_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "슬프게",
+      "text": "제 휴대폰 어떡할 거예요~!",
+      "translation": "What are you going to do about my phone~!",
+      "lang": "KO",
+      "audio": "RR_006_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "Just kidding. Your phone is right here in my pocket.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "안도하며",
+      "text": "에이~ 깜짝이야! 존 씨 마술 실력이 \"기가 막히다\" 정말!",
+      "translation": "Hey~ you scared me! Your magic skills are really breathtaking. Honestly!",
+      "lang": "KO",
+      "audio": "RR_006_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "Wow. Today we learned how to be speechless in Korean.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "감정이 너무 커서 말이 안 나올 때. 오늘 배운 표현들을 꼭 기억하세요!",
+      "translation": "When your emotions are so big that words won't come out. Make sure to remember the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_006_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review the five reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"말문이 막히다\"",
+      "translation": "To be speechless / Breathless",
+      "lang": "EN",
+      "audio": "RR_006_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"할 말을 잃다\"",
+      "translation": "To lose one's words / speechless",
+      "lang": "EN",
+      "audio": "RR_006_s034.mp3",
+      "playable": false,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"말이 안 나오다\"",
+      "translation": "Words don't come out",
+      "lang": "EN",
+      "audio": "RR_006_s035.mp3",
+      "playable": false,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"기가 막히다\"",
+      "translation": "To be breathtaking / To be absurd",
+      "lang": "EN",
+      "audio": "RR_006_s036.mp3",
+      "playable": false,
+      "seq": 36,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"기가 막히게 맛있다!\"",
+      "translation": "It's breathtakingly delicious!",
+      "lang": "EN",
+      "audio": "RR_006_s037.mp3",
+      "playable": false,
+      "seq": 37,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 정말 멋진 풍경을 보면 외쳐보세요. \"우와~ 기가 막히다!\"",
+      "translation": "Everyone. If you see a wonderful view. Try shouting! 'Wow~ it's breathtaking!'",
+      "lang": "KO",
+      "audio": "RR_006_s038.mp3",
+      "playable": true,
+      "seq": 38,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's it for today's Talkori. See you next time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_006_s039.mp3",
+      "playable": false,
+      "seq": 39,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_006_s040.mp3",
+      "playable": true,
+      "seq": 40,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "말문",
+      "meaning": "The start of speech",
+      "example": "놀라서 말문이 막혔어요. (I was so surprised that I couldn't speak.)",
+      "audio": "RR_006_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "막히다",
+      "meaning": "To be blocked. To be clogged",
+      "example": "길이 너무 막혀요. (The road is so congested.)",
+      "audio": "RR_006_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "잃다",
+      "meaning": "To lose",
+      "example": "길을 잃었어요. (I'm lost.)",
+      "audio": "RR_006_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "기가 막히다",
+      "meaning": "To be breathtaking. To be absurd",
+      "example": "경치가 기가 막히네요. (The view is breathtaking.)",
+      "audio": "RR_006_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "마술",
+      "meaning": "Magic trick",
+      "example": "마술을 보여줄게요. (I'll show you a magic trick.)",
+      "audio": "RR_006_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "풍경",
+      "meaning": "Scenery. View",
+      "example": "풍경이 정말 아름다워요. (The scenery is truly beautiful.)",
+      "audio": "RR_006_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

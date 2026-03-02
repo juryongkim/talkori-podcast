@@ -1,0 +1,560 @@
+{
+  "metadata": {
+    "id": "005",
+    "title": {
+      "en": "Good heavens! Oh my goodness! 어머나! 세상에!",
+      "ko": "어머나! 세상에!"
+    },
+    "description": {
+      "en": "Learn exclamations used when you see something surprising or unbelievable. Feel the real vibe of \"Eomeona\" and \"Sesange\"!",
+      "ko": "깜짝 놀라거나 믿기 힘든 광경을 보았을 때 쓰는 감탄사들을 배워봅니다. \"어머나\"와 \"세상에\"의 리얼한 맛을 살려보세요!"
+    },
+    "duration": {
+      "en": "4 min 55 sec",
+      "ko": "4분 55초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Surprise. Exclamation. Daily Life"
+    ],
+    "course": "real-reaction"
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up guys. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 5화까지 오신 여러분 정말 대단해요. 미나입니다.",
+      "translation": "Hello everyone~! You guys are amazing for making it to episode 5. I'm Mina.",
+      "lang": "KO",
+      "audio": "RR_005_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "장난스럽게",
+      "text": "Mina. I have a little surprise for you. Look at this photo on my phone.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "폰을 보며",
+      "text": "어?",
+      "translation": "Huh?",
+      "lang": "KO",
+      "audio": "RR_005_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "깜짝 놀라며",
+      "text": "\"어머나~!\"",
+      "translation": "Oh my goodness~!",
+      "lang": "KO",
+      "audio": "RR_005_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": {
+        "title": "어머나",
+        "description": "A soft exclamation of surprise",
+        "usage_tip": "Often used by women or in a cute way when startled."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "눈을 크게 뜨며",
+      "text": "\"세상에~!\" 이게 정말 존 씨 어릴 때 사진이에요?",
+      "translation": "Oh my goodness~! Is this really you when you were a baby. John?",
+      "lang": "KO",
+      "audio": "RR_005_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "세상에",
+        "description": "Literally 'In the world'",
+        "usage_tip": "Used like 'In the world!' or 'Good heavens!' for big surprises."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "Yes. I was a very chubby baby. Right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "감탄하며",
+      "text": "\"맙소사...,\" 너무 귀여워서 못 믿겠어요!",
+      "translation": "Oh my goodness..., you were so cute. I can't believe it!",
+      "lang": "KO",
+      "audio": "RR_005_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": {
+        "title": "맙소사",
+        "description": "Used like 'Oh my god' or 'Goodness'",
+        "usage_tip": "Often used for shocking or unbelievable situations."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "Today. We are learning those \"Good heavens\" moments.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Mina. I hear \"Eomeona\" a lot in K-dramas. Is it only for women.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s010.mp3",
+      "playable": false,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "음..., 주로 여자들이 많이 쓰긴 해요.",
+      "translation": "Hmm..., it is mostly used by women.",
+      "lang": "KO",
+      "audio": "RR_005_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "하지만 누구나 깜짝 놀랐을 때 \"어머~!\" 라고 할 수 있어요.",
+      "translation": "But anyone can say 'Eomeo~!' when they are surprised.",
+      "lang": "KO",
+      "audio": "RR_005_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "어머나~!",
+      "translation": "Goodness~!",
+      "lang": "KO",
+      "audio": "RR_005_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "생각하며",
+      "text": "What about \"Sesange\". It sounds very dramatic.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "맞아요! \"세상에\"는 \"세상에 이런 일이!\" 라는 뜻이에요.",
+      "translation": "'Sesange' means 'Such a thing in the world!'",
+      "lang": "KO",
+      "audio": "RR_005_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "정말 믿기 힘든 일을 보거나 들었을 때 써보세요.",
+      "translation": "Try using it when you see or hear something hard to believe.",
+      "lang": "KO",
+      "audio": "RR_005_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"세상에~!\"",
+      "translation": "Oh my heavens~!",
+      "lang": "KO",
+      "audio": "RR_005_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "And you also said \"Map-so-sa\". When do we use that.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s018.mp3",
+      "playable": false,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "익살스럽게",
+      "text": "\"맙소사\"는 약간..., 'Holy cow' 같은 느낌이에요.",
+      "translation": "'Map-so-sa' feels a bit like... 'Holy cow'.",
+      "lang": "KO",
+      "audio": "RR_005_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "진지하게",
+      "text": "좋은 일에도 쓰지만. 어이없는 실수를 했을 때도 많이 써요.",
+      "translation": "You can use it for good things. But also when you make a ridiculous mistake.",
+      "lang": "KO",
+      "audio": "RR_005_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "Let's try a situation. Imagine I accidentally dropped your birthday cake on the floor.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "충격받은 표정으로",
+      "text": "헉!",
+      "translation": "Gasps!",
+      "lang": "KO",
+      "audio": "RR_005_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "비명을 지르며",
+      "text": "\"어머나~! 어떡해~!\"",
+      "translation": "Oh my goodness~! What should I do~!",
+      "lang": "KO",
+      "audio": "RR_005_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "미안해하며",
+      "text": "I'm so sorry. It just slipped from my hands.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "바닥을 보며",
+      "text": "\"세상에...,\" 케이크가 다 망가졌어요!",
+      "translation": "My heavens..., the cake is totally ruined!",
+      "lang": "KO",
+      "audio": "RR_005_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "당황하며",
+      "text": "I'll go buy another one right now.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "머리를 짚으며",
+      "text": "\"맙소사...,\" 오늘 제 생일 파티는 끝났네요!",
+      "translation": "Oh my goodness..., my birthday party is over today!",
+      "lang": "KO",
+      "audio": "RR_005_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "웃으며",
+      "text": "Wait. Look closer. It's actually a fake cake made of plastic!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "어이없다는 듯",
+      "text": "\"세상에~!\" 진짜인 줄 알고 울 뻔했잖아요!",
+      "translation": "My heavens~! I almost cried because I thought it was real!",
+      "lang": "KO",
+      "audio": "RR_005_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "These expressions really add flavor to the conversation.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 감정을 듬뿍 담아서 말하는 게 포인트예요!",
+      "translation": "Exactly. The point is to speak with lots of emotion!",
+      "lang": "KO",
+      "audio": "RR_005_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review the five reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"어머나~!\"",
+      "translation": "Oh my goodness~!",
+      "lang": "EN",
+      "audio": "RR_005_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"어머~!\"",
+      "translation": "Oh my~!",
+      "lang": "EN",
+      "audio": "RR_005_s034.mp3",
+      "playable": false,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"세상에~!\"",
+      "translation": "Good heavens~!",
+      "lang": "EN",
+      "audio": "RR_005_s035.mp3",
+      "playable": false,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"맙소사...,\"",
+      "translation": "Oh my god...,",
+      "lang": "EN",
+      "audio": "RR_005_s036.mp3",
+      "playable": false,
+      "seq": 36,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"세상에 이런 일이!\"",
+      "translation": "What in the world!",
+      "lang": "EN",
+      "audio": "RR_005_s037.mp3",
+      "playable": false,
+      "seq": 37,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 깜짝 놀랄 일이 생기면 꼭 외쳐보세요. \"세상에~!\"",
+      "translation": "Everyone. If something surprising happens. Make sure to shout! 'Sesange~!'",
+      "lang": "KO",
+      "audio": "RR_005_s038.mp3",
+      "playable": true,
+      "seq": 38,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s039.mp3",
+      "playable": false,
+      "seq": 39,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_005_s040.mp3",
+      "playable": true,
+      "seq": 40,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "어머나",
+      "meaning": "Good heavens. Oh my goodness",
+      "example": "어머나. 벌써 시간이 이렇게 됐네요. (Oh my. It's already this time.)",
+      "audio": "RR_005_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "세상에",
+      "meaning": "In the world. Good heavens",
+      "example": "세상에. 정말 믿기지 않아요. (My heavens. I really can't believe it.)",
+      "audio": "RR_005_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "맙소사",
+      "meaning": "Oh my god. Holy cow",
+      "example": "맙소사. 열쇠를 집에 두고 왔어요. (Oh my god. I left my keys at home.)",
+      "audio": "RR_005_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "귀엽다",
+      "meaning": "To be cute",
+      "example": "이 강아지 정말 귀엽네요. (This puppy is really cute.)",
+      "audio": "RR_005_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "망가지다",
+      "meaning": "To be ruined. To be broken",
+      "example": "제 휴대폰이 망가졌어요. (My phone is broken.)",
+      "audio": "RR_005_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "울다",
+      "meaning": "To cry",
+      "example": "너무 슬퍼서 울고 싶어요. (I'm so sad that I want to cry.)",
+      "audio": "RR_005_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

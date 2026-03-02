@@ -1,0 +1,512 @@
+{
+  "metadata": {
+    "id": "004",
+    "title": {
+      "en": "What is going on! 도대체 이게 무슨 일이야!",
+      "ko": "도대체 이게 무슨 일이야!"
+    },
+    "description": {
+      "en": "Learn expressions for when something completely unexpected or absurd happens. Master reactions like \"What on earth!\"",
+      "ko": "정말 황당하고 믿기지 않는 일을 겪었을 때 쓰는 표현들을 배워봅니다. \"도대체\"와 \"이게 뭐야\"의 리액션을 마스터해봐요!"
+    },
+    "duration": {
+      "en": "5 min 10 sec",
+      "ko": "5분 10초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Shock. Confusion. Daily Life"
+    ],
+    "course": "real-reaction"
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up guys. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분! 벌써 4화네요! 미나입니다.",
+      "translation": "Hello everyone! It's already episode four! I'm Mina.",
+      "lang": "KO",
+      "audio": "RR_004_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "당황한 목소리로",
+      "text": "Mina. Wait a second..., look at my coffee mug! Why is there a raw potato inside my mug?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "충격받은 듯",
+      "text": "어? \"이게 뭐야~!\"",
+      "translation": "Huh? What is this~!",
+      "lang": "KO",
+      "audio": "RR_004_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": {
+        "title": "이게 뭐야",
+        "description": "'What is this'",
+        "usage_tip": "Used when you are surprised or annoyed by a strange object or situation."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "황당해하며",
+      "text": "도대체..., 이게 대체 무슨 일이야!",
+      "translation": "What on earth is going on!",
+      "lang": "KO",
+      "audio": "RR_004_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": {
+        "title": "도대체",
+        "description": "'On earth' or 'In the world'",
+        "usage_tip": "Used to add strong emphasis to a question when you are frustrated or confused."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "Someone must have played a prank on me. I was so confused.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s006.mp3",
+      "playable": false,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "웃으며",
+      "text": "와~ 진짜 황당하네요! 오늘은 바로 이런 상황에서 쓰는 리액션들을 배워볼게요!",
+      "translation": "Wow~ that's so absurd! Today. We'll learn reactions for exactly these kinds of situations!",
+      "lang": "KO",
+      "audio": "RR_004_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "Okay Mina. In English. We say \"What on earth!\" or \"What's going on!\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "But in Korean. I hear the word \"Dae-che\" or \"Do-dae-che\" a lot.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "맞아요. \"도대체\"는 강조할 때 쓰는 마법 같은 단어예요.",
+      "translation": "That's right. 'Do-dae-che' is like a magic word for emphasis.",
+      "lang": "KO",
+      "audio": "RR_004_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "도대체..., 이게 무슨 일이야!",
+      "translation": "What on earth is happening!",
+      "lang": "KO",
+      "audio": "RR_004_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "칭찬하며",
+      "text": "아주 자연스러워요! 그리고 더 짧게 말하고 싶을 땐. \"이게 대체 뭐야~!\" 라고 하면 돼요.",
+      "translation": "Very natural! And if you want it shorter. Say 'I-ge dae-che mwo-ya~!'.",
+      "lang": "KO",
+      "audio": "RR_004_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": {
+        "title": "이게 대체 뭐야",
+        "description": "'What on earth is this'",
+        "usage_tip": "A more emphatic version of '이게 뭐야'."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "생각하며",
+      "text": "So \"Dae-che\" and \"Do-dae-che\" are pretty much the same.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s013.mp3",
+      "playable": false,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "네. 거의 비슷해요. \"도대체\"가 조금 더 강조하는 느낌..., 이랄까요?",
+      "translation": "Yes. They are similar. 'Do-dae-che' feels a bit more emphasized..., I guess?",
+      "lang": "KO",
+      "audio": "RR_004_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "Got it. And what about when something is just... a total mess.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "단호하게",
+      "text": "그럴 땐 인상을 살짝 쓰면서. \"이게 뭐야~!\" 라고 하세요.",
+      "translation": "In that case. Frown a little and say. 'I-ge mwo-ya~!'.",
+      "lang": "KO",
+      "audio": "RR_004_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "Let's practice. Imagine we just walked into our office. And it's filled with balloons. Thousands of them!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "사무실 문을 열며",
+      "text": "어?",
+      "translation": "Huh?",
+      "lang": "KO",
+      "audio": "RR_004_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "입을 벌리며",
+      "text": "이게 다 뭐야~?",
+      "translation": "What are all these~?",
+      "lang": "KO",
+      "audio": "RR_004_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "어안이 벙벙하며",
+      "text": "What on earth! I can't even see my desk!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "황당해하며",
+      "text": "도대체..., \"이게 대체 무슨 일이야!\"",
+      "translation": "What on earth is going on!",
+      "lang": "KO",
+      "audio": "RR_004_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "웃으며",
+      "text": "Is it someone's birthday. Or is this another prank.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "머리를 긁적이며",
+      "text": "글쎄요..., \"도대체\" 누가 이런 걸까요?",
+      "translation": "I don't know..., who on earth would do this?",
+      "lang": "KO",
+      "audio": "RR_004_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "풍선을 터뜨리며",
+      "text": "Look! There's a giant cake under your chair!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "깜짝 놀라며",
+      "text": "진짜요? 와~ \"이게 뭐야~!\" 진짜 대박이다!",
+      "translation": "Really? Wow~ what is this~! This is totally awesome!",
+      "lang": "KO",
+      "audio": "RR_004_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "These reactions really make the conversation more alive.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 놀랐을 때는 숨기지 말고 오늘 배운 표현들을 써보세요!",
+      "translation": "Right. When you are surprised. Don't hide it. Use the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_004_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review the five reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"이게 뭐야~!\"",
+      "translation": "What is this~!",
+      "lang": "EN",
+      "audio": "RR_004_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"이게 대체 뭐야!\"",
+      "translation": "What on earth is this!",
+      "lang": "EN",
+      "audio": "RR_004_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"도대체..., 이게 무슨 일이야!\"",
+      "translation": "What on earth is going on!",
+      "lang": "EN",
+      "audio": "RR_004_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"이게 대체 무슨 일이야!\"",
+      "translation": "What is going on!",
+      "lang": "EN",
+      "audio": "RR_004_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"도대체\"",
+      "translation": "On earth / In the world",
+      "lang": "EN",
+      "audio": "RR_004_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 황당한 일을 겪으면 꼭 외쳐보세요! \"도대체!\"",
+      "translation": "Everyone. If something absurd happens. Make sure to shout! 'Do-dae-che!'",
+      "lang": "KO",
+      "audio": "RR_004_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. We'll see you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_004_s035.mp3",
+      "playable": false,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_004_s036.mp3",
+      "playable": true,
+      "seq": 36,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "도대체",
+      "meaning": "On earth. In the world",
+      "example": "도대체 왜 그랬어요? (Why on earth did you do that?)",
+      "audio": "RR_004_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "무슨 일",
+      "meaning": "What matter. What's going on",
+      "example": "이게 무슨 일이에요? (What is going on?)",
+      "audio": "RR_004_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "이게 뭐야",
+      "meaning": "What is this",
+      "example": "우와. 이게 뭐야? (Wow. What is this?)",
+      "audio": "RR_004_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "황당하다",
+      "meaning": "To be absurd. To be ridiculous",
+      "example": "정말 황당한 상황이네요. (This is a truly absurd situation.)",
+      "audio": "RR_004_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "대체",
+      "meaning": "(Emphasis) On earth",
+      "example": "이게 대체 얼마예요? (How much on earth is this?)",
+      "audio": "RR_004_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "누가",
+      "meaning": "Who",
+      "example": "도대체 누가 그랬어? (Who on earth did that?)",
+      "audio": "RR_004_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

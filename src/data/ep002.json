@@ -2,7 +2,7 @@
   "metadata": {
     "id": "002",
     "title": {
-      "en": "Are you serious? For real? 진짜야? 진심이야?",
+      "en": "Are you serious? For real?",
       "ko": "진짜야? 진심이야?"
     },
     "description": {
@@ -13,9 +13,9 @@
       "en": "5 min 20 sec",
       "ko": "5분 20초"
     },
-    "level": "Beginner",
+    "level": "초급",
     "tags": [
-      "Reaction. Confirmation. Doubt. Daily life."
+      "리액션. 확인. 의심. 일상"
     ],
     "course": "real-reaction"
   },
