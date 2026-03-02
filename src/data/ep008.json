@@ -1,0 +1,528 @@
+{
+  "metadata": {
+    "id": "008",
+    "title": {
+      "en": "Oh, come on! Seriously! 아, 쫌! 아, 정말!",
+      "ko": "아, 쫌! 아, 정말!"
+    },
+    "description": {
+      "en": "When a friend won't stop joking! Learn reactions used in frustrating or annoying situations. Feel the subtle nuance of \"A, jjom!\"",
+      "ko": "친구가 장난을 멈추지 않을 때! 답답하거나 짜증 나는 상황에서 쓰는 리액션들을 배워봅니다. \"아, 쫌!\"의 미묘한 뉘앙스를 느껴보세요."
+    },
+    "duration": {
+      "en": "5 min 5 sec",
+      "ko": "5분 5초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Frustration. Annoyance. Daily Life"
+    ],
+    "course": "real-reaction"
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up world. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 오늘도 즐겁게 시작해 볼까요? 미나입니다.",
+      "translation": "Hello everyone~! Shall we start fun today? I'm Mina.",
+      "lang": "KO",
+      "audio": "RR_008_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "장난기 가득하게",
+      "text": "Mina. Look at me. I can balance this stapler on my nose. Watch!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "한심하다는 듯",
+      "text": "존 씨. 지금 녹음 중이잖아요.",
+      "translation": "John. We are recording right now.",
+      "lang": "KO",
+      "audio": "RR_008_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "계속 장난치며",
+      "text": "Oops. It fell. Let me try again. One..., two...,",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "짜증스럽게",
+      "text": "\"아~ 쫌!\"",
+      "translation": "Oh. Come on!",
+      "lang": "KO",
+      "audio": "RR_008_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "아 쫌",
+        "description": "A very common way to say 'Stop it' or 'Come on'",
+        "usage_tip": "Used when someone is being annoying or persistent. 'Jjom' originally means 'a little'. but here it's an exclamation."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "답답해하며",
+      "text": "\"아..., 정말!\" 존 씨. 공부합시다!",
+      "translation": "Seriously! John. Let's study!",
+      "lang": "KO",
+      "audio": "RR_008_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": {
+        "title": "아 정말",
+        "description": "'Oh. Seriously' or 'Oh. For real'",
+        "usage_tip": "Used to express frustration when things don't go your way."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "Okay. Okay. I'll stop. Today's reactions are perfect for this situation. Right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"아~ 쫌!\" I love how it sounds. It's so short but powerful.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "맞아요. \"아 쫌\"은 상대방이 귀찮게 할 때..., \"그만해\" 라는 뜻으로 제일 많이 써요.",
+      "translation": "Exactly. 'A jjom' is most often used to mean 'Stop it' when someone is bothering you.",
+      "lang": "KO",
+      "audio": "RR_008_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "What about \"아 진짜?\". It sounds a bit stronger.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "맞아요! \"아~ 진짜!\" 는 짜증이 조금 더 섞인 느낌이에요.",
+      "translation": "Right! 'A~ jinjja!' feels like it has a bit more annoyance mixed in.",
+      "lang": "KO",
+      "audio": "RR_008_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"아~ 진짜...,\"",
+      "translation": "Oh. For real...,",
+      "lang": "KO",
+      "audio": "RR_008_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "그리고 왜 그런 행동을 하는지 물어볼 때는 \"왜 그래~!\" 라고 해요.",
+      "translation": "And when you ask why someone is acting that way. Say 'Wae geurae~!'.",
+      "lang": "KO",
+      "audio": "RR_008_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": {
+        "title": "왜 그래",
+        "description": "'Why are you being like this'",
+        "usage_tip": "Can be used as a complaint or a genuine question of concern."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "생각하며",
+      "text": "So it's like \"Why are you doing that.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "네. 맞아요. \"도대체 왜 그래요~!\" 라고 하면 더 강조가 되겠죠?",
+      "translation": "Yes. That's right. If you say 'Do-dae-che wae geurae-yo~!' it adds more emphasis. right?",
+      "lang": "KO",
+      "audio": "RR_008_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "귀찮게 하며",
+      "text": "Mina. Can I have a bite of your sandwich. Just one bite.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "단호하게",
+      "text": "아니요. 아까 제 과자 다 드셨잖아요.",
+      "translation": "No. You ate all my snacks earlier.",
+      "lang": "KO",
+      "audio": "RR_008_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "계속 조르며",
+      "text": "But it looks so good. Just a tiny tiny bite. Please.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "짜증 섞인 목소리로",
+      "text": "\"아~..., 쫌!\"",
+      "translation": "Oh. Come on!",
+      "lang": "KO",
+      "audio": "RR_008_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "장난스럽게",
+      "text": "Just the corner. I promise.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "답답해하며",
+      "text": "\"아..., 정말! 왜 그래요~!\"",
+      "translation": "Seriously! Why are you being like this~!",
+      "lang": "KO",
+      "audio": "RR_008_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "시무룩하게",
+      "text": "I'm just so hungry.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "어이없어하며",
+      "text": "\"아~ 진짜!\" 존 씨. 아까 점심 많이 먹었잖아요!",
+      "translation": "Argh. For real! John. You had a big lunch earlier!",
+      "lang": "KO",
+      "audio": "RR_008_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "크게 웃으며",
+      "text": "Hahaha. I'm just joking. I already had my sandwich.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "허탈하게",
+      "text": "\"아..., 진짜!\" 존 씨 때문에 못 살아요 정말!",
+      "translation": "Oh. For real! I can't live because of you. Seriously!",
+      "lang": "KO",
+      "audio": "RR_008_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": {
+        "title": "못 살아",
+        "description": "'I can't live'",
+        "usage_tip": "A common idiom used when someone is being too much or making you exhausted in a funny or frustrating way."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "These expressions are so fun to use when my friends tease me.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s027.mp3",
+      "playable": false,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 하지만 너무 자주 쓰면 친구가 슬퍼할 수도 있으니까 조심하세요!",
+      "translation": "Exactly. But be careful because your friend might get sad if you use them too often!",
+      "lang": "KO",
+      "audio": "RR_008_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review the five reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"아~ 쫌!\"",
+      "translation": "Oh. Come on!",
+      "lang": "EN",
+      "audio": "RR_008_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"아..., 정말!\"",
+      "translation": "Seriously!",
+      "lang": "EN",
+      "audio": "RR_008_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"왜 그래~!\"",
+      "translation": "Why are you being like this~!",
+      "lang": "EN",
+      "audio": "RR_008_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"아~ 진짜!\"",
+      "translation": "Argh. For real!",
+      "lang": "EN",
+      "audio": "RR_008_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"아..., 진짜 못 살아!\"",
+      "translation": "Oh. I can't live!",
+      "lang": "EN",
+      "audio": "RR_008_s034.mp3",
+      "playable": false,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 누군가 장난을 치면 오늘 배운 표현으로 답해 보세요!",
+      "translation": "Everyone. If someone pranks you. Try responding with the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_008_s035.mp3",
+      "playable": true,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s036.mp3",
+      "playable": false,
+      "seq": 36,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_008_s037.mp3",
+      "playable": true,
+      "seq": 37,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "쫌",
+      "meaning": "(Slang) Come on. Stop it",
+      "example": "아 쫌! 그만 좀 하세요. (Oh come on! Please stop it.)",
+      "audio": "RR_008_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "정말",
+      "meaning": "Seriously. Really",
+      "example": "정말 짜증나요. (It's really annoying.)",
+      "audio": "RR_008_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "왜 그래",
+      "meaning": "Why are you doing that",
+      "example": "갑자기 나한테 왜 그래? (Why are you doing this to me all of a sudden?)",
+      "audio": "RR_008_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "진짜",
+      "meaning": "For real. Truly",
+      "example": "와. 진짜 맛있겠다. (Wow. It looks truly delicious.)",
+      "audio": "RR_008_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "못 살아",
+      "meaning": "(Idiom) Can't live (due to someone's antics)",
+      "example": "아이고. 내가 너 때문에 못 살아. (Goodness. I can't live because of you.)",
+      "audio": "RR_008_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "장난",
+      "meaning": "Prank. Joke",
+      "example": "장난치지 마세요. (Please don't play pranks.)",
+      "audio": "RR_008_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

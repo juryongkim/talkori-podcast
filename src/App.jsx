@@ -18,14 +18,14 @@ function LanguageSelector() {
   );
 }
 
-// ✨ 나가기 버튼 로직 컴포넌트 분리
+// ✨ 나가기 버튼 로직 수정 (강제 이동)
 function ExitButton() {
-  const navigate = useNavigate();
   const handleExit = () => {
-    window.parent.postMessage('closeTalkori', '*'); // 아이프레임 밖으로 메시지 전송
-    if (window.self === window.top) {
-      navigate('/'); // 단독 실행 시 홈으로
-    }
+    // 1. 혹시 모를 모달/아이프레임 닫기 신호는 그대로 유지
+    window.parent.postMessage('closeTalkori', '*'); 
+    
+    // 2. 가장 최상단 부모 창을 강제로 메인 홈페이지로 이동시킴 (직빵 해결!)
+    window.top.location.href = 'https://talkori.com'; 
   };
 
   return (
@@ -138,7 +138,7 @@ function App() {
             </div>
           )}
 
-          <div className="pb-10">
+          <div className="pb-32 mdLpb-10">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/course/:courseId" element={<CourseDetail />} />

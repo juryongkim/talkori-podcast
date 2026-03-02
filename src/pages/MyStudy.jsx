@@ -208,12 +208,12 @@ const formatDate = (dateStr) => {
           
           <div className="bg-white p-6 md:p-8 rounded-3xl shadow-sm border border-gray-200 mb-6 sticky top-4 z-20 transition-all">
             <button onClick={() => setIsFolderMenuOpen(true)} className="lg:hidden absolute right-6 top-6 text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-indigo-100 transition-colors">
-              ☰ 날짜 선택
+              ☰ Select date
             </button>
 
             <div className="flex justify-between items-start mb-2">
               <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-gray-900">
-                {selectedFolder === 'all' ? '전체 북마크' : formatDate(selectedFolder)}
+                {selectedFolder === 'all' ? 'All bookmarks' : formatDate(selectedFolder)}
               </h1>
               
               {/* ✨ PDF 다운로드 버튼 */}
@@ -247,7 +247,7 @@ const formatDate = (dateStr) => {
               className={`md:hidden mt-4 w-full flex justify-center items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold transition-all ${isExporting ? 'bg-gray-100 text-gray-400 cursor-not-allowed' : 'bg-indigo-50 text-indigo-600 hover:bg-indigo-100'}`}
             >
               <span className="text-lg">📥</span> 
-              {isExporting ? 'PDF 생성 중...' : '현재 화면 PDF로 저장하기'}
+              {isExporting ? 'Creating PDF...' : 'Save current screen as PDF'}
             </button>
           </div>
 
