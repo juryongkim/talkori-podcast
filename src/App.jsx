@@ -138,13 +138,19 @@ function App() {
             </div>
           )}
 
-          <div className="pb-32 md:pb-10">
+          <div className="pb-10">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/course/:courseId" element={<CourseDetail />} />
               <Route path="/player/:epId" element={<Player />} />
               <Route path="/my-study" element={<MyStudy />} />
             </Routes>
+
+            {/* ✨ 바코드 멸망 빔: 모바일 하단에 보이지 않는 120px 짜리 벽돌을 끼워 넣어서 스크롤을 강제로 더 늘려버립니다! */}
+            <div className="h-[120px] w-full md:h-10 opacity-0 pointer-events-none text-transparent">
+              여백 공간입니다
+            </div>
+
           </div>
           
         </main>

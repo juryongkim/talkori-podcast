@@ -351,7 +351,21 @@ export default function Player() {
               <h1 className="text-xl font-extrabold tracking-tight text-gray-900 mb-1 line-clamp-2 px-16">
                 {displayTitle}
               </h1>
-              <p className="text-indigo-600 font-medium text-sm mb-6">Real Reaction</p>
+              <div className="flex flex-col items-center gap-3 mb-6">
+  <p className="text-indigo-600 font-medium text-sm">Real Reaction</p>
+  
+  {/* ✨ JSON 데이터에 유튜브 링크가 있을 때만(존재할 때만) 버튼 렌더링! */}
+  {epData.metadata.youtube && (
+    <a 
+      href={epData.metadata.youtube} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1.5 text-xs font-extrabold text-red-600 bg-red-50 hover:bg-red-100 px-4 py-2 rounded-full transition-colors shadow-sm"
+    >
+      <span className="text-base">▶️</span> Watch Video Version
+    </a>
+  )}
+</div>
               
               <div className="flex items-center justify-center gap-8 mb-4">
                 <button className="text-gray-400 hover:text-gray-600 font-bold text-xl">⏪</button>
