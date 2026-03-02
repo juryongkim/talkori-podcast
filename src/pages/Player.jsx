@@ -17,7 +17,7 @@ export default function Player() {
   const [currentIndex, setCurrentIndex] = useState(null);
   const [isPlayingAll, setIsPlayingAllState] = useState(false);
   
-  // ✨ 글로벌 배속 상태 관리 (0.8x, 1.0x, 1.2x, 1.5x)
+  // ✨ 4. 배속 설정 (1.0 -> 0.8 -> 0.6)
   const [playbackRate, setPlaybackRate] = useState(1.0);
   
   const audioRef = useRef(null);
@@ -76,21 +76,30 @@ export default function Player() {
   };
 
   // ==========================================
-  // ✨ 배속 변경 함수 (버튼 누를 때마다 순환)
+  // ✨ 3. 나가기 버튼 함수 (아이프레임 밖으로 메시지 전송)
   // ==========================================
-  const cyclePlaybackRate = () => {
-    const rates = [0.8, 1.0, 1.2, 1.5];
-    const nextIndex = (rates.indexOf(playbackRate) + 1) % rates.length;
-    const newRate = rates[nextIndex];
-    setPlaybackRate(newRate);
-    
-    // 현재 재생 중인 오디오가 있다면 즉시 배속 적용
-    if (audioRef.current) {
-      audioRef.current.playbackRate = newRate;
+  const handleExit = () => {
+    // 부모 창(대표님 본 사이트)으로 메시지를 보냅니다.
+    window.parent.postMessage('closeTalkori', '*');
+    // 만약 아이프레임이 아니라 직접 접속했다면 홈으로 보냅니다.
+    if (window.self === window.top) {
+      navigate('/');
     }
   };
 
   // ==========================================
+  // ✨ 4. 배속 변경 함수 (1.0 -> 0.8 -> 0.6)
+  // ==========================================
+  const cyclePlaybackRate = () => {
+    const rates = [1.0, 0.8, 0.6];
+    const nextIndex = (rates.indexOf(playbackRate) + 1) % rates.length;
+    const newRate = rates[nextIndex];
+    setPlaybackRate(newRate);
+    
+    if (audioRef.current) {
+      audioRef.current.playbackRate = newRate;
+    }
+  };
 
   const setIsPlayingAll = (value) => {
     setIsPlayingAllState(value);
@@ -129,7 +138,7 @@ export default function Player() {
     setCurrentIndex(null);
     setPlayingVocaIndex(null);
     setActiveTab(tab);
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // 탭 이동 시 스크롤 위로
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const playLine = (index) => {
@@ -152,8 +161,17 @@ export default function Player() {
     const audioUrl = `${CDN_BASE_URL}/ep${epId}/${item.audio}`;
     const audio = new Audio(audioUrl);
     
-    // ✨ 오디오 생성 시점에 배속 적용
     audio.playbackRate = playbackRate;
+
+    // ✨ 5. 잠금 화면 백그라운드 재생 제어 (Media Session API)
+    if ('mediaSession' in navigator) {
+      const cleanSpeaker = item.speaker.replace(/\s*\(.*?\)\s*/g, '').trim();
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: item.text, // 잠금 화면에 현재 문장 표시
+        artist: `Talkori EP.${epId} - ${cleanSpeaker}`,
+        album: 'Real Reaction',
+      });
+    }
 
     audio.onended = () => {
       if (autoPlayRef.current) {
@@ -183,8 +201,16 @@ export default function Player() {
     const audioUrl = `${CDN_BASE_URL}/ep${epId}/${item.audio}`;
     const audio = new Audio(audioUrl);
 
-    // ✨ 단어 오디오에도 배속 적용
     audio.playbackRate = playbackRate;
+
+    // ✨ 5. 잠금 화면 제어 (단어장)
+    if ('mediaSession' in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: item.word,
+        artist: item.meaning,
+        album: `Talkori EP.${epId} Vocabulary`,
+      });
+    }
 
     audio.onended = () => setPlayingVocaIndex(null);
     audioRef.current = audio;
@@ -233,23 +259,45 @@ export default function Player() {
 
   const PlaylistContent = () => (
     <div className="flex flex-col h-full bg-white">
-      <div className="p-6 border-b border-gray-100 shrink-0">
-        <div className="flex items-center gap-3 mb-2">
-          <span className="text-3xl">{currentCourse?.icon || '🎙️'}</span>
-          <h2 className="text-lg font-extrabold text-gray-900 leading-tight">
-            {currentCourse?.title[lang] || 'Talkori Course'}
-          </h2>
+      <div className="p-5 border-b border-gray-100 shrink-0 flex justify-between items-start">
+        <div>
+          <div className="flex items-center gap-3 mb-2">
+            <span className="text-3xl">{currentCourse?.icon || '🎙️'}</span>
+            <h2 className="text-lg font-extrabold text-gray-900 leading-tight">
+              {currentCourse?.title[lang] || 'Talkori Course'}
+            </h2>
+          </div>
+          <p className="text-sm font-bold text-gray-400">총 {playlistEps.length}개의 에피소드</p>
         </div>
-        <p className="text-sm font-bold text-gray-400">총 {playlistEps.length}개의 에피소드</p>
+        
+        {/* ✨ 3. 나가기 버튼 (아이프레임 연동용) */}
+        <button onClick={handleExit} className="text-gray-400 hover:text-red-500 bg-gray-50 hover:bg-red-50 p-2 rounded-xl transition-colors" title="학습 종료">
+          ✕ 나가기
+        </button>
       </div>
       
       <div className="flex-1 overflow-y-auto p-4 space-y-1">
-        {playlistEps.map((ep) => {
+        {playlistEps.map((ep, index) => {
           const isCurrent = ep.id === epId;
+          // ✨ 3. 데모 버전 잠금 (3화까지만 무료, 4화부터 잠금)
+          const isLocked = index >= 3; 
+
           return (
-            <div key={ep.id} onClick={() => { if(!isCurrent) navigate(`/player/${ep.id}`); }} className={`flex flex-col p-3 rounded-xl cursor-pointer transition-all ${isCurrent ? 'bg-indigo-50 border border-indigo-100' : 'hover:bg-gray-50 border border-transparent'}`}>
+            <div 
+              key={ep.id} 
+              onClick={() => { 
+                if (isLocked) {
+                  alert("프리미엄 구독 후 이용 가능한 에피소드입니다. 🔒\n(본 사이트에서 결제 후 이용해 주세요!)");
+                  return;
+                }
+                if (!isCurrent) navigate(`/player/${ep.id}`); 
+              }} 
+              className={`flex flex-col p-3 rounded-xl cursor-pointer transition-all ${isCurrent ? 'bg-indigo-50 border border-indigo-100' : isLocked ? 'opacity-50 hover:bg-gray-50' : 'hover:bg-gray-50 border border-transparent'}`}
+            >
               <div className="flex items-center justify-between mb-1">
-                <span className={`text-[10px] font-bold uppercase tracking-widest ${isCurrent ? 'text-indigo-600' : 'text-gray-400'}`}>EPISODE {ep.id}</span>
+                <span className={`text-[10px] font-bold uppercase tracking-widest ${isCurrent ? 'text-indigo-600' : 'text-gray-400'}`}>
+                  EPISODE {ep.id} {isLocked && '🔒'}
+                </span>
                 {isCurrent && <span className="text-[10px] bg-indigo-600 text-white px-1.5 py-0.5 rounded animate-pulse">PLAYING</span>}
               </div>
               <p className={`text-sm font-bold line-clamp-2 leading-snug ${isCurrent ? 'text-indigo-900' : 'text-gray-700'}`}>{ep.title[lang]}</p>
@@ -278,20 +326,17 @@ export default function Player() {
       )}
 
       <main className="flex-1 w-full relative">
-        <div className="max-w-3xl mx-auto md:px-4 py-0 md:py-8 pb-32">
+        {/* ✨ 2. max-w-3xl -> max-w-4xl 로 변경하여 너비 128px 확장 */}
+        <div className="max-w-4xl mx-auto md:px-4 py-0 md:py-8 pb-32">
           
-          {/* ==================================================== */}
-          {/* ✨ 반응형 스티키 플레이어 헤더 (모바일 슬림화 / PC 기존유지) */}
-          {/* ==================================================== */}
           <div className="bg-white pt-2 pb-0 px-2 md:p-6 rounded-b-2xl md:rounded-3xl shadow-sm border-b md:border border-gray-200 mb-4 md:mb-6 sticky top-0 md:top-4 z-20 transition-all">
             
-            {/* 💻 [PC 전용 레이아웃] */}
             <div className="hidden md:block text-center relative">
-              <Link to={`/course/${epData.metadata.course || 'real-reaction'}`} className="text-gray-400 absolute left-2 top-2 hover:text-gray-600 text-sm font-bold">
-                ← List
-              </Link>
+              {/* ✨ PC 상단 좌측에도 나가기 버튼 추가 */}
+              <button onClick={handleExit} className="text-gray-400 absolute left-2 top-2 hover:text-red-500 text-sm font-bold flex items-center gap-1 transition-colors">
+                ✕ 나가기
+              </button>
               
-              {/* PC 전용 배속 버튼 */}
               <button onClick={cyclePlaybackRate} className="absolute right-2 top-1 text-gray-500 bg-gray-100 px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-gray-200 transition-colors">
                 배속: {playbackRate}x
               </button>
@@ -311,14 +356,12 @@ export default function Player() {
               </div>
             </div>
 
-            {/* 📱 [모바일 전용 슬림 레이아웃] */}
             <div className="md:hidden flex flex-col gap-2 pt-1 pb-1">
-              
-              {/* 모바일 1열: 뒤로가기 / 제목 / 목차 버튼 */}
               <div className="flex items-center justify-between w-full">
-                <Link to={`/course/${epData.metadata.course || 'real-reaction'}`} className="text-gray-500 p-2">
+                {/* ✨ 모바일 뒤로가기를 나가기 버튼으로 연결 */}
+                <button onClick={handleExit} className="text-gray-500 p-2">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
-                </Link>
+                </button>
                 
                 <div className="flex-1 flex flex-col items-center mx-2 overflow-hidden">
                   <p className="text-[9px] font-bold text-indigo-500 uppercase tracking-widest">EPISODE {epId}</p>
@@ -332,7 +375,6 @@ export default function Player() {
                 </button>
               </div>
 
-              {/* 모바일 2열: 배속 조절 / 재생 컨트롤 */}
               <div className="flex items-center justify-between px-3 mt-1">
                 <button onClick={cyclePlaybackRate} className="text-[11px] font-bold text-gray-600 bg-gray-100 px-2 py-1.5 rounded-md w-12 text-center shadow-sm">
                   {playbackRate}x
@@ -346,11 +388,10 @@ export default function Player() {
                   <button className="text-gray-400 text-sm">⏩</button>
                 </div>
                 
-                <div className="w-12"></div> {/* 우측 밸런스 여백 */}
+                <div className="w-12"></div>
               </div>
             </div>
 
-            {/* --- 공통 탭 (PC/모바일 동일) --- */}
             <div className="flex border-t border-gray-100 pt-3 mt-2 md:mt-2 md:pt-4 mx-2 md:mx-0">
               <button onClick={() => handleTabChange('script')} className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'script' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
                 📝 대본 (Script)
@@ -360,9 +401,7 @@ export default function Player() {
               </button>
             </div>
           </div>
-          {/* ==================================================== */}
 
-          {/* 콘텐츠 영역 (스크립트 & 단어장) */}
           <div className="bg-white md:rounded-3xl shadow-sm border-y md:border border-gray-200 p-4 md:p-8 pb-32">
             <h2 className="hidden md:block text-sm font-bold text-gray-400 uppercase tracking-widest mb-6 border-b border-gray-100 pb-2">
               {activeTab === 'script' ? 'Interactive Script' : 'Vocabulary List'}
@@ -372,15 +411,20 @@ export default function Player() {
               <div className="space-y-6">
                 {epData.content.map((item, index) => {
                   if (item.type === 'FX') return null;
-                  const isMina = item.speaker.toUpperCase().includes('MINA');
+                  
+                  // ✨ 1. 괄호 안의 지시문 완벽 삭제 로직 추가
+                  const cleanSpeakerName = item.speaker.replace(/\s*\(.*?\)\s*/g, '').trim();
+                  
+                  const isMina = cleanSpeakerName.toUpperCase().includes('MINA');
                   const isPlaying = currentIndex === index; 
                   const isSaved = savedScript.some(s => s.text === item.text);
 
                   return (
                     <div key={index} ref={(el) => (lineRefs.current[index] = el)} className={`relative flex flex-col items-start gap-1 p-2 -mx-2 rounded-xl transition-all duration-300 ${isPlaying ? 'bg-indigo-50/50 border-l-4 border-indigo-400 pl-4' : 'border-l-4 border-transparent pl-4 hover:bg-gray-50/50'}`}>
                       <div className="flex justify-between items-center w-full">
+                        {/* ✨ 1. {item.emotion} 렌더링 삭제 및 깔끔해진 이름 적용 */}
                         <span className={`text-xs font-bold uppercase ${isMina ? 'text-indigo-500' : 'text-gray-400'}`}>
-                          {item.speaker} {item.emotion && <span className="font-normal opacity-70">({item.emotion})</span>}
+                          {cleanSpeakerName} 
                         </span>
                         {item.playable && (
                           <button onClick={(e) => toggleScriptBookmark(item, e)} className={`text-xl transition-transform hover:scale-110 ${isSaved ? 'text-yellow-400' : 'text-gray-300 hover:text-yellow-400'}`}>
