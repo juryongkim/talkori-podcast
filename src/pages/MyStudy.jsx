@@ -155,7 +155,7 @@ const formatDate = (dateStr) => {
           <span className="text-3xl">📅</span>
           <h2 className="text-lg font-extrabold text-gray-900 leading-tight">View by learning date</h2>
         </div>
-        <p className="text-sm font-bold text-gray-400"> {savedVoca.length + savedScript.length}bookmarks</p>
+        <p className="text-sm font-bold text-gray-400"> {savedVoca.length + savedScript.length} bookmarks</p>
       </div>
       
       <div className="flex-1 overflow-y-auto p-4 space-y-2">

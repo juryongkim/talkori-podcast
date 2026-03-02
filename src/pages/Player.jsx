@@ -267,7 +267,7 @@ export default function Player() {
               {currentCourse?.title[lang] || 'Talkori Course'}
             </h2>
           </div>
-          <p className="text-sm font-bold text-gray-400">{playlistEps.length}Episodes</p>
+          <p className="text-sm font-bold text-gray-400">{playlistEps.length} Episodes</p>
         </div>
         
         {/* ✨ 3. 나가기 버튼 (아이프레임 연동용) */}
