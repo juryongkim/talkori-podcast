@@ -34,7 +34,7 @@ function ExitButton() {
       className="text-gray-400 hover:text-red-500 bg-gray-50 hover:bg-red-50 px-3 py-1.5 rounded-xl transition-colors text-sm font-bold flex items-center gap-1"
       title="학습 종료"
     >
-      ✕ 나가기
+      ✕ EXIT
     </button>
   );
 }

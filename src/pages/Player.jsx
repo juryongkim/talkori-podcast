@@ -249,8 +249,8 @@ export default function Player() {
   if (!epData) {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen w-full bg-gray-50">
-        <p className="text-xl font-bold text-gray-700 mb-4">앗! 에피소드를 찾을 수 없어요. 😢</p>
-        <Link to="/course/real-reaction" className="text-indigo-600 hover:underline">목록으로 돌아가기</Link>
+        <p className="text-xl font-bold text-gray-700 mb-4">Oops! I can't find the episode. 😢</p>
+        <Link to="/course/real-reaction" className="text-indigo-600 hover:underline">Back to list</Link>
       </div>
     );
   }
@@ -267,12 +267,12 @@ export default function Player() {
               {currentCourse?.title[lang] || 'Talkori Course'}
             </h2>
           </div>
-          <p className="text-sm font-bold text-gray-400">총 {playlistEps.length}개의 에피소드</p>
+          <p className="text-sm font-bold text-gray-400">{playlistEps.length}Episodes</p>
         </div>
         
         {/* ✨ 3. 나가기 버튼 (아이프레임 연동용) */}
         <button onClick={handleExit} className="text-gray-400 hover:text-red-500 bg-gray-50 hover:bg-red-50 p-2 rounded-xl transition-colors" title="학습 종료">
-          ✕ 나가기
+          ✕ EXIT
         </button>
       </div>
       
@@ -334,11 +334,11 @@ export default function Player() {
             <div className="hidden md:block text-center relative">
               {/* ✨ PC 상단 좌측에도 나가기 버튼 추가 */}
               <button onClick={handleExit} className="text-gray-400 absolute left-2 top-2 hover:text-red-500 text-sm font-bold flex items-center gap-1 transition-colors">
-                ✕ 나가기
+                ✕ EXIT
               </button>
               
               <button onClick={cyclePlaybackRate} className="absolute right-2 top-1 text-gray-500 bg-gray-100 px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-gray-200 transition-colors">
-                배속: {playbackRate}x
+                Speed: {playbackRate}x
               </button>
 
               <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">EPISODE {epId}</p>

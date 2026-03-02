@@ -23,8 +23,8 @@ export default function CourseDetail() {
   if (!course) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[80vh]">
-        <p className="text-xl font-bold text-gray-700">앗! 코스를 찾을 수 없어요. 😢</p>
-        <Link to="/" className="text-indigo-600 mt-4 hover:underline">홈으로 돌아가기</Link>
+        <p className="text-xl font-bold text-gray-700">Oops! I can't find the course. 😢</p>
+        <Link to="/" className="text-indigo-600 mt-4 hover:underline">Return to Home</Link>
       </div>
     );
   }
