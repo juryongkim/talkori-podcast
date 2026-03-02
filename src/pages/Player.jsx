@@ -1,11 +1,13 @@
 import { useState, useRef, useEffect } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import courses from '../data/courses.json'; 
 
 export default function Player() {
   const { epId } = useParams();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams(); 
+  const isDemoMode = searchParams.get('mode') === 'demo';
   const { i18n } = useTranslation();
   const lang = i18n.language === 'ko' ? 'ko' : 'en'; 
   
@@ -283,7 +285,7 @@ export default function Player() {
         {playlistEps.map((ep, index) => {
           const isCurrent = ep.id === epId;
           // ✨ 3. 데모 버전 잠금 (3화까지만 무료, 4화부터 잠금)
-          const isLocked = index >= 3; 
+          const isLocked = isDemoMode && index >= 3; 
 
           return (
             <div 
