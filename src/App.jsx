@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Home from './pages/Home';
 import CourseDetail from './pages/CourseDetail';
 import Player from './pages/Player';
-import MyStudy from './pages/MyStudy'; // ✨ 1. 내 학습장 컴포넌트 불러오기!
+import MyStudy from './pages/MyStudy'; 
 
 // 🌐 언어 선택기
 function LanguageSelector() {
@@ -18,11 +18,32 @@ function LanguageSelector() {
   );
 }
 
+// ✨ 나가기 버튼 로직 컴포넌트 분리
+function ExitButton() {
+  const navigate = useNavigate();
+  const handleExit = () => {
+    window.parent.postMessage('closeTalkori', '*'); // 아이프레임 밖으로 메시지 전송
+    if (window.self === window.top) {
+      navigate('/'); // 단독 실행 시 홈으로
+    }
+  };
+
+  return (
+    <button 
+      onClick={handleExit} 
+      className="text-gray-400 hover:text-red-500 bg-gray-50 hover:bg-red-50 px-3 py-1.5 rounded-xl transition-colors text-sm font-bold flex items-center gap-1"
+      title="학습 종료"
+    >
+      ✕ 나가기
+    </button>
+  );
+}
+
 // 💻 PC용 사이드바
 function Sidebar() {
   const location = useLocation();
   const isHome = location.pathname === '/';
-  const isMyStudy = location.pathname === '/my-study'; // ✨ 현재 내 학습장인지 확인
+  const isMyStudy = location.pathname === '/my-study'; 
   const { t } = useTranslation(); 
   
   return (
@@ -37,16 +58,19 @@ function Sidebar() {
           <Link to="/" className={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors font-semibold ${isHome ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
             <span className="text-xl">🏠</span> {t('menu.explore')}
           </Link>
-          
-          {/* ✨ 2. 내 학습장 메뉴 연결 및 활성화 처리 */}
           <Link to="/my-study" className={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors font-semibold ${isMyStudy ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
             <span className="text-xl">📚</span> My Study
           </Link>
         </div>
       </div>
-      <div className="mt-auto border-t border-gray-200 pt-5">
-        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block pl-2">{t('common.language')}</label>
-        <LanguageSelector />
+      
+      {/* ✨ 하단 컨트롤 영역 (언어 선택 & 나가기 버튼 나란히 배치) */}
+      <div className="mt-auto border-t border-gray-200 pt-5 flex items-end justify-between">
+        <div>
+          <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block pl-2">{t('common.language')}</label>
+          <LanguageSelector />
+        </div>
+        <ExitButton />
       </div>
     </aside>
   );
@@ -66,7 +90,6 @@ function App() {
 
         <main className="flex-1 w-full relative">
           
-          {/* 📱 모바일 상단 헤더 (햄버거 메뉴 포함) */}
           <header className="md:hidden flex items-center justify-between px-5 py-3 border-b border-gray-100 sticky top-0 bg-white/90 backdrop-blur-xl z-40">
             <div className="flex items-center gap-3">
               <button onClick={toggleMenu} className="text-2xl text-gray-700 focus:outline-none">
@@ -79,30 +102,32 @@ function App() {
             <LanguageSelector />
           </header>
 
-          {/* 📱 모바일 슬라이드 메뉴 */}
           {isMobileMenuOpen && (
-            <div className="md:hidden fixed inset-0 z-30 bg-black/20 backdrop-blur-sm" onClick={closeMenu}>
-              <div className="absolute top-14 left-0 w-64 h-full bg-white shadow-2xl p-6 flex flex-col" onClick={e => e.stopPropagation()}>
+            <div className="md:hidden fixed inset-0 z-30 flex">
+              <div className="absolute inset-0 bg-black/20 backdrop-blur-sm" onClick={closeMenu}></div>
+              <div className="absolute top-14 left-0 w-64 h-full bg-white shadow-2xl p-6 flex flex-col justify-between" onClick={e => e.stopPropagation()}>
                 <div className="space-y-2 mt-4">
                   <Link to="/" onClick={closeMenu} className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-indigo-50 text-gray-900 font-bold text-lg">
                     <span>🏠</span> {t('menu.explore')}
                   </Link>
-                  {/* ✨ 3. 모바일 메뉴에도 My Study 연결 */}
                   <Link to="/my-study" onClick={closeMenu} className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-indigo-50 text-gray-900 font-bold text-lg">
                     <span>📚</span> My Study
                   </Link>
+                </div>
+                
+                {/* ✨ 모바일 메뉴 하단에도 나가기 버튼 배치 */}
+                <div className="mb-20 pt-5 border-t border-gray-100 flex justify-center">
+                  <ExitButton />
                 </div>
               </div>
             </div>
           )}
 
-          {/* 메인 라우팅 영역 */}
           <div className="pb-10">
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/course/:courseId" element={<CourseDetail />} />
               <Route path="/player/:epId" element={<Player />} />
-              {/* ✨ 4. My Study 페이지 라우트 등록! */}
               <Route path="/my-study" element={<MyStudy />} />
             </Routes>
           </div>
