@@ -196,6 +196,186 @@
           "Reaction. Relief. Happiness. Daily Life"
         ],
         "dataFile": "ep009.json"
+      },
+      {
+        "id": "010",
+        "title": {
+          "en": "For crying out loud! Seriously! 아이참! 정말 왜 이래!",
+          "ko": "아이참! 정말 왜 이래!"
+        },
+        "description": {
+          "en": "When someone is being frustrating or absurd! Express your feelings honestly with \"Ai-cham\" and \"Jeong-mal wae i-rae\".",
+          "ko": "상대방의 행동이 너무 답답하거나 어이가 없을 때! \"아이참\"과 \"정말 왜 이래\"로 내 마음을 솔직하게 표현해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 25 sec",
+          "ko": "5분 25초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Frustration. Exasperation. Daily Life"
+        ],
+        "dataFile": "ep010.json"
+      },
+      {
+        "id": "011",
+        "title": {
+          "en": "This is ridiculous! Unbelievable! 정말 황당하네! 어이가 없네!",
+          "ko": "정말 황당하네! 어이가 없네!"
+        },
+        "description": {
+          "en": "When something is completely absurd and ridiculous! Learn strong negative reactions like \"Eo-i-ga eop-ne\" and \"Jang-nan-hae?\".",
+          "ko": "너무 어처구니없고 황당한 일을 겪었을 때! \"어이가 없네\"와 \"장난해?\" 등 강한 부정의 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 20 sec",
+          "ko": "5분 20초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Absurdity. Annoyance. Disbelief"
+        ],
+        "dataFile": "ep011.json"
+      },
+      {
+        "id": "012",
+        "title": {
+          "en": "This is driving me crazy! I'm losing my mind! 미치겠네! 정말 돌아버리겠어!",
+          "ko": "미치겠네! 정말 돌아버리겠어!"
+        },
+        "description": {
+          "en": "When things don't go your way! Learn real reactions to express that you're \"going crazy\" with frustration.",
+          "ko": "일이 마음대로 안 풀릴 때! 너무 답답해서 \"미칠 것 같은\" 심정을 표현하는 리얼한 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Frustration. Stress. Daily Life"
+        ],
+        "dataFile": "ep012.json"
+      },
+      {
+        "id": "013",
+        "title": {
+          "en": "I've had it up to here! 더 이상 못 참겠어! 참을 만큼 참았다!",
+          "ko": "더 이상 못 참겠어! 참을 만큼 참았다!"
+        },
+        "description": {
+          "en": "When you reach your breaking point! Express your frustration with \"Deo i-sang mot cham-get-da\" and \"Cham-eul man-keum cham-at-da\".",
+          "ko": "인내심의 한계에 다다랐을 때! \"더 이상 못 참겠다\"와 \"참을 만큼 참았다\"로 폭발하는 감정을 시원하게 표현해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 15 sec",
+          "ko": "5분 15초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Anger. Frustration. Limit. Daily Life"
+        ],
+        "dataFile": "ep013.json"
+      },
+      {
+        "id": "014",
+        "title": {
+          "en": "Are you kidding me? 지금 장난해? 농담이지?",
+          "ko": "지금 장난해? 농담이지?"
+        },
+        "description": {
+          "en": "When you can't believe what someone is saying! Learn how to express disbelief using \"Jang-nan-hae?\" and \"Nong-dam-i-ji?\".",
+          "ko": "상대방의 말이 도저히 믿기지 않을 때! \"장난해?\"와 \"농담이지?\"를 사용해 황당함을 표현하는 방법을 배웁니다."
+        },
+        "duration": {
+          "en": "4 min 45 sec",
+          "ko": "4분 50초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Disbelief. Joking. Daily Life"
+        ],
+        "dataFile": "ep014.json"
+      },
+      {
+        "id": "015",
+        "title": {
+          "en": "Right on! That's it! 맞아! 바로 그거야!",
+          "ko": "맞아! 바로 그거야!"
+        },
+        "description": {
+          "en": "When you totally agree with someone or they got something right! Practice responding with \"Maja\" and \"Baro geugeoya\".",
+          "ko": "상대방의 말에 전적으로 동의하거나. 무언가 정답을 맞혔을 때! \"맞아\"와 \"바로 그거야\"를 써서 시원하게 호응해 봅니다."
+        },
+        "duration": {
+          "en": "4 min 55 sec",
+          "ko": "4분 55초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Agreement. Success. Daily Life"
+        ],
+        "dataFile": "ep015.json"
+      },
+      {
+        "id": "016",
+        "title": {
+          "en": "You bet! Of course! 그럼요! 당연하죠!",
+          "ko": "그럼요! 당연하죠!"
+        },
+        "description": {
+          "en": "When you readily accept a request or express strong affirmation! Learn the natural uses of \"Geureom-yo\" and \"Dang-yeon-ha-jo\".",
+          "ko": "상대방의 부탁을 흔쾌히 들어주거나 강한 긍정을 표현할 때! \"그럼요\"와 \"당연하죠\"의 자연스러운 쓰임새를 알아봅니다."
+        },
+        "duration": {
+          "en": "5 min 5 sec",
+          "ko": "5분 5초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Affirmation. Politeness. Daily Life"
+        ],
+        "dataFile": "ep016.json"
+      },
+      {
+        "id": "017",
+        "title": {
+          "en": "I couldn't agree more! I totally agree! 완전히 동감이에요! 전적으로 동의해요!",
+          "ko": "완전히 동감이에요! 전적으로 동의해요!"
+        },
+        "description": {
+          "en": "When someone's opinion perfectly matches yours! Learn how to express strong agreement using \"Dong-gam\" and \"Dong-ui\".",
+          "ko": "상대방의 의견이 내 생각과 완벽하게 일치할 때! \"동감\"과 \"동의\"를 사용해 격한 공감을 표현하는 법을 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Agreement. Empathy. Opinion. Daily Life"
+        ],
+        "dataFile": "ep017.json"
+      },
+      {
+        "id": "018",
+        "title": {
+          "en": "Exactly! That's it! 정확해! 바로 그거야!",
+          "ko": "정확해! 바로 그거야!"
+        },
+        "description": {
+          "en": "When someone pinpoints your thoughts or the answer perfectly! Learn \"Jeong-hwak-hae\" and \"Baro geugeoya\" through natural reactions.",
+          "ko": "상대방이 내 마음이나 정답을 족집게처럼 딱 맞혔을 때! 기분 좋게 외치는 \"정확해\"와 \"바로 그거야\"를 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 0 sec",
+          "ko": "5분 0초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Accuracy. Agreement. Daily Life"
+        ],
+        "dataFile": "ep018.json"
       }
     ]
   },

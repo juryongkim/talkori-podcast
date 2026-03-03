@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "id": "015",
+    "title": {
+      "en": "Right on! That's it! 맞아! 바로 그거야!",
+      "ko": "맞아! 바로 그거야!"
+    },
+    "description": {
+      "en": "When you totally agree with someone or they got something right! Practice responding with \"Maja\" and \"Baro geugeoya\".",
+      "ko": "상대방의 말에 전적으로 동의하거나. 무언가 정답을 맞혔을 때! \"맞아\"와 \"바로 그거야\"를 써서 시원하게 호응해 봅니다."
+    },
+    "duration": {
+      "en": "4 min 55 sec",
+      "ko": "4분 55초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Agreement. Success. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up world. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 오늘도 여러분의 한국어 실력을 쑥쑥 키워드릴 미나입니다.",
+      "translation": "Hello everyone~! I'm Mina. here to boost your Korean skills again today.",
+      "lang": "KO",
+      "audio": "RR_015_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "자신감 있게",
+      "text": "Mina. I've been practicing that difficult Korean tongue twister. Listen! \"Ganjang-gongjang gongjangjang-eun...,\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "기대하며",
+      "text": "오~ 간장공장 공장장은..., 과연?",
+      "translation": "Oh~ 'The factory manager of the soy sauce factory...,' let's see?",
+      "lang": "KO",
+      "audio": "RR_015_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "완벽하게 성공하며",
+      "text": "강공장장이고!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "박수를 치며",
+      "text": "와~! 맞아~! 바로 그거예요!",
+      "translation": "Wow~! 'Right~!' That's exactly it!",
+      "lang": "KO",
+      "audio": "RR_015_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "맞아",
+        "description": "'Right' or 'Correct'",
+        "usage_tip": "The most common way to agree with someone."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "엄지를 치켜세우며",
+      "text": "\"좋았어~!\" 존 씨. 드디어 성공했네요!",
+      "translation": "Nice~! John. You finally did it!",
+      "lang": "KO",
+      "audio": "RR_015_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": {
+        "title": "좋았어",
+        "description": "'Nice' or 'Good job'",
+        "usage_tip": "Used to celebrate a success or a good move."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "\"Right on!\" I knew I could do it.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"맞아\" is a classic. but \"바로 그거야\" feels a bit more intense.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "맞아요! \"바로 그거야\"는 내가 하고 싶었던 말을 상대방이 딱 했을 때 써요.",
+      "translation": "Right! 'Baro geugeoya' is used when someone says exactly what you wanted to say.",
+      "lang": "KO",
+      "audio": "RR_015_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"바로..., 그거야!\"",
+      "translation": "That's exactly it!",
+      "lang": "KO",
+      "audio": "RR_015_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "그리고 조금 더 쿨하게 말하고 싶을 땐. \"그거지~!\" 라고 해보세요.",
+      "translation": "And if you want to say it more coolly. try 'Geugeoji~!'.",
+      "lang": "KO",
+      "audio": "RR_015_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": {
+        "title": "그거지",
+        "description": "'That's it' or 'That's what I'm talking about'",
+        "usage_tip": "A trendy way to show strong agreement or satisfaction."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"그거지...,\"",
+      "translation": "That's what I'm talking about...,",
+      "lang": "KO",
+      "audio": "RR_015_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Is \"좋았어\" like saying \"Okay.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "음..., \"좋았어\"는 무언가 결정됐을 때나 잘 됐을 때. \"Great!\" 또는 \"Good!\" 이라는 느낌에 더 가까워요.",
+      "translation": "Hmm..., 'Jo-at-seo' is closer to 'Great!' or 'Good!' when something is decided or goes well.",
+      "lang": "KO",
+      "audio": "RR_015_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Imagine we are trying to decide what to eat for dinner. and I suggest spicy rice cakes.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s016.mp3",
+      "playable": false,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "고민하며",
+      "text": "음..., 떡볶이는 어제 먹었잖아요. 다른 거 없어요?",
+      "translation": "Hmm..., we had Tteokbokki yesterday. Anything else?",
+      "lang": "KO",
+      "audio": "RR_015_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "번뜩이는 아이디어",
+      "text": "How about..., Korean fried chicken. with a cold soda.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s018.mp3",
+      "playable": false,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "눈이 번쩍 뜨이며",
+      "text": "와 그거지~! 역시 존 씨는 천재예요!",
+      "translation": "Wow~ 'that's it~!' John. you are a genius!",
+      "lang": "KO",
+      "audio": "RR_015_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "신나서",
+      "text": "\"Right on!\" 치킨에 콜라..., \"바로 그거야!\"",
+      "translation": "Chicken and cola..., 'that's exactly it!'",
+      "lang": "KO",
+      "audio": "RR_015_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기뻐하며",
+      "text": "\"좋았어~!\" 지금 당장 주문할게요!",
+      "translation": "Nice~! I'll order it right now!",
+      "lang": "KO",
+      "audio": "RR_015_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "I'm so glad we agreed. \"맞아 맞아!\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "피식 웃으며",
+      "text": "먹는 거 결정할 때가 제일 행복해 보여요.",
+      "translation": "You look happiest when deciding what to eat.",
+      "lang": "KO",
+      "audio": "RR_015_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "These reactions are so positive and energetic. I love them.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 누군가와 의견이 통했을 때 오늘 배운 표현들을 꼭 써보세요!",
+      "translation": "Right. When you agree with someone. make sure to use the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_015_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review the five \"right on\" reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"맞아~!\"",
+      "translation": "Right!",
+      "lang": "EN",
+      "audio": "RR_015_s027.mp3",
+      "playable": false,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"바로 그거야!\"",
+      "translation": "That's exactly it!",
+      "lang": "EN",
+      "audio": "RR_015_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"그거지!\"",
+      "translation": "That's what I'm talking about!",
+      "lang": "EN",
+      "audio": "RR_015_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"좋았어~!\"",
+      "translation": "Nice! / Good!",
+      "lang": "EN",
+      "audio": "RR_015_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"정답이야!\"",
+      "translation": "You got it! / That's the answer!",
+      "lang": "EN",
+      "audio": "RR_015_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": {
+        "title": "정답이야",
+        "description": "'That's the correct answer'",
+        "usage_tip": "Used when someone is 100% correct about a fact or a guess."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 오늘 \"좋았어!\" 라고 외칠 만한 즐거운 일들이 많길 바랄게요!",
+      "translation": "I hope you all have many joyful things today that make you shout 'Jo-at-seo!'.",
+      "lang": "KO",
+      "audio": "RR_015_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_015_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "맞아",
+      "meaning": "Right. Correct",
+      "example": "맞아. 그 말이 사실이야. (Right. that's true.)",
+      "audio": "RR_015_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "그거지",
+      "meaning": "That's it. That's what I'm talking about",
+      "example": "우와. 그거지! 정말 멋져요. (Wow. that's it! It's so cool.)",
+      "audio": "RR_015_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "바로",
+      "meaning": "Exactly. Right",
+      "example": "바로 여기가 제가 찾던 곳이에요. (Right here is the place I was looking for.)",
+      "audio": "RR_015_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "좋았어",
+      "meaning": "Good. Nice",
+      "example": "좋았어. 이제 시작해 봅시다! (Good. now let's get started!)",
+      "audio": "RR_015_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "정답",
+      "meaning": "Correct answer",
+      "example": "정답을 맞혀서 선물을 받았어요. (I got a gift for getting the right answer.)",
+      "audio": "RR_015_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "성공",
+      "meaning": "Success",
+      "example": "드디어 실험에 성공했어요. (I finally succeeded in the experiment.)",
+      "audio": "RR_015_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

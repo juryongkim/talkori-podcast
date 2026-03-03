@@ -1,0 +1,510 @@
+{
+  "metadata": {
+    "id": "016",
+    "title": {
+      "en": "You bet! Of course! 그럼요! 당연하죠!",
+      "ko": "그럼요! 당연하죠!"
+    },
+    "description": {
+      "en": "When you readily accept a request or express strong affirmation! Learn the natural uses of \"Geureom-yo\" and \"Dang-yeon-ha-jo\".",
+      "ko": "상대방의 부탁을 흔쾌히 들어주거나 강한 긍정을 표현할 때! \"그럼요\"와 \"당연하죠\"의 자연스러운 쓰임새를 알아봅니다."
+    },
+    "duration": {
+      "en": "5 min 5 sec",
+      "ko": "5분 5초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Affirmation. Politeness. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up world. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 오늘도 여러분과 함께해서 행복한 미나입니다.",
+      "translation": "Hello everyone~! I'm Mina. happy to be with you again today.",
+      "lang": "KO",
+      "audio": "RR_016_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "조심스럽게",
+      "text": "Mina. I'm going to a party tonight. and I want to look my best. Could you help me pick a tie.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "기쁘게",
+      "text": "오 그럼요~! 제가 옷 고르는 건 전문이라구요!",
+      "translation": "Oh~ 'Of course~!' I'm an expert at picking out clothes!",
+      "lang": "KO",
+      "audio": "RR_016_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": {
+        "title": "그럼요",
+        "description": "'Of course' or 'You bet'",
+        "usage_tip": "A polite way to show agreement or willingness to help."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "고마워하며",
+      "text": "Really. You're the best!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "\"당연하죠~!\" 존 씨는 제 단짝 친구잖아요!",
+      "translation": "Naturally~! John. you're my best friend!",
+      "lang": "KO",
+      "audio": "RR_016_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "당연하죠",
+        "description": "'Naturally' or 'Of course'",
+        "usage_tip": "Used when something is obvious or a matter of course."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "\"You bet!\" I knew I could count on you.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"그럼요\" and \"당연하죠\". They both sound so positive.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "맞아요! \"그럼요\"는 상대방의 말에 기분 좋게 동의할 때 정말 많이 써요.",
+      "translation": "Exactly! 'Geureom-yo' is used a lot when you happily agree with someone.",
+      "lang": "KO",
+      "audio": "RR_016_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"그럼요...,\"",
+      "translation": "You bet...,",
+      "lang": "KO",
+      "audio": "RR_016_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "조금 더 확실하게 긍정하고 싶을 땐. \"당연하죠\" 라고 해보세요.",
+      "translation": "If you want to be even more certain. try 'Dang-yeon-ha-jo'.",
+      "lang": "KO",
+      "audio": "RR_016_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"당연하죠~!\"",
+      "translation": "Of course~!",
+      "lang": "KO",
+      "audio": "RR_016_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Is there a formal way to say \"Of course\" in a business setting.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s013.mp3",
+      "playable": false,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "그럴 땐. \"물론이죠\" 라고 하면 아주 완벽합니다!",
+      "translation": "In that case. saying 'Mul-ron-i-jo' is perfect!",
+      "lang": "KO",
+      "audio": "RR_016_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": {
+        "title": "물론이죠",
+        "description": "'Of course' or 'Certainly'",
+        "usage_tip": "A polite and professional-sounding affirmation."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"물론이죠...,\"",
+      "translation": "Certainly...,",
+      "lang": "KO",
+      "audio": "RR_016_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Imagine we are at a Korean restaurant. and the side dishes are so delicious. I want to ask for more Kimchi.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s016.mp3",
+      "playable": false,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "식당 이모님 역할로",
+      "text": "\"학생~ 김치 더 줄까요~?\"",
+      "translation": "Student~ shall I give you more Kimchi~?",
+      "lang": "KO",
+      "audio": "RR_016_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "신나서",
+      "text": "\"그럼요~!\" 여기 김치 진짜 맛있어요!",
+      "translation": "You bet~! The Kimchi here is really delicious!",
+      "lang": "KO",
+      "audio": "RR_016_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "흐뭇하게 웃으며",
+      "text": "아이고 잘 먹네~! 우리 식당 단골 될 거죠?",
+      "translation": "Oh. you eat so well~! You'll be a regular at our restaurant. won't you?",
+      "lang": "KO",
+      "audio": "RR_016_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "자신 있게",
+      "text": "\"당연하죠~!\" 내일도 올 거예요!",
+      "translation": "Of course~! I'll come tomorrow too!",
+      "lang": "KO",
+      "audio": "RR_016_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "서비스를 주며",
+      "text": "좋았어~! 그럼 이건 서비스예요!",
+      "translation": "Nice~! Then this is on the house!",
+      "lang": "KO",
+      "audio": "RR_016_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "감동하며",
+      "text": "감사합니다 이모님!",
+      "translation": "Wow~ 'Certainly!' Thank you. ma'am!",
+      "lang": "KO",
+      "audio": "RR_016_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "\"You bet!\" I love Korean hospitality.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "피식 웃으며",
+      "text": "존 씨는 김치만 있으면 어디든 갈 수 있을 것 같아요.",
+      "translation": "It seems like John can go anywhere as long as there is Kimchi.",
+      "lang": "KO",
+      "audio": "RR_016_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "These reactions make me feel so much more confident.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 누군가의 부탁에..., \"그럼요!\"..., 라고 답하면 대화가 훨씬 부드러워져요!",
+      "translation": "Right. Answering 'Geureom-yo!' to someone's request makes the conversation much smoother!",
+      "lang": "KO",
+      "audio": "RR_016_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"you bet\" reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s027.mp3",
+      "playable": false,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"그럼요~!\"",
+      "translation": "You bet!",
+      "lang": "EN",
+      "audio": "RR_016_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"당연하죠!\"",
+      "translation": "Of course!",
+      "lang": "EN",
+      "audio": "RR_016_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"물론이죠~!\"",
+      "translation": "Certainly!",
+      "lang": "EN",
+      "audio": "RR_016_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"기꺼이요!\"",
+      "translation": "Gladly!",
+      "lang": "EN",
+      "audio": "RR_016_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": {
+        "title": "기꺼이요",
+        "description": "'Gladly' or 'With pleasure'",
+        "usage_tip": "A very polite way to show you are happy to do a favor."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"두말하면 잔소리죠!\"",
+      "translation": "Of course! / It goes without saying!",
+      "lang": "EN",
+      "audio": "RR_016_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": {
+        "title": "두말하면 잔소리죠",
+        "description": "An idiom meaning 'No need to ask twice'",
+        "usage_tip": "Used when something is so obvious that talking about it further is just nagging."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 누군가 도움을 청하면 시원하게 외쳐보세요.",
+      "translation": "Everyone. if someone asks for help. shout out coolly. 'Geureom-yo!'",
+      "lang": "KO",
+      "audio": "RR_016_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. We'll be back with another helpful episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s034.mp3",
+      "playable": false,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_016_s035.mp3",
+      "playable": true,
+      "seq": 35,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "그럼요",
+      "meaning": "You bet. Of course",
+      "example": "그럼요. 제가 도와드릴게요. (Of course. I'll help you.)",
+      "audio": "RR_016_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "당연하다",
+      "meaning": "To be natural. To be obvious",
+      "example": "그건 당연한 결과예요. (That is a natural result.)",
+      "audio": "RR_016_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "물론",
+      "meaning": "Of course. Certainly",
+      "example": "물론이죠. 걱정 마세요. (Certainly. don't worry.)",
+      "audio": "RR_016_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "기꺼이",
+      "meaning": "Gladly. Willingly",
+      "example": "기꺼이 수락하겠습니다. (I will gladly accept it.)",
+      "audio": "RR_016_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "단골",
+      "meaning": "Regular customer",
+      "example": "저는 이 카페 단골이에요. (I'm a regular at this cafe.)",
+      "audio": "RR_016_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "서비스",
+      "meaning": "On the house. Free of charge (Konglish)",
+      "example": "이건 서비스로 드리는 거예요. (I'm giving this to you for free.)",
+      "audio": "RR_016_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

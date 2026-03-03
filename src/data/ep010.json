@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "id": "010",
+    "title": {
+      "en": "For crying out loud! Seriously! 아이참! 정말 왜 이래!",
+      "ko": "아이참! 정말 왜 이래!"
+    },
+    "description": {
+      "en": "When someone is being frustrating or absurd! Express your feelings honestly with \"Ai-cham\" and \"Jeong-mal wae i-rae\".",
+      "ko": "상대방의 행동이 너무 답답하거나 어이가 없을 때! \"아이참\"과 \"정말 왜 이래\"로 내 마음을 솔직하게 표현해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 25 sec",
+      "ko": "5분 25초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Frustration. Exasperation. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up world. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 어느덧 10화네요! 미나입니다.",
+      "translation": "Hello everyone~! It's already episode 10! I'm Mina.",
+      "lang": "KO",
+      "audio": "RR_010_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "장난기 가득하게",
+      "text": "Mina. Look at this. I can type with my toes! Check it out.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "한심해하며",
+      "text": "존 씨..., 지금 대본 써야 하잖아요. 발로 타이핑을 하면 어떡해요~!",
+      "translation": "John..., we have to write the script right now. What if you type with your toes~!",
+      "lang": "KO",
+      "audio": "RR_010_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "계속 장난치며",
+      "text": "Wait. I almost got the letter A. Oh. Oops. I deleted everything.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "폭발하며",
+      "text": "\"아이참~!\"",
+      "translation": "Oh boy~!",
+      "lang": "KO",
+      "audio": "RR_010_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "아이참",
+        "description": "An exclamation used when you are slightly annoyed or frustrated",
+        "usage_tip": "It's like saying 'Geez' or 'Oh boy'."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "답답해하며",
+      "text": "존~! \"정말 왜 이래요~!\"",
+      "translation": "John! Seriously! Why are you being like this~!",
+      "lang": "KO",
+      "audio": "RR_010_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": {
+        "title": "정말 왜 이래",
+        "description": "'Seriously. why are you like this'",
+        "usage_tip": "Used when someone's behavior is repetitive and frustrating."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "\"For crying out loud!\" I'm just trying to be creative. Mina.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "피식 웃으며",
+      "text": "흐음- 창의적인 건 좋은데. 제발 일할 때는 집중해 주세요!",
+      "translation": "Being creative is good. but please focus when we're working!",
+      "lang": "KO",
+      "audio": "RR_010_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "That was a perfect timing for \"아이참!\". It sounds so cute but I can feel the frustration.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s010.mp3",
+      "playable": false,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "맞아요! \"아이참\"은 화를 내기보다는. \"아~ 정말 답답해\" 라는 느낌이 강해요.",
+      "translation": "'Ai-cham' is more about feeling frustrated than being angry.",
+      "lang": "KO",
+      "audio": "RR_010_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"아이참...,\"",
+      "translation": "Geez...,",
+      "lang": "KO",
+      "audio": "RR_010_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "그리고 상대방이 왜 그러는지 도저히 이해가 안 될 때. \"정말 왜 이래!\" 라고 하면 딱이죠.",
+      "translation": "And when you just can't understand why someone is doing that. 'Jeong-mal wae i-rae' is perfect.",
+      "lang": "KO",
+      "audio": "RR_010_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"정말 왜 이래~!\"",
+      "translation": "Seriously. why are you being like this~!",
+      "lang": "KO",
+      "audio": "RR_010_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Can I use \"Ai-cham\" with a boss.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "깜짝 놀라며",
+      "text": "아니요~! 큰일 나요!",
+      "translation": "No~! You'll be in big trouble!",
+      "lang": "KO",
+      "audio": "RR_010_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "진지하게",
+      "text": "이건 친한 친구나 동생한테만 쓰는 혼잣말 같은 거예요.",
+      "translation": "This is like talking to yourself or saying it to close friends or younger people.",
+      "lang": "KO",
+      "audio": "RR_010_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Imagine we are waiting for a bus. and it's been 30 minutes. but I keep saying. Oh. I think I see it! but it's just a truck.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s018.mp3",
+      "playable": false,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기다리다 지친 목소리로",
+      "text": "존. 벌써 다섯 번째잖아요.",
+      "translation": "John. This is the fifth time.",
+      "lang": "KO",
+      "audio": "RR_010_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "손가락으로 가리키며",
+      "text": "No. really! Look! That big red thing! Is that our bus.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "실망하며",
+      "text": "\"아이참~!\" 존. 저건 소방차잖아요!",
+      "translation": "Oh boy~! John. That's a fire truck!",
+      "lang": "KO",
+      "audio": "RR_010_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "머리를 긁적이며",
+      "text": "Oh. My mistake. Maybe the next one.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "답답해하며",
+      "text": "\"정말..., 왜 이래요~!\" 존. 안경 안 썼어요?",
+      "translation": "Seriously! Why are you being like this~! John. Are you not wearing your glasses?",
+      "lang": "KO",
+      "audio": "RR_010_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "Maybe I'm just too excited to go home.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "허탈하게",
+      "text": "아..., \"정말 왜 이래요\" 정말.",
+      "translation": "Ah..., seriously. why are you like this. honestly.",
+      "lang": "KO",
+      "audio": "RR_010_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "These reactions are so essential for daily life.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 답답한 상황을 참지 말고 오늘 배운 표현을 써보세요!",
+      "translation": "Right. Don't hold back in frustrating situations. Use the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_010_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"exasperated\" reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"아이참~!\"",
+      "translation": "Oh boy~!",
+      "lang": "EN",
+      "audio": "RR_010_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"정말 왜 이래!\"",
+      "translation": "Seriously! Why are you being like this!",
+      "lang": "EN",
+      "audio": "RR_010_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"아니 진짜!\"",
+      "translation": "No. really!",
+      "lang": "EN",
+      "audio": "RR_010_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"도대체 왜 그래~!\"",
+      "translation": "Why on earth are you like this~!",
+      "lang": "EN",
+      "audio": "RR_010_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"적당히 좀 해!\"",
+      "translation": "Give me a break! / That's enough!",
+      "lang": "EN",
+      "audio": "RR_010_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": {
+        "title": "적당히 좀 해",
+        "description": "'Do it in moderation' or 'That's enough'",
+        "usage_tip": "Used when someone is overdoing something."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분 주변에는 답답하게 하는 사람이 없길 바랄게요!",
+      "translation": "I hope there's no one around you who makes you frustrated!",
+      "lang": "KO",
+      "audio": "RR_010_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's it for today. We'll be back with a more positive reaction next time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_010_s035.mp3",
+      "playable": false,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_010_s036.mp3",
+      "playable": true,
+      "seq": 36,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "아이참",
+      "meaning": "Oh boy. Geez",
+      "example": "아이참. 또 실수했네. (Oh boy. I made a mistake again.)",
+      "audio": "RR_010_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "왜 이래",
+      "meaning": "Why are you being like this",
+      "example": "너 오늘 정말 왜 이래? (What's wrong with you today?)",
+      "audio": "RR_010_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "답답하다",
+      "meaning": "To be frustrated. To be stuffy",
+      "example": "마음이 너무 답답해요. (I feel so frustrated.)",
+      "audio": "RR_010_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "적당히",
+      "meaning": "Moderately. In moderation",
+      "example": "술은 적당히 마셔야 해요. (You should drink in moderation.)",
+      "audio": "RR_010_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "도대체",
+      "meaning": "On earth. In the world",
+      "example": "도대체 그게 무슨 소리예요? (What on earth does that mean?)",
+      "audio": "RR_010_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "집중",
+      "meaning": "Concentration. Focus",
+      "example": "공부할 때는 집중이 필요해요. (Focus is needed when studying.)",
+      "audio": "RR_010_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

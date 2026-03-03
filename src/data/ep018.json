@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "id": "018",
+    "title": {
+      "en": "Exactly! That's it! 정확해! 바로 그거야!",
+      "ko": "정확해! 바로 그거야!"
+    },
+    "description": {
+      "en": "When someone pinpoints your thoughts or the answer perfectly! Learn \"Jeong-hwak-hae\" and \"Baro geugeoya\" through natural reactions.",
+      "ko": "상대방이 내 마음이나 정답을 족집게처럼 딱 맞혔을 때! 기분 좋게 외치는 \"정확해\"와 \"바로 그거야\"를 배워봅니다."
+    },
+    "duration": {
+      "en": "5 min 0 sec",
+      "ko": "5분 0초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Accuracy. Agreement. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "가벼운 한숨",
+      "text": "존 씨... 저 지금 배가 너무 고픈데... 뭘 먹어야 할지 도저히 못 고르겠어요.",
+      "translation": "John... I'm so hungry right now... but I really can't decide what to eat.",
+      "lang": "KO",
+      "audio": "RR_018_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "자신만만하게",
+      "text": "Hmm... I think I know exactly what you're craving. Mina. You want... something spicy... with lots of cheese... right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "눈이 번쩍 뜨이며",
+      "text": "와~! \"정확해~!\" 어떻게 알았어요? 저 지금 딱 매운 떡볶이 생각하고 있었거든요!",
+      "translation": "Wow~! 'Exactly~!' How did you know? I was just thinking of spicy Tteokbokki!",
+      "lang": "KO",
+      "audio": "RR_018_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": {
+        "title": "정확해",
+        "description": "Exactly / Correct",
+        "usage_tip": "Used when someone hits the mark on your thoughts or a fact."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "웃으며",
+      "text": "I know you well! And you want it from that place around the corner. right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "박수를 치며",
+      "text": "우와... 진짜..., \"바로 그거야!\" 존... 혹시 제 마음 읽는 거예요?",
+      "translation": "Wow... seriously 'That's it!' John... are you reading my mind by any chance?",
+      "lang": "KO",
+      "audio": "RR_018_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "바로 그거야",
+        "description": "That's the one / Exactly it",
+        "usage_tip": "Used when someone pinpoints the specific thing you had in mind."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "Maybe! I just felt it. \"Exactly!\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"정확해\" This is such a useful word when someone's guess is spot on.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "맞아요. 상대방이 던진 추측이나 대답이 100퍼센트 맞았을 때 \"정확해!\"라고 해주면 돼요.",
+      "translation": "Right. When someone's guess or answer is 100 percent correct. you can just say 'Jeong-hwak-hae!'",
+      "lang": "KO",
+      "audio": "RR_018_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"정확해...,\"",
+      "translation": "Exactly...,",
+      "lang": "KO",
+      "audio": "RR_018_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "그리고 \"바로 그거야\"는 내가 딱 원하던 거나 생각하던 걸 상대방이 말했을 때 쓰는 표현이에요.",
+      "translation": "And 'Baro geugeoya' is an expression used when someone says exactly what you wanted or were thinking of.",
+      "lang": "KO",
+      "audio": "RR_018_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"바로..., 그거야!\"",
+      "translation": "That's exactly it!",
+      "lang": "KO",
+      "audio": "RR_018_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "What about when I agree with someone's point in a conversation.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s013.mp3",
+      "playable": false,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "그럴 땐 \"내 말이!\"라고 해보세요. \"That's what I'm saying!\"이라는 뜻으로 정말 자주 써요.",
+      "translation": "In that case. say 'Nae mar-i!'. It's used very often to mean 'That's what I'm saying!'",
+      "lang": "KO",
+      "audio": "RR_018_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try another one. Imagine we are talking about a new movie. and I say. \"I think the ending was a bit disappointing.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "고개를 끄덕이며",
+      "text": "와... 존. \"제 말이요!\" 저도 결말이 좀 아쉬웠거든요.",
+      "translation": "Wow... John. 'That's what I'm saying~!' I also found the ending a bit disappointing.",
+      "lang": "KO",
+      "audio": "RR_018_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "신나서",
+      "text": "Right? It felt too rushed!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "공감하며",
+      "text": "\"정확해~!\" 갑자기 이야기가 끝나버린 기분이었어요.",
+      "translation": "Exactly~! It felt like the story just ended all of a sudden.",
+      "lang": "KO",
+      "audio": "RR_018_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "감탄하며",
+      "text": "\"That's it!\" 정말 \"바로 그거야!\" 우리 통하는 게 참 많네요.",
+      "translation": "That's it! It's really 'That's the one!' We really have a lot in common.",
+      "lang": "KO",
+      "audio": "RR_018_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기분 좋게",
+      "text": "하하. 그러니까 우리 단짝이죠!",
+      "translation": "Hahahat! That's why we're best friends!",
+      "lang": "KO",
+      "audio": "RR_018_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "\"Exactly!\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "I love how these reactions make me feel like we're perfectly in sync.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "여러분도 오늘 누군가와 마음이 딱 맞았을 때! 오늘 배운 표현들로 신나게 리액션해 보세요.",
+      "translation": "When you're perfectly in sync with someone today! Try reacting excitedly with the expressions we learned today.",
+      "lang": "KO",
+      "audio": "RR_018_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"exact\" reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"정확해~!\"",
+      "translation": "Exactly!",
+      "lang": "EN",
+      "audio": "RR_018_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"바로 그거야!\"",
+      "translation": "That's it!",
+      "lang": "EN",
+      "audio": "RR_018_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"내 말이~!\"",
+      "translation": "That's what I'm saying!",
+      "lang": "EN",
+      "audio": "RR_018_s027.mp3",
+      "playable": false,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"정답이야!\"",
+      "translation": "You got it!",
+      "lang": "EN",
+      "audio": "RR_018_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"족집게네!\"",
+      "translation": "Spot on!",
+      "lang": "EN",
+      "audio": "RR_018_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분도 오늘 마음이 \"정확하게\" 통하는 기분 좋은 하루 되세요!",
+      "translation": "I hope you all have a pleasant day where you 'exactly' connect with someone!",
+      "lang": "KO",
+      "audio": "RR_018_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_018_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_018_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "정확",
+      "meaning": "Accuracy",
+      "example": "정확한 숫자를 말해주세요. (Please tell me the exact number.)",
+      "audio": "RR_018_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "바로",
+      "meaning": "Exactly. Right",
+      "example": "바로 여기가 우리 집이에요. (Right here is my house.)",
+      "audio": "RR_018_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "족집게",
+      "meaning": "Tweezers / Mind reader",
+      "example": "우리 엄마는 정말 족집게예요. (My mom is a real mind reader.)",
+      "audio": "RR_018_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "소름",
+      "meaning": "Goosebumps",
+      "example": "너무 무서워서 소름이 돋았어요. (I got goosebumps because it was so scary.)",
+      "audio": "RR_018_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "짚다",
+      "meaning": "To pinpoint. To touch",
+      "example": "문제의 핵심을 잘 짚었네요. (You pinpointed the core of the problem well.)",
+      "audio": "RR_018_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "단짝",
+      "meaning": "Best friend",
+      "example": "우리는 유치원 때부터 단짝이었어요. (We've been best friends since kindergarten.)",
+      "audio": "RR_018_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

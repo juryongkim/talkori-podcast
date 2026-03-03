@@ -1,0 +1,522 @@
+{
+  "metadata": {
+    "id": "011",
+    "title": {
+      "en": "This is ridiculous! Unbelievable! 정말 황당하네! 어이가 없네!",
+      "ko": "정말 황당하네! 어이가 없네!"
+    },
+    "description": {
+      "en": "When something is completely absurd and ridiculous! Learn strong negative reactions like \"Eo-i-ga eop-ne\" and \"Jang-nan-hae?\".",
+      "ko": "너무 어처구니없고 황당한 일을 겪었을 때! \"어이가 없네\"와 \"장난해?\" 등 강한 부정의 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "5 min 20 sec",
+      "ko": "5분 20초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Absurdity. Annoyance. Disbelief"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up world. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 오늘도 리액션 장인이 되기 위해 모이셨군요? 미나입니다.",
+      "translation": "Hello everyone~! Are you all gathered here to become reaction masters today? I'm Mina.",
+      "lang": "KO",
+      "audio": "RR_011_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "억울한 목소리로",
+      "text": "Mina. I just got a parking ticket. But I was only parked for 30 seconds to pick up my coffee!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "눈을 크게 뜨며",
+      "text": "네~? 겨우 30초요?",
+      "translation": "What~? Only 30 seconds?",
+      "lang": "KO",
+      "audio": "RR_011_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "황당해하며",
+      "text": "와..., 진짜 \"어이가 없네~!\"",
+      "translation": "Wow..., that's so ridiculous!",
+      "lang": "KO",
+      "audio": "RR_011_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": {
+        "title": "어이가 없네",
+        "description": "To be at a loss for words because something is so absurd",
+        "usage_tip": "Used when a situation is unfair or unbelievable."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "답답해하며",
+      "text": "Right? 30 seconds! \"This is ridiculous!\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s006.mp3",
+      "playable": false,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "공감하며",
+      "text": "정말 \"황당하네요!\"",
+      "translation": "That's really absurd!",
+      "lang": "KO",
+      "audio": "RR_011_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": {
+        "title": "황당하다",
+        "description": "To be absurd or ridiculous",
+        "usage_tip": "Used for nonsensical situations."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "I know. I tried to explain. but the officer didn't listen.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"어이가 없네\". It's a very famous line from a Korean movie. right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "맞아요! 유아인 배우의 유명한 대사죠.",
+      "translation": "Correct! It's a famous line by actor Yoo Ah-in.",
+      "lang": "KO",
+      "audio": "RR_011_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "상대방의 행동이 상식 밖일 때. \"어이가 없네\" 라고 하면 딱이에요.",
+      "translation": "When someone's behavior is beyond common sense. 'Eo-i-ga eop-ne' is perfect.",
+      "lang": "KO",
+      "audio": "RR_011_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"어이가 없네...,\"",
+      "translation": "This is ridiculous...,",
+      "lang": "KO",
+      "audio": "RR_011_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "And what about when I feel like someone is mocking me.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s013.mp3",
+      "playable": false,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "강조하며",
+      "text": "그럴 땐 인상을 살짝 쓰면서. \"지금 장난해요?\" 라고 물어보세요.",
+      "translation": "In that case. Frown a little and ask. 'Ji-geum jang-nan-hae-yo?'.",
+      "lang": "KO",
+      "audio": "RR_011_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": {
+        "title": "장난해?",
+        "description": "'Are you kidding me?'",
+        "usage_tip": "Use this when you are offended or think someone is messing with you."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"지금..., 장난해?\"",
+      "translation": "Are you kidding me right now?",
+      "lang": "KO",
+      "audio": "RR_011_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "칭찬하며",
+      "text": "오~ 존 씨. 방금 표정 아주 리얼했어요!",
+      "translation": "Oh~ John. Your expression just now was so real!",
+      "lang": "KO",
+      "audio": "RR_011_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Imagine we ordered a large pizza. but when the box opened. there was only one tiny slice inside.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "박스를 열어보고 당황하며",
+      "text": "어?",
+      "translation": "Huh?",
+      "lang": "KO",
+      "audio": "RR_011_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "어이없어하며",
+      "text": "\"이게 뭐야~!\" 존. 피자가 왜 이래요?",
+      "translation": "What is this~! John. Why is the pizza like this?",
+      "lang": "KO",
+      "audio": "RR_011_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "천연덕스럽게",
+      "text": "Oh. I think the delivery guy was hungry.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "황당해하며",
+      "text": "와..., 진짜..., \"말도 안 되는 소리\" 하지 마세요!",
+      "translation": "Wow..., seriously. don't talk such nonsense!",
+      "lang": "KO",
+      "audio": "RR_011_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": {
+        "title": "말도 안 되는 소리",
+        "description": "Nonsense / Ridiculous talk",
+        "usage_tip": "Use this when someone says something logically impossible or stupid."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "웃으며",
+      "text": "Maybe it's a new diet pizza.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "짜증스럽게",
+      "text": "\"지금 장난해요?\" 배고파 죽겠단 말이에요!",
+      "translation": "Are you kidding me right now? I'm starving!",
+      "lang": "KO",
+      "audio": "RR_011_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "아하하핫!",
+      "text": "I'm kidding. I'm kidding! The real pizza is right here.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "허탈하게",
+      "text": "아~..., \"황당하네\" 정말!",
+      "translation": "Ah~ that's so absurd. honestly!",
+      "lang": "KO",
+      "audio": "RR_011_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "These reactions are so powerful when you're frustrated.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 너무 어이없어서 말이 안 나올 때. 오늘 배운 표현들을 꼭 써보세요!",
+      "translation": "Right. When you're so speechless from absurdity. Make sure to use the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_011_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review the five \"ridiculous\" reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"어이가 없네~!\"",
+      "translation": "This is ridiculous!",
+      "lang": "EN",
+      "audio": "RR_011_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"정말 황당하네!\"",
+      "translation": "That's so absurd!",
+      "lang": "EN",
+      "audio": "RR_011_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"말도 안 되는 소리야!\"",
+      "translation": "That's nonsense!",
+      "lang": "EN",
+      "audio": "RR_011_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"지금 장난해?\"",
+      "translation": "Are you kidding me?",
+      "lang": "EN",
+      "audio": "RR_011_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"어처구니가 없네!\"",
+      "translation": "I'm at a loss for words!",
+      "lang": "EN",
+      "audio": "RR_011_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": {
+        "title": "어처구니가 없다",
+        "description": "An idiom for 'absurd'",
+        "usage_tip": "Very similar to 'Eo-i-ga eop-ne'."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분 주변에는 황당한 일보다는 즐거운 일만 가득하길 바랄게요!",
+      "translation": "I hope your surroundings are filled with joyful things rather than absurd ones!",
+      "lang": "KO",
+      "audio": "RR_011_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. We'll be back with another \"Dae-bak\" episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s035.mp3",
+      "playable": false,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_011_s036.mp3",
+      "playable": true,
+      "seq": 36,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "어이가 없다",
+      "meaning": "To be ridiculous. To be speechless",
+      "example": "그 사람 정말 어이가 없네요. (That person is really ridiculous.)",
+      "audio": "RR_011_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "황당하다",
+      "meaning": "To be absurd. To be nonsensical",
+      "example": "황당한 꿈을 꿨어요. (I had an absurd dream.)",
+      "audio": "RR_011_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "장난",
+      "meaning": "Prank. Joke",
+      "example": "지금 장난하는 거 아니죠? (You're not joking right now. are you?)",
+      "audio": "RR_011_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "겨우",
+      "meaning": "Only. Merely",
+      "example": "겨우 이거밖에 없어요? (Is this all there is?)",
+      "audio": "RR_011_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "피자",
+      "meaning": "Pizza",
+      "example": "오늘 저녁은 피자를 먹읍시다. (Let's eat pizza for dinner.)",
+      "audio": "RR_011_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "상식",
+      "meaning": "Common sense",
+      "example": "그건 상식적으로 이해가 안 돼요. (That doesn't make sense in terms of common sense.)",
+      "audio": "RR_011_v006.mp3",
+      "seq": 6
+    }
+  ]
+}
