@@ -1,13 +1,18 @@
 import { useState, useRef, useEffect } from 'react';
-import { useParams, Link, useNavigate, useSearchParams } from 'react-router-dom';
+// ✨ useSearchParams 는 이제 안 쓰니까 뺐습니다!
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import courses from '../data/courses.json'; 
 
 export default function Player() {
   const { epId } = useParams();
   const navigate = useNavigate();
-  const [searchParams] = useSearchParams(); 
-  const isDemoMode = searchParams.get('mode') === 'demo';
+  
+  // ==========================================
+  // ✨ [핵심 수정] 주소창 대신 메모리(세션)에서 데모 모드를 확인합니다!
+  const isDemoMode = sessionStorage.getItem('talkori_demo_mode') === 'true';
+  // ==========================================
+
   const { i18n } = useTranslation();
   const lang = i18n.language === 'ko' ? 'ko' : 'en'; 
   

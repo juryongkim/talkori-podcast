@@ -83,14 +83,20 @@ function App() {
   const toggleMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const closeMenu = () => setIsMobileMenuOpen(false);
 
-  // ==========================================
-  // ✨ [보안] 외부 직접 접속 차단 (Iframe 전용 락)
+// ==========================================
+  // ✨ [보안] 외부 접속 차단 (Iframe 락) + 데모 모드 기억!
   // ==========================================
   useEffect(() => {
-    // 로컬 환경(개발 중)인지 확인
+    // 1. [추가됨] 주소창에 ?mode=demo 꼬리표가 있는지 확인하고 세션(메모리)에 저장!
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('mode') === 'demo') {
+      sessionStorage.setItem('talkori_demo_mode', 'true');
+    }
+
+    // 2. [기존 유지] 로컬 환경(개발 중)인지 확인
     const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
     
-    // window.self === window.top 이면 "아이프레임 밖(직접 접속)"이라는 뜻입니다.
+    // 3. [기존 유지] window.self === window.top 이면 "아이프레임 밖(직접 접속)"이라는 뜻입니다.
     if (window.self === window.top && !isLocalhost) {
       // 본 사이트로 강제 이동시켜 버립니다.
       window.location.href = 'https://talkori.com'; 
@@ -145,12 +151,6 @@ function App() {
               <Route path="/player/:epId" element={<Player />} />
               <Route path="/my-study" element={<MyStudy />} />
             </Routes>
-
-            {/* ✨ 바코드 멸망 빔: 모바일 하단에 보이지 않는 120px 짜리 벽돌을 끼워 넣어서 스크롤을 강제로 더 늘려버립니다! */}
-            <div className="h-[150px] w-full md:h-10 opacity-0 pointer-events-none text-transparent">
-              여백 공간입니다
-            </div>
-
           </div>
           
         </main>
