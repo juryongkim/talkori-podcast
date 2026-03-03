@@ -8,17 +8,27 @@ export default function CourseDetail() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language === 'ko' ? 'ko' : 'en';
 
+  // ==========================================
+  // ✨ [추가됨] 메모리에서 데모 모드인지 확인!
+  const isDemoMode = sessionStorage.getItem('talkori_demo_mode') === 'true';
+  // ==========================================
+
   const course = courses.find((c) => c.id === courseId);
 
   // 🎯 페이지네이션 및 정렬 상태 관리
-  const [sortOrder, setSortOrder] = useState('desc'); // 기본값: desc(최신순), asc(1화부터)
+  // ✨ [수정됨] 데모 모드면 무조건 'asc(1화부터)'로 시작하게 만듭니다!
+  const [sortOrder, setSortOrder] = useState(isDemoMode ? 'asc' : 'desc'); 
   const [currentPage, setCurrentPage] = useState(1);
-  const ITEMS_PER_PAGE = 15; // 한 페이지에 보여줄 에피소드 수 (대표님이 원하신 스윗스팟!)
+  const ITEMS_PER_PAGE = 15; 
 
   // 코스가 바뀌면 1페이지로 초기화
   useEffect(() => {
     setCurrentPage(1);
-  }, [courseId, sortOrder]);
+    // ✨ [추가됨] 데모 모드인데 유저가 억지로 바꾸려 하면 다시 asc로 돌려버림
+    if (isDemoMode) {
+      setSortOrder('asc');
+    }
+  }, [courseId, sortOrder, isDemoMode]);
 
   if (!course) {
     return (
@@ -69,7 +79,12 @@ export default function CourseDetail() {
         <select 
           value={sortOrder} 
           onChange={(e) => setSortOrder(e.target.value)}
-          className="text-sm font-semibold text-gray-600 bg-gray-50 border-none rounded-lg px-3 py-2 cursor-pointer hover:bg-gray-100 focus:ring-0 outline-none transition-colors"
+          disabled={isDemoMode} // ✨ 데모 모드일 땐 정렬 버튼 클릭 금지!
+          className={`text-sm font-semibold rounded-lg px-3 py-2 outline-none transition-colors ${
+            isDemoMode 
+            ? 'bg-gray-100 text-gray-400 cursor-not-allowed' // 데모일 땐 회색으로 죽임
+            : 'text-gray-600 bg-gray-50 border-none cursor-pointer hover:bg-gray-100 focus:ring-0'
+          }`}
         >
           <option value="desc">⬇️ Latest</option>
           <option value="asc">⬆️ From episode 1</option>
@@ -78,52 +93,81 @@ export default function CourseDetail() {
 
       {/* 📚 3. 에피소드 리스트 */}
       <div className="space-y-3 mb-10">
-        {displayedEpisodes.map((ep) => (
-          <Link 
-            key={ep.id} 
-            to={`/player/${ep.id}`}
-            className="group flex flex-col md:flex-row items-start md:items-center gap-4 p-4 rounded-2xl hover:bg-gray-50 border border-transparent hover:border-gray-100 transition-all duration-200"
-          >
-            {/* 플레이 버튼 (애플 팟캐스트 스타일) */}
-            <div className="hidden md:flex shrink-0 w-12 h-12 bg-white rounded-full border border-gray-200 items-center justify-center text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white transition-colors shadow-sm">
-              <span className="text-xl ml-1">▶</span>
-            </div>
+        {displayedEpisodes.map((ep) => {
+          // ✨ [핵심] 데모 모드이고, 3화(003)를 초과하면 잠금 처리!
+          const isLocked = isDemoMode && parseInt(ep.id) > 3;
 
-            <div className="flex-1 w-full">
-              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">
-                Episode {ep.id}
-              </p>
-              <h3 className="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors mb-1.5 line-clamp-1">
-                {ep.title[lang]}
-              </h3>
-              <p className="text-sm text-gray-500 line-clamp-2 mb-2 font-medium">
-                {ep.description[lang]}
-              </p>
-              
-              {/* 🏷️ 새로 추가된 태그 및 난이도 뱃지 보여주기! */}
-              <div className="flex items-center gap-2 flex-wrap">
-                <span className="text-xs font-semibold text-gray-400 bg-gray-100/80 px-2 py-0.5 rounded-md">
-                  ⏱ {ep.duration[lang]}
-                </span>
-                {ep.level && (
-                  <span className="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-md">
-                    {ep.level}
-                  </span>
-                )}
-                {ep.tags && ep.tags.map((tag, idx) => (
-                  <span key={idx} className="text-xs font-semibold text-indigo-500 bg-indigo-50 px-2 py-0.5 rounded-md">
-                    #{tag}
-                  </span>
-                ))}
+          return (
+            <Link 
+              key={ep.id} 
+              to={isLocked ? "#" : `/player/${ep.id}`}
+              onClick={(e) => {
+                // 자물쇠가 걸려있으면 클릭 막고 경고창 띄우기
+                if (isLocked) {
+                  e.preventDefault();
+                  alert(lang === 'ko' ? '🔒 데모 버전에서는 3화까지만 들을 수 있습니다! 전체 이용을 위해 프리미엄을 구독해주세요.' : '🔒 In the demo version, you can only listen up to episode 3! Please subscribe to premium for full access.');
+                }
+              }}
+              className={`group flex flex-col md:flex-row items-start md:items-center gap-4 p-4 rounded-2xl border transition-all duration-200 ${
+                isLocked 
+                ? 'opacity-60 bg-gray-50 border-gray-100 cursor-not-allowed' // 잠긴 에피소드는 흐리게
+                : 'hover:bg-gray-50 border-transparent hover:border-gray-100'
+              }`}
+            >
+              {/* 플레이 버튼 (또는 자물쇠 아이콘) */}
+              <div className={`hidden md:flex shrink-0 w-12 h-12 rounded-full border items-center justify-center transition-colors shadow-sm ${
+                isLocked
+                ? 'bg-gray-100 border-gray-200 text-gray-400' 
+                : 'bg-white border-gray-200 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white'
+              }`}>
+                {/* ✨ 잠겼으면 자물쇠, 열렸으면 플레이 버튼 */}
+                <span className={`text-xl ${!isLocked && 'ml-1'}`}>{isLocked ? '🔒' : '▶'}</span>
               </div>
-            </div>
-            
-            {/* 모바일용 플레이 버튼 */}
-            <div className="md:hidden mt-2 w-full flex justify-end">
-              <span className="text-sm font-bold text-indigo-600 bg-indigo-50 px-4 py-1.5 rounded-full">Play 🎧</span>
-            </div>
-          </Link>
-        ))}
+
+              <div className="flex-1 w-full">
+                <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">
+                  Episode {ep.id}
+                </p>
+                <h3 className={`text-lg font-bold mb-1.5 line-clamp-1 transition-colors ${
+                  isLocked ? 'text-gray-500' : 'text-gray-900 group-hover:text-indigo-600'
+                }`}>
+                  {ep.title[lang]}
+                </h3>
+                <p className="text-sm text-gray-500 line-clamp-2 mb-2 font-medium">
+                  {ep.description[lang]}
+                </p>
+                
+                {/* 🏷️ 태그 및 난이도 뱃지 */}
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-xs font-semibold text-gray-400 bg-gray-100/80 px-2 py-0.5 rounded-md">
+                    ⏱ {ep.duration[lang]}
+                  </span>
+                  {ep.level && (
+                    <span className={`text-xs font-bold px-2 py-0.5 rounded-md ${isLocked ? 'text-gray-400 bg-gray-200/50' : 'text-orange-600 bg-orange-50'}`}>
+                      {ep.level}
+                    </span>
+                  )}
+                  {ep.tags && ep.tags.map((tag, idx) => (
+                    <span key={idx} className={`text-xs font-semibold px-2 py-0.5 rounded-md ${isLocked ? 'text-gray-400 bg-gray-200/50' : 'text-indigo-500 bg-indigo-50'}`}>
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              
+              {/* 모바일용 플레이 버튼 (또는 Locked 버튼) */}
+              <div className="md:hidden mt-2 w-full flex justify-end">
+                <span className={`text-sm font-bold px-4 py-1.5 rounded-full ${
+                  isLocked 
+                  ? 'text-gray-500 bg-gray-200' 
+                  : 'text-indigo-600 bg-indigo-50'
+                }`}>
+                  {isLocked ? 'Locked 🔒' : 'Play 🎧'}
+                </span>
+              </div>
+            </Link>
+          );
+        })}
       </div>
 
       {/* 🔢 4. 페이지네이션 (Pagination) */}
