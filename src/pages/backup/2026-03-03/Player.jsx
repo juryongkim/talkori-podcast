@@ -23,7 +23,7 @@ export default function Player() {
   const [playingVocaIndex, setPlayingVocaIndex] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
   const [isPlayingAll, setIsPlayingAllState] = useState(false);
-
+  
   // ✨ 4. 배속 설정 (1.0 -> 0.8 -> 0.6)
   const [playbackRate, setPlaybackRate] = useState(1.0);
 
@@ -34,9 +34,6 @@ export default function Player() {
   const autoPlayRef = useRef(false);
   const lineRefs = useRef([]);
   const lastPlayedIndexRef = useRef(0); 
-  
-  // ✨ [추가] 자동 스크롤을 위한 현재 에피소드 위치 기억 장치!
-  const activeEpRef = useRef(null);
 
   const CDN_BASE_URL = "https://talkori.b-cdn.net/podcast/reaction";
 
@@ -92,7 +89,9 @@ export default function Player() {
   // ✨ 3. 나가기 버튼 함수 (아이프레임 밖으로 메시지 전송)
   // ==========================================
   const handleExit = () => {
+    // 부모 창(대표님 본 사이트)으로 메시지를 보냅니다.
     window.parent.postMessage('closeTalkori', '*');
+    // 만약 아이프레임이 아니라 직접 접속했다면 홈으로 보냅니다.
     if (window.self === window.top) {
       navigate('/');
     }
@@ -143,15 +142,6 @@ export default function Player() {
     };
   }, [epId]);
 
-  // ✨ [추가] 목록창(사이드바/모바일 팝업)이 열리거나 화수가 바뀔 때, 내 위치로 스크롤!
-  useEffect(() => {
-    if (activeEpRef.current) {
-      setTimeout(() => {
-        activeEpRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      }, 100);
-    }
-  }, [epId, isPlaylistOpen]);
-
   const handleTabChange = (tab) => {
     if (audioRef.current) audioRef.current.pause();
     setIsPlayingAll(false);
@@ -183,11 +173,11 @@ export default function Player() {
     
     audio.playbackRate = playbackRate;
 
-    // ✨ 잠금 화면 백그라운드 재생 제어
+    // ✨ 5. 잠금 화면 백그라운드 재생 제어 (Media Session API)
     if ('mediaSession' in navigator) {
       const cleanSpeaker = item.speaker.replace(/\s*\(.*?\)\s*/g, '').trim();
       navigator.mediaSession.metadata = new MediaMetadata({
-        title: item.text, 
+        title: item.text, // 잠금 화면에 현재 문장 표시
         artist: `Talkori EP.${epId} - ${cleanSpeaker}`,
         album: 'Real Reaction',
       });
@@ -223,6 +213,7 @@ export default function Player() {
 
     audio.playbackRate = playbackRate;
 
+    // ✨ 5. 잠금 화면 제어 (단어장)
     if ('mediaSession' in navigator) {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: item.word,
@@ -256,12 +247,6 @@ export default function Player() {
 
   const currentCourse = epData ? courses.find(c => c.id === epData.metadata.course) : null;
   const playlistEps = currentCourse ? [...currentCourse.episodes].sort((a,b) => parseInt(a.id) - parseInt(b.id)) : [];
-
-  // ✨ [추가] 이전/다음 화 버튼을 위한 인덱스 계산
-  const currentEpIndex = playlistEps.findIndex(e => e.id === epId);
-  const prevEp = currentEpIndex > 0 ? playlistEps[currentEpIndex - 1] : null;
-  const nextEp = currentEpIndex >= 0 && currentEpIndex < playlistEps.length - 1 ? playlistEps[currentEpIndex + 1] : null;
-
 
   if (isLoading) {
     return (
@@ -304,15 +289,15 @@ export default function Player() {
       <div className="flex-1 overflow-y-auto p-4 space-y-1">
         {playlistEps.map((ep, index) => {
           const isCurrent = ep.id === epId;
+          // ✨ 3. 데모 버전 잠금 (3화까지만 무료, 4화부터 잠금)
           const isLocked = isDemoMode && index >= 3; 
 
           return (
             <div 
               key={ep.id} 
-              // ✨ [핵심] 현재 에피소드일 경우 위치를 기억하도록 나침반(ref)을 달아줍니다!
-              ref={isCurrent ? activeEpRef : null}
               onClick={() => { 
                 if (isLocked) {
+                  // ✨ 모달 띄우기로 변경됨
                   setShowPremiumModal(true);
                   return;
                 }
@@ -352,11 +337,13 @@ export default function Player() {
       )}
 
       <main className="flex-1 w-full relative">
+        {/* ✨ 2. max-w-3xl -> max-w-4xl 로 변경하여 너비 128px 확장 */}
         <div className="max-w-4xl mx-auto md:px-4 py-0 md:py-8 pb-32">
           
           <div className="bg-white pt-2 pb-0 px-2 md:p-6 rounded-b-2xl md:rounded-3xl shadow-sm border-b md:border border-gray-200 mb-4 md:mb-6 sticky top-0 md:top-4 z-20 transition-all">
             
             <div className="hidden md:block text-center relative">
+              {/* ✨ PC 상단 좌측에도 나가기 버튼 추가 */}
               <button onClick={handleExit} className="text-gray-400 absolute left-2 top-2 hover:text-red-500 text-sm font-bold flex items-center gap-1 transition-colors">
                 ✕ EXIT
               </button>
@@ -370,18 +357,20 @@ export default function Player() {
                 {displayTitle}
               </h1>
               <div className="flex flex-col items-center gap-3 mb-6">
-                <p className="text-indigo-600 font-medium text-sm">Real Reaction</p>
-                {epData.metadata.youtube && (
-                  <a 
-                    href={epData.metadata.youtube} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-xs font-extrabold text-red-600 bg-red-50 hover:bg-red-100 px-4 py-2 rounded-full transition-colors shadow-sm"
-                  >
-                    <span className="text-base">▶️</span> Watch Video Version
-                  </a>
-                )}
-              </div>
+  <p className="text-indigo-600 font-medium text-sm">Real Reaction</p>
+  
+  {/* ✨ JSON 데이터에 유튜브 링크가 있을 때만(존재할 때만) 버튼 렌더링! */}
+  {epData.metadata.youtube && (
+    <a 
+      href={epData.metadata.youtube} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1.5 text-xs font-extrabold text-red-600 bg-red-50 hover:bg-red-100 px-4 py-2 rounded-full transition-colors shadow-sm"
+    >
+      <span className="text-base">▶️</span> Watch Video Version
+    </a>
+  )}
+</div>
               
               <div className="flex items-center justify-center gap-8 mb-4">
                 <button className="text-gray-400 hover:text-gray-600 font-bold text-xl">⏪</button>
@@ -394,6 +383,7 @@ export default function Player() {
 
             <div className="md:hidden flex flex-col gap-2 pt-1 pb-1">
               <div className="flex items-center justify-between w-full">
+                {/* ✨ 모바일 뒤로가기를 나가기 버튼으로 연결 */}
                 <button onClick={handleExit} className="text-gray-500 p-2">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
                 </button>
@@ -437,7 +427,7 @@ export default function Player() {
             </div>
           </div>
 
-          <div className="bg-white md:rounded-3xl shadow-sm border-y md:border border-gray-200 p-4 md:p-8">
+          <div className="bg-white md:rounded-3xl shadow-sm border-y md:border border-gray-200 p-4 md:p-8 pb-32">
             <h2 className="hidden md:block text-sm font-bold text-gray-400 uppercase tracking-widest mb-6 border-b border-gray-100 pb-2">
               {activeTab === 'script' ? 'Interactive Script' : 'Vocabulary List'}
             </h2>
@@ -447,6 +437,7 @@ export default function Player() {
                 {epData.content.map((item, index) => {
                   if (item.type === 'FX') return null;
                   
+                  // ✨ 1. 괄호 안의 지시문 완벽 삭제 로직 추가
                   const cleanSpeakerName = item.speaker.replace(/\s*\(.*?\)\s*/g, '').trim();
                   
                   const isMina = cleanSpeakerName.toUpperCase().includes('MINA');
@@ -456,6 +447,7 @@ export default function Player() {
                   return (
                     <div key={index} ref={(el) => (lineRefs.current[index] = el)} className={`relative flex flex-col items-start gap-1 p-2 -mx-2 rounded-xl transition-all duration-300 ${isPlaying ? 'bg-indigo-50/50 border-l-4 border-indigo-400 pl-4' : 'border-l-4 border-transparent pl-4 hover:bg-gray-50/50'}`}>
                       <div className="flex justify-between items-center w-full">
+                        {/* ✨ 1. {item.emotion} 렌더링 삭제 및 깔끔해진 이름 적용 */}
                         <span className={`text-xs font-bold uppercase ${isMina ? 'text-indigo-500' : 'text-gray-400'}`}>
                           {cleanSpeakerName} 
                         </span>
@@ -521,59 +513,6 @@ export default function Player() {
               </div>
             )}
 
-            {/* ==================================================== */}
-            {/* 🚀 [핵심 추가] 하단 네비게이션 (이전 / 목록 / 다음) */}
-            {/* ==================================================== */}
-            <div className="mt-16 pt-6 border-t border-gray-100 flex items-center justify-between gap-3 md:gap-4">
-              
-              {/* ⬅️ 이전 화 버튼 */}
-              {prevEp ? (
-                <Link 
-                  to={`/player/${prevEp.id}`} 
-                  className="flex-1 py-4 bg-gray-50 hover:bg-indigo-50 text-gray-700 hover:text-indigo-600 rounded-2xl flex items-center justify-center font-extrabold text-sm transition-colors shadow-sm"
-                >
-                  ← Prev
-                </Link>
-              ) : (
-                <div className="flex-1 opacity-50 cursor-not-allowed py-4 bg-gray-50 text-gray-400 rounded-2xl flex items-center justify-center font-extrabold text-sm">
-                  ← Prev
-                </div>
-              )}
-
-              {/* ☰ 목록 버튼 (주로 모바일 환경을 위해 노출) */}
-              <button
-                onClick={() => setIsPlaylistOpen(true)}
-                className="lg:hidden flex-1 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl flex items-center justify-center font-extrabold text-sm transition-colors shadow-md gap-2"
-              >
-                ☰ {lang === 'ko' ? '목록보기' : 'Playlist'}
-              </button>
-
-              {/* ➡️ 다음 화 버튼 (데모 락 팝업 완벽 연동!) */}
-              {nextEp ? (
-                <button
-                  onClick={(e) => {
-                    const nextIndex = playlistEps.findIndex(ep => ep.id === nextEp.id);
-                    const isNextLocked = isDemoMode && nextIndex >= 3;
-                    
-                    if (isNextLocked) {
-                      e.preventDefault();
-                      setShowPremiumModal(true); // 자물쇠 팝업 띄우기!
-                    } else {
-                      navigate(`/player/${nextEp.id}`);
-                    }
-                  }}
-                  className="flex-1 py-4 bg-gray-50 hover:bg-indigo-50 text-gray-700 hover:text-indigo-600 rounded-2xl flex items-center justify-center font-extrabold text-sm transition-colors shadow-sm"
-                >
-                  Next →
-                </button>
-              ) : (
-                <div className="flex-1 opacity-50 cursor-not-allowed py-4 bg-gray-50 text-gray-400 rounded-2xl flex items-center justify-center font-extrabold text-sm">
-                  Next →
-                </div>
-              )}
-            </div>
-            {/* ==================================================== */}
-
           </div>
         </div>
       </main>
@@ -593,6 +532,7 @@ export default function Player() {
             </p>
             <button
               onClick={() => {
+                // 부모 사이트(talkori.com)로 결제창 오픈 신호 보내기
                 window.parent.postMessage('openUpgradePage', '*');
               }}
               className="w-full bg-[#3b32f5] hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-colors mb-4 shadow-md text-[15px]"
