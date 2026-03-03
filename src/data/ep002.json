@@ -13,11 +13,13 @@
       "en": "5 min 20 sec",
       "ko": "5분 20초"
     },
-    "level": "초급",
+    "level": "Beginner",
     "tags": [
-      "리액션. 확인. 의심. 일상"
+      "Reaction. Shock. Confusion. Daily Life"
     ],
-    "course": "real-reaction"
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
   },
   "content": [
     {
@@ -131,8 +133,8 @@
     {
       "type": "Intro",
       "speaker": "Mina",
-      "emotion": "안도하며",
-      "text": "에이. 깜짝이야. 진짜인 줄 알았잖아요.",
+      "emotion": "자연스럽게",
+      "text": "에이~ 깜짝이야! 진짜인 줄 알았잖아요!",
       "translation": "Hey. You scared me. I thought it was for real.",
       "lang": "KO",
       "audio": "RR_002_s009.mp3",
@@ -272,7 +274,7 @@
       "type": "Vocab",
       "speaker": "Mina",
       "emotion": "활기차게",
-      "text": "맞아요. 마지막으로 상대방이 한 말을 다시 확인하고 싶을 땐. 진짜라고? 라고 끝을 올려보세요.",
+      "text": "맞아요. 마지막으로 상대방이 한 말을 다시 확인하고 싶을 땐. 진짜라고? 끝을 올려보세요.",
       "translation": "Right. Finally. If you want to double check what they said. Say 'Jinjja-rago?' with a rising tone.",
       "lang": "KO",
       "audio": "RR_002_s020.mp3",
@@ -444,7 +446,7 @@
       "type": "Dial",
       "speaker": "Mina",
       "emotion": "허탈하게",
-      "text": "아. 또 당했네. 진짜인 줄 알았잖아요.",
+      "text": "아~! 또 당했네! 진짜인 줄 알았잖아요!",
       "translation": "Ah. Fooled again. I thought it was for real.",
       "lang": "KO",
       "audio": "RR_002_s034.mp3",

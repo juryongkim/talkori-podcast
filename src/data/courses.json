@@ -31,9 +31,9 @@
           "en": "4 min 15 sec",
           "ko": "4분 15초"
         },
-        "level": "초급",
+        "level": "Beginner",
         "tags": [
-          "리액션. 놀람. 일상"
+          "Reaction. Shock. Confusion. Daily Life"
         ],
         "dataFile": "ep001.json"
       },
@@ -51,9 +51,9 @@
           "en": "5 min 20 sec",
           "ko": "5분 20초"
         },
-        "level": "초급",
+        "level": "Beginner",
         "tags": [
-          "리액션. 확인. 의심. 일상"
+          "Reaction. Shock. Confusion. Daily Life"
         ],
         "dataFile": "ep002.json"
       },
@@ -71,9 +71,9 @@
           "en": "4 min 45 sec",
           "ko": "4분 45초"
         },
-        "level": "초급",
+        "level": "Beginner",
         "tags": [
-          "리액션. 공감. 동의. 일상"
+          "Reaction. Shock. Confusion. Daily Life"
         ],
         "dataFile": "ep003.json"
       },
@@ -176,6 +176,26 @@
           "Reaction. Frustration. Annoyance. Daily Life"
         ],
         "dataFile": "ep008.json"
+      },
+      {
+        "id": "009",
+        "title": {
+          "en": "That's a relief! Phew! 휴~ 다행이다!",
+          "ko": "휴~ 다행이다!"
+        },
+        "description": {
+          "en": "When something you were worried about turns out well! Learn expressions like \"Dahaeng-ida\" and \"Sip-nyeon-gam-su-haet-da\" with a sigh of relief.",
+          "ko": "걱정했던 일이 잘 해결되었을 때! 안도의 한숨과 함께 쓰는 \"다행이다\"와 \"십년감수했다\"의 리얼한 표현을 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 0 sec",
+          "ko": "5분 0초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Relief. Happiness. Daily Life"
+        ],
+        "dataFile": "ep009.json"
       }
     ]
   },

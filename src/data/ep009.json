@@ -1,0 +1,482 @@
+{
+  "metadata": {
+    "id": "009",
+    "title": {
+      "en": "That's a relief! Phew! 휴~ 다행이다!",
+      "ko": "휴~ 다행이다!"
+    },
+    "description": {
+      "en": "When something you were worried about turns out well! Learn expressions like \"Dahaeng-ida\" and \"Sip-nyeon-gam-su-haet-da\" with a sigh of relief.",
+      "ko": "걱정했던 일이 잘 해결되었을 때! 안도의 한숨과 함께 쓰는 \"다행이다\"와 \"십년감수했다\"의 리얼한 표현을 배워봅니다."
+    },
+    "duration": {
+      "en": "5 min 0 sec",
+      "ko": "5분 0초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Relief. Happiness. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "활기차게",
+      "text": "What's up world. Welcome back to Talkori. I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "안녕하세요 여러분~! 오늘도 기분 좋게 시작해 볼까요? 미나입니다.",
+      "translation": "Hello everyone~! Shall we start on a good note today? I'm Mina.",
+      "lang": "KO",
+      "audio": "RR_009_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "긴장한 목소리로",
+      "text": "Mina. I thought I lost my passport today. I searched everywhere for two hours!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "깜짝 놀라며",
+      "text": "어머나~! 세상에!",
+      "translation": "Oh my goodness! Heavens!",
+      "lang": "KO",
+      "audio": "RR_009_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "걱정하며",
+      "text": "그래서요? 찾았어요?",
+      "translation": "So? Did you find it?",
+      "lang": "KO",
+      "audio": "RR_009_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "안도하며",
+      "text": "Phew..., yes! It was inside my laptop bag the whole time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s006.mp3",
+      "playable": false,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "깊은 한숨을 내쉬며",
+      "text": "\"휴~ 다행이다!\"",
+      "translation": "Phew~ that's a relief!",
+      "lang": "KO",
+      "audio": "RR_009_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": {
+        "title": "다행이다",
+        "description": "It's a relief / Fortunately",
+        "usage_tip": "Used when a worrying situation ends well."
+      }
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "가슴을 쓸어내리며",
+      "text": "존 씨. 정말 \"십년감수했네요~!\"",
+      "translation": "John. You really 'shortened your life by ten years'!",
+      "lang": "KO",
+      "audio": "RR_009_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": {
+        "title": "십년감수하다",
+        "description": "To have ten years taken off one's life",
+        "usage_tip": "An idiom used when you are so shocked or scared that it felt like you lost years of your life."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"Sip-nyeon-gam-su\". That sounds like a long word.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "설명하며",
+      "text": "맞아요. 너무 놀라서 수명이 10년은 줄어든 것 같다는 뜻이에요.",
+      "translation": "Right. It means you were so surprised that it feels like your lifespan decreased by 10 years.",
+      "lang": "KO",
+      "audio": "RR_009_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "\"십년감수했다...,\"",
+      "translation": "That was a close call...,",
+      "lang": "KO",
+      "audio": "RR_009_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "미소 지으며",
+      "text": "그리고 그냥 짧게 안도할 때는. \"살았다~!\" 라고 하기도 해요.",
+      "translation": "And when you're briefly relieved. You can also say 'Sar-at-da~!'.",
+      "lang": "KO",
+      "audio": "RR_009_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": {
+        "title": "살았다",
+        "description": "Literally 'I lived' or 'I'm saved'",
+        "usage_tip": "Used when you escape a difficult situation."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "웃음",
+      "text": "Like saying \"I'm a survivor!\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s013.mp3",
+      "playable": false,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "쾌활하게",
+      "text": "비슷해요! \"휴~ 이제 살았다!\" 이런 느낌이죠.",
+      "translation": "Similar! It's like 'Phew~ now I'm saved!'",
+      "lang": "KO",
+      "audio": "RR_009_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "Let's try a situation. Imagine we are at a restaurant and I realized I forgot my wallet.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "어이없어하며",
+      "text": "존 씨. \"또요~?\"",
+      "translation": "Again~?",
+      "lang": "KO",
+      "audio": "RR_009_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "당황하며",
+      "text": "Wait..., wait a minute. Oh! Look! Here's a 50,000 won bill in my pocket!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "밝게 웃으며",
+      "text": "와~ \"정말 다행이다~!\"",
+      "translation": "Wow~ what a relief!",
+      "lang": "KO",
+      "audio": "RR_009_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "가슴을 치며",
+      "text": "I thought I was going to wash dishes here. I was so scared.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "농담하며",
+      "text": "하하하! 정말 \"십년감수했네요!\"",
+      "translation": "Hahaha! That was a close call!",
+      "lang": "KO",
+      "audio": "RR_009_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "안도하며",
+      "text": "\"휴~ 살았다!\"",
+      "translation": "Phew~ I'm saved!",
+      "lang": "KO",
+      "audio": "RR_009_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "장난스럽게",
+      "text": "대신 오늘 커피는 존 씨가 사는 거예요!",
+      "translation": "But instead. You are buying coffee today. John!",
+      "lang": "KO",
+      "audio": "RR_009_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "These expressions are so good for those \"Phew\" moments.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "밝게",
+      "text": "맞아요. 걱정이 사라졌을 때 오늘 배운 표현들을 꼭 써보세요!",
+      "translation": "Exactly. When your worries are gone. Make sure to use the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_009_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review the five reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number one. \"다행이다~!\"",
+      "translation": "That's a relief~!",
+      "lang": "EN",
+      "audio": "RR_009_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number two. \"정말 다행이다!\"",
+      "translation": "What a relief!",
+      "lang": "EN",
+      "audio": "RR_009_s027.mp3",
+      "playable": false,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number three. \"휴~ 살았다!\"",
+      "translation": "Phew~ I'm saved!",
+      "lang": "EN",
+      "audio": "RR_009_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number four. \"십년감수했네!\"",
+      "translation": "That was a close call!",
+      "lang": "EN",
+      "audio": "RR_009_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "Number five. \"천만다행이다!\"",
+      "translation": "It's a huge relief!",
+      "lang": "EN",
+      "audio": "RR_009_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": {
+        "title": "천만다행이다",
+        "description": "A stronger version of 'Dahaeng-ida'",
+        "usage_tip": "Used when something very bad was narrowly avoided."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "여러분에게도 다행인 일들이 많이 생기길 바랄게요!",
+      "translation": "I hope many lucky things happen to you all!",
+      "lang": "KO",
+      "audio": "RR_009_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "인사하며",
+      "text": "That's all for today. See you next time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_009_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_009_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "다행",
+      "meaning": "Relief. Luck",
+      "example": "다행히 비가 그쳤어요. (Fortunately. the rain stopped.)",
+      "audio": "RR_009_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "십년감수",
+      "meaning": "A narrow escape",
+      "example": "정말 십년감수했네요. (That was really a close call.)",
+      "audio": "RR_009_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "살았다",
+      "meaning": "I'm saved. I lived",
+      "example": "휴. 이제 살았다. (Phew. now I'm saved.)",
+      "audio": "RR_009_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "여권",
+      "meaning": "Passport",
+      "example": "여권을 잃어버렸어요. (I lost my passport.)",
+      "audio": "RR_009_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "수명",
+      "meaning": "Lifespan",
+      "example": "건강하게 살면 수명이 길어져요. (If you live healthily. your lifespan increases.)",
+      "audio": "RR_009_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "천만다행",
+      "meaning": "A great relief",
+      "example": "사고가 안 나서 천만다행이에요. (It's a great relief that there was no accident.)",
+      "audio": "RR_009_v006.mp3",
+      "seq": 6
+    }
+  ]
+}
