@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "id": "030",
+    "title": {
+      "en": "I owe you one! 신세 졌어!",
+      "ko": "고마워! 신세 졌어!"
+    },
+    "description": {
+      "en": "When you receive great help from a friend! Practice expressing gratitude and a promise to repay with 고마워 and 신세 졌어.",
+      "ko": "친구에게 큰 도움을 받았을 때! 고마워와 신세 졌어를 사용해 고마운 마음과 보답하겠다는 약속을 전해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 5 sec",
+      "ko": "5분 5초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Gratitude. Favor. Debt. Friendship. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "감격한 목소리로",
+      "text": "존! 어제 제가 급하게 부탁한 자료 정리해 줘서 정말 고마워요.",
+      "translation": "John! Thank you so much for organizing the data I asked for urgently yesterday.",
+      "lang": "KO",
+      "audio": "RR_030_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "감격한 목소리로",
+      "text": "덕분에 회의 무사히 잘 끝냈어요!",
+      "translation": "Thanks to you. the meeting ended successfully!",
+      "lang": "KO",
+      "audio": "RR_030_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "뿌듯해하며",
+      "text": "I'm glad I could help. Mina. It wasn't that hard for me anyway.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s004.mp3",
+      "playable": false,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "진심을 담아",
+      "text": "아니에요. 존 아니었으면 밤샐 뻔했다니까요.",
+      "translation": "No. I would have stayed up all night if it wasn't for you.",
+      "lang": "KO",
+      "audio": "RR_030_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "진심을 담아",
+      "text": "정말 고마워. 이번에 제대로 신세 졌어!",
+      "translation": "Thank you so much. I really owe you one this time!",
+      "lang": "KO",
+      "audio": "RR_030_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "Don't mention it! That's what friends are for.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "다음에 제가 맛있는 점심 살게요. 꼭이에요!",
+      "translation": "I'll buy you a delicious lunch next time. I mean it!",
+      "lang": "KO",
+      "audio": "RR_030_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "고마워. This is the first word everyone learns. right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네. 가장 기본적이면서도 가장 중요한 표현이죠.",
+      "translation": "Yes. It's the most basic yet most important expression.",
+      "lang": "KO",
+      "audio": "RR_030_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "상대방의 배려나 도움에 마음을 표현할 때 써보세요.",
+      "translation": "Use it when expressing your heart for someone's consideration or help.",
+      "lang": "KO",
+      "audio": "RR_030_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "고마워.",
+      "translation": "Thank you.",
+      "lang": "KO",
+      "audio": "RR_030_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그리고 신세 졌어 라는 말은 상대방에게 큰 도움이나 은혜를 입었을 때 쓰는 리액션이에요. 영어의 I owe you one 과 느낌이 아주 비슷해요.",
+      "translation": "And the phrase 'Sin-se jyeot-eo' is a reaction used when you've received great help or a favor from someone. It feels very similar to 'I owe you one' in English.",
+      "lang": "KO",
+      "audio": "RR_030_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "신세 졌어.",
+      "translation": "I owe you one.",
+      "lang": "KO",
+      "audio": "RR_030_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Is there a way to say \"I'll pay you back\".",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐 다음에 내가 쏠게 라고 해보세요.",
+      "translation": "In that case. try saying 'Da-eum-e nae-ga ssol-ge'.",
+      "lang": "KO",
+      "audio": "RR_030_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "다음에 내가 밥이나 커피를 사겠다는 아주 한국적인 보답의 표현이에요.",
+      "translation": "It's a very Korean expression of repayment. meaning I'll buy lunch or coffee next time.",
+      "lang": "KO",
+      "audio": "RR_030_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try a situation. Imagine I lent you my laptop for a whole week because yours was broken.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s018.mp3",
+      "playable": false,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 덕분에 이번 주 과제 잘 마쳤어요. 노트북 빌려줘서 정말 고마워.",
+      "translation": "John. thanks to you. I finished my assignment well this week. Thank you so much for lending me your laptop.",
+      "lang": "KO",
+      "audio": "RR_030_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "No problem. I'm just happy you finished your work on time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "노트북을 건네며",
+      "text": "여기요! 깨끗하게 썼어요.",
+      "translation": "Here it is! I used it cleanly.",
+      "lang": "KO",
+      "audio": "RR_030_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "노트북을 건네며",
+      "text": "이번에 진짜 신세 졌어. 내가 어떻게 보답하면 좋을까?",
+      "translation": "I really owe you one this time. How can I repay you?",
+      "lang": "KO",
+      "audio": "RR_030_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "웃으며",
+      "text": "Hmm... how about a cup of coffee?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "겨우 커피요? 안 돼요! 오늘 저녁은 제가 쏠게요. 맛있는 거 먹으러 가요!",
+      "translation": "Just coffee? No way! Dinner is on me today. Let's go eat something delicious!",
+      "lang": "KO",
+      "audio": "RR_030_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "기분 좋게",
+      "text": "Okay! I won't say no to that.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Gratitude makes every relationship stronger.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 고마울 땐 미안해하기보다 오늘 배운 표현들로 당당하고 기분 좋게 고마움을 표현해 보세요!",
+      "translation": "Right. Instead of feeling sorry when you're thankful. try expressing your gratitude confidently and pleasantly with the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_030_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"thankful\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "고마워!",
+      "translation": "Thank you!",
+      "lang": "KO",
+      "audio": "RR_030_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "신세 졌어!",
+      "translation": "I owe you one!",
+      "lang": "KO",
+      "audio": "RR_030_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "다음에 내가 쏠게!",
+      "translation": "Dinner is on me next time!",
+      "lang": "KO",
+      "audio": "RR_030_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "덕분에 살았어!",
+      "translation": "You saved my life!",
+      "lang": "KO",
+      "audio": "RR_030_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "나중에 꼭 갚을게!",
+      "translation": "I'll definitely pay you back!",
+      "lang": "KO",
+      "audio": "RR_030_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 주변 사람들에게 고마워라고 말하며 따뜻한 마음을 나누는 하루 되시길 바랄게요.",
+      "translation": "I hope you all have a warm day sharing your heart by saying thank you to those around you today.",
+      "lang": "KO",
+      "audio": "RR_030_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_030_s035.mp3",
+      "playable": false,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_030_s036.mp3",
+      "playable": true,
+      "seq": 36,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "신세",
+      "meaning": "Indebtedness. Obligation",
+      "example": "이번에 큰 신세를 졌네요. (I've become greatly indebted this time.)",
+      "audio": "RR_030_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "보답",
+      "meaning": "Repayment. Return",
+      "example": "도움에 보답하고 싶어요. (I want to repay you for the help.)",
+      "audio": "RR_030_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "은혜",
+      "meaning": "Favor. Grace",
+      "example": "부모님의 은혜에 감사드립니다. (I am grateful for my parents' grace.)",
+      "audio": "RR_030_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "쏠게",
+      "meaning": "My treat. On me",
+      "example": "오늘 점심은 제가 쏠게요. (Lunch is on me today.)",
+      "audio": "RR_030_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "과제",
+      "meaning": "Assignment. Task",
+      "example": "어제 밤을 새워서 과제를 끝냈어요. (I stayed up all night yesterday to finish the assignment.)",
+      "audio": "RR_030_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "배려",
+      "meaning": "Consideration. Thoughtfulness",
+      "example": "존의 따뜻한 배려에 감동했어요. (I was moved by John's warm consideration.)",
+      "audio": "RR_030_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

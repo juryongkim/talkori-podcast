@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "id": "028",
+    "title": {
+      "en": "I'm here for you! 내가 네 곁에 있을게!",
+      "ko": "내가 네 곁에 있을게! 언제든 의지해도 돼!"
+    },
+    "description": {
+      "en": "When you want to be a strong support for a friend going through a hard time! Practice giving sincere support with 내가 네 곁에 있을게 and 언제든 의지해도 돼.",
+      "ko": "친구가 힘든 시간을 보낼 때 든든한 버팀목이 되어주고 싶다면! 내가 네 곁에 있을게와 언제든 의지해도 돼를 사용해 진심 어린 응원을 보내 봅니다."
+    },
+    "duration": {
+      "en": "5 min 10 sec",
+      "ko": "5분 10초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Support. Friendship. Comfort. Encouragement. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "조금 지친 목소리로",
+      "text": "존. 요즘 일이 갑자기 몰려서 그런지 마음이 좀 허전하고 지치네요.",
+      "translation": "John. maybe because work has piled up lately. I feel a bit empty and exhausted.",
+      "lang": "KO",
+      "audio": "RR_028_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "조금 지친 목소리로",
+      "text": "잘하고 있는 건지도 모르겠고요.",
+      "translation": "I don't even know if I'm doing well.",
+      "lang": "KO",
+      "audio": "RR_028_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "다정하게",
+      "text": "Mina. you're doing a great job!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s004.mp3",
+      "playable": false,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "다정하게",
+      "text": "제가 미나 곁에 있을게요. If things get too hard. we can always talk.",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_028_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "고마워하며",
+      "text": "고마워요. 존. 그런 말을 들으니까 마음이 한결 가벼워지는 것 같아요.",
+      "translation": "Thank you. John. Hearing that makes my heart feel much lighter.",
+      "lang": "KO",
+      "audio": "RR_028_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "진심을 담아",
+      "text": "Of course! 언제든 의지해도 돼. We are a team. right?",
+      "translation": "Of course! You can lean on me anytime. We are a team. right?",
+      "lang": "KO",
+      "audio": "RR_028_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "내가 네 곁에 있을게. This is such a comforting phrase to hear.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네. 상대방이 혼자가 아니라는 걸 알려주고 싶을 때 쓰는 말이에요.",
+      "translation": "Yes. It's what you say when you want someone to know they aren't alone.",
+      "lang": "KO",
+      "audio": "RR_028_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "물리적인 거리보다 정서적으로 함께하고 있다는 든든함을 주는 표현이죠.",
+      "translation": "It's an expression that gives a sense of security that you're together emotionally rather than just physically.",
+      "lang": "KO",
+      "audio": "RR_028_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "내가 네 곁에 있을게.",
+      "translation": "I'm here for you.",
+      "lang": "KO",
+      "audio": "RR_028_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그리고 언제든 의지해도 돼 라는 말은 상대방이 힘들 때 나에게 도움을 청하거나 기대도 좋다는 허락과 지지의 의미가 담겨 있어요.",
+      "translation": "And the phrase 'Eon-je-deun ui-ji-hae-do dwae' carries the meaning of permission and support. saying it's okay to ask for help or lean on me when things are hard.",
+      "lang": "KO",
+      "audio": "RR_028_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "언제든 의지해도 돼.",
+      "translation": "You can lean on me anytime.",
+      "lang": "KO",
+      "audio": "RR_028_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "What if I want to say \"Cheer up\" or \"Hang in there\".",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐 힘내 라고 말해 보세요.",
+      "translation": "In that case. try saying 'Him-nae'.",
+      "lang": "KO",
+      "audio": "RR_028_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "한국 사람들이 응원할 때 가장 많이 쓰는 짧고 강력한 한마디예요.",
+      "translation": "It's the most common. short. and powerful word Koreans use when cheering someone on.",
+      "lang": "KO",
+      "audio": "RR_028_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try a situation. Imagine I'm feeling very overwhelmed because I have a big presentation tomorrow and I'm nervous.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 내일 발표 때문에 걱정 많이 돼요? 얼굴이 평소보다 긴장돼 보여요.",
+      "translation": "John. are you worried about the presentation tomorrow? You look more nervous than usual.",
+      "lang": "KO",
+      "audio": "RR_028_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "한숨을 내쉬며",
+      "text": "Yeah. I'm afraid I'll make a mistake. I've been practicing all night but I'm still shaky.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "따뜻하게 격려하며",
+      "text": "너무 부담 갖지 마요. 존은 충분히 잘할 수 있어요!",
+      "translation": "Don't feel too pressured. You can definitely do well!",
+      "lang": "KO",
+      "audio": "RR_028_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "따뜻하게 격려하며",
+      "text": "제가 응원하고 있을게요. 제가 존 곁에 있을게요!",
+      "translation": "I'll be cheering for you. I'm here for you.",
+      "lang": "KO",
+      "audio": "RR_028_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "안심하며",
+      "text": "Thanks. Mina. That really helps.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "도움이 필요하면 언제든 말해요. 언제든 의지해도 돼.",
+      "translation": "Tell me anytime if you need help. You can lean on me anytime.",
+      "lang": "KO",
+      "audio": "RR_028_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘 푹 자고 나면 내일은 더 잘할 수 있을 거예요. 힘내요!",
+      "translation": "After a good sleep today. you'll be able to do better tomorrow. Cheer up!",
+      "lang": "KO",
+      "audio": "RR_028_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "즐겁게",
+      "text": "Thank you! I feel much better now.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Knowing someone is on your side can change everything.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 진심이 담긴 리액션 하나가 누군가에게는 다시 일어날 수 있는 큰 힘이 된답니다.",
+      "translation": "Right. A single sincere reaction can be a great strength for someone to stand up again.",
+      "lang": "KO",
+      "audio": "RR_028_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘 배운 따뜻한 표현들을 주변에 전해 보세요.",
+      "translation": "Try sharing the warm expressions we learned today with those around you.",
+      "lang": "KO",
+      "audio": "RR_028_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"supportive\" reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "내가 네 곁에 있을게!",
+      "translation": "I'm here for you!",
+      "lang": "KO",
+      "audio": "RR_028_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "언제든 의지해도 돼!",
+      "translation": "You can lean on me anytime!",
+      "lang": "KO",
+      "audio": "RR_028_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "힘내!",
+      "translation": "Cheer up!",
+      "lang": "KO",
+      "audio": "RR_028_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "내가 있잖아!",
+      "translation": "You have me!",
+      "lang": "KO",
+      "audio": "RR_028_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "넌 혼자가 아니야!",
+      "translation": "You are not alone!",
+      "lang": "KO",
+      "audio": "RR_028_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 누군가에게 든든한 편이 되어주는 따스한 하루 보내시길 바랄게요.",
+      "translation": "I hope you all have a warm day being a reliable supporter for someone today.",
+      "lang": "KO",
+      "audio": "RR_028_s035.mp3",
+      "playable": true,
+      "seq": 35,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_028_s036.mp3",
+      "playable": false,
+      "seq": 36,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_028_s037.mp3",
+      "playable": true,
+      "seq": 37,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "의지",
+      "meaning": "Reliance. Lean on",
+      "example": "힘들 때는 친구에게 의지해도 괜찮아요. (It's okay to lean on a friend when things are hard.)",
+      "audio": "RR_028_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "곁",
+      "meaning": "Side",
+      "example": "항상 네 곁에 있을게. (I'll always be by your side.)",
+      "audio": "RR_028_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "응원",
+      "meaning": "Cheering. Support",
+      "example": "가족들의 응원이 큰 힘이 되었어요. (The support of my family was a great strength.)",
+      "audio": "RR_028_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "긴장",
+      "meaning": "Tension. Nervousness",
+      "example": "발표를 앞두고 너무 긴장돼요. (I'm so nervous ahead of the presentation.)",
+      "audio": "RR_028_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "부담",
+      "meaning": "Burden. Pressure",
+      "example": "너무 부담 갖지 말고 편하게 하세요. (Don't feel too pressured and take it easy.)",
+      "audio": "RR_028_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "정서적",
+      "meaning": "Emotional",
+      "example": "우리는 정서적으로 매우 가까운 사이예요. (We are very close emotionally.)",
+      "audio": "RR_028_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

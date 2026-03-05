@@ -1,0 +1,454 @@
+{
+  "metadata": {
+    "id": "020",
+    "title": {
+      "en": "I see what you mean! 무슨 말인지 알겠어! 네 말이 뭔지 이해돼!",
+      "ko": "무슨 말인지 알겠어! 네 말이 뭔지 이해돼!"
+    },
+    "description": {
+      "en": "When you empathize with someone's opinion or situation! Practice expressing empathy with 무슨 말인지 알겠어 and 네 말이 뭔지 이해돼.",
+      "ko": "상대방의 의견이나 상황에 공감할 때! 무슨 말인지 알겠어와 네 말이 뭔지 이해돼를 사용해 따뜻한 공감을 표현해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 5 sec",
+      "ko": "5분 5초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Empathy. Understanding. Conversation. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_020_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 저 어제 오랜만에 서점에 갔는데 책이 너무 많아서 결국 한 권도 못 사고 그냥 나왔어요.",
+      "translation": "John. I went to a bookstore yesterday for the first time in a while. but there were so many books that I ended up not buying even one.",
+      "lang": "KO",
+      "audio": "RR_020_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "고르는 게 너무 힘들더라고요.",
+      "translation": "It was so hard to choose.",
+      "lang": "KO",
+      "audio": "RR_020_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I see what you mean. 무슨 말인지 알겠어.",
+      "translation": "I see what you mean.",
+      "lang": "KO",
+      "audio": "RR_020_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "저도 메뉴가 너무 많으면 결정을 못 하겠더라고요.",
+      "translation": "I also can't make a decision when there are too many items on the menu.",
+      "lang": "KO",
+      "audio": "RR_020_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 그럴 땐 차라리 누가 딱 정해줬으면 좋겠다는 생각이 들어요.",
+      "translation": "Right. In those times. I feel like I wish someone would just decide for me.",
+      "lang": "KO",
+      "audio": "RR_020_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "공감하며",
+      "text": "네 말이 뭔지 이해돼. 선택지가 너무 많으면 오히려 스트레스를 받기도 하죠.",
+      "translation": "I understand what you mean. When there are too many choices. it can be stressful sometimes.",
+      "lang": "KO",
+      "audio": "RR_020_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "무슨 말인지 알겠어. This is a great way to show that you are listening.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_020_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네. 상대방이 설명하는 상황이나 이유를 내가 머릿속으로 이해했을 때 아주 자주 쓰는 리액션이에요.",
+      "translation": "Yes. It is a reaction used very often when you mentally understand the situation or reason someone is explaining.",
+      "lang": "KO",
+      "audio": "RR_020_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "무슨 말인지 알겠어.",
+      "translation": "I see what you mean.",
+      "lang": "KO",
+      "audio": "RR_020_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그리고 네 말이 뭔지 이해돼 라는 표현은 상대방의 감정이나 생각에 조금 더 깊이 공감할 때 사용하면 좋아요.",
+      "translation": "And the expression 'Ne ma-ri mon-ji i-hae-dwae' is good to use when you empathize a bit more deeply with someone's feelings or thoughts.",
+      "lang": "KO",
+      "audio": "RR_020_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "네 말이 뭔지 이해돼.",
+      "translation": "I understand what you're saying.",
+      "lang": "KO",
+      "audio": "RR_020_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Is there a shorter version of this.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_020_s013.mp3",
+      "playable": false,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "친구 사이라면 그냥 뭔지 알아 라고 짧게 말하기도 해요.",
+      "translation": "Haha. Between friends. we also say 'Mwon-ji a-ra' shortly.",
+      "lang": "KO",
+      "audio": "RR_020_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try a situation. Imagine I'm telling you why I'm hesitant to start a new hobby. like learning to play the violin.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_020_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 바이올린 배우는 거 재미있을 것 같은데 왜 고민해요?",
+      "translation": "John. learning the violin sounds fun. why are you hesitating?",
+      "lang": "KO",
+      "audio": "RR_020_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "악기가 너무 비싸기도 하고. 연습할 시간도 부족할 것 같아서 걱정이에요.",
+      "translation": "The instrument is too expensive. and I'm worried I won't have enough time to practice.",
+      "lang": "EN",
+      "audio": "RR_020_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "하하. 무슨 말인지 알겠어. 시작하기 전에 걱정되는 게 당연하죠.",
+      "translation": "Haha. I see what you mean. It is natural to be worried before starting.",
+      "lang": "KO",
+      "audio": "RR_020_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "그래도 한 번 도전해 보고 싶긴 해요.",
+      "translation": "But I still want to give it a try.",
+      "lang": "EN",
+      "audio": "RR_020_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럼요. 나중에 후회하는 것보다 일단 해보는 게 좋잖아요.",
+      "translation": "Of course. It is better to just try it than to regret it later.",
+      "lang": "KO",
+      "audio": "RR_020_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "네 말이 뭔지 이해돼. 일단 상담이라도 받아봐야겠어요.",
+      "translation": "I understand what you're saying. I should at least go for a consultation.",
+      "lang": "KO",
+      "audio": "RR_020_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "These expressions make the conversation feel so much more connected.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_020_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 상대방의 이야기에 귀를 기울이고 있다는 걸 보여주고 싶을 때 오늘 배운 표현들을 꼭 써보세요!",
+      "translation": "Right. When you want to show that you are listening to someone's story. make sure to use the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_020_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"understanding\" reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_020_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "무슨 말인지 알겠어!",
+      "translation": "I see what you mean!",
+      "lang": "EN",
+      "audio": "RR_020_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "네 말이 뭔지 이해돼!",
+      "translation": "I understand what you're saying!",
+      "lang": "EN",
+      "audio": "RR_020_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "무슨 뜻인지 알아!",
+      "translation": "I know what you mean!",
+      "lang": "EN",
+      "audio": "RR_020_s027.mp3",
+      "playable": false,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "뭔지 알아!",
+      "translation": "I know what it is!",
+      "lang": "EN",
+      "audio": "RR_020_s028.mp3",
+      "playable": false,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "강조하며",
+      "text": "이해가 가네!",
+      "translation": "It makes sense!",
+      "lang": "EN",
+      "audio": "RR_020_s029.mp3",
+      "playable": false,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 누군가의 마음을 깊이 이해해 주는 따뜻한 하루 되세요!",
+      "translation": "I hope you all have a warm day deeply understanding someone's heart today!",
+      "lang": "KO",
+      "audio": "RR_020_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_020_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_020_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "이해",
+      "meaning": "Understanding",
+      "example": "존의 설명을 들으니 이해가 잘 돼요. (I understand well after listening to John's explanation.)",
+      "audio": "RR_020_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "의미",
+      "meaning": "Meaning",
+      "example": "이 단어의 의미가 무엇인가요? (What is the meaning of this word?)",
+      "audio": "RR_020_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "상황",
+      "meaning": "Situation",
+      "example": "지금 상황이 별로 좋지 않아요. (The situation is not very good right now.)",
+      "audio": "RR_020_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "감정",
+      "meaning": "Emotion. Feeling",
+      "example": "자신의 감정을 솔직하게 표현해 보세요. (Try to express your feelings honestly.)",
+      "audio": "RR_020_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "선택",
+      "meaning": "Choice",
+      "example": "메뉴 선택이 정말 어렵네요. (Choosing from the menu is really difficult.)",
+      "audio": "RR_020_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "도전",
+      "meaning": "Challenge",
+      "example": "새로운 취미에 도전하는 건 즐거운 일이에요. (Challenging yourself to a new hobby is a joyful thing.)",
+      "audio": "RR_020_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

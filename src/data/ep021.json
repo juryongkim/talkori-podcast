@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "id": "021",
+    "title": {
+      "en": "Nope! Not a chance! 절대 안 돼! 어림도 없어!",
+      "ko": "아니! 절대 안 돼! 어림도 없어!"
+    },
+    "description": {
+      "en": "When you firmly reject an absurd request or suggestion! Practice expressing your will with 아니! 절대 안 돼! and 어림도 없어!.",
+      "ko": "상대방의 터무니없는 부탁이나 제안을 단호하게 거절할 때! 아니! 절대 안 돼!와 어림도 없어!를 사용해 내 의사를 확실히 표현해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 0 sec",
+      "ko": "5분 0초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Rejection. Refusal. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 저 이번 주말에 친구들이랑 여행 가기로 했는데. 존 차 좀 빌려줄 수 있어요?",
+      "translation": "John. I decided to go on a trip with friends this weekend. Can you lend me your car?",
+      "lang": "KO",
+      "audio": "RR_021_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존 차 좀 빌려줄 수 있어요?",
+      "translation": "Can you lend me your car?",
+      "lang": "KO",
+      "audio": "RR_021_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "깜짝 놀라며",
+      "text": "What? Mina. you don't even have a driver's license! 아니! 절대 안 돼!",
+      "translation": "What? Mina. you don't even have a driver's license! Nope! Not a chance!",
+      "lang": "KO",
+      "audio": "RR_021_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "운전은 친구가 할 거예요. 저는 옆에서 노래만 부를게요. 안 될까요?",
+      "translation": "Haha. My friend will drive. I'll just sing next to them. Can't I?",
+      "lang": "KO",
+      "audio": "RR_021_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "단호하게",
+      "text": "어림도 없어! 내 차는 나만 운전할 수 있다구요.",
+      "translation": "No way! Only I can drive my car.",
+      "lang": "KO",
+      "audio": "RR_021_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "역시 안 될 줄 알았어요. 그냥 한 번 물어본 거예요!",
+      "translation": "Haha. I knew it wouldn't work. I just asked once!",
+      "lang": "KO",
+      "audio": "RR_021_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "아니! 절대 안 돼! This is very clear and direct.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 상대방의 부탁을 단호하게 거절하고 싶을 때 쓰는 가장 확실한 표현이에요.",
+      "translation": "Right. It is the most certain expression to use when you want to firmly reject someone's request.",
+      "lang": "KO",
+      "audio": "RR_021_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "아니! 절대 안 돼!",
+      "translation": "Nope! Not a chance!",
+      "lang": "KO",
+      "audio": "RR_021_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그리고 어림도 없어! 라는 말은 상대방의 제안이 말도 안 될 정도로 터무니없을 때 써요.",
+      "translation": "And the phrase 'Eo-rim-do eop-seo!' is used when someone's suggestion is so absurd that it makes no sense.",
+      "lang": "KO",
+      "audio": "RR_021_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "어림도 없어!",
+      "translation": "No way!",
+      "lang": "KO",
+      "audio": "RR_021_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Is there a phrase for \"Don't even dream about it.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s013.mp3",
+      "playable": false,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐 꿈도 꾸지 마! 라고 말해 보세요. 절대 허락하지 않겠다는 아주 강력한 거절이에요.",
+      "translation": "Haha. In that case. say 'Kkum-do kku-ji ma!'. It's a very strong rejection meaning you will never allow it.",
+      "lang": "KO",
+      "audio": "RR_021_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try another situation. Imagine I ask you to do all my work for me while I go on a vacation.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 지금 뭐라고 했어요? 제가 존 업무를 다 대신 해달라구요?",
+      "translation": "John. what did you just say? You want me to do all your work for you?",
+      "lang": "KO",
+      "audio": "RR_021_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "애원하며",
+      "text": "Just for a week! I really need a break. Mina. Please!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "꿈도 꾸지 마! 제 일도 바빠서 정신이 없단 말이에요.",
+      "translation": "Haha. Don't even dream about it! I'm so busy with my own work.",
+      "lang": "KO",
+      "audio": "RR_021_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "포기하지 않고",
+      "text": "Then maybe just half of my work?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "어림도 없어! 존 일은 존이 알아서 하세요!",
+      "translation": "No way! You take care of your own work. John!",
+      "lang": "KO",
+      "audio": "RR_021_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "You're so cold today. Mina.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Sometimes being firm is the best way to keep your peace.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 안 되는 건 안 된다고 확실하게 말할 줄 알아야 해요.",
+      "translation": "Right. You should know how to say no clearly when something is not possible.",
+      "lang": "KO",
+      "audio": "RR_021_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘 배운 표현들로 내 의사를 분명하게 전달해 보세요!",
+      "translation": "Try to convey your will clearly with the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_021_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"no chance\" reactions.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "아니! 절대 안 돼! Nope! Not a chance!",
+      "translation": "Nope! Not a chance!",
+      "lang": "KO",
+      "audio": "RR_021_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "어림도 없어! No way!",
+      "translation": "No way!",
+      "lang": "KO",
+      "audio": "RR_021_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "꿈도 꾸지 마! Don't even dream about it!",
+      "translation": "Don't even dream about it!",
+      "lang": "KO",
+      "audio": "RR_021_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "말도 안 돼! That's impossible!",
+      "translation": "That's impossible!",
+      "lang": "KO",
+      "audio": "RR_021_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "절대 그럴 일 없어! That will never happen!",
+      "translation": "That will never happen!",
+      "lang": "KO",
+      "audio": "RR_021_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 무리한 부탁을 받으면 당황하지 말고 확실하게 거절해 보세요!",
+      "translation": "I hope you all reject firmly without being flustered when you receive an unreasonable request today!",
+      "lang": "KO",
+      "audio": "RR_021_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_021_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_021_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "절대",
+      "meaning": "Absolutely. Never",
+      "example": "저는 절대 포기하지 않을 거예요. (I will never give up.)",
+      "audio": "RR_021_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "어림없다",
+      "meaning": "To be impossible. To be far-fetched",
+      "example": "그 돈으로는 집을 사기에 어림없어요. (That amount of money is far from enough to buy a house.)",
+      "audio": "RR_021_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "거절",
+      "meaning": "Rejection. Refusal",
+      "example": "친구의 부탁을 정중하게 거절했어요. (I politely rejected my friend's request.)",
+      "audio": "RR_021_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "무리하다",
+      "meaning": "To be unreasonable. To be too much",
+      "example": "무리한 계획은 세우지 마세요. (Don't make unreasonable plans.)",
+      "audio": "RR_021_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "꿈",
+      "meaning": "Dream",
+      "example": "어제 정말 무서운 꿈을 꿨어요. (I had a really scary dream last night.)",
+      "audio": "RR_021_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "단호하다",
+      "meaning": "To be firm. To be resolute",
+      "example": "선생님은 단호한 태도로 말씀하셨어요. (The teacher spoke with a firm attitude.)",
+      "audio": "RR_021_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

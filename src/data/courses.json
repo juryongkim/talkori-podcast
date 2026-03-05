@@ -396,6 +396,226 @@
           "Reaction. Accuracy. Insight. Agreement. Daily Life"
         ],
         "dataFile": "ep019.json"
+      },
+      {
+        "id": "020",
+        "title": {
+          "en": "I see what you mean! 무슨 말인지 알겠어! 네 말이 뭔지 이해돼!",
+          "ko": "무슨 말인지 알겠어! 네 말이 뭔지 이해돼!"
+        },
+        "description": {
+          "en": "When you empathize with someone's opinion or situation! Practice expressing empathy with 무슨 말인지 알겠어 and 네 말이 뭔지 이해돼.",
+          "ko": "상대방의 의견이나 상황에 공감할 때! 무슨 말인지 알겠어와 네 말이 뭔지 이해돼를 사용해 따뜻한 공감을 표현해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 5 sec",
+          "ko": "5분 5초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Empathy. Understanding. Conversation. Daily Life"
+        ],
+        "dataFile": "ep020.json"
+      },
+      {
+        "id": "021",
+        "title": {
+          "en": "Nope! Not a chance! 절대 안 돼! 어림도 없어!",
+          "ko": "아니! 절대 안 돼! 어림도 없어!"
+        },
+        "description": {
+          "en": "When you firmly reject an absurd request or suggestion! Practice expressing your will with 아니! 절대 안 돼! and 어림도 없어!.",
+          "ko": "상대방의 터무니없는 부탁이나 제안을 단호하게 거절할 때! 아니! 절대 안 돼!와 어림도 없어!를 사용해 내 의사를 확실히 표현해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 0 sec",
+          "ko": "5분 0초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Rejection. Refusal. Daily Life"
+        ],
+        "dataFile": "ep021.json"
+      },
+      {
+        "id": "022",
+        "title": {
+          "en": "I don't buy it! 난 안 믿어! 그 말 못 믿겠어!",
+          "ko": "난 안 믿어! 그 말 못 믿겠어!"
+        },
+        "description": {
+          "en": "When you can't believe someone's absurd claims or excuses! Practice expressing your disbelief with 난 안 믿어 and 그 말 못 믿겠어.",
+          "ko": "상대방의 터무니없는 주장이나 변명을 믿을 수 없을 때! 난 안 믿어와 그 말 못 믿겠어를 사용해 의심스러운 마음을 리얼하게 표현해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Disbelief. Doubt. Skepticism. Daily Life"
+        ],
+        "dataFile": "ep022.json"
+      },
+      {
+        "id": "023",
+        "title": {
+          "en": "Not even close! 전혀 아니야! 완전 틀렸어!",
+          "ko": "전혀 아니야! 완전 틀렸어!"
+        },
+        "description": {
+          "en": "When someone's guess is completely different from the truth! Practice expressing being far from the answer with 전혀 아니야 and 완전 틀렸어.",
+          "ko": "상대방의 추측이 사실과 완전히 다를 때! 전혀 아니야와 완전 틀렸어를 사용해 정답에서 멀리 떨어져 있음을 분명하게 말해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 0 sec",
+          "ko": "5분 0초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Inaccuracy. Guessing. Correction. Daily Life"
+        ],
+        "dataFile": "ep023.json"
+      },
+      {
+        "id": "024",
+        "title": {
+          "en": "I have to disagree! 나는 동의할 수 없다! 난 반대야!",
+          "ko": "나는 동의할 수 없다! 난 반대야!"
+        },
+        "description": {
+          "en": "When it is hard to agree with someone's opinion! Practice expressing your thoughts clearly with 나는 동의할 수 없다 and 난 반대야.",
+          "ko": "상대방의 의견에 동의하기 어려울 때! 나는 동의할 수 없다와 난 반대야를 사용해 내 생각을 분명하게 표현해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 0 sec",
+          "ko": "5분 0초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Disagreement. Opposition. Opinion. Daily Life"
+        ],
+        "dataFile": "ep024.json"
+      },
+      {
+        "id": "025",
+        "title": {
+          "en": "I don't know about that! 그건 좀 아닌 듯! 난 좀 다르게 생각해!",
+          "ko": "그건 좀 아닌 듯! 난 좀 다르게 생각해!"
+        },
+        "description": {
+          "en": "When you are not entirely convinced or have doubts about someone's opinion! Practice expressing your thoughts with 그건 좀 아닌 듯 and 난 좀 다르게 생각해.",
+          "ko": "상대방의 의견에 완전히 동의하기 어렵거나 의구심이 들 때! 그건 좀 아닌 듯과 난 좀 다르게 생각해를 사용해 조심스러우면서도 분명하게 내 의견을 전달해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Doubt. Skepticism. Different Opinion. Daily Life"
+        ],
+        "dataFile": "ep025.json"
+      },
+      {
+        "id": "026",
+        "title": {
+          "en": "That's awful! I'm so sorry to hear that! 너무 안타깝다! 정말 안됐다!",
+          "ko": "너무 안타깝다! 정말 안됐다! 진짜 끔찍하네!"
+        },
+        "description": {
+          "en": "When you truly empathize and comfort someone regarding bad news! Practice offering warm comfort with 너무 안타깝다 and 정말 안됐다.",
+          "ko": "상대방에게 일어난 좋지 않은 일에 진심으로 공감하고 위로할 때! 너무 안타깝다와 정말 안됐다를 사용해 따뜻한 위로를 전해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 5 sec",
+          "ko": "5분 5초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Empathy. Sympathy. Comfort. Daily Life"
+        ],
+        "dataFile": "ep026.json"
+      },
+      {
+        "id": "027",
+        "title": {
+          "en": "That's heartbreaking! It's so sad! 너무 슬프다! 정말 가슴이 아프다!",
+          "ko": "너무 슬프다! 정말 가슴이 아프다!"
+        },
+        "description": {
+          "en": "When watching a sad movie or hearing a touching story! Practice expressing deep sadness with 너무 슬프다 and 가슴이 아프다.",
+          "ko": "슬픈 영화를 보거나 가슴 아픈 사연을 들었을 때! 너무 슬프다와 가슴이 아프다를 사용해 깊은 슬픔과 공감을 표현해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Sadness. Heartbreak. Emotion. Daily Life"
+        ],
+        "dataFile": "ep027.json"
+      },
+      {
+        "id": "028",
+        "title": {
+          "en": "I'm here for you! 내가 네 곁에 있을게!",
+          "ko": "내가 네 곁에 있을게! 언제든 의지해도 돼!"
+        },
+        "description": {
+          "en": "When you want to be a strong support for a friend going through a hard time! Practice giving sincere support with 내가 네 곁에 있을게 and 언제든 의지해도 돼.",
+          "ko": "친구가 힘든 시간을 보낼 때 든든한 버팀목이 되어주고 싶다면! 내가 네 곁에 있을게와 언제든 의지해도 돼를 사용해 진심 어린 응원을 보내 봅니다."
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Support. Friendship. Comfort. Encouragement. Daily Life"
+        ],
+        "dataFile": "ep028.json"
+      },
+      {
+        "id": "029",
+        "title": {
+          "en": "You got this! 할 수 있어!",
+          "ko": "할 수 있어! 넌 해낼 거야!"
+        },
+        "description": {
+          "en": "When you want to give courage to a friend who is nervous about a new challenge! Practice sending a powerful message of support with 할 수 있어 and 넌 해낼 거야.",
+          "ko": "새로운 도전을 앞두고 긴장한 친구에게 용기를 주고 싶을 때! 할 수 있어와 넌 해낼 거야를 사용해 강력한 응원의 메시지를 전해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 0 sec",
+          "ko": "5분 0초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Encouragement. Confidence. Support. Challenge. Daily Life"
+        ],
+        "dataFile": "ep029.json"
+      },
+      {
+        "id": "030",
+        "title": {
+          "en": "I owe you one! 신세 졌어!",
+          "ko": "고마워! 신세 졌어!"
+        },
+        "description": {
+          "en": "When you receive great help from a friend! Practice expressing gratitude and a promise to repay with 고마워 and 신세 졌어.",
+          "ko": "친구에게 큰 도움을 받았을 때! 고마워와 신세 졌어를 사용해 고마운 마음과 보답하겠다는 약속을 전해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 5 sec",
+          "ko": "5분 5초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Gratitude. Favor. Debt. Friendship. Daily Life"
+        ],
+        "dataFile": "ep030.json"
       }
     ]
   },
