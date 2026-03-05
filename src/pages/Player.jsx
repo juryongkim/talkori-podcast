@@ -467,16 +467,16 @@ export default function Player() {
                       </div>
 
                       {item.playable ? (
-                        <p onClick={() => handleLineClick(index)} className={`text-xl font-bold cursor-pointer rounded-lg transition-colors flex items-center gap-2 group pr-8 ${isPlaying ? 'text-indigo-600' : 'text-gray-900 hover:text-indigo-500'}`}>
+                        <p onClick={() => handleLineClick(index)} className={`text-xl font-bold cursor-pointer rounded-lg transition-colors flex items-center gap-2 group pr-8 whitespace-pre-wrap ${isPlaying ? 'text-indigo-600' : 'text-gray-900 hover:text-indigo-500'}`}>
                           {item.text} <span className={`text-sm transition-colors ${isPlaying ? 'text-indigo-600 animate-pulse' : 'text-gray-300 group-hover:text-indigo-400'}`}>{isPlaying ? '🔊' : '▶'}</span>
                         </p>
                       ) : (
-                        <p onClick={() => handleLineClick(index)} className={`text-lg px-2 py-1 -ml-2 rounded-lg transition-colors cursor-pointer pr-8 ${isPlaying ? 'text-indigo-600 font-bold' : 'text-gray-800 hover:text-gray-600'}`}>
+                        <p onClick={() => handleLineClick(index)} className={`text-lg px-2 py-1 -ml-2 rounded-lg transition-colors cursor-pointer pr-8 whitespace-pre-wrap ${isPlaying ? 'text-indigo-600 font-bold' : 'text-gray-800 hover:text-gray-600'}`}>
                           {item.text}
                         </p>
                       )}
 
-                      {item.translation && <p className="text-sm text-gray-500 font-medium mb-1 pl-2 border-l-2 border-gray-200">{item.translation}</p>}
+                      {item.translation && <p className="text-sm text-gray-500 font-medium mb-1 pl-2 border-l-2 border-gray-200 whitespace-pre-wrap">{item.translation}</p>}
                       {item.insight && (
                         <div className="mt-2 bg-white/80 border border-indigo-100 p-3 rounded-lg w-full shadow-sm">
                           <h4 className="font-bold text-indigo-900 text-sm flex items-center gap-1">💡 {item.insight.title}</h4>

@@ -376,6 +376,26 @@
           "Reaction. Accuracy. Agreement. Daily Life"
         ],
         "dataFile": "ep018.json"
+      },
+      {
+        "id": "019",
+        "title": {
+          "en": "You hit the nail on the head! 딱 맞는 말이야! 정곡을 찔렀어!",
+          "ko": "딱 맞는 말이야! 정곡을 찔렀어!"
+        },
+        "description": {
+          "en": "When someone pinpoints the heart of the matter! Practice expressing agreement with \"딱 맞는 말이야\" and \"정곡을 찔렀어\".",
+          "ko": "상대방이 문제의 핵심을 정확하게 짚었을 때! 딱 맞는 말과 정곡을 찔렀다는 표현으로 깊이 공감해 봅니다."
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner",
+        "tags": [
+          "Reaction. Accuracy. Insight. Agreement. Daily Life"
+        ],
+        "dataFile": "ep019.json"
       }
     ]
   },
