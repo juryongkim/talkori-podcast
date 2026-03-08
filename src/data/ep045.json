@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "id": "045",
+    "title": {
+      "en": "I messed up! I shouldn't have done that! 아, 완전 망했다!",
+      "ko": "아, 완전 망했다! 그러지 말걸 그랬어!"
+    },
+    "description": {
+      "en": "When you make an unexpected mistake or regret the past! Practice expressing your honest regret with 완전 망했다 and 그러지 말걸 그랬어.",
+      "ko": "예상치 못한 실수를 저질러 자책하거나 지난 일을 후회하고 싶을 때! 완전 망했다와 그러지 말걸 그랬어를 사용해 솔직한 아쉬움을 표현해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 15 sec",
+      "ko": "5분 15초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Regret. Mistake. Self-blame. Friendship. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "한숨을 깊게 내쉬며",
+      "text": "Mina. I think I'm in big trouble. I just realized I accidentally deleted our next week's script file.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "놀라며",
+      "text": "네? 정말요? 백업 파일도 안 만들어 놨단 말이에요?",
+      "translation": "What? John. really? You mean you didn't even make a backup file?",
+      "lang": "KO",
+      "audio": "RR_045_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "머리를 감싸며",
+      "text": "I forgot! 완전 망했네요.",
+      "translation": "I forgot! Oh. I completely messed up.",
+      "lang": "KO",
+      "audio": "RR_045_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "자책하며",
+      "text": "미리 복사해둘걸 그랬어요. 제 손가락이 왜 그랬을까요?",
+      "translation": "I should have copied it in advance. Why did my fingers do that?",
+      "lang": "KO",
+      "audio": "RR_045_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "안타까워하며",
+      "text": "이미 일어난 일인데 어쩌겠어요. 제가 같이 다시 써줄게요!",
+      "translation": "It already happened. so what can we do? I'll help you rewrite it together!",
+      "lang": "KO",
+      "audio": "RR_045_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "완전 망했다. This sounds very dramatic. right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네. 어떤 일이 아주 잘못되었거나 실패했을 때 쓰는 강한 표현이에요.",
+      "translation": "Yes. It's a strong expression used when something has gone very wrong or failed.",
+      "lang": "KO",
+      "audio": "RR_045_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "친구들 사이에서는 가벼운 실수에도 \"망했다!\" 라고 장난스럽게 쓰기도 하죠.",
+      "translation": "Among friends. we even use \"I messed up!\" jokingly for minor mistakes.",
+      "lang": "KO",
+      "audio": "RR_045_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "완전 망했다.",
+      "translation": "I messed up.",
+      "lang": "KO",
+      "audio": "RR_045_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Then what about 그러지 말걸 그랬어.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이건 과거의 행동에 대해 후회할 때 쓰는 가장 대표적인 말이에요.",
+      "translation": "This is the most representative phrase used when regretting past actions.",
+      "lang": "KO",
+      "audio": "RR_045_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"할걸 그랬어\" 는 해야 했는데 안 해서 아쉽다는 뜻이고. \"하지 말걸 그랬어\" 는 해서 후회한다는 뜻이죠.",
+      "translation": "\"~Hal-geol geu-raet-eo\" means you regret not doing something you should have. and \"~ha-ji mal-geol geu-raet-eo\" means you regret doing something.",
+      "lang": "KO",
+      "audio": "RR_045_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "그러지 말걸 그랬어.",
+      "translation": "I shouldn't have done that.",
+      "lang": "KO",
+      "audio": "RR_045_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try another situation. Imagine I bought an incredibly expensive suit that I don't even need.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 방금 배달 온 그 옷 뭐예요? 평소에 입기에는 너무 화려한 것 같은데요?",
+      "translation": "John. what is that clothes that just got delivered? It looks too flashy to wear normally.",
+      "lang": "KO",
+      "audio": "RR_045_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "후회하는 표정으로",
+      "text": "I know. I was just blinded by the sale and bought it impulsively.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "가격이 꽤 비싸 보이는데. 환불 가능한가요?",
+      "translation": "It looks quite expensive. Is it refundable?",
+      "lang": "KO",
+      "audio": "RR_045_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "No. it was a final sale. 아 완전 망했어요.",
+      "translation": "No. it was a final sale. Oh. I'm totally ruined.",
+      "lang": "KO",
+      "audio": "RR_045_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "그냥 사지 말걸 그랬어요. 이 돈이면 맛있는 걸 몇 번이나 먹을 수 있는데!",
+      "translation": "I just shouldn't have bought it. With this money. I could have eaten delicious food so many times!",
+      "lang": "KO",
+      "audio": "RR_045_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "위로하며",
+      "text": "이미 산 거니까 어쩔 수 없죠. 다음 파티 때 입고 주인공이 되어보세요!",
+      "translation": "Since you already bought it. there's nothing you can do. Wear it to the next party and be the star!",
+      "lang": "KO",
+      "audio": "RR_045_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Everyone makes mistakes. The important thing is to move on.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 후회는 짧게 하고 그 실수를 통해 배우는 게 더 중요해요.",
+      "translation": "Right. It's more important to keep the regret short and learn through that mistake.",
+      "lang": "KO",
+      "audio": "RR_045_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘 배운 표현들로 여러분의 솔직한 감정을 털어내고 다시 기운 내시길 바랄게요!",
+      "translation": "I hope you shake off your honest feelings with the expressions we learned today and cheer up again!",
+      "lang": "KO",
+      "audio": "RR_045_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"regret\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "완전 망했다! I messed up!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_045_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "그러지 말걸 그랬어! I shouldn't have done that!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_045_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "내 실수야! It's my mistake!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_045_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "자책하지 마! Don't blame yourself!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_045_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "후회해도 소용없어! It's no use regretting it!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_045_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 혹시 실수했다면 너무 속상해하지 말고 \"괜찮아\"라고 스스로를 다독여 주세요.",
+      "translation": "If you made a mistake today. don't be too upset and comfort yourself by saying \"It's okay.\"",
+      "lang": "KO",
+      "audio": "RR_045_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_045_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_045_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "망하다",
+      "meaning": "To be ruined. To mess up",
+      "example": "이번 시험은 공부를 안 해서 완전히 망했어요. (I completely messed up this exam because I didn't study.)",
+      "audio": "RR_045_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "후회",
+      "meaning": "Regret",
+      "example": "선택에 후회가 없도록 신중하게 결정하세요. (Decide carefully so there are no regrets in your choice.)",
+      "audio": "RR_045_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "자책",
+      "meaning": "Self-blame",
+      "example": "너무 자책하지 마세요. 누구나 실수할 수 있어요. (Don't blame yourself too much. Anyone can make a mistake.)",
+      "audio": "RR_045_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "충동적",
+      "meaning": "Impulsive",
+      "example": "충동적으로 물건을 사면 나중에 후회하기 쉬워요. (If you buy things impulsively. it's easy to regret it later.)",
+      "audio": "RR_045_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "실수",
+      "meaning": "Mistake",
+      "example": "제 실수로 파일이 지워져서 정말 죄송합니다. (I'm very sorry that the file was deleted due to my mistake.)",
+      "audio": "RR_045_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "다독이다",
+      "meaning": "To comfort. To soothe",
+      "example": "슬퍼하는 친구의 마음을 따뜻하게 다독여 주었어요. (I warmly comforted my sad friend's heart.)",
+      "audio": "RR_045_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

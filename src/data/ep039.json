@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "id": "039",
+    "title": {
+      "en": "That's so cool! 너무 기대된다! 너무 멋지다!",
+      "ko": "너무 기대된다! 너무 멋지다!"
+    },
+    "description": {
+      "en": "When you have fun plans or hear great news! Practice expressing excitement and admiration with 너무 기대된다 and 너무 멋지다.",
+      "ko": "즐거운 계획이 있거나 멋진 소식을 들었을 때! 너무 기대된다와 너무 멋지다를 사용해 설레는 마음과 감탄을 표현해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 10 sec",
+      "ko": "5분 10초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Excitement. Admiration. Positive. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "상기된 목소리로",
+      "text": "존! 저 드디어 다음 달에 오랫동안 계획했던 유럽 여행을 가기로 했어요!",
+      "translation": "John! I finally decided to go on that Europe trip I've been planning for a long time next month!",
+      "lang": "KO",
+      "audio": "RR_039_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "함께 기뻐하며",
+      "text": "Oh, how exciting! 진짜 너무 기대되겠는데요!",
+      "translation": "Oh, how exciting! I bet you're really looking forward to it!",
+      "lang": "KO",
+      "audio": "RR_039_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "감탄하며",
+      "text": "Traveling across Europe... That's so cool! 정말 멋지다!",
+      "translation": "Traveling across Europe... That's so cool! That's so wonderful!",
+      "lang": "KO",
+      "audio": "RR_039_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "고마워요. 존! 사진 많이 찍어서 보여줄게요.",
+      "translation": "Thank you. John! I'll take lots of pictures and show them to you.",
+      "lang": "KO",
+      "audio": "RR_039_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "가고 싶었던 미술관이랑 명소들을 다 예약했더니 벌써부터 설레요.",
+      "translation": "I've booked all the museums and landmarks I wanted to go to. so I'm already excited.",
+      "lang": "KO",
+      "audio": "RR_039_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "너무 기대된다. This expression is filled with excitement. right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네. 앞으로 일어날 즐거운 일에 대해 설레는 마음을 표현할 때 써요.",
+      "translation": "Yes. It's used to express excitement about something fun that will happen in the future.",
+      "lang": "KO",
+      "audio": "RR_039_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "친구의 소식에 \"정말 기대되겠다!\"라고 공감해 줄 때도 아주 좋아요.",
+      "translation": "It's also great for empathizing with a friend's news. saying \"You must be really looking forward to it!\"",
+      "lang": "KO",
+      "audio": "RR_039_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "너무 기대된다.",
+      "translation": "I'm so excited.",
+      "lang": "KO",
+      "audio": "RR_039_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Then what about 너무 멋지다.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이 표현은 어떤 대상이나 상황이 훌륭하고 근사할 때 쓰는 감탄사예요.",
+      "translation": "This expression is an exclamation used when a subject or situation is wonderful and nice.",
+      "lang": "KO",
+      "audio": "RR_039_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "누군가의 도전이나 성공을 축하하며 \"진짜 멋지다!\" 라고 말하면 최고의 칭찬이 되죠.",
+      "translation": "If you congratulate someone on their challenge or success by saying \"That's so cool!\". it becomes the best compliment.",
+      "lang": "KO",
+      "audio": "RR_039_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "너무 멋지다.",
+      "translation": "That's so cool.",
+      "lang": "KO",
+      "audio": "RR_039_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try a situation. Imagine I just told you that I'm going to perform a magic show for children this weekend.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 이번 주말에 어린이들을 위해서 마술 공연을 한다면서요?",
+      "translation": "John. I heard you're performing a magic show for children this weekend?",
+      "lang": "KO",
+      "audio": "RR_039_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "자신 있게",
+      "text": "Yes! I've been practicing a special trick where a rabbit comes out of a hat.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "눈을 반짝이며",
+      "text": "와! 너무 멋지다! 존이 마술사라니 정말 상상도 못 했어요.",
+      "translation": "Wow! That's so cool! I never imagined you being a magician. John.",
+      "lang": "KO",
+      "audio": "RR_039_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I hope the kids like it. I'm a bit nervous but also very excited.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "아이들이 정말 좋아할 거예요. 저도 공연이 어떻게 끝날지 너무 기대돼요!",
+      "translation": "The kids will love it. I'm also really looking forward to how the performance will turn out!",
+      "lang": "KO",
+      "audio": "RR_039_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "연습한 대로만 하면 분명히 성공할 거예요. 존. 파이팅!",
+      "translation": "If you just do as you practiced. it will definitely be a success. John. Fighting!",
+      "lang": "KO",
+      "audio": "RR_039_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "기분 좋게",
+      "text": "Thanks for the support. Mina!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Sharing positive energy makes everyone feel good.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 주변에 좋은 일이 생겼을 때 진심으로 감탄하고 함께 기대해 주는 게 중요해요.",
+      "translation": "Right. It's important to sincerely admire and look forward to good things when they happen around you.",
+      "lang": "KO",
+      "audio": "RR_039_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘 배운 표현들로 여러분의 긍정적인 마음을 듬뿍 전해 보세요!",
+      "translation": "Convey your positive heart with the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_039_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"exciting\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "너무 기대된다! Oh, how exciting!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_039_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "너무 멋지다! That's so cool!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_039_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "정말 설렌다! I'm so thrilled!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_039_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "진짜 대단하다! That's truly amazing!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_039_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "벌써부터 기다려져! I'm already looking forward to it!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_039_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 가슴 설레는 즐거운 일들이 가득한 하루 되시길 바랄게요.",
+      "translation": "I hope you all have a day full of heart-fluttering and joyful things today.",
+      "lang": "KO",
+      "audio": "RR_039_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_039_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_039_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "기대",
+      "meaning": "Expectation",
+      "example": "이번 여행이 정말 기대돼요. (I'm really looking forward to this trip.)",
+      "audio": "RR_039_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "설레다",
+      "meaning": "To be excited. To be thrilled",
+      "example": "소풍 가기 전날이라 잠이 안 올 정도로 설레요. (I'm so excited that I can't sleep because it's the day before the picnic.)",
+      "audio": "RR_039_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "명소",
+      "meaning": "Landmark. Famous place",
+      "example": "유럽에는 아름다운 명소가 정말 많아요. (There are so many beautiful landmarks in Europe.)",
+      "audio": "RR_039_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "감탄",
+      "meaning": "Admiration",
+      "example": "존의 마술 실력에 모두가 감탄했어요. (Everyone admired John's magic skills.)",
+      "audio": "RR_039_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "상상",
+      "meaning": "Imagination",
+      "example": "마법 같은 일이 일어나는 상상을 해보세요. (Imagine magical things happening.)",
+      "audio": "RR_039_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "긍정적",
+      "meaning": "Positive",
+      "example": "항상 긍정적으로 생각하면 좋은 일이 생길 거예요. (If you always think positively. good things will happen.)",
+      "audio": "RR_039_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

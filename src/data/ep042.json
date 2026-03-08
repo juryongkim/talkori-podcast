@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "id": "042",
+    "title": {
+      "en": "Must be nice! I'm so jealous! 진짜 좋겠다! 부러워!",
+      "ko": "진짜 좋겠다! 부러워!"
+    },
+    "description": {
+      "en": "When something good happens to a friend! Practice expressing honest and playful envy with 진짜 좋겠다 and 부러워.",
+      "ko": "친구에게 좋은 일이 생겼을 때! 진짜 좋겠다와 부러워를 사용해 솔직하면서도 장난스러운 부러움을 표현해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 10 sec",
+      "ko": "5분 10초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Envy. Jealousy. Friendship. Positive. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "흥분해서 휴대폰을 보여주며",
+      "text": "존! 저 방금 이벤트 당첨 문자를 받았어요.",
+      "translation": "John! I just got an event win text message.",
+      "lang": "KO",
+      "audio": "RR_042_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이번에 새로 나온 최신형 태블릿 PC를 공짜로 받게 됐대요!",
+      "translation": "They say I'm getting a brand new tablet PC for free!",
+      "lang": "KO",
+      "audio": "RR_042_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "깜짝 놀라며",
+      "text": "What? For free? Oh man. must be nice!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s004.mp3",
+      "playable": false,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "장난스럽게 시샘하며",
+      "text": "와 미나 진짜 좋겠다! 전 그런 운은 하나도 없는데 너무 부러워요.",
+      "translation": "Wow. you must be so lucky. Mina! I have no luck like that. so I'm so jealous.",
+      "lang": "KO",
+      "audio": "RR_042_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "웃으며",
+      "text": "저도 이런 적은 처음이라 너무 얼떨떨해요.",
+      "translation": "This is the first time for me too. so I'm very dazed.",
+      "lang": "KO",
+      "audio": "RR_042_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존이 부러워 하니까 더 실감이 나네요!",
+      "translation": "It feels more real since you're jealous. John!",
+      "lang": "KO",
+      "audio": "RR_042_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "진짜 좋겠다. This is used to express envy about someone else's good situation. right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네. 상대방에게 일어난 긍정적인 일을 보고 \"나도 저렇게 됐으면 좋겠다\" 라는 마음을 담은 리액션이에요.",
+      "translation": "Yes. It's a reaction containing the feeling of \"I wish I were like that too\" after seeing something positive happen to someone.",
+      "lang": "KO",
+      "audio": "RR_042_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "한국 사람들이 정말 입에 달고 사는 아주 대중적인 표현이죠.",
+      "translation": "It's a very popular expression that Koreans say all the time.",
+      "lang": "KO",
+      "audio": "RR_042_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "진짜 좋겠다.",
+      "translation": "Must be nice.",
+      "lang": "KO",
+      "audio": "RR_042_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Then what about 부러워.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s012.mp3",
+      "playable": false,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이건 직접적으로 나의 부러운 감정을 말할 때 써요.",
+      "translation": "This is used when you directly state your feeling of envy.",
+      "lang": "KO",
+      "audio": "RR_042_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"부러우면 지는 거다\" 라는 농담이 있을 정도로 가끔은 귀엽게 질투하는 느낌을 줄 수도 있어요.",
+      "translation": "There's even a joke saying \"If you're jealous. you lose.\" Sometimes it can give a feeling of cute jealousy.",
+      "lang": "KO",
+      "audio": "RR_042_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "부러워.",
+      "translation": "I'm jealous.",
+      "lang": "KO",
+      "audio": "RR_042_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try a situation. Imagine I just told you that my company gave me a whole month of paid vacation.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s016.mp3",
+      "playable": false,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "눈이 휘둥그레지며",
+      "text": "존! 한 달 동안 유급 휴가를 받는다고요?",
+      "translation": "John! You're getting a month of paid vacation?",
+      "lang": "KO",
+      "audio": "RR_042_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "회사에서 정말 파격적인 대우를 해주네요. 진짜 좋겠다!",
+      "translation": "The company is giving you such an exceptional treatment. Wow. must be nice!",
+      "lang": "KO",
+      "audio": "RR_042_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I'm planning to travel to Jeju Island and just relax on the beach for 30 days.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "부러운 눈빛으로",
+      "text": "제주도에서 한 달 살기라니..., 진심으로 부러워요.",
+      "translation": "Living in Jeju for a month... I'm sincerely jealous.",
+      "lang": "KO",
+      "audio": "RR_042_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "제 부러움이 느껴지시나요? 전 내일도 출근해야 하는데 말이에요!",
+      "translation": "Can you feel my envy? Since I have to go to work tomorrow too!",
+      "lang": "KO",
+      "audio": "RR_042_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "기분 좋게",
+      "text": "I'll send you lots of pictures from the beach. Mina!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Honest reactions like \"I'm jealous\" can actually make friends feel more special.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 시샘하기보다 솔직하게 부럽다고 말해주면 서로 기분이 더 좋아질 수 있어요.",
+      "translation": "Right. Rather than being spiteful. saying honestly that you're jealous can make each other feel better.",
+      "lang": "KO",
+      "audio": "RR_042_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘 배운 표현들로 친구의 행복을 마음껏 축하하고 부러워해 보세요!",
+      "translation": "Congratulate your friend's happiness and be jealous to your heart's content with the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_042_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"jealous\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "진짜 좋겠다! Must be nice!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_042_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "부러워! I'm so jealous!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_042_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "부러우면 지는 건데! If you're jealous. you lose!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_042_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "전생에 나라를 구했나 봐! You must have saved the country in your past life!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_042_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "정말 대박이다! That's so awesome!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_042_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 주변 사람들에게 \"좋겠다!\"라는 말을 들을 만큼 기분 좋은 일이 가득하시길 바랄게요.",
+      "translation": "I hope you all have a day full of pleasant things enough to hear \"Must be nice!\" from people around you today.",
+      "lang": "KO",
+      "audio": "RR_042_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_042_s033.mp3",
+      "playable": false,
+      "seq": 33,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_042_s034.mp3",
+      "playable": true,
+      "seq": 34,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "부럽다",
+      "meaning": "To be envious. To be jealous",
+      "example": "친구의 새 차가 정말 부러워요. (I'm really envious of my friend's new car.)",
+      "audio": "RR_042_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "당첨",
+      "meaning": "Winning a prize",
+      "example": "이벤트 당첨 문자를 받고 깜짝 놀랐어요. (I was surprised to receive an event winning text message.)",
+      "audio": "RR_042_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "휴가",
+      "meaning": "Vacation. Holiday",
+      "example": "이번 여름 휴가는 해외로 가고 싶어요. (I want to go abroad for this summer vacation.)",
+      "audio": "RR_042_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "질투",
+      "meaning": "Jealousy",
+      "example": "사소한 일로 친구를 질투하지 마세요. (Don't be jealous of your friend for trivial things.)",
+      "audio": "RR_042_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "비결",
+      "meaning": "Secret. Know-how",
+      "example": "행운을 불러오는 비결이 따로 있나요? (Is there a specific secret to bringing good luck?)",
+      "audio": "RR_042_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "행운",
+      "meaning": "Good luck. Fortune",
+      "example": "당신에게 행운이 가득하길 빌게요. (I wish you all the best of luck.)",
+      "audio": "RR_042_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "id": "043",
+    "title": {
+      "en": "Give me a break! 진짜 적당히 좀 해! 너 진짜 못 말린다!",
+      "ko": "아, 진짜 적당히 좀 해! 너 진짜 못 말린다!"
+    },
+    "description": {
+      "en": "When someone does something ridiculous or won't stop making corny jokes! Practice expressing your exasperation with 적당히 좀 해 and 못 말린다.",
+      "ko": "상대방이 너무 황당한 행동을 하거나 썰렁한 농담을 멈추지 않을 때! 적당히 좀 해와 못 말린다를 사용해 어이없는 마음을 표현해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 15 sec",
+      "ko": "5분 15초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Exasperation. Annoyance. Friendship. Teasing. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "진지한 표정으로",
+      "text": "Mina. I've decided to stop eating food. I'll just live on the love from our listeners starting today.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "황당하다는 듯이",
+      "text": "존. 지금 뭐라고 했어요? 사랑만 먹고 살겠다고요?",
+      "translation": "John. what did you just say? You're going to live only on love?",
+      "lang": "KO",
+      "audio": "RR_043_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "고개를 끄덕이며",
+      "text": "Yes. Love is the best energy source. I'll be fine!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s004.mp3",
+      "playable": false,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "절레절레 흔들며",
+      "text": "진짜 적당히 좀 하세요. 배고프면 제일 먼저 간식 찾을 거면서 무슨 소리예요!",
+      "translation": "Ah. seriously. give me a break. You'll be the first one looking for snacks when you're hungry!",
+      "lang": "KO",
+      "audio": "RR_043_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "어이없어하며",
+      "text": "정말 진짜 못 말린다. 그런 농담은 이제 그만하세요!",
+      "translation": "You're really too much. Stop making those kinds of jokes!",
+      "lang": "KO",
+      "audio": "RR_043_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "적당히 좀 해. This sounds like I'm asking someone to stop doing something too much. right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네. 상대방이 지나친 장난을 치거나 귀찮게 할 때 쓰는 표현이에요.",
+      "translation": "Yes. It's an expression used when someone plays excessive jokes or bothers you.",
+      "lang": "KO",
+      "audio": "RR_043_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"이제 그만 좀 해\" 라는 뜻을 아주 솔직하고 강하게 전달할 수 있죠.",
+      "translation": "You can convey the meaning of \"Stop it now\" very honestly and strongly.",
+      "lang": "KO",
+      "audio": "RR_043_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "적당히 좀 해.",
+      "translation": "Give me a break.",
+      "lang": "KO",
+      "audio": "RR_043_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Then what about 너 진짜 못 말린다.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이건 상대방의 고집이나 엉뚱한 행동을 아무도 막을 수 없다는 뜻이에요.",
+      "translation": "This means that no one can stop the other person's stubbornness or eccentric behavior.",
+      "lang": "KO",
+      "audio": "RR_043_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "황당하면서도 한편으로는 \"그래. 너답다\" 라며 포기할 때 자주 사용하는 리액션이에요.",
+      "translation": "It's a reaction often used when you're exasperated but also giving up. thinking \"Yeah. that's just like you.\"",
+      "lang": "KO",
+      "audio": "RR_043_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "너 진짜 못 말린다.",
+      "translation": "You're too much.",
+      "lang": "KO",
+      "audio": "RR_043_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try a situation. Imagine I'm wearing sunglasses and a scarf even though we are indoors. because I want to look like a superstar.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 실내에서 선글라스는 왜 쓰고 있는 거예요? 심지어 스카프까지 하고 있네요!",
+      "translation": "John. why are you wearing sunglasses indoors? You're even wearing a scarf!",
+      "lang": "KO",
+      "audio": "RR_043_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "거만하게",
+      "text": "Shh... I need to protect my privacy. Mina. My fans might find me here.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "한숨을 쉬며",
+      "text": "우리 지금 스튜디오 안에 있잖아요. 진짜 적당히 좀 하세요.",
+      "translation": "John. we're inside the studio right now. Seriously. give me a break.",
+      "lang": "KO",
+      "audio": "RR_043_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "But the lighting here is so bright. I need to maintain my mysterious vibe.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "어깨를 으쓱하며",
+      "text": "진짜 못 말린다. 누가 보면 진짜 연예인인 줄 알겠어요!",
+      "translation": "Wow. you're really too much. People would think you're an actual celebrity!",
+      "lang": "KO",
+      "audio": "RR_043_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "어서 선글라스 벗고 방송에 집중이나 하세요!",
+      "translation": "Hurry up and take off your sunglasses and just focus on the show!",
+      "lang": "KO",
+      "audio": "RR_043_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Sometimes friends need a reality check when they're being too extra.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 찐친이라면 가끔은 이렇게 따끔하고 솔직하게 리액션을 해주는 것도 필요하죠.",
+      "translation": "Right. If you're best friends. it's sometimes necessary to give sharp and honest reactions like this.",
+      "lang": "KO",
+      "audio": "RR_043_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘 배운 표현들로 친구의 엉뚱한 행동에 시원하게 한마디 해보세요!",
+      "translation": "Say something refreshing to your friend's eccentric behavior with the expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_043_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"exasperated\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "적당히 좀 해! Give me a break!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_043_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "너 진짜 못 말린다! You're too much!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_043_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "어이가 없네! This is ridiculous!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_043_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "황당하다. 정말! That's absurd. really!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_043_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "적당히 하세요! That's enough!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_043_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 친구가 너무 엉뚱한 소리를 한다면 당황하지 말고 말해 보세요. 적당히 좀 해!",
+      "translation": "Everyone. if a friend says something too eccentric today. don't be flustered and try saying. \"Give me a break!\"",
+      "lang": "KO",
+      "audio": "RR_043_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_043_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_043_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "적당히",
+      "meaning": "Moderately. In moderation",
+      "example": "운동은 적당히 하는 것이 건강에 좋아요. (It's good for your health to exercise in moderation.)",
+      "audio": "RR_043_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "황당하다",
+      "meaning": "To be absurd. To be ridiculous",
+      "example": "길을 가다가 돈을 줍다니 정말 황당한 일이에요. (It's really absurd to pick up money while walking on the street.)",
+      "audio": "RR_043_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "어이없다",
+      "meaning": "To be dumbfounded. To be exasperated",
+      "example": "그의 거짓말을 들으니 정말 어이가 없네요. (I'm really dumbfounded to hear his lie.)",
+      "audio": "RR_043_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "못 말리다",
+      "meaning": "Unstoppable. Too much",
+      "example": "우리 아들의 장난은 정말 아무도 못 말려요. (No one can really stop my son's pranks.)",
+      "audio": "RR_043_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "지나치다",
+      "meaning": "To be excessive",
+      "example": "장난이 너무 지나치면 싸움이 될 수 있어요. (If a prank is too excessive. it can lead to a fight.)",
+      "audio": "RR_043_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "고집",
+      "meaning": "Stubbornness",
+      "example": "그는 고집이 세서 남의 말을 잘 안 들어요. (He is stubborn and doesn't listen to others well.)",
+      "audio": "RR_043_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

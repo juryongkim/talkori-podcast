@@ -1,0 +1,454 @@
+{
+  "metadata": {
+    "id": "041",
+    "title": {
+      "en": "Fire! It's awesome! 끝내준다! 최고다! 완전 대박!!",
+      "ko": "끝내준다! 최고다! 완전 대박!"
+    },
+    "description": {
+      "en": "When you see something amazing or eat delicious food! Practice expressing your greatest admiration with 끝내준다 and 완전 대박.",
+      "ko": "정말 멋진 것을 보거나 아주 맛있는 음식을 먹었을 때! 끝내준다와 완전 대박을 사용해 최고의 감탄을 표현해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 0 sec",
+      "ko": "5분 0초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Admiration. Slang. Excitement. Positive. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "흥분해서 휴대폰을 보여주며",
+      "text": "Mina. you have to see this! I just watched the new music video from that rookie group.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "The choreography. the beat... everything is fire! 진짜 끝내주더라고요!",
+      "translation": "The choreography. the beat... everything is fire! It was really awesome!",
+      "lang": "KO",
+      "audio": "RR_041_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "영상을 같이 보며",
+      "text": "저도 방금 봤는데 진짜 완전 대박 이네요!",
+      "translation": "Wow. I just watched it too and it's really awesome!",
+      "lang": "KO",
+      "audio": "RR_041_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "군무가 딱딱 맞는 게 정말 최고예요. 눈을 뗄 수가 없네요!",
+      "translation": "The group dance is perfectly synchronized. so it's really the best. I can't take my eyes off it!",
+      "lang": "KO",
+      "audio": "RR_041_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "끝내준다. This sounds like something is so good it \"ends\" everything. right.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s006.mp3",
+      "playable": false,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 너무 훌륭해서 더 이상 말이 필요 없을 때 쓰는 표현이에요.",
+      "translation": "Right. It's an expression used when something is so great that no more words are needed.",
+      "lang": "KO",
+      "audio": "RR_041_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "실력이나 경치 그리고 음식 맛이 아주 좋을 때 \"진짜 끝내준다!\" 라고 감탄하곤 하죠.",
+      "translation": "When skills. scenery. or food tastes are very good. we often exclaim. \"It's really awesome!\"",
+      "lang": "KO",
+      "audio": "RR_041_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "끝내준다.",
+      "translation": "It's awesome.",
+      "lang": "KO",
+      "audio": "RR_041_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "How about 완전 대박.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s010.mp3",
+      "playable": false,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "대박은 원래 큰 행운이나 성공을 뜻하는 말이었어요.",
+      "translation": "Daebak originally meant great luck or success.",
+      "lang": "KO",
+      "audio": "RR_041_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "지금은 정말 놀랍거나 멋진 상황에서 \"대박!\" 혹은 \"완전 대박!\"이라고 아주 많이 써요.",
+      "translation": "Now. it's used a lot as \"Daebak!\" or \"Wan-jeon Daebak!\" in truly amazing or cool situations.",
+      "lang": "KO",
+      "audio": "RR_041_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "완전 대박.",
+      "translation": "That's incredible.",
+      "lang": "KO",
+      "audio": "RR_041_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try a situation. Imagine I just took you to a hidden rooftop cafe with an amazing view of the city.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "주변을 둘러보며",
+      "text": "존! 여기 뷰가 정말 장난 아니네요.",
+      "translation": "Wow. John! The view here is really no joke.",
+      "lang": "KO",
+      "audio": "RR_041_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "서울 시내가 한눈에 다 보여요. 진짜 끝내주네요!",
+      "translation": "You can see all of downtown Seoul at a glance. It's really awesome!",
+      "lang": "KO",
+      "audio": "RR_041_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I knew you would like it. This spot is fire. right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네! 분위기가 정말 최고예요.",
+      "translation": "Yes! The atmosphere is really the best.",
+      "lang": "KO",
+      "audio": "RR_041_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이런 곳을 어떻게 찾아냈어요? 완전 대박!",
+      "translation": "How did you find a place like this? John. you're totally awesome!",
+      "lang": "KO",
+      "audio": "RR_041_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "뿌듯해하며",
+      "text": "I have my ways. Mina. Let's enjoy the coffee and the view!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Using energetic reactions makes the moment even more special.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 좋은 것을 보고 아낌없이 감탄하는 마음이 상대방도 기분 좋게 만들거든요.",
+      "translation": "Right. The heart that admires something good without hesitation makes the other person feel good too.",
+      "lang": "KO",
+      "audio": "RR_041_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘 배운 파이팅 넘치는 표현들로 여러분의 기분을 마음껏 표현해 보세요!",
+      "translation": "Express your feelings to your heart's content with the energetic expressions we learned today!",
+      "lang": "KO",
+      "audio": "RR_041_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"awesome\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "끝내준다! It's awesome!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_041_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "최고다! It's the best!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_041_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "완전 대박! That's incredible!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_041_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "진짜 장난 아니다! This is no joke!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_041_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "장난 아니네! That's amazing!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_041_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 기분 최고인 일들이 가득한 대박 같은 하루 보내시길 바랄게요.",
+      "translation": "I hope you all have an awesome day today full of things that make you feel the best.",
+      "lang": "KO",
+      "audio": "RR_041_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_041_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_041_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "끝내주다",
+      "meaning": "To be awesome. To be amazing",
+      "example": "오늘 날씨 정말 끝내주네요! (The weather today is really awesome!)",
+      "audio": "RR_041_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "최고",
+      "meaning": "The best",
+      "example": "당신이 내 인생의 최고예요. (You are the best in my life.)",
+      "audio": "RR_041_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "대박",
+      "meaning": "Awesome. Great success",
+      "example": "이번 영화 진짜 대박 날 것 같아요. (I think this movie will be a huge hit.)",
+      "audio": "RR_041_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "감탄",
+      "meaning": "Admiration",
+      "example": "아름다운 풍경에 감탄이 절로 나와요. (Admiration comes out naturally at the beautiful scenery.)",
+      "audio": "RR_041_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "분위기",
+      "meaning": "Atmosphere. Mood",
+      "example": "이 카페는 분위기가 정말 좋네요. (This cafe has a really good atmosphere.)",
+      "audio": "RR_041_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "장난 아니다",
+      "meaning": "To be no joke. To be incredible",
+      "example": "그의 요리 실력은 정말 장난 아니에요. (His cooking skills are really no joke.)",
+      "audio": "RR_041_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "id": "032",
+    "title": {
+      "en": "Whatever! Anything is fine! 괜찮아! 상관없어! 아무거나 좋아!",
+      "ko": "괜찮아! 상관없어! 아무거나 좋아!"
+    },
+    "description": {
+      "en": "When you want to follow someone else's opinion on plans or menus! Practice answering coolly with 상관없어 and 아무거나 좋아.",
+      "ko": "메뉴나 계획을 정할 때 상대방의 의견에 따르고 싶다면! 상관없어와 아무거나 좋아를 사용해 쿨하게 대답해 봅니다."
+    },
+    "duration": {
+      "en": "5 min 0 sec",
+      "ko": "5분 0초"
+    },
+    "level": "Beginner",
+    "tags": [
+      "Reaction. Indifference. Decision-making. Agreement. Daily Life"
+    ],
+    "course": "real-reaction",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "에너지 넘치게",
+      "text": "What's up world! Welcome back. You are listening to... \"Real Reaction!\" I'm your host. John.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_032_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 오늘 점심 메뉴 결정하셨어요? 제가 몇 가지 골라봤는데 들어보실래요?",
+      "translation": "John. have you decided on a lunch menu today? I've picked a few. do you want to hear them?",
+      "lang": "KO",
+      "audio": "RR_032_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "여유롭게",
+      "text": "I'm feeling lazy today. so anything is fine with me. 아무거나 좋아.",
+      "translation": "I'm feeling lazy today. so anything is fine with me. Anything is fine.",
+      "lang": "KO",
+      "audio": "RR_032_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "장난스럽게",
+      "text": "정말요? 그럼 우리 오늘 아주 매운 짬뽕 먹으러 갈까요?",
+      "translation": "Really? Then shall we go eat very spicy Jjamppong today?",
+      "lang": "KO",
+      "audio": "RR_032_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "잠깐 멈칫하며",
+      "text": "Oh. I'm not good with spicy food. but if you really want it. 괜찮아.",
+      "translation": "Oh. I'm not good with spicy food. but if you really want it. it's okay.",
+      "lang": "KO",
+      "audio": "RR_032_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "웃으며",
+      "text": "농담이에요. 존이 매운 거 못 먹는 거 다 알죠. 그냥 상관없어 라고 하길래 장난 좀 쳐봤어요!",
+      "translation": "Just kidding. I know you can't eat spicy food. I just teased you a bit because you said it doesn't matter!",
+      "lang": "KO",
+      "audio": "RR_032_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "상관없어. This sounds very cool and easygoing.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_032_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 어떤 선택이든 나에게는 영향을 주지 않는다는 뜻이에요.",
+      "translation": "Right. It means that whatever choice is made. it doesn't affect me.",
+      "lang": "KO",
+      "audio": "RR_032_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "상대방의 의견을 존중하거나 정말로 다 괜찮을 때 쓰는 표현이에요.",
+      "translation": "It's an expression used when you respect the other person's opinion or when everything is really fine.",
+      "lang": "KO",
+      "audio": "RR_032_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "상관없어.",
+      "translation": "It doesn't matter.",
+      "lang": "KO",
+      "audio": "RR_032_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "And what about 아무거나 좋아.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_032_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이건 주로 메뉴나 물건을 고를 때 많이 써요.",
+      "translation": "This is mainly used when choosing menus or items.",
+      "lang": "KO",
+      "audio": "RR_032_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "특별히 싫은 게 없으니 네가 고르는 거라면 뭐든 좋다는 긍정적인 느낌을 주죠.",
+      "translation": "Since there's nothing I particularly dislike. it gives a positive feeling that whatever you choose is good.",
+      "lang": "KO",
+      "audio": "RR_032_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "아무거나 좋아.",
+      "translation": "Anything is fine.",
+      "lang": "KO",
+      "audio": "RR_032_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay. let's try a situation. Imagine we are at a movie theater and we can't decide what to watch.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_032_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "존. 지금 바로 볼 수 있는 게 액션 영화랑 코미디 영화가 있는데. 어떤 거 볼래요?",
+      "translation": "John. there's an action movie and a comedy movie we can watch right now. Which one do you want to see?",
+      "lang": "KO",
+      "audio": "RR_032_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "고민 없이",
+      "text": "I like both genres. 상관없어요. 미나가 보고 싶은 걸로 골라요.",
+      "translation": "I like both genres. It doesn't matter. Choose the one you want to watch. Mina.",
+      "lang": "KO",
+      "audio": "RR_032_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "음. 그럼 우리 오랜만에 코미디 영화 볼까요? 신나게 웃고 싶거든요.",
+      "translation": "Hmm. Then shall we watch a comedy movie for the first time in a while? I want to have a good laugh.",
+      "lang": "KO",
+      "audio": "RR_032_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "끄덕이며",
+      "text": "괜찮아요. 저도 요즘 스트레스가 많아서 웃고 싶었거든요.",
+      "translation": "It's okay. I've been stressed lately too. so I wanted to laugh.",
+      "lang": "KO",
+      "audio": "RR_032_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "좋아요! 그럼 팝콘이랑 콜라는 어떤 걸로 할까요?",
+      "translation": "Great! Then what about popcorn and cola?",
+      "lang": "KO",
+      "audio": "RR_032_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "미소 지으며",
+      "text": "그것도 미나 마음대로 해요. 난 미나의 안목을 믿거든요!",
+      "translation": "That too. do as you wish. I trust your taste. Mina!",
+      "lang": "KO",
+      "audio": "RR_032_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Sometimes \"whatever\" is the most helpful answer when you're flexible.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_032_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 하지만 너무 자주 쓰면 상대방이 결정하는 데 부담을 느낄 수도 있어요.",
+      "translation": "Right. But if you use it too often. the other person might feel pressured to make the decision.",
+      "lang": "KO",
+      "audio": "RR_032_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "가끔은 내가 원하는 걸 확실히 말하는 것도 중요하다는 점 잊지 마세요!",
+      "translation": "Don't forget that it's also important to say clearly what you want sometimes!",
+      "lang": "KO",
+      "audio": "RR_032_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"easygoing\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_032_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "괜찮아! It's okay!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_032_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "상관없어! It doesn't matter!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_032_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "아무거나 좋아! Anything is fine!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_032_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "네 맘대로 해! Do as you wish!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_032_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "다 좋아! Everything is good!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_032_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 친구와 함께할 때 배려하는 마음을 담아 대답해 보세요. 아무거나 좋아!",
+      "translation": "Everyone. when you are with a friend today. try answering with a caring heart. Anything is fine!",
+      "lang": "KO",
+      "audio": "RR_032_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_032_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_032_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "상관없다",
+      "meaning": "To not matter",
+      "example": "저는 메뉴가 무엇이든 상관없어요. (I don't care what the menu is.)",
+      "audio": "RR_032_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "아무거나",
+      "meaning": "Anything",
+      "example": "배가 너무 고파서 아무거나 잘 먹을 수 있어요. (I'm so hungry that I can eat anything.)",
+      "audio": "RR_032_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "결정",
+      "meaning": "Decision",
+      "example": "오늘 안으로 결정을 내려야 해요. (I have to make a decision by today.)",
+      "audio": "RR_032_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "부담",
+      "meaning": "Burden. Pressure",
+      "example": "너무 부담 갖지 말고 편하게 골라보세요. (Don't feel too pressured and pick comfortably.)",
+      "audio": "RR_032_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "안목",
+      "meaning": "Eye for. Taste",
+      "example": "미나는 옷을 고르는 안목이 뛰어나요. (Mina has an excellent eye for picking clothes.)",
+      "audio": "RR_032_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "유연하다",
+      "meaning": "To be flexible",
+      "example": "존은 성격이 유연해서 같이 일하기 편해요. (John has a flexible personality. so it's easy to work with him.)",
+      "audio": "RR_032_v006.mp3",
+      "seq": 6
+    }
+  ]
+}
