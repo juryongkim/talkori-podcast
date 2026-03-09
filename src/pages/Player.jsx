@@ -313,9 +313,7 @@ export default function Player() {
           </div>
           <p className="text-sm font-bold text-gray-400">{playlistEps.length} Episodes</p>
         </div>
-        <button onClick={handleExit} className="text-gray-400 hover:text-red-500 bg-gray-50 hover:bg-red-50 p-2 rounded-xl transition-colors" title="학습 종료">
-          ✕ EXIT
-        </button>
+        
       </div>
       <div className="flex-1 overflow-y-auto p-4 space-y-1">
         {playlistEps.map((ep, index) => {
@@ -380,13 +378,7 @@ export default function Player() {
               
               {/* 1. 상단 정보 & 타이틀 영역 (절대 안 접힘!) */}
               <div className="flex items-center justify-between w-full mb-2 md:mb-4">
-                <button onClick={handleExit} className="text-gray-500 hover:text-red-500 p-2 md:hidden">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
-                </button>
-                <button onClick={handleExit} className="hidden md:flex text-gray-400 hover:text-red-500 text-sm font-bold items-center gap-1 transition-colors">
-                  ✕ EXIT
-                </button>
-                
+                                                
                 <div className="flex-1 flex flex-col items-center mx-2 overflow-hidden">
                   <p className="text-[9px] md:text-xs font-bold text-indigo-500 md:text-gray-400 uppercase tracking-widest mb-0.5">EPISODE {epId}</p>
                   <h1 className="text-sm md:text-xl font-extrabold text-gray-900 truncate md:line-clamp-2 md:whitespace-normal w-full text-center">
