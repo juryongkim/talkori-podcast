@@ -364,9 +364,9 @@ export default function Player() {
         <div className="max-w-4xl mx-auto md:px-4">
           
           {/* ==================================================== */}
-          {/* ✨ [핵심 수정] 완벽하게 하나로 뭉친 무적의 Sticky 헤더 블록! */}
+          {/* ✨ [핵심 수정] 메인 헤더(Talkori) 아래에 붙고, 사이드바 밑으로 숨도록 수정! */}
           {/* ==================================================== */}
-          <div className="bg-white sticky top-0 z-40 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border-b border-gray-200 w-full transition-all md:rounded-b-3xl md:mt-4 md:border md:shadow-sm">
+          <div className="bg-white sticky top-[60px] md:top-4 z-10 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border-b border-gray-200 w-full transition-all md:rounded-b-3xl md:border md:shadow-sm">
             
             <div className="px-3 pt-3 md:p-6 max-w-4xl mx-auto flex flex-col">
               
