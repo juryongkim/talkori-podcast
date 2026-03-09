@@ -138,12 +138,20 @@ export default function Player() {
     setCurrentIndex(null);
     setPlayingVocaIndex(null);
     setIsPlayingAll(false);
-    setActiveMedia('interactive'); // 🌟 에피소드가 바뀌면 무조건 기본 모드로 리셋!
+    setActiveMedia('interactive'); 
     lastPlayedIndexRef.current = 0; 
     setActiveTab('script'); 
     setIsPlaylistOpen(false); 
 
-    import(`../data/ep${epId}.json`)
+    // 1. [핵심 수정] 마스터 장부(courses)에서 현재 epId가 포함된 코스를 먼저 찾습니다.
+    const targetCourse = courses.find(c => c.episodes.some(e => e.id === epId));
+    const courseId = targetCourse ? targetCourse.id : 'real-reaction';
+
+    // 2. [파일명 결정] 리얼리액션은 기존처럼 ep001, 나머지는 kpop-korean_ep001 형태
+    const fileName = courseId === 'real-reaction' ? `ep${epId}` : `${courseId}_ep${epId}`;
+
+    // 3. 결정된 파일명으로 데이터 임포트
+    import(`../data/${fileName}.json`)
       .then((module) => {
         setEpData(module.default);
         setIsLoading(false);
