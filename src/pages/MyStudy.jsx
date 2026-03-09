@@ -258,7 +258,7 @@ const formatDate = (dateStr) => {
               <div className="space-y-4">
                 {filteredVoca.length === 0 ? (
                   <div className="text-center py-20 text-gray-400 font-medium" data-html2canvas-ignore>
-                    <span className="text-3xl block mb-3">☆</span>이 날짜에 저장된 단어가 없습니다.
+                    <span className="text-3xl block mb-3">☆</span>There are no words saved for this date.
                   </div>
                 ) : (
                   filteredVoca.map((voca, idx) => (
