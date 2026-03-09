@@ -118,12 +118,17 @@ export default function Player() {
     }
   };
 
-  // ✨ 유튜브 단축 주소를 임베드용 공식 주소로 자동 변환해 주는 로직!
+  // ✨ 유튜브 단축 주소를 임베드용 공식 주소로 자동 변환 + 내 채널 영상만 추천되도록(rel=0) 세팅!
   const getEmbedUrl = (url) => {
     if (!url) return '';
-    if (url.includes('youtu.be/')) return url.replace('youtu.be/', 'www.youtube.com/embed/');
-    if (url.includes('watch?v=')) return url.replace('watch?v=', 'youtube.com/embed/');
-    return url;
+    let embedUrl = url;
+    if (url.includes('youtu.be/')) {
+      embedUrl = url.replace('youtu.be/', 'www.youtube.com/embed/');
+    } else if (url.includes('watch?v=')) {
+      embedUrl = url.replace('watch?v=', 'www.youtube.com/embed/');
+    }
+    // 마법의 주문(rel=0) 추가
+    return embedUrl.includes('?') ? `${embedUrl}&rel=0` : `${embedUrl}?rel=0`;
   };
 
   useEffect(() => {
