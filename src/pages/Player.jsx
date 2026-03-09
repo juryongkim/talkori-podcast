@@ -139,7 +139,7 @@ export default function Player() {
     setActiveTab('script'); 
     setIsPlaylistOpen(false); 
 
-    import(`../data/ep${epId}.json`)
+    import(`../data/${currentCourse.id}_ep${epId}.json`)
       .then((module) => {
         setEpData(module.default);
         setIsLoading(false);
@@ -353,7 +353,7 @@ export default function Player() {
       <main className="flex-1 w-full relative pb-32">
         <div className="max-w-4xl mx-auto md:px-4">
           
-          <div className="bg-white sticky top-[60px] md:top-4 z-10 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border-b border-gray-200 w-full transition-all md:rounded-b-3xl md:border md:shadow-sm">
+          <div className="bg-white sticky top-[56px] md:top-4 z-10 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border-b border-gray-200 w-full transition-all md:rounded-b-3xl md:border md:shadow-sm">
             
             <div className="px-3 pt-3 md:p-6 max-w-4xl mx-auto flex flex-col">
               
