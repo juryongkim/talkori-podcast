@@ -23,16 +23,15 @@ export default function Player() {
   const [playbackRate, setPlaybackRate] = useState(1.0);
   const [showPremiumModal, setShowPremiumModal] = useState(false);
 
-  // ✨ [추가] 앱 내부(모달) 팝업용 상태
-  const [showVideoModal, setShowVideoModal] = useState(false);
-  const [showAudioModal, setShowAudioModal] = useState(false);
+  // ✨ [추가] 인라인 미디어 플레이어 상태 관리 ('interactive', 'video', 'radio')
+  const [activeMedia, setActiveMedia] = useState('interactive'); 
   
   const audioRef = useRef(null);
   const autoPlayRef = useRef(false);
   const lineRefs = useRef([]);
   const lastPlayedIndexRef = useRef(0); 
   
-  // ✨ [수정] 충돌 방지를 위해 PC용 나침반과 모바일용 나침반을 완벽히 분리!
+  // ✨ [수정] 충돌 방지를 위한 PC/모바일 분리 나침반
   const pcActiveEpRef = useRef(null);
   const mobileActiveEpRef = useRef(null);
 
@@ -108,6 +107,25 @@ export default function Player() {
     autoPlayRef.current = value;
   };
 
+  // ✨ 미디어 모드 토글 (인터랙티브 <-> 비디오 <-> 라디오)
+  const toggleMedia = (mode) => {
+    if (activeMedia === mode) {
+      setActiveMedia('interactive'); // 다시 누르면 기본 모드로 복귀
+    } else {
+      if (audioRef.current) audioRef.current.pause();
+      setIsPlayingAll(false);
+      setActiveMedia(mode); // 새 모드로 변경 (인라인 플레이어 오픈)
+    }
+  };
+
+  // ✨ 유튜브 단축 주소를 임베드용 공식 주소로 자동 변환해 주는 로직!
+  const getEmbedUrl = (url) => {
+    if (!url) return '';
+    if (url.includes('youtu.be/')) return url.replace('youtu.be/', 'www.youtube.com/embed/');
+    if (url.includes('watch?v=')) return url.replace('watch?v=', 'youtube.com/embed/');
+    return url;
+  };
+
   useEffect(() => {
     if (audioRef.current) audioRef.current.pause();
     setIsLoading(true);
@@ -115,6 +133,7 @@ export default function Player() {
     setCurrentIndex(null);
     setPlayingVocaIndex(null);
     setIsPlayingAll(false);
+    setActiveMedia('interactive'); // 🌟 에피소드가 바뀌면 무조건 기본 모드로 리셋!
     lastPlayedIndexRef.current = 0; 
     setActiveTab('script'); 
     setIsPlaylistOpen(false); 
@@ -134,19 +153,15 @@ export default function Player() {
     };
   }, [epId]);
 
-  // ✨ [수정] 나침반 2개가 각자 알아서 자기 위치로 스크롤 이동하도록 처리
+  // ✨ PC/Mobile 두 개의 나침반 자동 포커스 동기화!
   useEffect(() => {
     setTimeout(() => {
       if (pcActiveEpRef.current) pcActiveEpRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
       if (isPlaylistOpen && mobileActiveEpRef.current) mobileActiveEpRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }, 100);
-  }, [epId, isPlaylistOpen]);
+  }, [epId, isPlaylistOpen, isLoading]);
 
   const handleTabChange = (tab) => {
-    if (audioRef.current) audioRef.current.pause();
-    setIsPlayingAll(false);
-    setCurrentIndex(null);
-    setPlayingVocaIndex(null);
     setActiveTab(tab);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -154,6 +169,7 @@ export default function Player() {
   const playLine = (index) => {
     if (audioRef.current) audioRef.current.pause();
     setPlayingVocaIndex(null); 
+    setActiveMedia('interactive'); // 🌟 개별 대사 누르면 영상/라디오 끄고 집중 모드로!
 
     const item = epData.content[index];
     lastPlayedIndexRef.current = index; 
@@ -203,6 +219,7 @@ export default function Player() {
     if (audioRef.current) audioRef.current.pause();
     setIsPlayingAll(false);
     setCurrentIndex(null); 
+    setActiveMedia('interactive');
 
     const item = epData.vocabulary[index];
     if (!item || !item.audio) return;
@@ -228,6 +245,7 @@ export default function Player() {
 
   const togglePlayAll = () => {
     if (activeTab === 'voca') setActiveTab('script'); 
+    setActiveMedia('interactive'); // 🌟 전체 재생 누르면 영상 끄기
     if (isPlayingAll) {
       if (audioRef.current) audioRef.current.pause();
       setIsPlayingAll(false);
@@ -243,34 +261,12 @@ export default function Player() {
     playLine(index);
   };
 
-  // ✨ 유튜브 링크를 앱 내장 임베드(iframe)용으로 자동 변환해 주는 똑똑한 함수
-  const getEmbedUrl = (url) => {
-    if (!url) return '';
-    if (url.includes('youtu.be/')) return url.replace('youtu.be/', 'www.youtube.com/embed/');
-    if (url.includes('watch?v=')) return url.replace('watch?v=', 'embed/');
-    return url;
-  };
-
-  // 모달 오픈 시 기존 재생 중이던 오디오 일시 정지
-  const openVideoModal = () => {
-    if (audioRef.current) audioRef.current.pause();
-    setIsPlayingAll(false);
-    setShowVideoModal(true);
-  };
-
-  const openAudioModal = () => {
-    if (audioRef.current) audioRef.current.pause();
-    setIsPlayingAll(false);
-    setShowAudioModal(true);
-  };
-
   const currentCourse = epData ? courses.find(c => c.id === epData.metadata.course) : null;
   const playlistEps = currentCourse ? [...currentCourse.episodes].sort((a,b) => parseInt(a.id) - parseInt(b.id)) : [];
 
   const currentEpIndex = playlistEps.findIndex(e => e.id === epId);
   const prevEp = currentEpIndex > 0 ? playlistEps[currentEpIndex - 1] : null;
   const nextEp = currentEpIndex >= 0 && currentEpIndex < playlistEps.length - 1 ? playlistEps[currentEpIndex + 1] : null;
-
 
   if (isLoading) {
     return (
@@ -291,8 +287,8 @@ export default function Player() {
 
   const displayTitle = typeof epData.metadata.title === 'object' ? (epData.metadata.title[lang] || epData.metadata.title.en) : epData.metadata.title;
 
-  // ✨ [수정] 사이드바 나침반을 외부에서 주입받도록 수정
-  const PlaylistContent = ({ activeRef }) => (
+  // ✨ [수정] 컴포넌트 내부 함수가 아닌, 순수 렌더링 함수로 빼서 '새로고침' 이슈 원천 차단!
+  const renderPlaylist = (activeRef) => (
     <div className="flex flex-col h-full bg-white">
       <div className="p-5 border-b border-gray-100 shrink-0 flex justify-between items-start">
         <div>
@@ -304,12 +300,10 @@ export default function Player() {
           </div>
           <p className="text-sm font-bold text-gray-400">{playlistEps.length} Episodes</p>
         </div>
-        
         <button onClick={handleExit} className="text-gray-400 hover:text-red-500 bg-gray-50 hover:bg-red-50 p-2 rounded-xl transition-colors" title="학습 종료">
           ✕ EXIT
         </button>
       </div>
-      
       <div className="flex-1 overflow-y-auto p-4 space-y-1">
         {playlistEps.map((ep, index) => {
           const isCurrent = ep.id === epId;
@@ -318,8 +312,7 @@ export default function Player() {
           return (
             <div 
               key={ep.id} 
-              // ✨ [수정] PC/Mobile 분리된 나침반 할당
-              ref={isCurrent ? activeRef : null}
+              ref={isCurrent ? activeRef : null} // ✨ PC/Mobile 나침반 각자 주입
               onClick={() => { 
                 if (isLocked) {
                   setShowPremiumModal(true);
@@ -346,130 +339,132 @@ export default function Player() {
   return (
     <div className="flex w-full min-h-screen bg-gray-50 relative">
       
-      {/* PC 사이드바 */}
+      {/* 🖥️ PC 사이드바 */}
       <aside className="hidden lg:flex flex-col w-[320px] xl:w-[380px] bg-white border-r border-gray-200 h-screen sticky top-0 shrink-0 shadow-[4px_0_24px_rgba(0,0,0,0.02)] z-10">
-        <PlaylistContent activeRef={pcActiveEpRef} />
+        {renderPlaylist(pcActiveEpRef)}
       </aside>
 
-      {/* 모바일 사이드바 팝업 */}
+      {/* 📱 모바일 햄버거 메뉴 팝업 */}
       {isPlaylistOpen && (
-        <div className="lg:hidden fixed inset-0 z-50 flex">
+        <div className="lg:hidden fixed inset-0 z-[100] flex">
           <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" onClick={() => setIsPlaylistOpen(false)}></div>
           <div className="relative w-4/5 max-w-sm bg-white h-full ml-auto shadow-2xl flex flex-col transform transition-transform animate-slide-in-right">
             <button onClick={() => setIsPlaylistOpen(false)} className="absolute top-4 right-4 z-10 w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 font-bold">✕</button>
-            <PlaylistContent activeRef={mobileActiveEpRef} />
+            {renderPlaylist(mobileActiveEpRef)}
           </div>
         </div>
       )}
 
-      <main className="flex-1 w-full relative">
-        <div className="max-w-4xl mx-auto md:px-4 py-0 md:py-8 pb-32">
+      <main className="flex-1 w-full relative pb-32">
+        <div className="max-w-4xl mx-auto md:px-4">
           
-          {/* ✨ [수정] 모바일에서 스크롤 내려도 이 전체 덩어리가 찰싹 붙어있도록 구조 최적화 */}
-          <div className="bg-white pt-2 pb-0 px-2 md:p-6 rounded-b-2xl md:rounded-3xl shadow-sm border-b md:border border-gray-200 mb-4 md:mb-6 sticky top-0 md:top-4 z-20 transition-all">
+          {/* ==================================================== */}
+          {/* ✨ [핵심 수정] 완벽하게 하나로 뭉친 무적의 Sticky 헤더 블록! */}
+          {/* ==================================================== */}
+          <div className="bg-white sticky top-0 z-40 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border-b border-gray-200 w-full transition-all md:rounded-b-3xl md:mt-4 md:border md:shadow-sm">
             
-            {/* 🖥️ PC 환경 헤더 컨트롤러 */}
-            <div className="hidden md:block text-center relative">
-              <button onClick={handleExit} className="text-gray-400 absolute left-2 top-2 hover:text-red-500 text-sm font-bold flex items-center gap-1 transition-colors">
-                ✕ EXIT
-              </button>
+            <div className="px-3 pt-3 md:p-6 max-w-4xl mx-auto flex flex-col">
               
-              <button onClick={cyclePlaybackRate} className="absolute right-2 top-1 text-gray-500 bg-gray-100 px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-gray-200 transition-colors">
-                Speed: {playbackRate}x
-              </button>
-
-              <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">EPISODE {epId}</p>
-              <h1 className="text-xl font-extrabold tracking-tight text-gray-900 mb-2 line-clamp-2 px-16">
-                {displayTitle}
-              </h1>
-              <p className="text-indigo-600 font-medium text-sm mb-6">Real Reaction</p>
-              
-              {/* ✨ [수정] PC 더미 버튼 삭제 & 유튜브/라디오 버튼 중앙 배치 */}
-              <div className="flex items-center justify-center gap-10 mb-5">
-                <button 
-                  onClick={openVideoModal}
-                  disabled={!epData.metadata.youtube}
-                  className={`flex flex-col items-center gap-1 transition-all ${epData.metadata.youtube ? 'text-red-500 hover:text-red-600 hover:scale-105' : 'text-gray-200 cursor-not-allowed'}`}
-                >
-                  <span className="text-3xl">📺</span>
-                  <span className="text-[11px] font-bold">Video</span>
-                </button>
-
-                <button onClick={togglePlayAll} className={`${isPlayingAll ? 'bg-indigo-600' : 'bg-gray-900'} text-white w-16 h-16 rounded-full flex items-center justify-center hover:bg-indigo-500 transition-transform hover:scale-105 shadow-xl text-2xl`}>
-                  {isPlayingAll ? '⏸' : '▶'}
-                </button>
-
-                <button 
-                  onClick={openAudioModal}
-                  disabled={!epData.metadata.full_audio}
-                  className={`flex flex-col items-center gap-1 transition-all ${epData.metadata.full_audio ? 'text-indigo-500 hover:text-indigo-600 hover:scale-105' : 'text-gray-200 cursor-not-allowed'}`}
-                >
-                  <span className="text-3xl">🎧</span>
-                  <span className="text-[11px] font-bold">Radio</span>
-                </button>
-              </div>
-            </div>
-
-            {/* 📱 모바일 환경 헤더 컨트롤러 (스티키 완벽 적용) */}
-            <div className="md:hidden flex flex-col gap-2 pt-1 pb-1">
-              <div className="flex items-center justify-between w-full">
-                <button onClick={handleExit} className="text-gray-500 p-2">
+              {/* 1. 상단 정보 & 타이틀 영역 (절대 안 접힘!) */}
+              <div className="flex items-center justify-between w-full mb-2 md:mb-4">
+                <button onClick={handleExit} className="text-gray-500 hover:text-red-500 p-2 md:hidden">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <button onClick={handleExit} className="hidden md:flex text-gray-400 hover:text-red-500 text-sm font-bold items-center gap-1 transition-colors">
+                  ✕ EXIT
                 </button>
                 
                 <div className="flex-1 flex flex-col items-center mx-2 overflow-hidden">
-                  <p className="text-[9px] font-bold text-indigo-500 uppercase tracking-widest">EPISODE {epId}</p>
-                  <h1 className="text-sm font-extrabold text-gray-900 truncate w-full text-center">
+                  <p className="text-[9px] md:text-xs font-bold text-indigo-500 md:text-gray-400 uppercase tracking-widest mb-0.5">EPISODE {epId}</p>
+                  <h1 className="text-sm md:text-xl font-extrabold text-gray-900 truncate md:line-clamp-2 md:whitespace-normal w-full text-center">
                     {displayTitle}
                   </h1>
                 </div>
 
-                <button onClick={() => setIsPlaylistOpen(true)} className="text-indigo-600 bg-indigo-50 p-1.5 px-2.5 rounded-md text-xs font-bold shrink-0">
+                <button onClick={() => setIsPlaylistOpen(true)} className="text-indigo-600 bg-indigo-50 p-1.5 px-2.5 rounded-md text-xs font-bold shrink-0 md:hidden">
                   ☰
                 </button>
+                <div className="hidden md:block">
+                  <button onClick={cyclePlaybackRate} className="text-gray-500 bg-gray-100 px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-gray-200 transition-colors">
+                    Speed: {playbackRate}x
+                  </button>
+                </div>
               </div>
 
-              {/* ✨ [수정] 모바일 더미 버튼 삭제 & 유튜브/라디오 버튼 직관적 배치 */}
-              <div className="flex items-center justify-between px-3 mt-1 mb-1">
-                <button onClick={cyclePlaybackRate} className="text-[11px] font-bold text-gray-600 bg-gray-100 px-2 py-1.5 rounded-md w-12 text-center shadow-sm">
+              {/* 2. 컨트롤 버튼 영역 (비디오 / 인터랙티브 재생 / 라디오) */}
+              <div className="flex items-center justify-between px-1 md:justify-center md:gap-10 mb-3 md:mb-5">
+                <button onClick={cyclePlaybackRate} className="md:hidden text-[11px] font-bold text-gray-600 bg-gray-100 px-2 py-1.5 rounded-md w-12 text-center shadow-sm">
                   {playbackRate}x
                 </button>
                 
-                <div className="flex items-center gap-6">
+                <div className="flex items-center gap-6 md:gap-10">
+                  {/* 📺 유튜브 버튼 */}
                   <button 
-                    onClick={openVideoModal}
+                    onClick={() => toggleMedia('video')}
                     disabled={!epData.metadata.youtube}
-                    className={`text-2xl transition-transform ${epData.metadata.youtube ? 'text-red-500 active:scale-90' : 'text-gray-200 opacity-50'}`}
+                    className={`flex flex-col items-center gap-1 transition-all ${!epData.metadata.youtube ? 'text-gray-200 opacity-50 cursor-not-allowed' : activeMedia === 'video' ? 'text-red-600 scale-110' : 'text-red-400 hover:text-red-500 hover:scale-105 active:scale-95'}`}
                   >
-                    📺
+                    <span className="text-2xl md:text-3xl">📺</span>
+                    <span className="hidden md:block text-[11px] font-bold">Video</span>
                   </button>
-                  <button onClick={togglePlayAll} className={`${isPlayingAll ? 'bg-indigo-600' : 'bg-gray-900'} text-white w-12 h-12 rounded-full flex items-center justify-center shadow-md active:scale-95 transition-transform`}>
-                    <span className="text-lg">{isPlayingAll ? '⏸' : '▶'}</span>
-                  </button>
+
+                  {/* ▶ 인터랙티브 플레이 버튼 */}
                   <button 
-                    onClick={openAudioModal}
-                    disabled={!epData.metadata.full_audio}
-                    className={`text-2xl transition-transform ${epData.metadata.full_audio ? 'text-indigo-500 active:scale-90' : 'text-gray-200 opacity-50'}`}
+                    onClick={togglePlayAll} 
+                    className={`${isPlayingAll ? 'bg-indigo-600' : 'bg-gray-900'} text-white w-12 h-12 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-md md:shadow-xl hover:bg-indigo-500 active:scale-95 transition-transform`}
                   >
-                    🎧
+                    <span className="text-lg md:text-2xl">{isPlayingAll ? '⏸' : '▶'}</span>
+                  </button>
+
+                  {/* 🎧 통오디오 라디오 버튼 */}
+                  <button 
+                    onClick={() => toggleMedia('radio')}
+                    disabled={!epData.metadata.full_audio}
+                    className={`flex flex-col items-center gap-1 transition-all ${!epData.metadata.full_audio ? 'text-gray-200 opacity-50 cursor-not-allowed' : activeMedia === 'radio' ? 'text-indigo-600 scale-110' : 'text-indigo-400 hover:text-indigo-500 hover:scale-105 active:scale-95'}`}
+                  >
+                    <span className="text-2xl md:text-3xl">🎧</span>
+                    <span className="hidden md:block text-[11px] font-bold">Radio</span>
                   </button>
                 </div>
                 
-                <div className="w-12"></div> {/* 배속 버튼과 좌우 대칭을 위한 빈 공간 */}
+                <div className="w-12 md:hidden"></div>
               </div>
-            </div>
 
-            <div className="flex border-t border-gray-100 pt-3 mt-2 md:mt-2 md:pt-4 mx-2 md:mx-0">
-              <button onClick={() => handleTabChange('script')} className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'script' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
-                📝 대본 (Script)
-              </button>
-              <button onClick={() => handleTabChange('voca')} className={`flex-1 pb-2 text-sm md:text-base font-bold transition-colors ${activeTab === 'voca' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
-                📚 단어장 (Vocabulary)
-              </button>
+              {/* 📺/🎧 3. [핵심] 인라인 미디어 플레이어 컨테이너 (버튼 클릭 시 여기에 열림!) */}
+              {activeMedia !== 'interactive' && (
+                <div className="w-full mb-4 animate-fade-in px-1 md:px-8">
+                  {activeMedia === 'video' && epData?.metadata?.youtube && (
+                    <div className="w-full aspect-video rounded-xl overflow-hidden shadow-inner bg-black">
+                      <iframe src={getEmbedUrl(epData.metadata.youtube)} className="w-full h-full border-0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                    </div>
+                  )}
+                  {activeMedia === 'radio' && epData?.metadata?.full_audio && (
+                    <div className="w-full bg-gray-50 p-2 md:p-3 rounded-xl border border-gray-200 shadow-inner flex flex-col items-center">
+                      <p className="text-xs font-bold text-gray-400 mb-2">📻 Radio Mode</p>
+                      <audio controls autoPlay className="w-full h-10 md:h-12 outline-none">
+                        <source src={epData.metadata.full_audio} type="audio/mpeg" />
+                      </audio>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* 4. 대본 / 단어장 탭 영역 */}
+              <div className="flex border-t border-gray-100 pt-2 md:pt-4 w-full">
+                <button onClick={() => handleTabChange('script')} className={`flex-1 pb-2 md:pb-3 text-sm md:text-base font-bold transition-colors ${activeTab === 'script' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
+                  📝 대본 (Script)
+                </button>
+                <button onClick={() => handleTabChange('voca')} className={`flex-1 pb-2 md:pb-3 text-sm md:text-base font-bold transition-colors ${activeTab === 'voca' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
+                  📚 단어장 (Vocabulary)
+                </button>
+              </div>
+
             </div>
           </div>
+          {/* ==================================================== */}
 
-          <div className="bg-white md:rounded-3xl shadow-sm border-y md:border border-gray-200 p-4 md:p-8">
+          {/* 컨텐츠 (대본 및 단어장 리스트) */}
+          <div className="bg-white md:rounded-3xl shadow-sm border-y md:border border-gray-200 p-4 md:p-8 mt-4">
             <h2 className="hidden md:block text-sm font-bold text-gray-400 uppercase tracking-widest mb-6 border-b border-gray-100 pb-2">
               {activeTab === 'script' ? 'Interactive Script' : 'Vocabulary List'}
             </h2>
@@ -601,62 +596,6 @@ export default function Player() {
           </div>
         </div>
       </main>
-
-      {/* ==================================================== */}
-      {/* 📺 ✨ 유튜브 시청 앱 내장 모달 팝업 */}
-      {/* ==================================================== */}
-      {showVideoModal && epData?.metadata?.youtube && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-10 bg-black/90 backdrop-blur-md animate-fade-in">
-          <div className="w-full max-w-4xl aspect-video bg-black rounded-2xl shadow-2xl relative overflow-hidden border border-gray-800">
-            <button 
-              onClick={() => setShowVideoModal(false)} 
-              className="absolute top-2 right-2 md:-top-12 md:right-0 z-10 w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center text-white font-bold transition-colors"
-              title="Close Video"
-            >
-              ✕
-            </button>
-            <iframe
-              src={getEmbedUrl(epData.metadata.youtube)}
-              className="w-full h-full border-0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      )}
-
-      {/* ==================================================== */}
-      {/* 🎧 ✨ 통오디오 라디오 모드 앱 내장 모달 팝업 */}
-      {/* ==================================================== */}
-      {showAudioModal && epData?.metadata?.full_audio && (
-        <div className="fixed inset-0 z-[100] flex items-end md:items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
-          <div className="bg-white rounded-[32px] p-6 md:p-10 max-w-sm w-full shadow-2xl relative border border-gray-100">
-            <button 
-              onClick={() => setShowAudioModal(false)} 
-              className="absolute top-4 right-5 w-8 h-8 flex items-center justify-center bg-gray-100 hover:bg-gray-200 text-gray-500 rounded-full font-bold transition-colors"
-            >
-              ✕
-            </button>
-            <div className="flex flex-col items-center mt-2">
-              <div className="w-24 h-24 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-[2rem] flex items-center justify-center shadow-inner mb-6">
-                <span className="text-5xl drop-shadow-sm">🎧</span>
-              </div>
-              <h3 className="text-2xl font-extrabold text-gray-900 mb-2 tracking-tight">Radio Mode</h3>
-              <p className="text-gray-500 text-sm font-medium mb-8 text-center px-4 leading-relaxed">
-                Turn off your screen and just listen to the full episode.
-              </p>
-              
-              {/* 기본 오디오 플레이어 임베드 */}
-              <div className="w-full bg-gray-50 p-2 rounded-2xl border border-gray-100">
-                <audio controls autoPlay className="w-full rounded-xl">
-                  <source src={epData.metadata.full_audio} type="audio/mpeg" />
-                  Your browser does not support the audio element.
-                </audio>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* ==================================================== */}
       {/* ✨ 프리미엄 모달 팝업 UI */}
