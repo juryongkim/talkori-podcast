@@ -23,6 +23,7 @@ export default function Player() {
   const [playbackRate, setPlaybackRate] = useState(1.0);
   const [showPremiumModal, setShowPremiumModal] = useState(false);
 
+  // ✨ [추가] 인라인 미디어 플레이어 상태 관리 ('interactive', 'video', 'radio')
   const [activeMedia, setActiveMedia] = useState('interactive'); 
   
   const audioRef = useRef(null);
@@ -30,6 +31,7 @@ export default function Player() {
   const lineRefs = useRef([]);
   const lastPlayedIndexRef = useRef(0); 
   
+  // ✨ [수정] 충돌 방지를 위한 PC/모바일 분리 나침반
   const pcActiveEpRef = useRef(null);
   const mobileActiveEpRef = useRef(null);
 
@@ -105,17 +107,18 @@ export default function Player() {
     autoPlayRef.current = value;
   };
 
+  // ✨ 미디어 모드 토글 (인터랙티브 <-> 비디오 <-> 라디오)
   const toggleMedia = (mode) => {
     if (activeMedia === mode) {
-      setActiveMedia('interactive'); 
+      setActiveMedia('interactive'); // 다시 누르면 기본 모드로 복귀
     } else {
       if (audioRef.current) audioRef.current.pause();
       setIsPlayingAll(false);
-      setActiveMedia(mode); 
+      setActiveMedia(mode); // 새 모드로 변경 (인라인 플레이어 오픈)
     }
   };
 
-  // ✨ 유튜브 임베드 변환 (내 채널 영상만 추천되도록 rel=0 세팅 유지)
+  // ✨ 유튜브 단축 주소를 임베드용 공식 주소로 자동 변환 + 내 채널 영상만 추천되도록(rel=0) 세팅!
   const getEmbedUrl = (url) => {
     if (!url) return '';
     let embedUrl = url;
@@ -124,6 +127,7 @@ export default function Player() {
     } else if (url.includes('watch?v=')) {
       embedUrl = url.replace('watch?v=', 'www.youtube.com/embed/');
     }
+    // 마법의 주문(rel=0) 추가
     return embedUrl.includes('?') ? `${embedUrl}&rel=0` : `${embedUrl}?rel=0`;
   };
 
@@ -134,12 +138,12 @@ export default function Player() {
     setCurrentIndex(null);
     setPlayingVocaIndex(null);
     setIsPlayingAll(false);
-    setActiveMedia('interactive'); 
+    setActiveMedia('interactive'); // 🌟 에피소드가 바뀌면 무조건 기본 모드로 리셋!
     lastPlayedIndexRef.current = 0; 
     setActiveTab('script'); 
     setIsPlaylistOpen(false); 
 
-    import(`../data/${currentCourse.id}_ep${epId}.json`)
+    import(`../data/ep${epId}.json`)
       .then((module) => {
         setEpData(module.default);
         setIsLoading(false);
@@ -154,6 +158,7 @@ export default function Player() {
     };
   }, [epId]);
 
+  // ✨ PC/Mobile 두 개의 나침반 자동 포커스 동기화!
   useEffect(() => {
     setTimeout(() => {
       if (pcActiveEpRef.current) pcActiveEpRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -169,7 +174,7 @@ export default function Player() {
   const playLine = (index) => {
     if (audioRef.current) audioRef.current.pause();
     setPlayingVocaIndex(null); 
-    setActiveMedia('interactive'); 
+    setActiveMedia('interactive'); // 🌟 개별 대사 누르면 영상/라디오 끄고 집중 모드로!
 
     const item = epData.content[index];
     lastPlayedIndexRef.current = index; 
@@ -245,7 +250,7 @@ export default function Player() {
 
   const togglePlayAll = () => {
     if (activeTab === 'voca') setActiveTab('script'); 
-    setActiveMedia('interactive'); 
+    setActiveMedia('interactive'); // 🌟 전체 재생 누르면 영상 끄기
     if (isPlayingAll) {
       if (audioRef.current) audioRef.current.pause();
       setIsPlayingAll(false);
@@ -287,6 +292,7 @@ export default function Player() {
 
   const displayTitle = typeof epData.metadata.title === 'object' ? (epData.metadata.title[lang] || epData.metadata.title.en) : epData.metadata.title;
 
+  // ✨ [수정] 컴포넌트 내부 함수가 아닌, 순수 렌더링 함수로 빼서 '새로고침' 이슈 원천 차단!
   const renderPlaylist = (activeRef) => (
     <div className="flex flex-col h-full bg-white">
       <div className="p-5 border-b border-gray-100 shrink-0 flex justify-between items-start">
@@ -299,7 +305,9 @@ export default function Player() {
           </div>
           <p className="text-sm font-bold text-gray-400">{playlistEps.length} Episodes</p>
         </div>
-        {/* ✨ 불필요한 EXIT 버튼 삭제 완료! */}
+        <button onClick={handleExit} className="text-gray-400 hover:text-red-500 bg-gray-50 hover:bg-red-50 p-2 rounded-xl transition-colors" title="학습 종료">
+          ✕ EXIT
+        </button>
       </div>
       <div className="flex-1 overflow-y-auto p-4 space-y-1">
         {playlistEps.map((ep, index) => {
@@ -309,7 +317,7 @@ export default function Player() {
           return (
             <div 
               key={ep.id} 
-              ref={isCurrent ? activeRef : null} 
+              ref={isCurrent ? activeRef : null} // ✨ PC/Mobile 나침반 각자 주입
               onClick={() => { 
                 if (isLocked) {
                   setShowPremiumModal(true);
@@ -336,10 +344,12 @@ export default function Player() {
   return (
     <div className="flex w-full min-h-screen bg-gray-50 relative">
       
+      {/* 🖥️ PC 사이드바 */}
       <aside className="hidden lg:flex flex-col w-[320px] xl:w-[380px] bg-white border-r border-gray-200 h-screen sticky top-0 shrink-0 shadow-[4px_0_24px_rgba(0,0,0,0.02)] z-10">
         {renderPlaylist(pcActiveEpRef)}
       </aside>
 
+      {/* 📱 모바일 햄버거 메뉴 팝업 */}
       {isPlaylistOpen && (
         <div className="lg:hidden fixed inset-0 z-[100] flex">
           <div className="absolute inset-0 bg-black/30 backdrop-blur-sm" onClick={() => setIsPlaylistOpen(false)}></div>
@@ -353,13 +363,21 @@ export default function Player() {
       <main className="flex-1 w-full relative pb-32">
         <div className="max-w-4xl mx-auto md:px-4">
           
+          {/* ==================================================== */}
+          {/* ✨ [핵심 수정] 메인 헤더(Talkori) 아래에 붙고, 사이드바 밑으로 숨도록 수정! */}
+          {/* ==================================================== */}
           <div className="bg-white sticky top-[56px] md:top-4 z-10 shadow-[0_4px_20px_rgba(0,0,0,0.04)] border-b border-gray-200 w-full transition-all md:rounded-b-3xl md:border md:shadow-sm">
             
             <div className="px-3 pt-3 md:p-6 max-w-4xl mx-auto flex flex-col">
               
+              {/* 1. 상단 정보 & 타이틀 영역 (절대 안 접힘!) */}
               <div className="flex items-center justify-between w-full mb-2 md:mb-4">
-                                
-                {/* ✨ PC 환경 플레이어의 불필요한 EXIT 버튼 삭제 완료! */}
+                <button onClick={handleExit} className="text-gray-500 hover:text-red-500 p-2 md:hidden">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7"></path></svg>
+                </button>
+                <button onClick={handleExit} className="hidden md:flex text-gray-400 hover:text-red-500 text-sm font-bold items-center gap-1 transition-colors">
+                  ✕ EXIT
+                </button>
                 
                 <div className="flex-1 flex flex-col items-center mx-2 overflow-hidden">
                   <p className="text-[9px] md:text-xs font-bold text-indigo-500 md:text-gray-400 uppercase tracking-widest mb-0.5">EPISODE {epId}</p>
@@ -378,12 +396,14 @@ export default function Player() {
                 </div>
               </div>
 
+              {/* 2. 컨트롤 버튼 영역 (비디오 / 인터랙티브 재생 / 라디오) */}
               <div className="flex items-center justify-between px-1 md:justify-center md:gap-10 mb-3 md:mb-5">
                 <button onClick={cyclePlaybackRate} className="md:hidden text-[11px] font-bold text-gray-600 bg-gray-100 px-2 py-1.5 rounded-md w-12 text-center shadow-sm">
                   {playbackRate}x
                 </button>
                 
                 <div className="flex items-center gap-6 md:gap-10">
+                  {/* 📺 유튜브 버튼 */}
                   <button 
                     onClick={() => toggleMedia('video')}
                     disabled={!epData.metadata.youtube}
@@ -393,6 +413,7 @@ export default function Player() {
                     <span className="hidden md:block text-[11px] font-bold">Video</span>
                   </button>
 
+                  {/* ▶ 인터랙티브 플레이 버튼 */}
                   <button 
                     onClick={togglePlayAll} 
                     className={`${isPlayingAll ? 'bg-indigo-600' : 'bg-gray-900'} text-white w-12 h-12 md:w-16 md:h-16 rounded-full flex items-center justify-center shadow-md md:shadow-xl hover:bg-indigo-500 active:scale-95 transition-transform`}
@@ -400,6 +421,7 @@ export default function Player() {
                     <span className="text-lg md:text-2xl">{isPlayingAll ? '⏸' : '▶'}</span>
                   </button>
 
+                  {/* 🎧 통오디오 라디오 버튼 */}
                   <button 
                     onClick={() => toggleMedia('radio')}
                     disabled={!epData.metadata.full_audio}
@@ -413,6 +435,7 @@ export default function Player() {
                 <div className="w-12 md:hidden"></div>
               </div>
 
+              {/* 📺/🎧 3. [핵심] 인라인 미디어 플레이어 컨테이너 (버튼 클릭 시 여기에 열림!) */}
               {activeMedia !== 'interactive' && (
                 <div className="w-full mb-4 animate-fade-in px-1 md:px-8">
                   {activeMedia === 'video' && epData?.metadata?.youtube && (
@@ -431,6 +454,7 @@ export default function Player() {
                 </div>
               )}
 
+              {/* 4. 대본 / 단어장 탭 영역 */}
               <div className="flex border-t border-gray-100 pt-2 md:pt-4 w-full">
                 <button onClick={() => handleTabChange('script')} className={`flex-1 pb-2 md:pb-3 text-sm md:text-base font-bold transition-colors ${activeTab === 'script' ? 'text-indigo-600 border-b-2 border-indigo-600' : 'text-gray-400 hover:text-gray-600'}`}>
                   📝 대본 (Script)
@@ -442,7 +466,9 @@ export default function Player() {
 
             </div>
           </div>
+          {/* ==================================================== */}
 
+          {/* 컨텐츠 (대본 및 단어장 리스트) */}
           <div className="bg-white md:rounded-3xl shadow-sm border-y md:border border-gray-200 p-4 md:p-8 mt-4">
             <h2 className="hidden md:block text-sm font-bold text-gray-400 uppercase tracking-widest mb-6 border-b border-gray-100 pb-2">
               {activeTab === 'script' ? 'Interactive Script' : 'Vocabulary List'}
@@ -576,6 +602,9 @@ export default function Player() {
         </div>
       </main>
 
+      {/* ==================================================== */}
+      {/* ✨ 프리미엄 모달 팝업 UI */}
+      {/* ==================================================== */}
       {showPremiumModal && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm animate-fade-in">
           <div className="bg-white rounded-[24px] p-8 md:p-10 max-w-sm w-full text-center shadow-2xl transform transition-all scale-100">
@@ -603,6 +632,7 @@ export default function Player() {
           </div>
         </div>
       )}
+      {/* ==================================================== */}
 
     </div>
   );
