@@ -84,13 +84,19 @@ function App() {
   const closeMenu = () => setIsMobileMenuOpen(false);
 
 // ==========================================
-  // ✨ [보안] 외부 접속 차단 (Iframe 락) + 데모 모드 기억!
+  // ✨ [보안] 외부 접속 차단 (Iframe 락) + 데모 모드 기억/해제!
   // ==========================================
   useEffect(() => {
-    // 1. [추가됨] 주소창에 ?mode=demo 꼬리표가 있는지 확인하고 세션(메모리)에 저장!
+    // 1. 주소창의 꼬리표(mode)를 확인합니다.
     const params = new URLSearchParams(window.location.search);
-    if (params.get('mode') === 'demo') {
+    const mode = params.get('mode');
+
+    if (mode === 'demo') {
+      // 데모 꼬리표가 있으면 세션에 자물쇠(true) 채우기!
       sessionStorage.setItem('talkori_demo_mode', 'true');
+    } else if (mode === 'premium') {
+      // ✨ [추가됨] 프리미엄 꼬리표가 있으면 데모 기억을 완전히 박살 내기! (해제)
+      sessionStorage.removeItem('talkori_demo_mode');
     }
 
     // 2. [기존 유지] 로컬 환경(개발 중)인지 확인
