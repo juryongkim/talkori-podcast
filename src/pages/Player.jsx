@@ -102,6 +102,20 @@ export default function Player() {
     }
   };
 
+  // 📻 라디오 모드: 현재 재생 시간을 기억하는 마법
+  const saveRadioTime = (e) => {
+    const currentTime = e.target.currentTime;
+    localStorage.setItem(`talkori_radio_pos_${epId}`, currentTime);
+  };
+
+  // 📻 라디오 모드: 저장된 시간을 불러와서 그 지점으로 점프!
+  const loadRadioTime = (e) => {
+    const savedTime = localStorage.getItem(`talkori_radio_pos_${epId}`);
+    if (savedTime) {
+      e.target.currentTime = parseFloat(savedTime);
+    }
+  };
+
   const setIsPlayingAll = (value) => {
     setIsPlayingAllState(value);
     autoPlayRef.current = value;
@@ -446,7 +460,14 @@ export default function Player() {
                   {activeMedia === 'radio' && epData?.metadata?.full_audio && (
                     <div className="w-full bg-gray-50 p-2 md:p-3 rounded-xl border border-gray-200 shadow-inner flex flex-col items-center">
                       <p className="text-xs font-bold text-gray-400 mb-2">📻 Radio Mode</p>
-                      <audio controls autoPlay className="w-full h-10 md:h-12 outline-none">
+                      <audio 
+                        controls 
+                        autoPlay 
+                        controlsList="nodownload"         /* 🔒 지뢰(다운로드 버튼) 제거 */
+                        onTimeUpdate={saveRadioTime}     /* 📝 재생 중 실시간 위치 저장 */
+                        onLoadedMetadata={loadRadioTime} /* 💾 켜질 때 저장된 위치로 점프 */
+                        className="w-full h-10 md:h-12 outline-none"
+                      >
                         <source src={epData.metadata.full_audio} type="audio/mpeg" />
                       </audio>
                     </div>
@@ -616,13 +637,14 @@ export default function Player() {
               all classes and the wordbook!
             </p>
             <button
-              onClick={() => {
-                window.parent.postMessage('openUpgradePage', '*');
-              }}
-              className="w-full bg-[#3b32f5] hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-colors mb-4 shadow-md text-[15px]"
-            >
-              Upgrade Now 🚀
-            </button>
+  onClick={() => {
+    // 🚀 워드프레스 부모 창을 결제 페이지로 바로 이동시킵니다.
+    window.parent.location.href = 'https://talkori.com/price';
+  }}
+  className="w-full bg-[#3b32f5] hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-colors mb-4 shadow-md text-[15px]"
+>
+  Upgrade Now 🚀
+</button>
             <button
               onClick={() => setShowPremiumModal(false)}
               className="text-gray-400 text-sm font-medium hover:text-gray-600 transition-colors"
