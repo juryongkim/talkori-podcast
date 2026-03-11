@@ -70,7 +70,8 @@ export default function Player() {
     if (isSaved) {
       setSavedVoca(savedVoca.filter(v => v.word !== voca.word));
     } else {
-      setSavedVoca([...savedVoca, { ...voca, epId, dateSaved: getTodayDate() }]); 
+      // ✨ [수정] courseId: currentCourse.id 를 추가합니다.
+      setSavedVoca([...savedVoca, { ...voca, epId, courseId: currentCourse.id, dateSaved: getTodayDate() }]); 
     }
   };
 
@@ -80,7 +81,8 @@ export default function Player() {
     if (isSaved) {
       setSavedScript(savedScript.filter(s => s.text !== item.text));
     } else {
-      setSavedScript([...savedScript, { ...item, epId, dateSaved: getTodayDate() }]); 
+      // ✨ [수정] courseId: currentCourse.id 를 추가합니다.
+      setSavedScript([...savedScript, { ...item, epId, courseId: currentCourse.id, dateSaved: getTodayDate() }]); 
     }
   };
 
