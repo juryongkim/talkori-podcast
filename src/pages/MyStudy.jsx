@@ -82,48 +82,54 @@ export default function MyStudy() {
     setIsExporting(true); 
     
     try {
-      const element = document.getElementById('pdf-print-area'); 
-      if (!element) throw new Error("영역을 찾을 수 없습니다.");
-
-      // ✨ [핵심] 재생 버튼과 삭제 별표를 캡처에서 제외하는 필터 함수
-      const filter = (node) => {
-        const exclusionClasses = ['pdf-exclude', 'text-yellow-400'];
-        return !exclusionClasses.some(cls => node.classList && node.classList.contains(cls));
-      };
-
-      const dataUrl = await toPng(element, { 
-        backgroundColor: '#ffffff',
-        pixelRatio: 2,
-        filter: filter, // 버튼 제외 필터 적용
-        cacheBust: true,
-      });
-
       const pdf = new jsPDF('p', 'mm', 'a4');
       const pdfWidth = pdf.internal.pageSize.getWidth();
       const pdfHeight = pdf.internal.pageSize.getHeight();
-      
-      const imgProps = pdf.getImageProperties(dataUrl);
-      const imgHeight = (imgProps.height * pdfWidth) / imgProps.width;
+      const margin = 10; // 상하좌우 여백
+      const contentWidth = pdfWidth - (margin * 2);
 
-      let heightLeft = imgHeight;
-      let position = 0;
+      // 1. PDF에 담을 모든 카드(단어/문장 박스)들을 가져옵니다.
+      const area = document.getElementById('pdf-print-area');
+      const cards = area.querySelectorAll('.p-4.rounded-xl.border'); // 카드 박스의 클래스
 
-      pdf.addImage(dataUrl, 'PNG', 0, position, pdfWidth, imgHeight);
-      heightLeft -= pdfHeight;
+      let currentY = margin; // 현재 PDF 상의 높이 위치
 
-      while (heightLeft > 0) {
-        position = heightLeft - imgHeight;
-        pdf.addPage();
-        pdf.addImage(dataUrl, 'PNG', 0, position, pdfWidth, imgHeight);
-        heightLeft -= pdfHeight;
+      // ✨ [추천] 제목 추가 (언제 공부한 건지)
+      pdf.setFontSize(18);
+      pdf.text(selectedFolder === 'all' ? 'All Study Notes' : formatDate(selectedFolder), margin, currentY + 7);
+      currentY += 20;
+
+      for (let i = 0; i < cards.length; i++) {
+        const card = cards[i];
+        
+        // 2. 각 카드를 이미지로 변환
+        const canvas = await toPng(card, { 
+          backgroundColor: '#ffffff',
+          pixelRatio: 2,
+          filter: (node) => !node.classList?.contains('pdf-exclude') && !node.classList?.contains('text-yellow-400')
+        });
+
+        // 3. 이미지 크기 계산
+        const imgProps = pdf.getImageProperties(canvas);
+        const imgHeight = (imgProps.height * contentWidth) / imgProps.width;
+
+        // 🚀 [핵심 로직] 현재 위치 + 카드 높이가 페이지 끝을 넘어가면? 새 페이지!
+        if (currentY + imgHeight > pdfHeight - margin) {
+          pdf.addPage();
+          currentY = margin; // 새 페이지에서는 다시 위에서부터 시작
+        }
+
+        // 4. PDF에 카드 이미지 추가
+        pdf.addImage(canvas, 'PNG', margin, currentY, contentWidth, imgHeight);
+        currentY += imgHeight + 5; // 카드 사이 간격 5mm 추가
       }
 
-      const fileName = selectedFolder === 'all' ? 'Talkori_Full_Notes.pdf' : `Talkori_${selectedFolder}.pdf`;
+      const fileName = selectedFolder === 'all' ? 'Talkori_Notes.pdf' : `Talkori_${selectedFolder}.pdf`;
       pdf.save(fileName);
       
     } catch (error) {
       console.error("PDF 에러:", error);
-      alert("PDF 생성 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요."); 
+      alert("PDF 생성 중 오류가 발생했습니다."); 
     } finally {
       setIsExporting(false); 
     }
