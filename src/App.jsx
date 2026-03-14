@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'; // ✨ useEffect 추가됨
+import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Home from './pages/Home';
@@ -21,10 +21,7 @@ function LanguageSelector() {
 // ✨ 나가기 버튼 로직 수정 (강제 이동)
 function ExitButton() {
   const handleExit = () => {
-    // 1. 혹시 모를 모달/아이프레임 닫기 신호는 그대로 유지
     window.parent.postMessage('closeTalkori', '*'); 
-    
-    // 2. 가장 최상단 부모 창을 강제로 메인 홈페이지로 이동시킴 (직빵 해결!)
     window.top.location.href = 'https://talkori.com'; 
   };
 
@@ -46,6 +43,12 @@ function Sidebar() {
   const isMyStudy = location.pathname === '/my-study'; 
   const { t } = useTranslation(); 
   
+  // ==========================================
+  // ✨ [PC 사이드바용] 데모 모드 감지 및 주소 자동 세팅
+  const isDemoMode = sessionStorage.getItem('talkori_demo_mode') === 'true';
+  const classroomUrl = isDemoMode ? 'https://talkori.com/class_demo/' : 'https://talkori.com/class/';
+  // ==========================================
+
   return (
     <aside className="hidden md:flex flex-col w-64 border-r border-gray-100 bg-gray-50/30 p-6 h-screen sticky top-0 flex-shrink-0 justify-between z-10">
       <div>
@@ -61,10 +64,19 @@ function Sidebar() {
           <Link to="/my-study" className={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors font-semibold ${isMyStudy ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
             <span className="text-xl">📚</span> My Study
           </Link>
+
+          {/* ✨ [추가됨] PC 사이드바: 강의실 이동 버튼 */}
+          <div className="pt-4 mt-2">
+            <a href={classroomUrl} className="flex items-center gap-3 px-3 py-3 text-gray-600 bg-white hover:bg-indigo-50 hover:text-indigo-600 rounded-xl font-bold transition-all border border-gray-200 hover:border-indigo-200 shadow-sm group">
+              <span className="text-xl group-hover:scale-110 transition-transform">🎓</span>
+              <span>Classroom</span>
+            </a>
+          </div>
+
         </div>
       </div>
       
-      {/* ✨ 하단 컨트롤 영역 (언어 선택 & 나가기 버튼 나란히 배치) */}
+      {/* 하단 컨트롤 영역 */}
       <div className="mt-auto border-t border-gray-200 pt-5 flex items-end justify-between">
         <div>
           <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block pl-2">{t('common.language')}</label>
@@ -83,32 +95,30 @@ function App() {
   const toggleMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
   const closeMenu = () => setIsMobileMenuOpen(false);
 
-// ==========================================
+  // ==========================================
   // ✨ [보안] 외부 접속 차단 (Iframe 락) + 데모 모드 기억/해제!
   // ==========================================
   useEffect(() => {
-    // 1. 주소창의 꼬리표(mode)를 확인합니다.
     const params = new URLSearchParams(window.location.search);
     const mode = params.get('mode');
 
     if (mode === 'demo') {
-      // 데모 꼬리표가 있으면 세션에 자물쇠(true) 채우기!
       sessionStorage.setItem('talkori_demo_mode', 'true');
     } else if (mode === 'premium') {
-      // ✨ [추가됨] 프리미엄 꼬리표가 있으면 데모 기억을 완전히 박살 내기! (해제)
       sessionStorage.removeItem('talkori_demo_mode');
     }
 
-    // 2. [기존 유지] 로컬 환경(개발 중)인지 확인
     const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
     
-    // 3. [기존 유지] window.self === window.top 이면 "아이프레임 밖(직접 접속)"이라는 뜻입니다.
     if (window.self === window.top && !isLocalhost) {
-      // 본 사이트로 강제 이동시켜 버립니다.
       window.location.href = 'https://talkori.com'; 
     }
   }, []);
   // ==========================================
+
+  // ✨ [모바일 메뉴용] 데모 모드 감지 및 주소 자동 세팅
+  const isDemoMode = sessionStorage.getItem('talkori_demo_mode') === 'true';
+  const classroomUrl = isDemoMode ? 'https://talkori.com/class_demo/' : 'https://talkori.com/class/';
 
   return (
     <BrowserRouter>
@@ -140,9 +150,18 @@ function App() {
                   <Link to="/my-study" onClick={closeMenu} className="flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-indigo-50 text-gray-900 font-bold text-lg">
                     <span>📚</span> My Study
                   </Link>
+
+                  {/* ✨ [추가됨] 모바일 사이드바: 강의실 이동 버튼 */}
+                  <div className="pt-4 mt-2">
+                    <a href={classroomUrl} className="flex items-center gap-3 px-3 py-3 text-gray-700 bg-white hover:bg-indigo-50 hover:text-indigo-600 rounded-xl font-bold text-lg transition-all border border-gray-200 hover:border-indigo-200 shadow-sm group">
+                      <span className="group-hover:scale-110 transition-transform">🎓</span>
+                      <span>Classroom</span>
+                    </a>
+                  </div>
+
                 </div>
                 
-                {/* ✨ 모바일 메뉴 하단에도 나가기 버튼 배치 */}
+                {/* 모바일 메뉴 하단에도 나가기 버튼 배치 */}
                 <div className="mb-20 pt-5 border-t border-gray-100 flex justify-center">
                   <ExitButton />
                 </div>
