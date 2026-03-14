@@ -67,7 +67,7 @@ function Sidebar() {
 
           {/* ✨ [추가됨] PC 사이드바: 강의실 이동 버튼 */}
           <div className="pt-4 mt-2">
-            <a href={classroomUrl} className="flex items-center gap-3 px-3 py-3 text-gray-600 bg-white hover:bg-indigo-50 hover:text-indigo-600 rounded-xl font-bold transition-all border border-gray-200 hover:border-indigo-200 shadow-sm group">
+            <a href={classroomUrl} target="_top" className="flex items-center gap-3 px-3 py-3 text-gray-600 bg-white hover:bg-indigo-50 hover:text-indigo-600 rounded-xl font-bold transition-all border border-gray-200 hover:border-indigo-200 shadow-sm group">
               <span className="text-xl group-hover:scale-110 transition-transform">🎓</span>
               <span>Classroom</span>
             </a>
@@ -153,7 +153,7 @@ function App() {
 
                   {/* ✨ [추가됨] 모바일 사이드바: 강의실 이동 버튼 */}
                   <div className="pt-4 mt-2">
-                    <a href={classroomUrl} className="flex items-center gap-3 px-3 py-3 text-gray-700 bg-white hover:bg-indigo-50 hover:text-indigo-600 rounded-xl font-bold text-lg transition-all border border-gray-200 hover:border-indigo-200 shadow-sm group">
+                    <a href={classroomUrl} target="_top" className="flex items-center gap-3 px-3 py-3 text-gray-700 bg-white hover:bg-indigo-50 hover:text-indigo-600 rounded-xl font-bold text-lg transition-all border border-gray-200 hover:border-indigo-200 shadow-sm group">
                       <span className="group-hover:scale-110 transition-transform">🎓</span>
                       <span>Classroom</span>
                     </a>
