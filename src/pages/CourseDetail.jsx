@@ -8,23 +8,18 @@ export default function CourseDetail() {
   const { t, i18n } = useTranslation();
   const lang = i18n.language === 'ko' ? 'ko' : 'en';
 
-  // ==========================================
-  // ✨ [추가됨] 메모리에서 데모 모드인지 확인!
   const isDemoMode = sessionStorage.getItem('talkori_demo_mode') === 'true';
-  // ==========================================
-
   const course = courses.find((c) => c.id === courseId);
 
-  // 🎯 페이지네이션 및 정렬 상태 관리
-  // ✨ [수정됨] 데모 모드면 무조건 'asc(1화부터)'로 시작하게 만듭니다!
   const [sortOrder, setSortOrder] = useState(isDemoMode ? 'asc' : 'desc'); 
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 15; 
+  
+  // ✨ [추가됨] 예쁜 프리미엄 모달을 띄우기 위한 상태값 추가!
+  const [showPremiumModal, setShowPremiumModal] = useState(false);
 
-  // 코스가 바뀌면 1페이지로 초기화
   useEffect(() => {
     setCurrentPage(1);
-    // ✨ [추가됨] 데모 모드인데 유저가 억지로 바꾸려 하면 다시 asc로 돌려버림
     if (isDemoMode) {
       setSortOrder('asc');
     }
@@ -39,13 +34,11 @@ export default function CourseDetail() {
     );
   }
 
-  // 정렬 로직
   const sortedEpisodes = [...course.episodes].sort((a, b) => {
     if (sortOrder === 'asc') return parseInt(a.id) - parseInt(b.id);
     return parseInt(b.id) - parseInt(a.id);
   });
 
-  // 페이지네이션 계산
   const totalPages = Math.ceil(sortedEpisodes.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const displayedEpisodes = sortedEpisodes.slice(startIndex, startIndex + ITEMS_PER_PAGE);
@@ -79,10 +72,10 @@ export default function CourseDetail() {
         <select 
           value={sortOrder} 
           onChange={(e) => setSortOrder(e.target.value)}
-          disabled={isDemoMode} // ✨ 데모 모드일 땐 정렬 버튼 클릭 금지!
+          disabled={isDemoMode}
           className={`text-sm font-semibold rounded-lg px-3 py-2 outline-none transition-colors ${
             isDemoMode 
-            ? 'bg-gray-100 text-gray-400 cursor-not-allowed' // 데모일 땐 회색으로 죽임
+            ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
             : 'text-gray-600 bg-gray-50 border-none cursor-pointer hover:bg-gray-100 focus:ring-0'
           }`}
         >
@@ -94,7 +87,6 @@ export default function CourseDetail() {
       {/* 📚 3. 에피소드 리스트 */}
       <div className="space-y-3 mb-10">
         {displayedEpisodes.map((ep) => {
-          // ✨ [핵심] 데모 모드이고, 3화(003)를 초과하면 잠금 처리!
           const isLocked = isDemoMode && parseInt(ep.id) > 3;
 
           return (
@@ -102,25 +94,23 @@ export default function CourseDetail() {
               key={ep.id} 
               to={isLocked ? "#" : `/player/${course.id}/${ep.id}`}
               onClick={(e) => {
-                // 자물쇠가 걸려있으면 클릭 막고 경고창 띄우기
                 if (isLocked) {
                   e.preventDefault();
-                  alert(lang === 'ko' ? '🔒 데모 버전에서는 3화까지만 들을 수 있습니다! 전체 이용을 위해 프리미엄을 구독해주세요.' : '🔒 In the demo version, you can only listen up to episode 3! Please subscribe to premium for full access.');
+                  // ✨ [수정됨] 투박한 alert 대신 예쁜 모달을 띄웁니다!
+                  setShowPremiumModal(true);
                 }
               }}
               className={`group flex flex-col md:flex-row items-start md:items-center gap-4 p-4 rounded-2xl border transition-all duration-200 ${
                 isLocked 
-                ? 'opacity-60 bg-gray-50 border-gray-100 cursor-not-allowed' // 잠긴 에피소드는 흐리게
+                ? 'opacity-60 bg-gray-50 border-gray-100 cursor-not-allowed'
                 : 'hover:bg-gray-50 border-transparent hover:border-gray-100'
               }`}
             >
-              {/* 플레이 버튼 (또는 자물쇠 아이콘) */}
               <div className={`hidden md:flex shrink-0 w-12 h-12 rounded-full border items-center justify-center transition-colors shadow-sm ${
                 isLocked
                 ? 'bg-gray-100 border-gray-200 text-gray-400' 
                 : 'bg-white border-gray-200 text-indigo-600 group-hover:bg-indigo-600 group-hover:text-white'
               }`}>
-                {/* ✨ 잠겼으면 자물쇠, 열렸으면 플레이 버튼 */}
                 <span className={`text-xl ${!isLocked && 'ml-1'}`}>{isLocked ? '🔒' : '▶'}</span>
               </div>
 
@@ -137,7 +127,6 @@ export default function CourseDetail() {
                   {ep.description[lang]}
                 </p>
                 
-                {/* 🏷️ 태그 및 난이도 뱃지 */}
                 <div className="flex items-center gap-2 flex-wrap">
                   <span className="text-xs font-semibold text-gray-400 bg-gray-100/80 px-2 py-0.5 rounded-md">
                     ⏱ {ep.duration[lang]}
@@ -155,7 +144,6 @@ export default function CourseDetail() {
                 </div>
               </div>
               
-              {/* 모바일용 플레이 버튼 (또는 Locked 버튼) */}
               <div className="md:hidden mt-2 w-full flex justify-end">
                 <span className={`text-sm font-bold px-4 py-1.5 rounded-full ${
                   isLocked 
@@ -202,6 +190,39 @@ export default function CourseDetail() {
           </button>
         </div>
       )}
+
+      {/* ==================================================== */}
+      {/* ✨ 프리미엄 모달 팝업 UI (Player.jsx에서 그대로 이식) */}
+      {/* ==================================================== */}
+      {showPremiumModal && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm animate-fade-in">
+          <div className="bg-white rounded-[24px] p-8 md:p-10 max-w-sm w-full text-center shadow-2xl transform transition-all scale-100">
+            <div className="text-5xl mb-4">🔒</div>
+            <h3 className="text-2xl font-extrabold text-gray-900 mb-3 tracking-tight">Premium Content</h3>
+            <p className="text-gray-500 text-sm leading-relaxed mb-8">
+              This lesson is for premium members only.<br/>
+              Upgrade now to get <strong className="text-gray-700">unlimited access to</strong><br/>
+              all classes and the wordbook!
+            </p>
+            <button
+              onClick={() => {
+                // 워드프레스 부모 창을 결제 페이지로 이동
+                window.parent.location.href = 'https://talkori.com/price';
+              }}
+              className="w-full bg-[#3b32f5] hover:bg-blue-700 text-white font-bold py-3.5 rounded-xl transition-colors mb-4 shadow-md text-[15px]"
+            >
+              Upgrade Now 🚀
+            </button>
+            <button
+              onClick={() => setShowPremiumModal(false)}
+              className="text-gray-400 text-sm font-medium hover:text-gray-600 transition-colors"
+            >
+              Maybe later
+            </button>
+          </div>
+        </div>
+      )}
+      {/* ==================================================== */}
 
     </div>
   );
