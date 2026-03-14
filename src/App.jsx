@@ -52,10 +52,13 @@ function Sidebar() {
   return (
     <aside className="hidden md:flex flex-col w-64 border-r border-gray-100 bg-gray-50/30 p-6 h-screen sticky top-0 flex-shrink-0 justify-between z-10">
       <div>
-        <Link to="/" className="flex items-center gap-2 mb-10 hover:opacity-80 transition-opacity">
+        
+        {/* 👇 [수정됨] PC 로고: 대시보드로 이동 (target="_parent" 적용) 👇 */}
+        <a href="https://talkori.com/dashboard/" target="_parent" className="flex items-center gap-2 mb-10 hover:opacity-80 transition-opacity cursor-pointer">
           <span className="text-2xl">🎙️</span>
           <span className="text-xl font-extrabold tracking-tight text-gray-900">Talkori</span>
-        </Link>
+        </a>
+        
         <div className="space-y-1">
           <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3 pl-3">Menu</p>
           <Link to="/" className={`flex items-center gap-3 px-3 py-2.5 rounded-xl transition-colors font-semibold ${isHome ? 'bg-indigo-50 text-indigo-600' : 'text-gray-600 hover:bg-gray-100 hover:text-gray-900'}`}>
@@ -110,6 +113,7 @@ function App() {
 
     const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
     
+    // Iframe 락 체크: 주석 처리하거나 해제하여 보안 테스트
     if (window.self === window.top && !isLocalhost) {
       window.location.href = 'https://talkori.com'; 
     }
@@ -132,9 +136,12 @@ function App() {
               <button onClick={toggleMenu} className="text-2xl text-gray-700 focus:outline-none">
                 {isMobileMenuOpen ? '✕' : '☰'}
               </button>
-              <Link to="/" className="text-xl font-extrabold tracking-tight text-gray-900 flex items-center gap-1.5" onClick={closeMenu}>
+
+              {/* 👇 [수정됨] 모바일 헤더 로고: 대시보드로 이동 (target="_parent" 적용) 👇 */}
+              <a href="https://talkori.com/dashboard/" target="_parent" className="text-xl font-extrabold tracking-tight text-gray-900 flex items-center gap-1.5 cursor-pointer">
                 🎙️ Talkori
-              </Link>
+              </a>
+
             </div>
             <LanguageSelector />
           </header>
