@@ -41,9 +41,10 @@ export default function MyStudy() {
     if (audioRef.current) audioRef.current.pause();
     if (!item.audio) return;
     
-    // ✨ [수정] 코너 정보가 있으면 해당 폴더로, 없으면 기본 reaction 폴더로 연결
-    const coursePath = item.courseId === 'kpop-korean' ? 'kpop' : 'reaction';
-    const audioUrl = `${CDN_BASE_URL}/${coursePath}/ep${item.epId}/${item.audio}`;
+    // ✨ [수정] 이제 코너 아이디(courseId)가 곧 버니넷 폴더명입니다! 
+    // (혹시 예전에 저장해서 courseId가 없는 아주 옛날 북마크면 기본값 'real-reaction'으로 연결)
+    const activeCoursePath = item.courseId || 'real-reaction';
+    const audioUrl = `${CDN_BASE_URL}/${activeCoursePath}/ep${item.epId}/${item.audio}`;
     
     const audio = new Audio(audioUrl);
     audioRef.current = audio;

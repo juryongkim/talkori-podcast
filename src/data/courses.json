@@ -960,23 +960,44 @@
     ]
   },
   {
-    "id": "kpop-korean",
+    "id": "real-reaction-2",
     "title": {
-      "en": "K-Pop Korean",
-      "ko": "K-Pop 한국어"
+      "en": "Real Reaction Season2",
+      "ko": "리얼 리액션 시즌2"
     },
     "publisher": {
-      "en": "Talkori Music",
-      "ko": "Talkori 뮤직"
+      "en": "Talkori Original",
+      "ko": "Talkori 오리지널"
     },
     "description": {
-      "en": "Learn real Korean expressions and culture hidden in the latest K-Pop lyrics.",
-      "ko": "최신 K-Pop 가사 속에 숨겨진 진짜 한국어 표현과 문화를 배워보세요."
+      "en": "If the focus so far has been on 'expression,' now we will cover how reactions vary within specific 'situations.'",
+      "ko": "지금까지는 '표현' 중심이었다면, 이제는 특정 '상황' 속에서 리액션이 어떻게 변주되는지 상황별 마스터 클래스에서 배워보세요!"
     },
     "icon": "🎵",
     "theme": "from-pink-400 to-rose-500",
-    "status": "coming-soon",
-    "episodes": []
+    "status": "active",
+    "episodes": [
+      {
+        "id": "001",
+        "title": {
+          "en": "No, you're overpraising me! (Workplace Praise)",
+          "ko": "아니에요, 과찬이십니다! (직장 생활 칭찬 편)"
+        },
+        "description": {
+          "en": "Season 2 Situation Masterclass begins! When you receive praise from a boss in a Korean company, practice reacting politely and humbly.",
+          "ko": "시즌 2 상황별 마스터클래스 시작! 한국 회사에서 상사에게 칭찬을 받았을 때, 예의 바르면서도 겸손하게 대답하는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 20 sec",
+          "ko": "5분 20초"
+        },
+        "level": "Intermediate-Beginner",
+        "tags": [
+          "Situation. Business. Work. Respect. Humility. Season 2"
+        ],
+        "dataFile": "ep001.json"
+      }
+    ]
   },
   {
     "id": "survival-korean",

@@ -154,7 +154,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/course/:courseId" element={<CourseDetail />} />
-              <Route path="/player/:epId" element={<Player />} />
+              <Route path="/player/:courseId/:epId" element={<Player />} />
               <Route path="/my-study" element={<MyStudy />} />
             </Routes>
           </div>

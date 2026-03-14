@@ -100,7 +100,7 @@ export default function CourseDetail() {
           return (
             <Link 
               key={ep.id} 
-              to={isLocked ? "#" : `/player/${ep.id}`}
+              to={isLocked ? "#" : `/player/${course.id}/${ep.id}`}
               onClick={(e) => {
                 // 자물쇠가 걸려있으면 클릭 막고 경고창 띄우기
                 if (isLocked) {
