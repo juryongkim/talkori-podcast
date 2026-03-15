@@ -2,7 +2,7 @@
   "metadata": {
     "id": "001",
     "title": {
-      "en": "No, you're overpraising me! (Workplace Praise)",
+      "en": "No, you're overpraising me! 아니에요, 과찬이십니다! (Workplace Praise)",
       "ko": "아니에요, 과찬이십니다! (직장 생활 칭찬 편)"
     },
     "description": {
@@ -26,7 +26,7 @@
       "type": "Intro",
       "speaker": "John",
       "emotion": "에너지 넘치게",
-      "text": "What's up world! Welcome back to... \"Real Reaction Season 2!\" I'm your host, John.",
+      "text": "What's up world! Welcome back to... \"Real Reaction!\" I'm your host, John.",
       "translation": "",
       "lang": "EN",
       "audio": "RR_001_s001.mp3",
@@ -50,7 +50,7 @@
       "type": "Intro",
       "speaker": "Mina",
       "emotion": "",
-      "text": "이제는 단순히 표현만 배우는 게 아니라, 특정 상황에서 어떤 리액션이 가장 완벽한지 알려드릴 거예요.",
+      "text": "이제는 단순히 표현만 배우는 게 아니라 특정 상황에서 어떤 리액션이 가장 완벽한지 알려드릴 거예요.",
       "translation": "Now, we won't just learn expressions. We'll tell you which reaction is most perfect in specific situations.",
       "lang": "KO",
       "audio": "RR_001_s003.mp3",
@@ -86,7 +86,7 @@
       "type": "Intro",
       "speaker": "John",
       "emotion": "걱정하며",
-      "text": "Oh, in that case, can I just say \"대박! Thanks!\"?",
+      "text": "Oh. in that case..., can I just say \"대박!?\"",
       "translation": "",
       "lang": "EN",
       "audio": "RR_001_s006.mp3",
@@ -122,13 +122,17 @@
       "type": "Vocab",
       "speaker": "Mina",
       "emotion": "",
-      "text": "네. \"칭찬이 지나치십니다\" 라는 뜻으로, 나를 낮추고 상대방을 높이는 아주 고급스러운 리액션이에요.",
+      "text": "네 \"칭찬이 지나치십니다\" 라는 뜻이에요. 자신을 낮추고 상대방을 높이는 아주 고급스러운 리액션이에요.",
       "translation": "Yes. It means \"Your praise is excessive.\" It's a very sophisticated reaction that lowers yourself and raises the other person.",
       "lang": "KO",
       "audio": "RR_001_s009.mp3",
       "playable": true,
       "seq": 9,
-      "insight": null
+      "insight": {
+        "title": "과찬이십니다",
+        "description": "A formal way to respond to praise",
+        "usage_tip": "'과찬(Overpraise)' + '이십니다(Is/Formal)'. It's more humble than just saying 'Thank you' in a professional setting."
+      }
     },
     {
       "type": "Vocab",
@@ -170,13 +174,17 @@
       "type": "Vocab",
       "speaker": "Mina",
       "emotion": "",
-      "text": "이건 \"나 혼자 잘해서가 아니라, 팀원들과 상사님 덕분이다\" 라고 공을 돌리는 표현이에요.",
+      "text": "이건 \"나 혼자 잘해서가 아니라 팀원들과 상사님 덕분이다\" 라고 공을 돌리는 표현이에요.",
       "translation": "This is an expression that shifts the credit, saying \"It's not because I did well alone, but thanks to the team members and the boss.\"",
       "lang": "KO",
       "audio": "RR_001_s013.mp3",
       "playable": true,
       "seq": 13,
-      "insight": null
+      "insight": {
+        "title": "다 ~덕분입니다",
+        "description": "Crediting others for your success",
+        "usage_tip": "'다(All)' + '덕분(Thanks to)' + '입니다(Is)'. It shows you value teamwork and leadership."
+      }
     },
     {
       "type": "Vocab",
@@ -218,7 +226,7 @@
       "type": "Dial",
       "speaker": "Mina",
       "emotion": "근엄한 목소리로",
-      "text": "존 씨. 이번에 작성한 보고서 말이야. 내용이 정말 완벽하던데?",
+      "text": "존. 이번에 작성한 보고서 말이야. 내용이 정말 완벽하던데?",
       "translation": "Mr. John. regarding the report you wrote this time. The content was truly perfect.",
       "lang": "KO",
       "audio": "RR_001_s017.mp3",
@@ -230,7 +238,7 @@
       "type": "Dial",
       "speaker": "Mina",
       "emotion": "",
-      "text": "우리 팀에서 존 씨가 최고야. 아주 수고 많았어!",
+      "text": "우리 팀에서 존이 최고야. 아주 수고 많았어!",
       "translation": "You're the best in our team, John. You did a great job!",
       "lang": "KO",
       "audio": "RR_001_s018.mp3",
@@ -248,13 +256,17 @@
       "audio": "RR_001_s019.mp3",
       "playable": true,
       "seq": 19,
-      "insight": null
+      "insight": {
+        "title": "아니에요",
+        "description": "'No'",
+        "usage_tip": "In this context, it's used to gently decline a compliment as a form of modesty."
+      }
     },
     {
       "type": "Dial",
       "speaker": "Mina",
       "emotion": "",
-      "text": "아니야, 정말 잘했어. 다들 존 씨 좀 본받으라고!",
+      "text": "아니야 정말 잘했어. 다들 존을 좀 본받으라고!",
       "translation": "No, you really did well. Everyone, follow John's example!",
       "lang": "KO",
       "audio": "RR_001_s020.mp3",
@@ -284,7 +296,11 @@
       "audio": "RR_001_s022.mp3",
       "playable": true,
       "seq": 22,
-      "insight": null
+      "insight": {
+        "title": "더 열심히 하겠습니다",
+        "description": "'I will work harder'",
+        "usage_tip": "A standard way to respond to praise while showing future commitment."
+      }
     },
     {
       "type": "Dial",
