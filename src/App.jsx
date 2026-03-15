@@ -177,9 +177,12 @@ function App() {
 
                 </div>
                 
-                {/* 모바일 메뉴 하단에도 나가기 버튼 배치 */}
-                <div className="mb-20 pt-5 border-t border-gray-100 flex justify-center">
-                  <ExitButton />
+                {/* 모바일 메뉴 하단에도 앱 설치 & 나가기 버튼 배치 */}
+                <div className="mb-20 pt-5 border-t border-gray-100 flex flex-col gap-4">
+                  <InstallAppButton />
+                  <div className="flex justify-center">
+                    <ExitButton />
+                  </div>
                 </div>
               </div>
             </div>
