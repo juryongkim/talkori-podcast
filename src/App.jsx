@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import CourseDetail from './pages/CourseDetail';
 import Player from './pages/Player';
 import MyStudy from './pages/MyStudy'; 
-import InstallAppButton from './components/InstallAppButton'; // (경로는 폴더 위치에 맞게!)
+
 
 // 🌐 언어 선택기
 function LanguageSelector() {
@@ -80,21 +80,13 @@ function Sidebar() {
         </div>
       </div>
       
-      {/* 하단 컨트롤 영역 */}
-      <div className="mt-auto border-t border-gray-200 pt-5 flex flex-col gap-4">
-        
-        {/* 📱 [추가됨] 앱 설치 버튼이 위층을 꽉 채웁니다 */}
-        <InstallAppButton />
-
-        {/* 🌐 기존 언어 선택 & 나가기 버튼은 아래층에 그대로 유지! */}
-        <div className="flex items-end justify-between">
-          <div>
-            <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block pl-2">{t('common.language')}</label>
-            <LanguageSelector />
-          </div>
-          <ExitButton />
+       {/* 하단 컨트롤 영역 */}
+      <div className="mt-auto border-t border-gray-200 pt-5 flex items-end justify-between">
+        <div>
+          <label className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-2 block pl-2">{t('common.language')}</label>
+          <LanguageSelector />
         </div>
-        
+        <ExitButton />
       </div>
     </aside>
   );
@@ -177,12 +169,10 @@ function App() {
 
                 </div>
                 
-                {/* 모바일 메뉴 하단에도 앱 설치 & 나가기 버튼 배치 */}
-                <div className="mb-20 pt-5 border-t border-gray-100 flex flex-col gap-4">
-                  <InstallAppButton />
-                  <div className="flex justify-center">
-                    <ExitButton />
-                  </div>
+                {/* 모바일 메뉴 하단에도 나가기 버튼 배치 */}
+
+                <div className="mb-20 pt-5 border-t border-gray-100 flex justify-center">
+                  <ExitButton />
                 </div>
               </div>
             </div>
