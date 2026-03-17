@@ -978,6 +978,24 @@
     "status": "active",
     "episodes": [
       {
+        "id": "000",
+        "title": {
+          "en": "Episode 000",
+          "ko": "에피소드 000"
+        },
+        "description": {
+          "en": "",
+          "ko": ""
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "",
+        "tags": [],
+        "dataFile": "ep000.json"
+      },
+      {
         "id": "001",
         "title": {
           "en": "No, you're overpraising me! 아니에요, 과찬이십니다! (Workplace Praise)",
@@ -996,6 +1014,246 @@
           "Situation. Business. Work. Respect. Humility. Season 2"
         ],
         "dataFile": "ep001.json"
+      },
+      {
+        "id": "002",
+        "title": {
+          "en": "I'm sorry, it's my mistake! (Apology and Handling)",
+          "ko": "미안해요, 제 실수예요! (상황별 사과와 대처)"
+        },
+        "description": {
+          "en": "When you're late for an appointment or make a small mistake! Practice reacting with a sincere but natural apology like 미안해요 and 제 실수예요.",
+          "ko": "약속에 늦었거나 작은 실수를 했을 때! 너무 무겁지 않으면서도 진심이 느껴지게 사과하고 대화를 이어가는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 20 sec",
+          "ko": "5분 20초"
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Daily Life. Apology. Mistake. Friendship. Social. Season 2"
+        ],
+        "dataFile": "ep002.json"
+      },
+      {
+        "id": "003",
+        "title": {
+          "en": "I'm fine with anything! (Menu selection and Consideration)",
+          "ko": "전 아무거나 괜찮아요! (메뉴 정하기와 배려)"
+        },
+        "description": {
+          "en": "When it's hard to choose what to eat! Practice reacting with consideration by following others' suggestions with 아무거나 괜찮아요.",
+          "ko": "뭘 먹을지 고르기 힘들 때! 상대방의 의견을 존중하면서도 기분 좋게 맞장구치는 '결정 도우미' 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "5 min 10 sec",
+          "ko": "5분 10초"
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Daily Life. Lunch. Decision making. Consideration. Friendship. Season 2"
+        ],
+        "dataFile": "ep003.json"
+      },
+      {
+        "id": "004",
+        "title": {
+          "en": "How to leave a Korean party EARLY",
+          "ko": "저 먼저 들어가 볼게요! (모임 중간에 일어날 때)"
+        },
+        "description": {
+          "en": "Need to catch the last bus? Use the natural phrase \"저 먼저 들어가 볼게요\" to leave gatherings smoothly and politely!",
+          "ko": "모임 중간에 먼저 일어나야 할 때! 분위기를 깨지 않으면서 자연스럽고 부드럽게 인사하는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Social. Farewell. Polite. Season 2"
+        ],
+        "dataFile": "ep004.json"
+      },
+      {
+        "id": "005",
+        "title": {
+          "en": "You look so much better! (Greeting an old friend)",
+          "ko": "얼굴 좋아 보이네요! (오랜만에 만난 지인과 안부 묻기)"
+        },
+        "description": {
+          "en": "Beyond a simple greeting. Learn how to comment on someone's positive energy and healthy appearance with the natural phrase \"얼굴 좋아 보이네요.\"",
+          "ko": "오랜만에 만난 지인의 밝은 인상을 보고 건네는 따뜻한 리액션! 단순한 외모 평가가 아닌, 상대방의 평온한 근황을 확인하고 기쁨을 나누는 법을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Social. Greeting. Reunion. Positive Energy. Season 2"
+        ],
+        "dataFile": "ep005.json"
+      },
+      {
+        "id": "006",
+        "title": {
+          "en": "The EASIEST way to make Korean friends! (Chiming in)",
+          "ko": "저도 그거 진짜 좋아해요! (상대방의 취향에 맞장구치기)"
+        },
+        "description": {
+          "en": "Stop being just a listener! Master the art of active agreement and use phrases like \"저도 그거 진짜 좋아해요\" to build instant connections.",
+          "ko": "처음 만난 사람과 1분 만에 친해지는 비결! 상대방의 취향이나 취미에 격하게 공감하며 대화의 에너지를 높이는 맞장구 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Social. Hobby. Agreement. Empathy. Friendship. Season 2"
+        ],
+        "dataFile": "ep006.json"
+      },
+      {
+        "id": "007",
+        "title": {
+          "en": "Invited to a Korean home? Gift Etiquette & Phrases",
+          "ko": "뭐 이런 걸 다 가져왔어요! (초대와 선물 리액션)"
+        },
+        "description": {
+          "en": "Don't go empty-handed! Learn the art of \"Jeong\" (Korean affection) and what to say when giving or receiving gifts at a friend's home.",
+          "ko": "친구 집에 초대받았을 때! 빈손으로 가기 미안한 마음을 전하는 법과 선물을 주고받을 때 나누는 따뜻한 한국식 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Social. Gift. Etiquette. Home Visit. Jeong. Season 2"
+        ],
+        "dataFile": "ep007.json"
+      },
+      {
+        "id": "008",
+        "title": {
+          "en": "How kroeans say \"No way, it can't be!\" (Expressing disbelief)",
+          "ko": "에이, 설마요! (믿기 힘든 상황 부정하기)"
+        },
+        "description": {
+          "en": "When you hear something that contradicts what you know! Master \"에이, 설마요,\" a phrase that blends denial with a hint of \"Maybe not.\"",
+          "ko": "내가 알던 사실과 너무 다른 소식을 들었을 때! 부정하고 싶은 마음과 걱정이 섞인 \"에이, 설마요\" 의 정확한 뉘앙스와 사용법을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Social. News. Denial. Logic. Reaction. Season 2"
+        ],
+        "dataFile": "ep008.json"
+      },
+      {
+        "id": "009",
+        "title": {
+          "en": "How to keep the conversation FLOWING in Korean",
+          "ko": "그래서요? 그다음엔요? (대화의 흐름 이어가기)"
+        },
+        "description": {
+          "en": "Don't let the silence get awkward! Master the art of active listening and the phrases like \"그래서요?\" that make people want to keep talking to you.",
+          "ko": "대화가 끊길까 봐 걱정될 때! 상대방의 이야기에 호기심을 보이며 더 많은 이야기를 이끌어내는 '마법의 추임새' 를 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Social. Active Listening. Curiosity. Conversation. Season 2"
+        ],
+        "dataFile": "ep009.json"
+      },
+      {
+        "id": "010",
+        "title": {
+          "en": "How koreans say \"Let's eat soon\" — Is it a real invitation?",
+          "ko": "조만간 밥 한번 먹자! (한국식 인사치레와 다음 기약하기)"
+        },
+        "description": {
+          "en": "Don't get fooled! Learn the secret behind the famous Korean farewell \"Let's grab a meal sometime\" and how to respond naturally.",
+          "ko": "\"언제 밥 한번 먹자\" 라는 말, 진짜 약속일까요? 한국인들의 정겨운 인사치레에 당황하지 않고 센스 있게 대답하는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Social. Greeting. Culture. Farewell. Relationship. Season 2"
+        ],
+        "dataFile": "ep010.json"
+      },
+      {
+        "id": "011",
+        "title": {
+          "en": "Asking for more side dishes at a Korean restaurant",
+          "ko": "이것 좀 더 주실 수 있어요? (식당에서 반찬 요청하기)"
+        },
+        "description": {
+          "en": "Love Korean side dishes? Learn the polite way to ask for a refill and the unwritten etiquette of \"Banchan culture\" in Korea.",
+          "ko": "한국 식당의 매력인 반찬 리필! 하지만 무조건 많이 먹는 게 정답은 아니죠. 사장님을 배려하며 기분 좋게 리필을 요청하는 매너와 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Food. Restaurant. Request. Manners. Side dishes. Season 2"
+        ],
+        "dataFile": "ep011.json"
+      },
+      {
+        "id": "012",
+        "title": {
+          "en": "The Real Reason Behind the Korean \"Bill Battle\"",
+          "ko": "오늘은 진짜 제가 살게요! (식당에서 계산할 때)"
+        },
+        "description": {
+          "en": "It's not just about \"Jeong.\" Learn the logic of reciprocity and how to gracefully handle the bill when you want to pay back a friend's kindness.",
+          "ko": "한국인들이 계산대에서 서로 내겠다고 하는 진짜 이유! 저번에 얻어먹은 고마움을 갚으려는 마음과 경제적 상황에 따른 배려의 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Food. Restaurant. Payment. Culture. Reciprocity. Season 2"
+        ],
+        "dataFile": "ep012.json"
+      },
+      {
+        "id": "013",
+        "title": {
+          "en": "The Art of Polite Bargaining in Korea",
+          "ko": "조금만 깎아 주시면 안 돼요? (물건 살 때 흥정하기)"
+        },
+        "description": {
+          "en": "It's not about what you say, but how you say it! Master the polite way to ask for a discount using honorifics like \"깎아 주시면 안 돼요?\"",
+          "ko": "시장에서 물건을 살 때, 무조건 깎아달라고 떼쓰는 게 아니라 상대를 존중하며 정중하게 가격을 제안하는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Shopping. Market. Negotiation. Manners. Honorifics. Season 2"
+        ],
+        "dataFile": "ep013.json"
       }
     ]
   },

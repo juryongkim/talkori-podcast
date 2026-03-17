@@ -1,0 +1,454 @@
+{
+  "metadata": {
+    "id": "008",
+    "title": {
+      "en": "How kroeans say \"No way, it can't be!\" (Expressing disbelief)",
+      "ko": "에이, 설마요! (믿기 힘든 상황 부정하기)"
+    },
+    "description": {
+      "en": "When you hear something that contradicts what you know! Master \"에이, 설마요,\" a phrase that blends denial with a hint of \"Maybe not.\"",
+      "ko": "내가 알던 사실과 너무 다른 소식을 들었을 때! 부정하고 싶은 마음과 걱정이 섞인 \"에이, 설마요\" 의 정확한 뉘앙스와 사용법을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Social. News. Denial. Logic. Reaction. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "진지하게 질문하며 바로 시작",
+      "text": "Mina, I saw a really interesting reaction today. Someone told my friend that our most punctual coworker was skipping work, and he just went, \"에이, 설마요.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "It didn't sound like a simple 'No' It felt like they were struggling to believe it.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "고개를 끄덕이며",
+      "text": "맞아요. \"에이 설마요.\" 는 단순한 부정이 아니에요.",
+      "translation": "Right. \"에이, 설마요\" is not a simple denial.",
+      "lang": "KO",
+      "audio": "RR_008_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "내가 알던 사실과 너무 달라서 믿고 싶지 않을 때 쓰는 말이죠.",
+      "translation": "It's something you say when the news is so different from what you know that you don't want to believe it.",
+      "lang": "KO",
+      "audio": "RR_008_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "So it's like saying \"Maybe not\" but with a strong hope that it's false?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네! \"제발 아니었으면 좋겠다.\" 라는 불안함이 섞인 리액션이에요.",
+      "translation": "Yes! It's a reaction mixed with the anxiety of \"I hope that's not the case.\"",
+      "lang": "KO",
+      "audio": "RR_008_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘은 이 복합적인 감정이 담긴 리액션을 제대로 배워볼게요!",
+      "translation": "Today, we'll properly learn this reaction filled with complex emotions!",
+      "lang": "KO",
+      "audio": "RR_008_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "에이~ 설마요. The 에이 part makes it sound like I'm pushing the idea away.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요! \"그럴 리가 없다\" 라고 손사래를 치는 느낌이에요.",
+      "translation": "Right! It feels like you're waving your hand, saying \"There's no way.\"",
+      "lang": "KO",
+      "audio": "RR_008_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": {
+        "title": "에이, 설마요",
+        "description": "'Maybe not / Surely not'",
+        "usage_tip": "'에이(Exclamation of denial)' + '설마(Surely not)' + '요(Polite ending)'. It reflects the tension between the news you heard and what you believe to be true."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "에이~ 설마요. 그럴 리가 없어요.",
+      "translation": "Maybe not. That can't be true.",
+      "lang": "KO",
+      "audio": "RR_008_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Is there a stronger way to say \"That's impossible\"?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"말도 안 돼요\" 라고 해보세요.",
+      "translation": "In that case, try saying \"말도 안 돼요\".",
+      "lang": "KO",
+      "audio": "RR_008_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이건 논리적으로 전혀 이해가 안 될 때 쓰는 강력한 리액션이에요.",
+      "translation": "This is a strong reaction used when something makes no sense logically.",
+      "lang": "KO",
+      "audio": "RR_008_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "말도 안 돼요",
+        "description": "'That's nonsense / Unbelievable'",
+        "usage_tip": "'말(Speech)' + '도(Even)' + '안 돼요(Not possible)'. Use this when the situation is completely absurd."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. We are waiting for our friend '수지' who is famous for never being late.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "시계를 보며 걱정스럽게",
+      "text": "수지가 아직도 안 오네요. 전화도 안 받아요.",
+      "translation": "John, Suji still isn't here. She's not even answering her phone.",
+      "lang": "KO",
+      "audio": "RR_008_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "의아해하며",
+      "text": "이상하네요. 수지는 약속을 어긴 적이 한 번도 없잖아요.",
+      "translation": "That's strange. Suji has never broken a promise before.",
+      "lang": "KO",
+      "audio": "RR_008_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "조심스럽게",
+      "text": "혹시 수지가 우리랑 약속한 걸 잊어버린 거 아닐까요?",
+      "translation": "Could it be that Suji forgot her appointment with us?",
+      "lang": "KO",
+      "audio": "RR_008_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "단호하게 고개를 저으며",
+      "text": "에이 설마요! 아까 한 시간 전에도 저랑 확인 문자 주고받았거든요.",
+      "translation": "Maybe not! I even exchanged confirmation texts with her just an hour ago.",
+      "lang": "KO",
+      "audio": "RR_008_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": {
+        "title": "에이, 설마요",
+        "description": "Logical Denial",
+        "usage_tip": "Use this because you have recent evidence (the text message) that contradicts Mina's guess."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "더 걱정하며",
+      "text": "그래요? 그럼 사고라도 난 거 아니에요?",
+      "translation": "Really? Then did she get into an accident? That's unbelievable!",
+      "lang": "KO",
+      "audio": "RR_008_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "",
+      "text": "설마요. 별일 없을 거예요. 조금만 더 기다려 봐요.",
+      "translation": "Surely not. I'm sure it's nothing. Let's wait a little longer.",
+      "lang": "KO",
+      "audio": "RR_008_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Now I get it! \"에이~ 설마요\" is perfect when the news just doesn't fit the person I know.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 한국어 리액션은 이렇게 상황과 논리를 모두 담고 있답니다.",
+      "translation": "Right. Korean reactions contain both context and logic like this.",
+      "lang": "KO",
+      "audio": "RR_008_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"disbelief\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "에이~ 설마요!",
+      "translation": "Maybe not! / Surely not!",
+      "lang": "KO",
+      "audio": "RR_008_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "그럴 리가 없어요!",
+      "translation": "That's impossible!",
+      "lang": "KO",
+      "audio": "RR_008_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "말도 안 돼요!",
+      "translation": "That's nonsense!",
+      "lang": "KO",
+      "audio": "RR_008_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "진짜 아니겠죠?",
+      "translation": "It's not true, right?",
+      "lang": "KO",
+      "audio": "RR_008_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "아닐 거예요!",
+      "translation": "It won't be true!",
+      "lang": "KO",
+      "audio": "RR_008_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 믿기 힘든 소식을 들었을 때, \"에이, 설마요\" 로 여러분의 마음을 표현해 보세요.",
+      "translation": "Everyone, when you hear unbelievable news today, express your heart with \"에이, 설마요.\"",
+      "lang": "KO",
+      "audio": "RR_008_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_008_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_008_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "설마",
+      "meaning": "Surely not / Maybe not",
+      "example": "설마 저 사람이 범인은 아니겠지? (Surely that person isn't the criminal, right?)",
+      "audio": "RR_008_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "말도 안 되다",
+      "meaning": "To be nonsense / Unbelievable",
+      "example": "갑자기 눈이 내리다니 말도 안 돼요. (It's unbelievable that it's suddenly snowing.)",
+      "audio": "RR_008_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "그럴 리가 없다",
+      "meaning": "To be impossible / No way",
+      "example": "성실한 존이 지각을 할 리가 없어요. (There is no way that diligent John would be late.)",
+      "audio": "RR_008_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "부정",
+      "meaning": "Denial",
+      "example": "그는 사실이 아니라고 강하게 부정했어요. (He strongly denied that it was not true.)",
+      "audio": "RR_008_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "불안",
+      "meaning": "Anxiety / Unease",
+      "example": "소식이 없어서 마음이 정말 불안해요. (I'm really anxious because there's no news.)",
+      "audio": "RR_008_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "확신",
+      "meaning": "Conviction / Confidence",
+      "example": "제 생각이 맞다는 확실한 확신이 있어요. (I have a clear conviction that my thinking is right.)",
+      "audio": "RR_008_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

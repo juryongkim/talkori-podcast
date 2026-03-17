@@ -1,0 +1,482 @@
+{
+  "metadata": {
+    "id": "011",
+    "title": {
+      "en": "Asking for more side dishes at a Korean restaurant",
+      "ko": "이것 좀 더 주실 수 있어요? (식당에서 반찬 요청하기)"
+    },
+    "description": {
+      "en": "Love Korean side dishes? Learn the polite way to ask for a refill and the unwritten etiquette of \"Banchan culture\" in Korea.",
+      "ko": "한국 식당의 매력인 반찬 리필! 하지만 무조건 많이 먹는 게 정답은 아니죠. 사장님을 배려하며 기분 좋게 리필을 요청하는 매너와 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Food. Restaurant. Request. Manners. Side dishes. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "입맛을 다시며 흥분된 목소리로 바로 시작",
+      "text": "Mina, I’m at this amazing Galbi restaurant, and these side dishes are out of this world!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I’ve already finished the Kimchi and this potato salad. Can I really just ask for more for free?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "기분 좋게 웃으며",
+      "text": "그럼요! 한국 식당의 가장 큰 매력이 바로 반찬 리필 이잖아요.",
+      "translation": "Haha, of course! The biggest charm of Korean restaurants is this 'Banchan refill'.",
+      "lang": "KO",
+      "audio": "RR_011_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "하지만 꼭 기억해야 할 매너가 하나 있어요.",
+      "translation": "But there's one 'Manner' you must remember.",
+      "lang": "KO",
+      "audio": "RR_011_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Oh? Is there a limit?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "보통 한국 사람들은 정말 필요한 만큼만 대개 한두 번 정도만 리필을 해요.",
+      "translation": "Usually, Koreans only refill as much as they really need, typically once or twice.",
+      "lang": "KO",
+      "audio": "RR_011_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "사장님들도 이익을 남기셔야 하니까 서로 배려하는 마음이 중요하거든요.",
+      "translation": "Since the owners also need to make a profit, a heart of mutual consideration is important.",
+      "lang": "KO",
+      "audio": "RR_011_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "깨달으며",
+      "text": "Ah, I see! It’s about respect, not just eating as much as I can.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요! 오늘은 사장님 기분도 좋게 만드는 매너 있는 리필의 리액션을 배워볼게요!",
+      "translation": "Right! Today, we'll learn 'mannered refill' reactions that also make the owner feel good!",
+      "lang": "KO",
+      "audio": "RR_011_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "이것 좀 더 주실 수 있어요? Adding \"좀\" makes it much softer, right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s010.mp3",
+      "playable": false,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네! \"할 수 있냐\" 고 물어보는 방식이라서 훨씬 정중하게 들려요.",
+      "translation": "Yes! Since it's a way of asking \"if they can,\" it sounds much more polite.",
+      "lang": "KO",
+      "audio": "RR_011_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": {
+        "title": "이것 좀 더 주실 수 있어요?",
+        "description": "'Can I have some more of this?'",
+        "usage_tip": "'이것(This)' + '좀(A bit/Please)' + '더(More)' + '주실 수 있어요(Can you give)'. The '좀' is essential for sounding natural and showing respect for the staff's busy schedule."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "사장님. 이것 좀 더 주실 수 있어요?",
+      "translation": "Boss, could I have some more of this?",
+      "lang": "KO",
+      "audio": "RR_011_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "What if the staff looks really busy?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s013.mp3",
+      "playable": false,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"죄송한데 반찬 조금만 더 주실 수 있나요?\" 라고 해보세요.",
+      "translation": "In that case, try saying \"죄송한데, 반찬 좀만 더 주실 수 있나요?\".",
+      "lang": "KO",
+      "audio": "RR_011_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"죄송한데\" 를 앞에 붙이면 바쁜 사장님을 배려하는 느낌이 확 살아나요.",
+      "translation": "Adding \"Sorry, but...\" at the beginning really brings out the feeling of considering the busy owner.",
+      "lang": "KO",
+      "audio": "RR_011_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": {
+        "title": "죄송한데 ~ 좀만 더 주실 수 있나요?",
+        "description": "'I'm sorry, but could I have just a bit more?'",
+        "usage_tip": "'죄송한데(I'm sorry but)' + '좀만(Just a bit)'. Adding '만' to '좀' suggests you aren't asking for a huge amount."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. I'm at a busy Kimchi Jjigae place. I've finished my favorite side dish, but the staff looks a bit rushed.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s016.mp3",
+      "playable": false,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "조심스럽게 사장님을 부르며",
+      "text": "저기요, 사장님! 바쁘신데 죄송한데요.",
+      "translation": "Excuse me, Boss! I'm sorry to bother you while you're busy.",
+      "lang": "KO",
+      "audio": "RR_011_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "바쁘게 지나가다 멈추며",
+      "text": "아, 네! 뭐 더 드릴까요?",
+      "translation": "Ah, yes! Shall I give you more of something?",
+      "lang": "KO",
+      "audio": "RR_011_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "빈 접시를 가리키며",
+      "text": "이 어묵볶음이 너무 맛있어서요. 좀만 더 주실 수 있어요?",
+      "translation": "Because this stir-fried fish cake is so delicious. Could I have just a bit more?",
+      "lang": "KO",
+      "audio": "RR_011_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": {
+        "title": "좀만 더",
+        "description": "'Just a bit more'",
+        "usage_tip": "This shows the owner that you are mindful of not wasting food."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기분 좋게 웃으며",
+      "text": "아이구, 맛있게 드셔주니 제가 더 고맙죠! 많이 드릴게요!",
+      "translation": "Oh, I'm more thankful since you're eating it so well! I'll give you plenty!",
+      "lang": "KO",
+      "audio": "RR_011_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "감사하며",
+      "text": "아뇨. 남기면 안 되니까 조금만 더 주셔도 돼요. 감사합니다!",
+      "translation": "No, I shouldn't leave any, so you can just give me a little more. Thank you!",
+      "lang": "KO",
+      "audio": "RR_011_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": {
+        "title": "남기면 안 되니까",
+        "description": "'Because I shouldn't leave any'",
+        "usage_tip": "This is the ultimate \"manner\" phrase in Korea. It shows you respect the food and the owner's hard work."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "흐뭇해하며",
+      "text": "정말 매너가 좋으시네요! 여기 있습니다!",
+      "translation": "John, you really have great manners! Here you go!",
+      "lang": "KO",
+      "audio": "RR_011_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Wow, I feel so much better knowing that I’m being a responsible customer!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 한국에서 리필은 권리라기보다는 서로 주고받는 정 이거든요.",
+      "translation": "Right. In Korea, refilling is less of a 'right' and more about 'Jeong' shared between people.",
+      "lang": "KO",
+      "audio": "RR_011_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"mannered refill\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s025.mp3",
+      "playable": false,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "이것 좀 더 주실 수 있어요?",
+      "translation": "Could I have some more of this?",
+      "lang": "KO",
+      "audio": "RR_011_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "바쁘신데 죄송하지만 조금만 더 주세요!",
+      "translation": "I'm sorry to bother you, but please give me a little more!",
+      "lang": "KO",
+      "audio": "RR_011_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "너무 맛있어서 더 먹고 싶네요!",
+      "translation": "It's so delicious I want to eat more!",
+      "lang": "KO",
+      "audio": "RR_011_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "남기면 안 되니까 조금만 더 주세요!",
+      "translation": "Since I shouldn't leave any, just a little more please!",
+      "lang": "KO",
+      "audio": "RR_011_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "잘 먹었습니다!",
+      "translation": "I ate well! / Thank you for the meal!",
+      "lang": "KO",
+      "audio": "RR_011_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 식당에서 리필을 요청할 때 사장님의 마음까지 생각하는 따뜻한 리액션을 건네보세요.",
+      "translation": "Everyone, when you ask for a refill at a restaurant today, try offering a warm reaction that considers the owner's heart too.",
+      "lang": "KO",
+      "audio": "RR_011_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_011_s032.mp3",
+      "playable": false,
+      "seq": 32,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_011_s033.mp3",
+      "playable": true,
+      "seq": 33,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "배려",
+      "meaning": "Consideration / Care",
+      "example": "타인을 배려하는 마음이 성숙한 문화를 만들어요. (A heart that considers others creates a mature culture.)",
+      "audio": "RR_011_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "이익",
+      "meaning": "Profit",
+      "example": "모든 가게는 정당한 이익을 남겨야 운영될 수 있어요. (Every store needs to make a fair profit to operate.)",
+      "audio": "RR_011_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "정중하다",
+      "meaning": "To be polite / Courteous",
+      "example": "어려운 부탁일수록 정중하게 말하는 것이 예의예요. (The more difficult the request, the more important it is to speak politely.)",
+      "audio": "RR_011_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "남기다",
+      "meaning": "To leave (over)",
+      "example": "음식을 남기지 않는 것은 요리사에 대한 예의예요. (Not leaving food behind is good manners toward the chef.)",
+      "audio": "RR_011_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "티가 나다",
+      "meaning": "To show / To be obvious",
+      "example": "너무 좋아하면 얼굴에 다 티가 나요. (If you like it too much, it all shows on your face.)",
+      "audio": "RR_011_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "이만",
+      "meaning": "This much / Now (ending)",
+      "example": "시간이 늦었으니 이만 들어가 볼게요. (Since it's late, I'll be heading out now.)",
+      "audio": "RR_011_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "metadata": {
+    "id": "003",
+    "title": {
+      "en": "I'm fine with anything! (Menu selection and Consideration)",
+      "ko": "전 아무거나 괜찮아요! (메뉴 정하기와 배려)"
+    },
+    "description": {
+      "en": "When it's hard to choose what to eat! Practice reacting with consideration by following others' suggestions with 아무거나 괜찮아요.",
+      "ko": "뭘 먹을지 고르기 힘들 때! 상대방의 의견을 존중하면서도 기분 좋게 맞장구치는 '결정 도우미' 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "5 min 10 sec",
+      "ko": "5분 10초"
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Daily Life. Lunch. Decision making. Consideration. Friendship. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "배고픈 소리를 내며 바로 시작",
+      "text": "Mina, I'm so hungry, but choosing what to eat for lunch is the hardest task in the world! I can never decide. What should I say if I just want to follow your choice?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "웃으며",
+      "text": "저도 그래요! 한국 사람들도 메뉴 정하는 게 힘들어서 결정장애 라는 말을 자주 써요.",
+      "translation": "Haha, me too! Koreans find it so hard to pick a menu that they often use the term \"결정 장애\".",
+      "lang": "KO",
+      "audio": "RR_003_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "동감하며",
+      "text": "Exactly! I don't want to be picky. Is it okay to just say \"아무거나\"?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그냥 \"아무거나\" 라고만 하면 자칫 무관심해 보일 수 있어요. 뒤에 \"괜찮아요\" 를 붙여서 부드럽게 말하는 게 포인트죠! 오늘은 배려 넘치는 리액션을 배워볼게요!",
+      "translation": "Well, just saying \"아무거나\" can sometimes seem indifferent. The point is to add \"괜찮아요\" at the end to speak softly! Today, we'll learn those 'considerate' menu reactions!",
+      "lang": "KO",
+      "audio": "RR_003_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "아무거나 괜찮아요. This sounds much nicer than just \"whatever,\" right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네! 내 고집을 세우지 않고 상대방의 선택을 기분 좋게 따르겠다는 아주 유연한 표현이에요.",
+      "translation": "Yes! It's a very flexible expression meaning you won't insist on your own choice and will happily follow the other person's pick.",
+      "lang": "KO",
+      "audio": "RR_003_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "아무거나 괜찮아요",
+        "description": "'Anything is fine'",
+        "usage_tip": "'아무거나(Anything)' + '괜찮아요(It's okay)'. Using the '-요' ending makes it polite enough for both friends and colleagues."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "전 아무거나 다 괜찮아요.",
+      "translation": "I'm fine with anything.",
+      "lang": "KO",
+      "audio": "RR_003_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "How about 먹고 싶은 걸로 해요?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이건 상대방에게 선택권을 넘겨주는 아주 친절한 리액션이에요. \"네가 좋아하는 걸 나도 같이 먹겠다\" 라는 뜻이죠.",
+      "translation": "This is a very kind reaction that hands over the power of choice to the other person. It means \"I'll eat what you like together.\"",
+      "lang": "KO",
+      "audio": "RR_003_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": {
+        "title": "먹고 싶은 걸로 해요",
+        "description": "'Let's go with what you want to eat'",
+        "usage_tip": "'먹고 싶은 것(What you want to eat)' + '으로 해요(Let's do with)'. A great way to show that you value the other person's preference."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "미나 씨 먹고 싶은 걸로 해요!",
+      "translation": "Let's go with whatever you want to eat, Mina!",
+      "lang": "KO",
+      "audio": "RR_003_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. We are standing on a street full of restaurants, and we're both starving.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "주변을 둘러보며",
+      "text": "존. 우리 이제 진짜 결정해야해요! 일식 중식 한식..., 뭐 먹고 싶어요?",
+      "translation": "John, we really have to decide now! Japanese, Chinese, Korean... what do you want to eat?",
+      "lang": "KO",
+      "audio": "RR_003_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "고민하다가 미소 지으며",
+      "text": "전 진짜 아무거나 다 괜찮아요. 미나는요?",
+      "translation": "Hmm, I'm really fine with anything. How about you, Mina?",
+      "lang": "KO",
+      "audio": "RR_003_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "다 괜찮아요",
+        "description": "Adding '다(All)'",
+        "usage_tip": "This emphasizes that you are truly open to any suggestion, making the other person feel less pressured."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럼... 오늘 비도 오는데 따뜻한 칼국수 어때요?",
+      "translation": "Then... since it's raining today, how about some warm Kalguksu?",
+      "lang": "KO",
+      "audio": "RR_003_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "반갑게 맞장구치며",
+      "text": "칼국수 좋죠! 미나씨 먹고 싶은 걸로 해요. 당장 가요!",
+      "translation": "Wow, Kalguksu is great! Let's go with what you want to eat, Mina. Let's go right now!",
+      "lang": "KO",
+      "audio": "RR_003_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": {
+        "title": "좋죠!",
+        "description": "'It's great, right!'",
+        "usage_tip": "Adding an enthusiastic agreement before following the suggestion makes you sound like a perfect lunch mate."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기분 좋게",
+      "text": "좋아요! 저 단골집 있는데 그리로 갈까요?",
+      "translation": "Oh, great! I have a regular spot, shall we go there?",
+      "lang": "KO",
+      "audio": "RR_003_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Wow, being a follower can be so much easier and friendlier!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 한국에서는 메뉴를 고를 때도 서로 배려하는 리액션을 주고받는 게 정이죠.",
+      "translation": "Right. In Korea, even when choosing a menu, exchanging considerate reactions is part of the 'Jeong' or affection.",
+      "lang": "KO",
+      "audio": "RR_003_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"menu decision\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "아무거나 괜찮아요! Anything is fine!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_003_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "먹고 싶은 걸로 해요! Let's go with what you want to eat!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_003_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "다 잘 먹어요! I eat everything well!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_003_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "결정해 주셔서 감사해요! Thank you for deciding!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_003_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "메뉴 완전 대박! Perfect menu choice!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_003_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 누군가와 메뉴를 정할 때 배려 섞인 리액션으로 더 맛있는 식사 하시길 바랄게요.",
+      "translation": "I hope you all have a more delicious meal by exchanging considerate reactions when deciding on a menu today.",
+      "lang": "KO",
+      "audio": "RR_003_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_003_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_003_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "아무거나",
+      "meaning": "Anything",
+      "example": "배가 너무 고파서 지금은 아무거나 다 맛있을 것 같아요. (I'm so hungry that I think anything would taste delicious right now.)",
+      "audio": "RR_003_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "결정 장애",
+      "meaning": "Indecisiveness (slang-like)",
+      "example": "저는 메뉴를 잘 못 골라서 결정 장애가 있는 것 같아요. (I can't choose menus well, so I think I have 'decision paralysis'.)",
+      "audio": "RR_003_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "배려",
+      "meaning": "Consideration",
+      "example": "작은 배려가 상대방을 기분 좋게 만들어요. (Small consideration makes the other person feel good.)",
+      "audio": "RR_003_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "단골집",
+      "meaning": "Regular place (restaurant)",
+      "example": "이 근처에 제가 자주 가는 단골집이 있어요. (I have a regular spot I visit often near here.)",
+      "audio": "RR_003_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "선택권",
+      "meaning": "Right of choice",
+      "example": "오늘 저녁 메뉴의 선택권은 동생에게 줄게요. (I'll give the right of choice for tonight's dinner menu to my younger sibling.)",
+      "audio": "RR_003_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "맞장구",
+      "meaning": "Agreeing / Chiming in",
+      "example": "친구의 제안에 맞장구를 쳐주면 대화가 즐거워져요. (Chiming in with a friend's suggestion makes the conversation enjoyable.)",
+      "audio": "RR_003_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

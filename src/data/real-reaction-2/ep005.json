@@ -1,0 +1,386 @@
+{
+  "metadata": {
+    "id": "005",
+    "title": {
+      "en": "You look so much better! (Greeting an old friend)",
+      "ko": "얼굴 좋아 보이네요! (오랜만에 만난 지인과 안부 묻기)"
+    },
+    "description": {
+      "en": "Beyond a simple greeting. Learn how to comment on someone's positive energy and healthy appearance with the natural phrase \"얼굴 좋아 보이네요.\"",
+      "ko": "오랜만에 만난 지인의 밝은 인상을 보고 건네는 따뜻한 리액션! 단순한 외모 평가가 아닌, 상대방의 평온한 근황을 확인하고 기쁨을 나누는 법을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Social. Greeting. Reunion. Positive Energy. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "차분하고 관찰력 있는 목소리로 바로 시작",
+      "text": "Mina, I noticed something interesting. When Koreans meet after a long time, they often start the conversation by saying something about the other person's face or energy.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "고개를 끄덕이며",
+      "text": "맞아요. \"오랜만이야\" 라고 인사한 뒤에 상대방의 인상을 살피며 안부를 묻는 경우가 많죠.",
+      "translation": "Right. After saying \"Long time no see,\" people often ask how you've been while observing your impression.",
+      "lang": "KO",
+      "audio": "RR_005_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "Exactly. Today I saw a friend who looked so much more relaxed and healthy than before. I wanted to say \"You look great,\" but I wanted to make sure I used the most natural phrase.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., '얼굴 좋아 보이네요' 라는 표현이 딱이에요! 단순히 예쁘다거나 잘생겼다는 뜻을 넘어서, 요즘 생활이 평온하고 좋아 보인다는 따뜻한 리액션이거든요.",
+      "translation": "In that case, the expression \"얼굴 좋아 보이네요\" is perfect! It goes beyond just saying someone is pretty or handsome; it's a warm reaction meaning their life looks peaceful and good lately.",
+      "lang": "KO",
+      "audio": "RR_005_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "얼굴 좋아 보이네요. It sounds like I’m noticing their positive energy, right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네! 상대방의 안색이 밝고 건강해 보일 때 쓰는 아주 기분 좋은 인사예요.",
+      "translation": "Yes! It’s a very pleasant greeting used when the other person's complexion looks bright and healthy.",
+      "lang": "KO",
+      "audio": "RR_005_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": {
+        "title": "얼굴 좋아 보이네요",
+        "description": "'You look good / You look healthy'",
+        "usage_tip": "'얼굴(Face)' + '좋아 보이다(To look good)' + '네요(Ending)'. It suggests that the person's overall life seems to be going well."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Then what if I want to ask if something specific happened?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s007.mp3",
+      "playable": false,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 때는 무슨 좋은 일 있어요? 라고 덧붙여 보세요. 상대방의 기쁜 소식을 함께 나누고 싶다는 뜻이 전달될 거예요.",
+      "translation": "In that case, try adding \"무슨 좋은 일 있어요?\". It will convey that you want to share the other person's good news.",
+      "lang": "KO",
+      "audio": "RR_005_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": {
+        "title": "무슨 좋은 일 있어요?",
+        "description": "'Is there something good going on?'",
+        "usage_tip": "'무슨(What)' + '좋은 일(Good thing)' + '있어요(Is there)'. Use this to naturally invite the other person to share their recent happiness."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump into the situation. I'm meeting a friend who recently finished a big project and finally got some rest.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "반갑게 손을 흔들며",
+      "text": "존! 진짜 오랜만이에요. 잘 지냈어요?",
+      "translation": "John! It's been a long time. Have you been well?",
+      "lang": "KO",
+      "audio": "RR_005_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "미소 지으며 반갑게 응대",
+      "text": "정말 오랜만이에요. 그런데 얼굴 정말 좋아 보이네요!",
+      "translation": "Mina! It’s been a really long time. Wow, you look really great!",
+      "lang": "KO",
+      "audio": "RR_005_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": {
+        "title": "정말 좋아 보이네요",
+        "description": "Adding '정말' or '진짜'",
+        "usage_tip": "This emphasizes that you sincerely noticed their improved or healthy energy."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "쑥스러운 듯 웃으며",
+      "text": "정말요? 프로젝트 끝나고 푹 쉬었더니 좀 티가 나나 봐요?",
+      "translation": "Ah, really? I guess it shows since I've been resting a lot after the project finished?",
+      "lang": "KO",
+      "audio": "RR_005_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "고개를 끄덕이며",
+      "text": "네! 요즘 무슨 좋은 일 있어요? 인상이 훨씬 밝아졌어요.",
+      "translation": "Yes! Is there something good going on lately? Your impression has become much brighter.",
+      "lang": "KO",
+      "audio": "RR_005_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "무슨 좋은 일 있어요?",
+        "description": "Follow-up question",
+        "usage_tip": "This shows your active interest in their life beyond a surface-level greeting."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기분 좋게",
+      "text": "특별한 건 없지만 마음이 좀 편해졌나 봐요. 그렇게 봐주니까 정말 고마워요!",
+      "translation": "Nothing special, but I guess I've become more at peace. Thank you so much for seeing it that way!",
+      "lang": "KO",
+      "audio": "RR_005_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "I see. It's not just a physical compliment, but a way to acknowledge their well-being!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s015.mp3",
+      "playable": false,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 진심을 담아 상대방의 밝은 모습을 언급해 주면 대화가 훨씬 더 따뜻하게 시작된답니다.",
+      "translation": "Right. If you mention someone's bright appearance with sincerity, the conversation starts much more warmly.",
+      "lang": "KO",
+      "audio": "RR_005_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"warm greeting\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "얼굴이 좋아 보이네요!",
+      "translation": "You look great!",
+      "lang": "KO",
+      "audio": "RR_005_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "무슨 좋은 일 있어요?",
+      "translation": "Is there something good going on?",
+      "lang": "KO",
+      "audio": "RR_005_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "인상이 훨씬 밝아졌어요!",
+      "translation": "Your impression has become much brighter!",
+      "lang": "KO",
+      "audio": "RR_005_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "정말 보기 좋네요!",
+      "translation": "It's really good to see!",
+      "lang": "KO",
+      "audio": "RR_005_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "걱정이 없어 보여요!",
+      "translation": "You look worry-free!",
+      "lang": "KO",
+      "audio": "RR_005_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 오랜만에 만나는 소중한 분이 있다면, 그분의 밝은 미소를 먼저 칭찬해 보세요.",
+      "translation": "Everyone, if you meet someone precious today after a long time, try praising their bright smile first.",
+      "lang": "KO",
+      "audio": "RR_005_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_005_s024.mp3",
+      "playable": false,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_005_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "인상",
+      "meaning": "Impression / Appearance",
+      "example": "첫인상이 좋으면 대화를 시작하기가 훨씬 쉬워요. (If the first impression is good, it's much easier to start a conversation.)",
+      "audio": "RR_005_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "밝아지다",
+      "meaning": "To brighten / To become bright",
+      "example": "불을 켜니까 방안이 환하게 밝아졌어요. (When I turned on the light, the room brightened up brightly.)",
+      "audio": "RR_005_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "평온하다",
+      "meaning": "To be peaceful / To be calm",
+      "example": "주말에 숲속에서 평온한 시간을 보냈어요. (I spent some peaceful time in the forest over the weekend.)",
+      "audio": "RR_005_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "안색",
+      "meaning": "Complexion",
+      "example": "얼굴색을 보니 안색이 정말 좋아졌네요. (Looking at the color of your face, your complexion has really improved.)",
+      "audio": "RR_005_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "언급하다",
+      "meaning": "To mention / To state",
+      "example": "아까 대화 중에 그 문제는 언급하지 않았어요. (I didn't mention that problem during the conversation earlier.)",
+      "audio": "RR_005_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "나누다",
+      "meaning": "To share / To divide",
+      "example": "친구와 기쁜 소식을 나누면 행복이 두 배가 돼요. (If you share good news with a friend, happiness doubles.)",
+      "audio": "RR_005_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

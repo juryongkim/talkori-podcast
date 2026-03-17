@@ -1,0 +1,422 @@
+{
+  "metadata": {
+    "id": "002",
+    "title": {
+      "en": "I'm sorry, it's my mistake! (Apology and Handling)",
+      "ko": "미안해요, 제 실수예요! (상황별 사과와 대처)"
+    },
+    "description": {
+      "en": "When you're late for an appointment or make a small mistake! Practice reacting with a sincere but natural apology like 미안해요 and 제 실수예요.",
+      "ko": "약속에 늦었거나 작은 실수를 했을 때! 너무 무겁지 않으면서도 진심이 느껴지게 사과하고 대화를 이어가는 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "5 min 20 sec",
+      "ko": "5분 20초"
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Daily Life. Apology. Mistake. Friendship. Social. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "미안해서 어쩔 줄 모르는 목소리로 바로 시작",
+      "text": "Mina I'm so sorry! I just realized I forgot to bring the book you lent me. I left it right on my desk!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_002_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "너그럽게 웃으며",
+      "text": "아 진짜요? 오늘 같이 읽으려고 했는데 아쉽네요!",
+      "translation": "Ah, really? I was hoping to read it together today, so that's a shame!",
+      "lang": "KO",
+      "audio": "RR_002_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이럴 때 당황해서 '어떡해' 라고 반복하기보다는 깔끔하게 사과하고 상황을 정리하는 리액션이 중요해요.",
+      "translation": "In times like this, rather than just repeating \"What should I do!\" in a panic, a reaction that clearly apologizes and settles the situation is important.",
+      "lang": "KO",
+      "audio": "RR_002_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "반성하며",
+      "text": "Right. I just kept saying \"미안해요\" over and over. Was that enough?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_002_s004.mp3",
+      "playable": false,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "음..., 사과 뒤에 '내 실수다' 라고 인정하는 말을 덧붙이면 훨씬 진심이 느껴져요.",
+      "translation": "Well, if you add words admitting \"it's my mistake\" after the apology, it feels much more sincere.",
+      "lang": "KO",
+      "audio": "RR_002_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "제 실수예요. This is the natural version of the formal one we talked about before, right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_002_s006.mp3",
+      "playable": false,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요! '실수예요' 를 써서 훨씬 부드러워졌죠? 친구나 가까운 사이에서 내 잘못을 인정할 때 딱 좋아요.",
+      "translation": "Exactly! By using -예요 instead of -습니다, it became much softer, right? It's perfect for admitting your fault with friends or someone close.",
+      "lang": "KO",
+      "audio": "RR_002_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": {
+        "title": "제 실수예요",
+        "description": "'It's my mistake'",
+        "usage_tip": "'제(My)' + '실수(Mistake)' + '예요(Is)'. Using '제' instead of '내' adds a touch of politeness even in casual settings."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "미안해요. 제 실수예요.",
+      "translation": "I'm sorry, it's my mistake.",
+      "lang": "KO",
+      "audio": "RR_002_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Then what about 다음부터는 안 그럴게요?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_002_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "이건 \"앞으로 조심하겠다\" 라는 약속이에요. 상대방의 화를 누그러뜨리는 마법 같은 리액션이죠.",
+      "translation": "This is a promise that \"I will be careful in the future.\" It's a magic reaction that softens the other person's anger.",
+      "lang": "KO",
+      "audio": "RR_002_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "다음부터는 안 그럴게요",
+        "description": "'I won't do it next time'",
+        "usage_tip": "'다음(Next)' + '부터(From)' + '안(Not)' + '그럴게요(Will do so)'. A friendly way to promise improvement."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "정말 미안해요. 다음부터는 안 그럴게요!",
+      "translation": "I'm really sorry. I won't do that next time!",
+      "lang": "KO",
+      "audio": "RR_002_s011.mp3",
+      "playable": true,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. We were supposed to meet at a cafe at 2 PM, but I'm 15 minutes late.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_002_s012.mp3",
+      "playable": false,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "카페 의자에 앉아 시계를 보며",
+      "text": "어? 존! 왜 이제 와요? 십오분이나 기다렸잖아요!",
+      "translation": "Oh, John! Why are you just arriving now? I've been waiting for 15 minutes!",
+      "lang": "KO",
+      "audio": "RR_002_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "미안해하며 뛰쳐 들어오는 톤",
+      "text": "많이 기다렸죠? 정말 미안해요. 제 실수예요.",
+      "translation": "you waited a long time, right? I'm truly sorry. It's my mistake.",
+      "lang": "KO",
+      "audio": "RR_002_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": {
+        "title": "정말 미안해요",
+        "description": "'I'm truly sorry'",
+        "usage_tip": "Adding '정말' or '진짜' makes the apology feel more sincere in everyday conversation."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "살짝 뾰로통하게",
+      "text": "오늘 날씨도 더운데 연락이라도 미리 해주지 그랬어요!",
+      "translation": "The weather is hot today too... you should have at least contacted me in advance!",
+      "lang": "KO",
+      "audio": "RR_002_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "사과하며",
+      "text": "오는 길에 휴대폰 배터리가 나가서... 다음부터는 절대 안 그럴게요. 제가 시원한 커피 살게요!",
+      "translation": "My phone battery died on the way... I definitely won't do that next time. I'll buy you a cool coffee!",
+      "lang": "KO",
+      "audio": "RR_002_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": {
+        "title": "절대 안 그럴게요",
+        "description": "'I will never do that'",
+        "usage_tip": "Adding '절대(Never)' emphasizes your strong intention to be better."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "커피 소리에 웃으며",
+      "text": "오? 커피요? 그럼 용서해 줄게요. 빨리 주문하러 가요!",
+      "translation": "Oh, coffee? Then I'll forgive you. Let's go order quickly!",
+      "lang": "KO",
+      "audio": "RR_002_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Phew, a sincere apology plus a coffee really fixed the mood!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_002_s018.mp3",
+      "playable": false,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 실수를 했을 땐 변명보다 먼저 미안해요 라고 말하는 리액션이 가장 중요해요.",
+      "translation": "Haha, right. When you make a mistake, the most important reaction is saying \"I'm sorry\" first rather than making excuses.",
+      "lang": "KO",
+      "audio": "RR_002_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"daily apology\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_002_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "미안해요. 제 실수예요! I'm sorry, it's my mistake!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_002_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "다음부터는 안 그럴게요! I won't do that next time!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_002_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "깜빡했어요. 미안해요! I forgot, I'm sorry!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_002_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "많이 기다렸죠? 죄송해요! Did you wait long? I'm sorry!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_002_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "제가 더 신경 쓸게요! I'll pay more attention!",
+      "translation": "",
+      "lang": "KO",
+      "audio": "RR_002_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 작은 실수를 했다면 숨기지 말고 웃으면서 먼저 사과해 보세요.",
+      "translation": "Everyone, if you made a small mistake today, don't hide it and try apologizing first with a smile. \"I'm sorry, it's my mistake!\"",
+      "lang": "KO",
+      "audio": "RR_002_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_002_s027.mp3",
+      "playable": false,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_002_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "실수",
+      "meaning": "Mistake",
+      "example": "누구나 실수를 할 수 있지만 사과하는 게 중요해요. (Anyone can make a mistake, but it's important to apologize.)",
+      "audio": "RR_002_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "깜빡하다",
+      "meaning": "To forget (suddenly)",
+      "example": "약속 시간을 깜빡해서 정말 미안해요. (I'm so sorry I suddenly forgot the appointment time.)",
+      "audio": "RR_002_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "누그러지다",
+      "meaning": "To soften / To calm down",
+      "example": "그의 진심 어린 사과에 화가 누그러졌어요. (My anger softened at his sincere apology.)",
+      "audio": "RR_002_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "용서하다",
+      "meaning": "To forgive",
+      "example": "친구가 사과를 하길래 바로 용서해 줬어요. (Since my friend apologized, I forgave them right away.)",
+      "audio": "RR_002_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "변명",
+      "meaning": "Excuse",
+      "example": "잘못을 했을 때는 변명보다 인정을 먼저 하세요. (When you've done something wrong, admit it first rather than making an excuse.)",
+      "audio": "RR_002_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "신경 쓰다",
+      "meaning": "To pay attention / To care",
+      "example": "다음에는 더 신경 써서 준비할게요. (I'll prepare with more attention next time.)",
+      "audio": "RR_002_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

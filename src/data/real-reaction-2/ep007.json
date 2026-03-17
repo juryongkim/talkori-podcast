@@ -1,0 +1,410 @@
+{
+  "metadata": {
+    "id": "007",
+    "title": {
+      "en": "Invited to a Korean home? Gift Etiquette & Phrases",
+      "ko": "뭐 이런 걸 다 가져왔어요! (초대와 선물 리액션)"
+    },
+    "description": {
+      "en": "Don't go empty-handed! Learn the art of \"Jeong\" (Korean affection) and what to say when giving or receiving gifts at a friend's home.",
+      "ko": "친구 집에 초대받았을 때! 빈손으로 가기 미안한 마음을 전하는 법과 선물을 주고받을 때 나누는 따뜻한 한국식 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Social. Gift. Etiquette. Home Visit. Jeong. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "진지하게 고민하는 목소리로 바로 시작",
+      "text": "Mina, I’m visiting a Korean friend’s house for the first time today. I bought some fruit, but I’m worried about what to say when I hand it over. In English, we just say \"This is for you,\" but is there a more \"Korean\" way?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "다정하게",
+      "text": "오! 좋은 질문이에요! 한국에서는 선물을 줄 때 정성 이라는 마음을 표현하는 게 중요해요.",
+      "translation": "Oh, good question! In Korea, it's important to express the feeling that \"it's my sincerity\" when giving a gift.",
+      "lang": "KO",
+      "audio": "RR_007_s002.mp3",
+      "playable": true,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "And I heard that when Koreans receive a gift, they sometimes say 뭐 이런 걸 다 가져왔어요? It sounds like they are asking \"Why did you bring this?\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s003.mp3",
+      "playable": false,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "웃으며",
+      "text": "절대 기분 나쁜 뜻이 아니에요! \"이렇게까지 안 챙겨줘도 되는데 고맙다\" 라는 아주 정중한 리액션이죠.",
+      "translation": "Haha, it's definitely not a bad thing! It's a very polite reaction meaning \"You didn't have to go this far, but thank you.\"",
+      "lang": "KO",
+      "audio": "RR_007_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘은 선물을 주고받을 때 쓰는 리얼한 표현들을 배워볼게요!",
+      "translation": "Today, we'll learn real expressions for giving and receiving gifts!",
+      "lang": "KO",
+      "audio": "RR_007_s005.mp3",
+      "playable": true,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "'뭐 이런 걸 다 가져왔어요.' So it's a polite way of saying \"You shouldn't have\" right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s006.mp3",
+      "playable": false,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요! 상대방의 수고에 고마움을 표현하는 전형적인 한국식 리액션이에요.",
+      "translation": "Right! It's a typical Korean reaction expressing gratitude for the other person's effort.",
+      "lang": "KO",
+      "audio": "RR_007_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": {
+        "title": "뭐 이런 걸 다 가져왔어요",
+        "description": "'You shouldn't have brought all this'",
+        "usage_tip": "'뭐(What)' + '이런 걸(Something like this)' + '다(All)' + '가져왔어요(Brought)'. It is a polite refusal of the burden, not the gift itself."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "뭐 이런 걸 다 가져왔어요!",
+      "translation": "Oh, Mina! You shouldn't have brought all this!",
+      "lang": "KO",
+      "audio": "RR_007_s008.mp3",
+      "playable": true,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Then what should I say when I give the gift?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"오다가 생각나서 좀 샀어요\" 라고 해보세요. \"큰 건 아니지만 네 생각이 나서 준비했다\" 라는 아주 친근하고 겸손한 표현이에요.",
+      "translation": "Try saying \"오다가 생각나서 좀 샀어요\". It's a very friendly and humble expression meaning \"It's not much, but I prepared it because I thought of you.\"",
+      "lang": "KO",
+      "audio": "RR_007_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "오다가 생각나서 좀 샀어요",
+        "description": "'I picked this up on my way here'",
+        "usage_tip": "'오다가(On the way)' + '생각나서(Because I thought of you)' + '좀 샀어요(Bought a bit)'. Koreans use this to lower the pressure of the gift."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. I'm arriving at Mina's house for a dinner invitation. I have a box of delicious strawberries in my hand.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "문을 열며 반갑게",
+      "text": "존! 어서 와요. 집 찾기 힘들지 않았어요?",
+      "translation": "Oh, John! Welcome. Was it hard to find the house?",
+      "lang": "KO",
+      "audio": "RR_007_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "미소 지으며 선물을 건넨다",
+      "text": "아니요. 금방 찾았어요. 여기요. 오다가 생각나서 좀 샀어요.",
+      "translation": "No, I found it quickly. Here, I picked this up on my way here.",
+      "lang": "KO",
+      "audio": "RR_007_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "오다가 생각나서 좀 샀어요",
+        "description": "Humble giving",
+        "usage_tip": "Use this even if you spent a long time choosing the gift to show modesty."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "깜짝 놀라며 선물을 받는다",
+      "text": "우와! 딸기네요! 뭐 이런 걸 다 가져왔어요! 그냥 와도 되는데.",
+      "translation": "Wow, strawberries! John, you shouldn't have brought all this! You could have just come.",
+      "lang": "KO",
+      "audio": "RR_007_s014.mp3",
+      "playable": true,
+      "seq": 14,
+      "insight": {
+        "title": "그냥 와도 되는데",
+        "description": "'You could have just come'",
+        "usage_tip": "A classic set phrase used with '뭐 이런 걸 다...' to show they didn't expect a gift."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "뿌듯해하며",
+      "text": "부담 갖지 마세요. 미나씨가 딸기 좋아한다고 해서 준비했어요.",
+      "translation": "Please don't feel burdened. I prepared it because I heard you like strawberries.",
+      "lang": "KO",
+      "audio": "RR_007_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "감동하며",
+      "text": "정말 고마워요. 우리 같이 맛있게 먹어요!",
+      "translation": "Thank you so much. Let's eat these together!",
+      "lang": "KO",
+      "audio": "RR_007_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "I love how these phrases make the exchange feel so warm and less like a formal transaction.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s017.mp3",
+      "playable": false,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 한국의 선물 문화는 물건보다 그 속에 담긴 마음을 주고받는 리액션이 핵심이거든요.",
+      "translation": "Right. In Korean gift culture, the core is the reaction of exchanging the 'heart' inside the object rather than the object itself.",
+      "lang": "KO",
+      "audio": "RR_007_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"gift-related\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s019.mp3",
+      "playable": false,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "뭐 이런 걸 다 가져왔어요!",
+      "translation": "You shouldn't have brought all this!",
+      "lang": "KO",
+      "audio": "RR_007_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "오다가 생각나서 좀 샀어요!",
+      "translation": "I picked this up on my way here!",
+      "lang": "KO",
+      "audio": "RR_007_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "작은 성의예요. 부담 갖지 마세요!",
+      "translation": "It's a small token of my sincerity. Don't feel burdened!",
+      "lang": "KO",
+      "audio": "RR_007_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "그냥 오셔도 되는데!",
+      "translation": "You could have just come!",
+      "lang": "KO",
+      "audio": "RR_007_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "잘 먹을게요! 잘 쓸게요!",
+      "translation": "I will eat/use it well!",
+      "lang": "KO",
+      "audio": "RR_007_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 누군가의 집을 방문한다면 소중한 마음을 담은 리액션을 건네보세요.",
+      "translation": "Everyone, if you visit someone's home today, try offering a reaction filled with your precious heart. \"I picked this up on my way here!\"",
+      "lang": "KO",
+      "audio": "RR_007_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_007_s026.mp3",
+      "playable": false,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_007_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "빈손",
+      "meaning": "Empty-handed",
+      "example": "친구 집에 빈손으로 가기 미안해서 음료수를 샀어요. (I bought some drinks because I felt bad going to my friend's house empty-handed.)",
+      "audio": "RR_007_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "정성",
+      "meaning": "Sincerity / Devotion",
+      "example": "선물의 가격보다 정성이 담긴 마음이 더 중요해요. (The sincere heart is more important than the price of the gift.)",
+      "audio": "RR_007_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "부담",
+      "meaning": "Burden",
+      "example": "비싼 선물은 받는 사람에게 부담을 줄 수 있어요. (Expensive gifts can give a burden to the receiver.)",
+      "audio": "RR_007_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "전형적",
+      "meaning": "Typical / Classic",
+      "example": "그 대답은 한국 사람들의 전형적인 인사치레예요. (That answer is a typical Korean courtesy.)",
+      "audio": "RR_007_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "안색",
+      "meaning": "Complexion",
+      "example": "(Note: Reused for review) 안색이 좋아 보여서 다행이네요. (I'm glad your complexion looks good.)",
+      "audio": "RR_007_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "성의",
+      "meaning": "Sincerity / Good faith",
+      "example": "작은 성의지만 제 진심을 담아 준비했어요. (It's a small token of sincerity, but I prepared it with my heart.)",
+      "audio": "RR_007_v006.mp3",
+      "seq": 6
+    }
+  ]
+}
