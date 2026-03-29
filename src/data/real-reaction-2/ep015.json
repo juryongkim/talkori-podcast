@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "id": "015",
+    "title": {
+      "en": "Not too short, please! (At the Hair Salon)",
+      "ko": "너무 짧지 않게 조금만 잘라주세요! (미용실에서 요청하기)"
+    },
+    "description": {
+      "en": "Worried about getting too much cut off? Learn the magic phrase \"너무 짧지 않게 조금만 잘라주세요\" to keep your length while looking neat.",
+      "ko": "미용실에서 머리를 너무 많이 자를까 봐 걱정될 때! 원하는 길이를 정확하게 지키면서 정중하게 다듬어달라고 요청하는 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Life. Hair Salon. Request. Style. Length. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "거울을 보며 아주 신중한 목소리로 바로 시작",
+      "text": "Mina, I really need a haircut, but I have a huge fear of hair salons.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I'm always afraid they'll cut too much and I'll end up with a buzz cut! How can I tell them to be extra careful with the length?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "하하 웃으며 공감해주기",
+      "text": "그 마음 정말 이해해요! 한국 미용실에서도 그럴 땐 처음부터 확실하게 리액션하는 게 좋아요.",
+      "translation": "Ah, I really understand that feeling! In a Korean hair salon, it's best to react clearly from the beginning.",
+      "lang": "KO",
+      "audio": "RR_015_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"많이 자르지 말라\" 고 하는 대신 이 문장을 꼭 써보세요.",
+      "translation": "Instead of saying \"Don't cut a lot,\" make sure to use this sentence.",
+      "lang": "KO",
+      "audio": "RR_015_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "기대하며",
+      "text": "What is it? I need to memorize this right now!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "바로..., \"너무 짧지 않게 조금만 잘라주세요\" 라고 말하는거예요.",
+      "translation": "It is exactly saying, \"Please cut it just a little bit so it isn't too short.\"",
+      "lang": "KO",
+      "audio": "RR_015_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘은 머리 길이를 사수하면서 깔끔하게 변신하는 리액션들을 배워볼게요!",
+      "translation": "Today, we'll learn reactions to transform neatly while protecting your hair length!",
+      "lang": "KO",
+      "audio": "RR_015_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "너무 짧지 않게 조금만 잘라주세요.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "",
+      "text": "So this means \"Don't make it too short, just cut a little bit,\" right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요! \"너무 짧지 않게\" 라고 먼저 선을 긋는 게 포인트예요.",
+      "translation": "Right! The point is to set a limit first by saying \"Not too short.\"",
+      "lang": "KO",
+      "audio": "RR_015_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "너무 짧지 않게 조금만 잘라주세요",
+        "description": "'Don't cut it too short, just a little'",
+        "usage_tip": "너무(Too) + 짧지 않게(Not to be short) + 조금만(Just a little) + 잘라주세요(Please cut). This is a very safe and polite request."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "What if I want to be even more conservative and just want to tidy up the ends?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"다듬어만 주세요\" 라고 말해보세요.",
+      "translation": "In that case, try saying \"다듬어만 주세요.\"",
+      "lang": "KO",
+      "audio": "RR_015_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"길이는 그대로 두고 지저분한 것만 정리해달라\" 는 뜻이거든요.",
+      "translation": "It means \"Leave the length as it is and just tidy up the messy parts.\"",
+      "lang": "KO",
+      "audio": "RR_015_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "다듬어만 주세요",
+        "description": "'Please just give it a trim'",
+        "usage_tip": "다듬다(To trim) + 어만(Just only) + 주세요(Please give). Adding '만' emphasizes that you don't want any change in the actual style or length."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. I'm sitting in the chair, and the stylist is holding the scissors. I'm a bit nervous!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "미용사 톤으로",
+      "text": "손님 오늘 어떻게 해드릴까요?",
+      "translation": "Sir, how would you like your hair done today?",
+      "lang": "KO",
+      "audio": "RR_015_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "거울을 보며 비장하게",
+      "text": "길이는 유지하고 싶어서요. 너무 짧지 않게 조금만 잘라주세요.",
+      "translation": "I want to keep the length. Please cut it just a little bit so it's not too short.",
+      "lang": "KO",
+      "audio": "RR_015_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": {
+        "title": "너무 짧지 않게",
+        "description": "Setting the boundary",
+        "usage_tip": "By saying this first, you give the stylist a clear warning about your preference."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "고개를 끄덕이며",
+      "text": "길이는 거의 그대로 두고 정리만 해드릴까요?",
+      "translation": "Ah, shall I leave the length almost as it is and just tidy it up?",
+      "lang": "KO",
+      "audio": "RR_015_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "안심하며",
+      "text": "네! 그냥 전체적으로 다듬어만 주세요. 특히 앞머리는 정말 조금만 잘라주세요.",
+      "translation": "Yes! Just give it a trim all over. Especially the bangs, please cut them really just a little bit.",
+      "lang": "KO",
+      "audio": "RR_015_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": {
+        "title": "다듬어만 주세요",
+        "description": "Double confirmation",
+        "usage_tip": "Repeating your request with different words ensures there's no misunderstanding."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "걱정 마세요. 딱 예쁜 정도로만 정리해 드릴게요! 잠시만 기다려 주세요.",
+      "translation": "Don't worry. I'll tidy it up just to the right extent! Please wait a moment.",
+      "lang": "KO",
+      "audio": "RR_015_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Phew! I survived. My hair is still there, and it looks so much neater!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 한국 미용실에서는 이렇게 내가 원하는 선을 명확하게 리액션하는 게 실패하지 않는 비결이랍니다.",
+      "translation": "Right. In a Korean hair salon, reacting clearly about the 'limit' you want is the secret to not failing.",
+      "lang": "KO",
+      "audio": "RR_015_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"hair length safety\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "너무 짧지 않게 조금만 잘라주세요!",
+      "translation": "Don't cut it too short, just a little!",
+      "lang": "KO",
+      "audio": "RR_015_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "전체적으로 다듬어만 주세요!",
+      "translation": "Please just give it a trim all over!",
+      "lang": "KO",
+      "audio": "RR_015_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "상한 부분만 잘라주세요!",
+      "translation": "Please just cut the damaged parts!",
+      "lang": "KO",
+      "audio": "RR_015_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "앞머리는 눈썹 아래까지 오게 해주세요!",
+      "translation": "Please make the bangs come down to below the eyebrows!",
+      "lang": "KO",
+      "audio": "RR_015_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "지금 이 정도로 딱 좋아요!",
+      "translation": "It's perfect just like this right now!",
+      "lang": "KO",
+      "audio": "RR_015_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 미용실에 간다면, 불안해하지 말고 웃으면서 이 문장을 말해 보세요.",
+      "translation": "Everyone, if you go to a hair salon today, don't be anxious and say this sentence with a smile.",
+      "lang": "KO",
+      "audio": "RR_015_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"너무 짧지 않게 조금만 잘라주세요!\"",
+      "translation": "Don't cut it too short, just a little!",
+      "lang": "KO",
+      "audio": "RR_015_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_015_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_015_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "유지하다",
+      "meaning": "To maintain / To keep",
+      "example": "건강을 위해서 꾸준히 운동을 유지하고 있어요. (I'm consistently maintaining exercise for my health.)",
+      "audio": "RR_015_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "짧지 않게",
+      "meaning": "Not to be short",
+      "example": "치마를 너무 짧지 않게 수선해 주세요. (Please repair the skirt so it's not too short.)",
+      "audio": "RR_015_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "상하다",
+      "meaning": "To be damaged / To be spoiled",
+      "example": "머릿결이 많이 상해서 트리트먼트가 필요해요. (My hair is very damaged, so I need a treatment.)",
+      "audio": "RR_015_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "눈썹",
+      "meaning": "Eyebrows",
+      "example": "그는 눈썹이 진해서 인상이 아주 강해 보여요. (He has thick eyebrows, so his impression looks very strong.)",
+      "audio": "RR_015_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "선",
+      "meaning": "Line / Limit",
+      "example": "대화할 때는 서로의 예의라는 선을 지키는 게 중요해요. (When talking, it's important to keep the line called mutual politeness.)",
+      "audio": "RR_015_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "사수하다",
+      "meaning": "To defend / To protect",
+      "example": "소중한 내 머리카락을 사수하기 위해 미용사님께 부탁했어요. (I asked the stylist to protect my precious hair.)",
+      "audio": "RR_015_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

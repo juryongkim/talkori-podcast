@@ -977,7 +977,24 @@
     "theme": "from-pink-400 to-rose-500",
     "status": "active",
     "episodes": [
-      
+      {
+        "id": "000",
+        "title": {
+          "en": "Episode 000",
+          "ko": "에피소드 000"
+        },
+        "description": {
+          "en": "",
+          "ko": ""
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "",
+        "tags": [],
+        "dataFile": "ep000.json"
+      },
       {
         "id": "001",
         "title": {
@@ -1221,12 +1238,12 @@
       {
         "id": "013",
         "title": {
-          "en": "The Art of Polite Bargaining in Korea",
-          "ko": "조금만 깎아 주시면 안 돼요? (물건 살 때 흥정하기)"
+          "en": "Order got mixed up? ☕ How to complain politely in Korean",
+          "ko": "제가 주문한 게 아닌 것 같아요 (주문이 잘못 나왔을 때)"
         },
         "description": {
-          "en": "It's not about what you say, but how you say it! Master the polite way to ask for a discount using honorifics like \"깎아 주시면 안 돼요?\"",
-          "ko": "시장에서 물건을 살 때, 무조건 깎아달라고 떼쓰는 게 아니라 상대를 존중하며 정중하게 가격을 제안하는 리액션을 배워봅니다."
+          "en": "Don't just stay quiet! Learn how to use the \"Softener\" phrase \"~인 것 같아요\" to fix order mistakes politely and effectively.",
+          "ko": "식당이나 카페에서 주문한 것과 다른 음식이 나왔을 때! 상대방이 무안하지 않게 배려하면서도 정확하게 수정을 요청하는 리액션을 배워봅니다."
         },
         "duration": {
           "en": "",
@@ -1234,9 +1251,329 @@
         },
         "level": "Beginner-Intermediate",
         "tags": [
-          "Situation. Shopping. Market. Negotiation. Manners. Honorifics. Season 2"
+          "Situation. Food. Restaurant. Cafe. Complaint. Manners. Softener. Season 2"
         ],
         "dataFile": "ep013.json"
+      },
+      {
+        "id": "014",
+        "title": {
+          "en": "Taking a Taxi in Korea: Destination & Requests",
+          "ko": "기사님, 여기서 내려주세요! (택시 이용하기)"
+        },
+        "description": {
+          "en": "Don't be nervous in a taxi! Learn the polite way to state your destination and how to ask the driver to pull over with phrases like \"여기서 내려주세요.\"",
+          "ko": "택시를 탔을 때 당황하지 않고 목적지를 말하는 법! 그리고 원하는 위치에 정확하고 정중하게 내려달라고 요청하는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Travel. Taxi. Transportation. Request. Location. Season 2"
+        ],
+        "dataFile": "ep014.json"
+      },
+      {
+        "id": "015",
+        "title": {
+          "en": "Not too short, please! (At the Hair Salon)",
+          "ko": "너무 짧지 않게 조금만 잘라주세요! (미용실에서 요청하기)"
+        },
+        "description": {
+          "en": "Worried about getting too much cut off? Learn the magic phrase \"너무 짧지 않게 조금만 잘라주세요\" to keep your length while looking neat.",
+          "ko": "미용실에서 머리를 너무 많이 자를까 봐 걱정될 때! 원하는 길이를 정확하게 지키면서 정중하게 다듬어달라고 요청하는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Life. Hair Salon. Request. Style. Length. Season 2"
+        ],
+        "dataFile": "ep015.json"
+      },
+      {
+        "id": "016",
+        "title": {
+          "en": "Where is my package? (Inquiring about deliveries)",
+          "ko": "언제쯤 도착하는지 알 수 있을까요? (배달/택배 문의하기)"
+        },
+        "description": {
+          "en": "Is your delivery late? Learn how to check the status politely and effectively using phrases like \"언제쯤 도착하는지 알 수 있을까요?\"",
+          "ko": "택배나 음식 배달이 늦어질 때! 기분 나쁘지 않게 진행 상황을 묻는 정중한 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Life. Delivery. Inquiry. Polite. Request. Season 2"
+        ],
+        "dataFile": "ep016.json"
+      },
+      {
+        "id": "017",
+        "title": {
+          "en": "May I pass through? (Navigating crowded places)",
+          "ko": "잠시만 지나가도 될까요? (공공장소에서 양해 구하기)"
+        },
+        "description": {
+          "en": "Stuck in a crowd? Learn how to clear your path politely using \"잠시만요\" and other essential phrases for public spaces.",
+          "ko": "지하철이나 좁은 길에서 사람들을 지나가야 할 때! 무례하지 않게 길을 터달라고 요청하는 에티켓과 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Public. Subway. Manners. Request. Navigation. Season 2"
+        ],
+        "dataFile": "ep017.json"
+      },
+      {
+        "id": "018",
+        "title": {
+          "en": "Cafe Etiquette: Asking for a seat and watching your bags",
+          "ko": "여기 자리 있어요? (카페에서 자리 확인하고 짐 부탁하기)"
+        },
+        "description": {
+          "en": "Is this seat taken? Learn how to check for availability and the polite way to ask someone to watch your stuff in a busy Korean cafe.",
+          "ko": "빈자리가 있는지 묻는 법부터, 잠시 화장실에 갈 때 옆 사람에게 짐을 부탁하는 리액션까지! 한국 카페 이용의 꿀팁을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Life. Cafe. Study. Request. Seat. Manner. Season 2"
+        ],
+        "dataFile": "ep018.json"
+      },
+      {
+        "id": "019",
+        "title": {
+          "en": "Polite Returns and Exchanges: \"It's a bit different from what I expected.\"",
+          "ko": "생각했던 거랑 조금 달라서요 (정중하게 환불/교환 요청하기)"
+        },
+        "description": {
+          "en": "Need to return or exchange something? Learn the polite way to state your reason using soft endings like \"작아서요\" to get a smooth refund.",
+          "ko": "물건을 샀는데 마음이 바뀌었을 때! 상대를 탓하지 않고 정중하게 이유를 설명하며 환불이나 교환을 이끌어내는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Beginner-Intermediate",
+        "tags": [
+          "Situation. Shopping. Refund. Exchange. Manners. Reason. Season 2"
+        ],
+        "dataFile": "ep019.json"
+      },
+      {
+        "id": "020",
+        "title": {
+          "en": "How to say NO politely: \"I'd love to help, but...\"",
+          "ko": "도와드리고 싶은데 저도 그럴 상황이 안 되네요 (정중하게 거절하기)"
+        },
+        "description": {
+          "en": "Saying \"No\" is hard! Learn the sophisticated way to decline a favor by using \"도와드리고 싶은데\" to show empathy before drawing the line.",
+          "ko": "어려운 부탁을 받았을 때, 관계를 해치지 않고 정중하게 거절하는 법! 상대방의 마음을 먼저 공감해주고 상황을 설명하는 고수의 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate",
+        "tags": [
+          "Situation. Social. Work. Rejection. Empathy. Manners. Season 2"
+        ],
+        "dataFile": "ep020.json"
+      },
+      {
+        "id": "021",
+        "title": {
+          "en": "Empathizing with a friend: \"I know how you feel.\"",
+          "ko": "말 안 해도 다 알아, 힘들었지? (친구의 고민 상담하기)"
+        },
+        "description": {
+          "en": "Sometimes words aren't needed. Learn how to comfort a friend with simple, deep empathy using phrases like \"말 안 해도 다 알아.\"",
+          "ko": "친구가 힘든 일을 겪고 있을 때, 구구절절 묻지 않아도 그 마음을 다 안다는 따뜻한 위로와 공감의 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate",
+        "tags": [
+          "Situation. Social. Friendship. Empathy. Comfort. Worry. Season 2"
+        ],
+        "dataFile": "ep021.json"
+      },
+      {
+        "id": "022",
+        "title": {
+          "en": "Expressing Hurt Feelings: \"Actually, I felt a bit hurt.\"",
+          "ko": "사실 나 좀 서운했어 (친구에게 서운함 표현하기)"
+        },
+        "description": {
+          "en": "Feeling neglected or disappointed? Learn how to use the \"magic word\" 서운하다 to express your feelings softly without starting a fight.",
+          "ko": "친구에게 화를 내기엔 애매하지만 내심 속상할 때! 관계를 해치지 않고 내 감정을 솔직하고 정중하게 전달하는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate",
+        "tags": [
+          "Situation. Social. Friendship. Emotion. Conflict. Soft Speech. Season 2"
+        ],
+        "dataFile": "ep022.json"
+      },
+      {
+        "id": "023",
+        "title": {
+          "en": "Clearing the air: \"I think I misunderstood.\"",
+          "ko": "제가 오해했던 것 같아요 (오해 풀기)"
+        },
+        "description": {
+          "en": "Misunderstandings happen. Learn how to admit a mistake gracefully using the phrase \"오해했던 것 같아요\" to clear the air without making it awkward.",
+          "ko": "상대방의 행동을 잘못 오해해서 마음이 불편할 때! 먼저 다가가 오해를 인정하고 관계를 회복하는 정중한 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate",
+        "tags": [
+          "Situation. Social. Communication. Misunderstanding. Apology. Relationship. Season 2"
+        ],
+        "dataFile": "ep023.json"
+      },
+      {
+        "id": "024",
+        "title": {
+          "en": "Setting Boundaries: \"That's a bit difficult for me to say.\"",
+          "ko": "그건 말씀드리기 좀 곤란하네요 (선 넘는 질문에 대처하기)"
+        },
+        "description": {
+          "en": "Getting nosy questions? Learn how to protect your privacy gracefully using the professional and firm phrase \"곤란하네요.\"",
+          "ko": "사생활을 묻거나 대답하기 난처한 질문을 받았을 때! 상대방의 기분을 상하지 않게 하면서도 내 선을 확실히 지키는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate",
+        "tags": [
+          "Situation. Social. Workplace. Boundary. Privacy. Manners. Polite Refusal. Season 2"
+        ],
+        "dataFile": "ep024.json"
+      },
+      {
+        "id": "025",
+        "title": {
+          "en": "Not a good time: \"It's a bit difficult to talk right now.\"",
+          "ko": "지금은 통화하기가 좀 어려워서요 (갑작스러운 연락 거절하기)"
+        },
+        "description": {
+          "en": "Busy when someone calls or visits? Learn how to politely decline and postpone the conversation using the phrase \"어려워서요.\"",
+          "ko": "예고 없이 걸려온 전화나 방문이 당황스러울 때! 무례하지 않게 상황을 설명하고 나중을 기약하는 정중한 선 긋기 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate",
+        "tags": [
+          "Situation. Social. Phone. Visit. Boundary. Polite Refusal. Etiquette. Season 2"
+        ],
+        "dataFile": "ep025.json"
+      },
+      {
+        "id": "026",
+        "title": {
+          "en": "Concrete Gratitude: \"I actually really needed this!\"",
+          "ko": "안 그래도 이거 정말 필요했어요! (선물 받고 고마움 표현하기)"
+        },
+        "description": {
+          "en": "Don't just say \"Thank you.\" Learn how to make the gift-giver feel special by saying you \"actually really needed\" the item.",
+          "ko": "선물을 받았을 때 상대방을 기쁘게 만드는 최고의 리액션! 선물이 얼마나 유용한지 구체적으로 언급하며 고마움을 전하는 법을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate",
+        "tags": [
+          "Situation. Social. Gift. Gratitude. Empathy. Manners. Reaction. Season 2"
+        ],
+        "dataFile": "ep026.json"
+      },
+      {
+        "id": "027",
+        "title": {
+          "en": "Disagreeing Gracefully: \"You have a point, but my thoughts are a bit different.\"",
+          "ko": "그 말씀도 맞지만 제 생각은 조금 달라서요 (조심스럽게 반대하기)"
+        },
+        "description": {
+          "en": "Don't just say \"No.\" Learn the \"Yes, but...\" technique in Korean to share your different opinion while keeping the atmosphere professional and respectful.",
+          "ko": "회의나 대화 중 상대방의 의견에 반대해야 할 때! 무조건 \"아니요\"라고 하기보다, 상대의 의견을 존중하며 내 생각을 전달하는 세련된 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate-Advanced",
+        "tags": [
+          "Situation. Social. Workplace. Discussion. Disagreement. Manners. Negotiation. Season 2"
+        ],
+        "dataFile": "ep027.json"
+      },
+      {
+        "id": "028",
+        "title": {
+          "en": "Handling Unsolicited Advice: \"Thanks for the concern, I'll handle it.\"",
+          "ko": "걱정해 주셔서 감사해요. 제가 알아서 잘 해볼게요 (참견에 대처하기)"
+        },
+        "description": {
+          "en": "Dealing with \"Ojirap\" (nosy interference)? Learn how to set a firm boundary while acknowledging their intent with the phrase \"제가 알아서 할게요.\"",
+          "ko": "사생활에 대한 지나친 참견이나 조언을 받았을 때! 상대방의 기분을 상하게 하지 않으면서 내 의사를 정중하고 단호하게 밝히는 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate-Advanced",
+        "tags": [
+          "Situation. Social. Boundary. Privacy. Manners. Assertiveness. Season 2"
+        ],
+        "dataFile": "ep028.json"
+      },
+      {
+        "id": "029",
+        "title": {
+          "en": "Season 2 Finale: \"I felt so supported thanks to you.\"",
+          "ko": "덕분에 정말 든든했어요 (진심 어린 감사와 시즌 2 마무리)"
+        },
+        "description": {
+          "en": "It’s the grand finale! Learn how to express deep gratitude and trust with the heartfelt phrase \"덕분에 정말 든든했어요\" as we wrap up Season 2.",
+          "ko": "시즌 2의 마지막 에피소드! 그동안 함께해준 사람에게 깊은 감사를 전하고, 서로의 앞날을 응원하는 가장 따뜻한 피날레 리액션을 배워봅니다."
+        },
+        "duration": {
+          "en": "",
+          "ko": ""
+        },
+        "level": "Intermediate-Advanced",
+        "tags": [
+          "Situation. Social. Friendship. Gratitude. Trust. Farewell. Season Finale. Season 2"
+        ],
+        "dataFile": "ep029.json"
       }
     ]
   },

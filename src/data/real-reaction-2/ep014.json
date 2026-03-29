@@ -1,0 +1,462 @@
+{
+  "metadata": {
+    "id": "014",
+    "title": {
+      "en": "Taking a Taxi in Korea: Destination & Requests",
+      "ko": "기사님, 여기서 내려주세요! (택시 이용하기)"
+    },
+    "description": {
+      "en": "Don't be nervous in a taxi! Learn the polite way to state your destination and how to ask the driver to pull over with phrases like \"여기서 내려주세요.\"",
+      "ko": "택시를 탔을 때 당황하지 않고 목적지를 말하는 법! 그리고 원하는 위치에 정확하고 정중하게 내려달라고 요청하는 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Travel. Taxi. Transportation. Request. Location. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "살짝 긴장한 목소리로 바로 시작",
+      "text": "Mina, taking a taxi in Korea is a bit intimidating for me.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "The drivers move so fast, and I'm always afraid I'll miss my stop because I don't know what to say!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "다정하게 웃으며",
+      "text": "걱정 마세요 존! 택시 기사님들은 짧고 명확한 리액션을 좋아하시거든요.",
+      "translation": "Haha, don't worry John! Taxi drivers like short and clear reactions.",
+      "lang": "KO",
+      "audio": "RR_014_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "우선 기사님을 부를 때는..., \"기사님\" 이라고 부르는 게 가장 정중해요.",
+      "translation": "First, when calling the driver, it's most polite to call them \"Gisanim\".",
+      "lang": "KO",
+      "audio": "RR_014_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "기사님. It sounds much more respectful than just saying \"Mr. Driver,\" right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요! 그리고 내리고 싶은 곳 근처에 왔을 때 쓰는 마법의 문장이 있어요.",
+      "translation": "Right! And there's a magic sentence to use when you're near where you want to get off.",
+      "lang": "KO",
+      "audio": "RR_014_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "바로 \"여기서 내려주세요\" 라고 말하는거예요. 오늘은 택시 안에서 당황하지 않는 필살 리액션을 배워볼게요!",
+      "translation": "It's \"Yeogiseo naeryeojuseyo.\" Today, we'll learn the \"must-know\" reactions so you don't panic inside a taxi!",
+      "lang": "KO",
+      "audio": "RR_014_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "어디로 가주세요. This is how I tell them my destination, right?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네! 장소 뒤에..., \"어디로 가주세요\" 만 붙이면 돼요.",
+      "translation": "Yes! Just add \"~ro gajuseyo\" after the location.",
+      "lang": "KO",
+      "audio": "RR_014_s009.mp3",
+      "playable": true,
+      "seq": 9,
+      "insight": {
+        "title": "~(으)로 가주세요",
+        "description": "'Please go to...'",
+        "usage_tip": "Location + '으로' (if ends in consonant) or '로' (if ends in vowel) + '가주세요'. This is the standard way to state your destination."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "홍대역으로 가주세요.",
+      "translation": "Please go to Hongdae Station.",
+      "lang": "KO",
+      "audio": "RR_014_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "And what about the magic stop phrase?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"여기서 내려주세요\" 라고 하세요.",
+      "translation": "In that case, say \"Yeogiseo naeryeojuseyo.\"",
+      "lang": "KO",
+      "audio": "RR_014_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"여기\" 대신에..., \"저기\" 또는..., \"저 편의점 앞\" 처럼 구체적인 장소를 넣어도 좋아요.",
+      "translation": "Instead of \"here,\" you can also put a specific place like \"over there\" or \"in front of that convenience store.\"",
+      "lang": "KO",
+      "audio": "RR_014_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "여기서 내려주세요",
+        "description": "'Please drop me off here'",
+        "usage_tip": "'여기(Here)' + '서(At)' + '내려주세요(Please let me down)'. Use this about 10-20 meters before you actually want to stop."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. I'm getting into a taxi and I want to go to Gangnam Station.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "문을 열고 타며 밝게 인사",
+      "text": "안녕하세요! 기사님. 강남역으로 가주세요.",
+      "translation": "Hello! Driver, please go to Gangnam Station.",
+      "lang": "KO",
+      "audio": "RR_014_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": {
+        "title": "가주세요",
+        "description": "Stating Destination",
+        "usage_tip": "Using a clear, confident voice is helpful in a noisy taxi."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기사 톤으로",
+      "text": "네. 강남역요? 알겠습니다.",
+      "translation": "Yes, Gangnam Station? Got it.",
+      "lang": "KO",
+      "audio": "RR_014_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "창밖을 보다가 목적지 근처에 도착했을 때",
+      "text": "아, 기사님! 저기 편의점 앞에서 내려주세요.",
+      "translation": "Ah, driver! Please drop me off in front of that convenience store over there.",
+      "lang": "KO",
+      "audio": "RR_014_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": {
+        "title": "저기 ~ 앞에서 내려주세요",
+        "description": "Specific drop-off",
+        "usage_tip": "Giving a landmark like a convenience store (편의점) helps the driver find a safe spot to stop."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "차를 세우며",
+      "text": "네. 여기서 세워드릴게요.",
+      "translation": "Yes, I'll pull over here.",
+      "lang": "KO",
+      "audio": "RR_014_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "카드를 결제하며",
+      "text": "감사합니다. 수고하세요!",
+      "translation": "Thank you. Driver, keep up the good work!",
+      "lang": "KO",
+      "audio": "RR_014_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": {
+        "title": "수고하세요",
+        "description": "A polite farewell",
+        "usage_tip": "This is a very common and warm way to say goodbye to someone who is working."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Wow, it’s so simple! I just need to remember \"기사님\" and \"내려주세요.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s020.mp3",
+      "playable": false,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 그리고 내릴 때 \"수고하세요\" 라고 인사하면 기사님도 정말 기분 좋아하실 거예요.",
+      "translation": "Right. And if you greet them with \"Sugo-haseyo\" when you get out, the driver will feel really good too.",
+      "lang": "KO",
+      "audio": "RR_014_s021.mp3",
+      "playable": true,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"taxi\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s022.mp3",
+      "playable": false,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "강남역으로 가주세요!",
+      "translation": "Please go to [Location]!",
+      "lang": "KO",
+      "audio": "RR_014_s023.mp3",
+      "playable": true,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "여기서 내려주세요!",
+      "translation": "Please drop me off here!",
+      "lang": "KO",
+      "audio": "RR_014_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "저기 앞에서 세워주세요!",
+      "translation": "Please pull over in front of there!",
+      "lang": "KO",
+      "audio": "RR_014_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "수고하세요!",
+      "translation": "Keep up the good work! / Goodbye!",
+      "lang": "KO",
+      "audio": "RR_014_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "영수증 주시겠어요?",
+      "translation": "Could I have a receipt?",
+      "lang": "KO",
+      "audio": "RR_014_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 택시를 탄다면, 당황하지 말고 \"기사님!\" 하고 반갑게 불러보세요.",
+      "translation": "Everyone, if you take a taxi today, don't panic and call out \"Gisanim!\" brightly.",
+      "lang": "KO",
+      "audio": "RR_014_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"여기서 내려주세요!\"",
+      "translation": "Please drop me off here!",
+      "lang": "KO",
+      "audio": "RR_014_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_014_s030.mp3",
+      "playable": false,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_014_s031.mp3",
+      "playable": true,
+      "seq": 31,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "기사님",
+      "meaning": "Driver (polite title)",
+      "example": "택시 기사님들은 길을 정말 잘 아세요. (Taxi drivers know the roads really well.)",
+      "audio": "RR_014_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "목적지",
+      "meaning": "Destination",
+      "example": "택시를 타기 전에 목적지를 미리 확인하세요. (Check your destination before taking a taxi.)",
+      "audio": "RR_014_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "내리다",
+      "meaning": "To get off / To drop off",
+      "example": "다음 정류장에서 내릴게요. (I'll get off at the next stop.)",
+      "audio": "RR_014_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "세우다",
+      "meaning": "To stop / To pull over",
+      "example": "저기 건물 앞에 차를 세워주세요. (Please stop the car in front of that building.)",
+      "audio": "RR_014_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "편의점",
+      "meaning": "Convenience store",
+      "example": "한국에는 어디에나 편의점이 있어서 편리해요. (It's convenient because there are convenience stores everywhere in Korea.)",
+      "audio": "RR_014_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "수고하다",
+      "meaning": "To work hard / To put in effort",
+      "example": "오늘도 수고한 당신, 푹 쉬세요! (You worked hard today, get some good rest!)",
+      "audio": "RR_014_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

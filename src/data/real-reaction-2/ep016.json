@@ -1,0 +1,470 @@
+{
+  "metadata": {
+    "id": "016",
+    "title": {
+      "en": "Where is my package? (Inquiring about deliveries)",
+      "ko": "언제쯤 도착하는지 알 수 있을까요? (배달/택배 문의하기)"
+    },
+    "description": {
+      "en": "Is your delivery late? Learn how to check the status politely and effectively using phrases like \"언제쯤 도착하는지 알 수 있을까요?\"",
+      "ko": "택배나 음식 배달이 늦어질 때! 기분 나쁘지 않게 진행 상황을 묻는 정중한 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Beginner-Intermediate",
+    "tags": [
+      "Situation. Life. Delivery. Inquiry. Polite. Request. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "배가 고픈 듯 힘없는 목소리로 바로 시작",
+      "text": "Mina, I ordered fried chicken an hour ago, but it’s still not here.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I want to call the restaurant and ask \"Where is my food?\" but I don't want to sound like a \"Karen.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "미소 지으며 공감하기",
+      "text": "배고플 때 기다리는 건 정말 힘들죠! 이해해요.",
+      "translation": "Haha, waiting when you're hungry is really hard! I understand.",
+      "lang": "KO",
+      "audio": "RR_016_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"왜 안 와요?\" 라고 묻기보다 조금 더 부드럽게 확인을 요청하는 게 좋아요.",
+      "translation": "In that case, it's better to request a check softly rather than asking \"Why isn't it coming?\"",
+      "lang": "KO",
+      "audio": "RR_016_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "Is there a phrase that sounds like \"Could you let me know when it might arrive?\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네! 가장 세련된 표현은..., \"언제쯤 도착하는지 알 수 있을까요?\" 라고 말하는거예요.",
+      "translation": "Yes! The most sophisticated expression is \"Could I know around when it will arrive?\"",
+      "lang": "KO",
+      "audio": "RR_016_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘은 택배나 배달 상황에서 내 물건을 똑똑하게 챙기는 리액션들을 배워볼게요!",
+      "translation": "Today, we'll learn reactions to smartly check on your items in delivery situations!",
+      "lang": "KO",
+      "audio": "RR_016_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "언제쯤 도착하는지 알 수 있을까요?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "",
+      "text": "This sounds very indirect and polite.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요! \"언제 와요?\" 보다 훨씬 정중하고 조심스럽게 들리죠.",
+      "translation": "Right! It sounds much more polite and careful than \"When is it coming?\"",
+      "lang": "KO",
+      "audio": "RR_016_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "언제쯤 도착하는지 알 수 있을까요?",
+        "description": "'Could I know around when it will arrive?'",
+        "usage_tip": "언제(When) + 쯤(Around) + 도착하는지(Whether it arrives) + 알 수 있을까요?(Could I know?). Using 'ㄹ 수 있을까요' makes the question very soft and non-confrontational."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "What if I just want them to check the status first?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"확인 좀 부탁드릴게요\" 라고 말해보세요.",
+      "translation": "In that case, try saying \"Please check it for me.\"",
+      "lang": "KO",
+      "audio": "RR_016_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"빨리 해달라\" 는 말을 아주 예의 바르게 하는 방법이에요.",
+      "translation": "It's a very polite way of saying \"Please do it quickly.\"",
+      "lang": "KO",
+      "audio": "RR_016_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "확인 좀 부탁드릴게요",
+        "description": "'Please check it for me'",
+        "usage_tip": "확인(Check) + 좀(Please/A bit) + 부탁드릴게요(I request/ask). This is the most standard phrase for asking for any kind of service check in Korea."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. My chicken is 20 minutes overdue. I'm calling the restaurant.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "식당 직원 톤으로",
+      "text": "네. 행복치킨입니다! 무엇을 도와드릴까요?",
+      "translation": "Yes, this is Happy Chicken! How can I help you?",
+      "lang": "KO",
+      "audio": "RR_016_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "정중하게",
+      "text": "안녕하세요. 1시간 전에 주문했는데요. 음식이 아직 안 와서 전화드렸어요.",
+      "translation": "Hello. I ordered an hour ago. I'm calling because the food hasn't arrived yet.",
+      "lang": "KO",
+      "audio": "RR_016_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": {
+        "title": "전화드렸어요",
+        "description": "'I called you'",
+        "usage_tip": "Using the honorific '드렸어요' makes the reason for your call sound very polite."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "빌지를 확인하며",
+      "text": "아! 정말 죄송합니다! 지금 비가 와서 배달이 조금 지연되고 있네요.",
+      "translation": "Ah, I'm truly sorry! The delivery is being delayed a bit because it's raining now.",
+      "lang": "KO",
+      "audio": "RR_016_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "이해한다는 듯",
+      "text": "그렇군요. 언제쯤 도착하는지 알 수 있을까요?",
+      "translation": "Ah, I see. Could I know around when it will arrive?",
+      "lang": "KO",
+      "audio": "RR_016_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": {
+        "title": "언제쯤",
+        "description": "'Around when'",
+        "usage_tip": "Adding '쯤' (around) shows you are flexible and not demanding an exact second."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "기사님이 5분 전에 출발하셨어요! 10분 안에는 도착할 거예요.",
+      "translation": "The driver left 5 minutes ago! It will arrive within 10 minutes.",
+      "lang": "KO",
+      "audio": "RR_016_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "안심하며",
+      "text": "네 알겠습니다. 확인 좀 부탁드릴게요. 감사합니다!",
+      "translation": "Yes, I understand. Please check on it for me. Thank you!",
+      "lang": "KO",
+      "audio": "RR_016_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Phew! It was much better to ask politely. I think the staff was more willing to help me out.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 한국에서는 독촉할 때도 예의를 지키면 더 좋은 서비스를 받을 수 있답니다.",
+      "translation": "Right. In Korea, even when you're rushing someone, you can get better service if you stay polite.",
+      "lang": "KO",
+      "audio": "RR_016_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"delivery\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "언제쯤 도착하는지 알 수 있을까요?",
+      "translation": "Could I know around when it will arrive?",
+      "lang": "KO",
+      "audio": "RR_016_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "확인 좀 부탁드릴게요!",
+      "translation": "Please check it for me!",
+      "lang": "KO",
+      "audio": "RR_016_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "배송 상태 좀 알 수 있을까요?",
+      "translation": "Could I know the shipping status?",
+      "lang": "KO",
+      "audio": "RR_016_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "아직 못 받았는데 확인해 주시겠어요?",
+      "translation": "I haven't received it yet, could you check it?",
+      "lang": "KO",
+      "audio": "RR_016_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "문 앞에 두고 문자 주세요!",
+      "translation": "Please leave it at the door and text me!",
+      "lang": "KO",
+      "audio": "RR_016_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 택배나 배달을 기다리고 있다면, 당황하지 말고 정중하게 물어보세요.",
+      "translation": "Everyone, if you're waiting for a package or delivery today, don't panic and ask politely.",
+      "lang": "KO",
+      "audio": "RR_016_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"언제쯤 도착하는지 알 수 있을까요?\"",
+      "translation": "Around when will it arrive?",
+      "lang": "KO",
+      "audio": "RR_016_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_016_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_016_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "도착하다",
+      "meaning": "To arrive",
+      "example": "기차가 정시에 역에 도착했어요. (The train arrived at the station on time.)",
+      "audio": "RR_016_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "지연되다",
+      "meaning": "To be delayed",
+      "example": "사고 때문에 지하철 운행이 지연되고 있어요. (Subway operations are being delayed due to an accident.)",
+      "audio": "RR_016_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "배달",
+      "meaning": "Delivery",
+      "example": "요즘은 앱으로 배달을 시키는 게 정말 편해요. (These days, ordering delivery via an app is really convenient.)",
+      "audio": "RR_016_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "택배",
+      "meaning": "Courier / Package",
+      "example": "어제 주문한 택배가 오늘 벌써 왔네요! (The courier I ordered yesterday came already today!)",
+      "audio": "RR_016_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "조회하다",
+      "meaning": "To track / To inquire",
+      "example": "운송장 번호로 택배 위치를 조회할 수 있어요. (You can track the location of your package with the tracking number.)",
+      "audio": "RR_016_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "독촉하다",
+      "meaning": "To rush / To urge",
+      "example": "일이 늦어져서 상사가 빨리 하라고 독촉했어요. (The work was delayed, so the boss urged me to do it quickly.)",
+      "audio": "RR_016_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

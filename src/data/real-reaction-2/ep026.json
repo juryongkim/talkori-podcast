@@ -1,0 +1,474 @@
+{
+  "metadata": {
+    "id": "026",
+    "title": {
+      "en": "Concrete Gratitude: \"I actually really needed this!\"",
+      "ko": "안 그래도 이거 정말 필요했어요! (선물 받고 고마움 표현하기)"
+    },
+    "description": {
+      "en": "Don't just say \"Thank you.\" Learn how to make the gift-giver feel special by saying you \"actually really needed\" the item.",
+      "ko": "선물을 받았을 때 상대방을 기쁘게 만드는 최고의 리액션! 선물이 얼마나 유용한지 구체적으로 언급하며 고마움을 전하는 법을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Intermediate",
+    "tags": [
+      "Situation. Social. Gift. Gratitude. Empathy. Manners. Reaction. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "선물 꾸러미를 든 것 같은 신난 목소리로 바로 시작",
+      "text": "Mina, my Korean friend gave me a beautiful tumbler as a housewarming gift.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I said \"감사합니다\" several times, but I felt like I should have said something more to show how much I appreciate his choice. Is there a more \"active\" way to say thank you?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "기분 좋게 웃으며",
+      "text": "선물을 준 사람 입장에서는 내 선물이 상대방에게 정말 도움이 됐는지가 가장 궁금하거든요.",
+      "translation": "From the perspective of the person who gave the gift, they are most curious about whether their gift was truly helpful.",
+      "lang": "KO",
+      "audio": "RR_026_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 때는..., \"안 그래도 이거 정말 필요했어요\" 라고 말해보세요. 상대방의 센스를 최고의 공감으로 인정해 주는 리액션이거든요.",
+      "translation": "In those cases, try saying \"I actually really needed this.\" It's a reaction that recognizes the other person's sense with the highest empathy.",
+      "lang": "KO",
+      "audio": "RR_026_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"안 그래도\"? Does that mean \"anyway\" or \"even without that\"?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"마침 딱 생각하고 있었는데\" 라는 뉘앙스예요. 선물을 준 사람이..., \"와! 내가 정말 필요한 걸 줬구나!\"  하고 뿌듯하게 만드는 마법의 단어죠.",
+      "translation": "It has the nuance of \"I was just thinking about it.\" It's a magic phrase that makes the giver feel proud, thinking, 'Wow, I gave them exactly what they needed!'",
+      "lang": "KO",
+      "audio": "RR_026_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘은 선물을 준 사람의 마음까지 행복하게 만드는 리액션들을 배워볼게요!",
+      "translation": "Today, we'll learn reactions that make even the heart of the gift-giver happy!",
+      "lang": "KO",
+      "audio": "RR_026_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "안 그래도 이거 정말 필요했어요.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "",
+      "text": "This sounds much more enthusiastic than just \"Thank you.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 내 상황과 선물이 딱 맞아떨어졌다는 걸 보여주니까요.",
+      "translation": "Right. Because it shows that my situation and the gift perfectly coincided.",
+      "lang": "KO",
+      "audio": "RR_026_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "안 그래도",
+        "description": "'Actually / As it happens'",
+        "usage_tip": "Use this to indicate that you were already thinking about or needing the item before you received it."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "What if I want to tell them they have great taste?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"어떻게 아셨어요? 딱 제 스타일이에요\" 라고 해보세요.",
+      "translation": "In that case, try saying \"How did you know? It's exactly my style.\"",
+      "lang": "KO",
+      "audio": "RR_026_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "상대방이 나를 얼마나 잘 이해하고 있는지를 칭찬하는 아주 기분 좋은 리액션이에요.",
+      "translation": "It's a very pleasant reaction that praises how well the other person understands you.",
+      "lang": "KO",
+      "audio": "RR_026_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "딱 제 스타일이에요",
+        "description": "'It's exactly my style'",
+        "usage_tip": "딱(Exactly/Perfectly) + 제(My/Polite) + 스타일(Style) + 이에요(Is). Use this when you want to emphasize that the design or type of gift matches your preference perfectly."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. Mina is giving me a warm scarf as a winter gift.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "선물을 건네며",
+      "text": "존! 요즘 날씨가 너무 춥죠? 길 가다가 존 씨한테 잘 어울릴 것 같아서 샀어요.",
+      "translation": "John, the weather is so cold lately, right? I bought this while walking by because I thought it would look good on you.",
+      "lang": "KO",
+      "audio": "RR_026_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "깜짝 놀라며 선물을 연다",
+      "text": "와~! 진짜 예쁘네요! 미나 씨, 정말 감사합니다.",
+      "translation": "Wow, it's really pretty! Mina, thank you so much.",
+      "lang": "KO",
+      "audio": "RR_026_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "눈을 반짝이며",
+      "text": "안 그래도 목도리 하나 사려고 했거든요. 정말 필요했어요!",
+      "translation": "Actually, I was planning to buy a scarf. I really needed this!",
+      "lang": "KO",
+      "audio": "RR_026_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": {
+        "title": "사려고 했거든요",
+        "description": "'I was planning to buy'",
+        "usage_tip": "Combining this with '안 그래도' creates a perfect \"coincidence\" that makes the giver feel successful."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "기뻐하며",
+      "text": "정말요? 존한테 잘 어울릴 것 같아서 고민 많이 했는데..., 다행이네요!",
+      "translation": "Really? I worried a lot because I thought it would look good on you, so I'm glad!",
+      "lang": "KO",
+      "audio": "RR_026_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "직접 목에 둘러보며",
+      "text": "색깔도 너무 마음에 들어요. 어떻게 아셨어요? 딱 제 스타일이에요!",
+      "translation": "I love the color too. How did you know? It's exactly my style!",
+      "lang": "KO",
+      "audio": "RR_026_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": {
+        "title": "어떻게 아셨어요?",
+        "description": "'How did you know?'",
+        "usage_tip": "A rhetorical question that highlights the giver's thoughtfulness."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "좋아해 주니까 저도 기분이 좋네요. 올겨울 따뜻하게 보내세요!",
+      "translation": "Since you like it, I feel good too. Have a warm winter!",
+      "lang": "KO",
+      "audio": "RR_026_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "I felt it! Mina’s face lit up when I said I \"already needed\" it. It really makes a difference.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 선물에 대한 구체적인 리액션은 그 선물을 준비한 정성에 대한 최고의 보답이거든요.",
+      "translation": "Right. A concrete reaction to a gift is the best reward for the sincerity of preparing that gift.",
+      "lang": "KO",
+      "audio": "RR_026_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"gift gratitude\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "안 그래도 이거 정말 필요했어요!",
+      "translation": "I actually really needed this!",
+      "lang": "KO",
+      "audio": "RR_026_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "어떻게 아셨어요? 딱 제 스타일이에요!",
+      "translation": "How did you know? It's exactly my style!",
+      "lang": "KO",
+      "audio": "RR_026_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "마침 필요했는데 정말 감사합니다!",
+      "translation": "I happened to need this, thank you so much!",
+      "lang": "KO",
+      "audio": "RR_026_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "아까워서 못 쓸 것 같아요!",
+      "translation": "It's so precious, I don't think I can use it!",
+      "lang": "KO",
+      "audio": "RR_026_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": {
+        "title": "아까워서 못 쓰다",
+        "description": "'Too precious to use'",
+        "usage_tip": "A common hyperbolic compliment meaning you treasure the gift deeply."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "예쁘게 잘 쓸게요!",
+      "translation": "I will use it well and beautifully!",
+      "lang": "KO",
+      "audio": "RR_026_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 오늘 선물을 받는다면, 마음을 담아 구체적으로 리액션해 보세요.",
+      "translation": "Everyone, if you receive a gift today, try reacting concretely with all your heart.",
+      "lang": "KO",
+      "audio": "RR_026_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"안 그래도 이거 정말 필요했어요!\"",
+      "translation": "I actually really needed this!",
+      "lang": "KO",
+      "audio": "RR_026_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_026_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_026_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "안 그래도",
+      "meaning": "Actually / As it happens",
+      "example": "안 그래도 지금 전화하려고 했어요. (Actually, I was just about to call you.)",
+      "audio": "RR_026_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "필요하다",
+      "meaning": "To be needed / To be necessary",
+      "example": "비 오는 날에는 우산이 꼭 필요해요. (An umbrella is absolutely necessary on a rainy day.)",
+      "audio": "RR_026_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "정성",
+      "meaning": "Sincerity / Devotion",
+      "example": "어머니는 정성을 다해 음식을 준비하셨어요. (Mother prepared the food with all her sincerity.)",
+      "audio": "RR_026_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "취향",
+      "meaning": "Taste / Preference",
+      "example": "사람마다 옷을 고르는 취향이 다 달라요. (Everyone has different tastes in choosing clothes.)",
+      "audio": "RR_026_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "보답하다",
+      "meaning": "To repay / To reward",
+      "example": "은혜에 보답하기 위해 작은 선물을 준비했어요. (I prepared a small gift to repay the kindness.)",
+      "audio": "RR_026_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "마침",
+      "meaning": "Just / Luckily",
+      "example": "마침 배가 고팠는데 맛있는 간식이 생겼네요. (I happened to be hungry, and I got some delicious snacks.)",
+      "audio": "RR_026_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

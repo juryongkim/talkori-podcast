@@ -1,0 +1,474 @@
+{
+  "metadata": {
+    "id": "025",
+    "title": {
+      "en": "Not a good time: \"It's a bit difficult to talk right now.\"",
+      "ko": "지금은 통화하기가 좀 어려워서요 (갑작스러운 연락 거절하기)"
+    },
+    "description": {
+      "en": "Busy when someone calls or visits? Learn how to politely decline and postpone the conversation using the phrase \"어려워서요.\"",
+      "ko": "예고 없이 걸려온 전화나 방문이 당황스러울 때! 무례하지 않게 상황을 설명하고 나중을 기약하는 정중한 선 긋기 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Intermediate",
+    "tags": [
+      "Situation. Social. Phone. Visit. Boundary. Polite Refusal. Etiquette. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "조금 곤혹스러운 목소리로 바로 시작",
+      "text": "Mina, I love my friends, but sometimes they call me out of the blue when I'm right in the middle of a meeting.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I don't want to just ignore the call, but saying \"I'm busy\" feels a bit too blunt in Korean. Is there a softer way to tell them I can't talk right now?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "미소 지으며 공감하기",
+      "text": "맞아요. \"바빠요\" 라고만 하면 상대방이 서운해할 수 있죠.",
+      "translation": "Right. If you just say \"I'm busy,\" the other person might feel hurt.",
+      "lang": "KO",
+      "audio": "RR_025_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 때는..., \"어려워서요\" 라는 단어를 써보세요. 지금 내 상황이 대화를 이어가기 쉽지 않다는 것을 아주 부드럽게 전달해 주거든요.",
+      "translation": "In those cases, try using the word \"Eoryeowoseoyo.\" It conveys very softly that your current situation makes it not easy to continue the conversation.",
+      "lang": "KO",
+      "audio": "RR_025_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"어려워서요\"? I thought that only meant \"difficult\" as in a hard exam!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "한국어에서는 \"안 된다\" 혹은..., \"불가능하다\" 라는 말을 대신해서 정말 많이 쓰여요.",
+      "translation": "Haha, in Korean, it's used a lot instead of saying \"No\" or \"Impossible.\"",
+      "lang": "KO",
+      "audio": "RR_025_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘은 갑작스러운 상황에서 정중하게 나만의 시간을 지키는 리액션들을 배워볼게요!",
+      "translation": "Today, we'll learn reactions to politely protect your own time in sudden situations!",
+      "lang": "KO",
+      "audio": "RR_025_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "지금은 통화하기가 좀 어려워서요.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "",
+      "text": "This sounds much less aggressive than \"I can't talk now.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네. 내 의지보다 상황을 강조하는 표현이라서 그래요.",
+      "translation": "Yes. That's because it's an expression that emphasizes the 'situation' rather than your will.",
+      "lang": "KO",
+      "audio": "RR_025_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "~하기가 어려워서요",
+        "description": "'Because it is difficult to do...'",
+        "usage_tip": "통화하다(To talk on the phone) + 기가(Making a verb a noun) + 어려워서요(Because it is difficult). This is a standard polite way to decline a request or a situation."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "And how do I promise to call back later?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"나중에 제가 다시 전화드릴게요\" 라고 덧붙여 보세요.",
+      "translation": "In that case, try adding \"I'll call you back later.\"",
+      "lang": "KO",
+      "audio": "RR_025_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "미안함과 정중함을 동시에 표현하는 완벽한 마무리 문장이에요.",
+      "translation": "It's a perfect closing sentence that expresses both apology and politeness at the same time.",
+      "lang": "KO",
+      "audio": "RR_025_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "나중에 제가 다시 전화드릴게요",
+        "description": "'I will call you back later'",
+        "usage_tip": "나중에(Later) + 제가(I/Polite) + 다시(Again) + 전화드릴게요(Will give a call/Honored). Using '드릴게요' instead of '할게요' adds a layer of respect."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. I'm in a cafe finishing up some work, and Mina suddenly calls me to chat.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "밝은 목소리로",
+      "text": "존! 지금 뭐 해요? 저 이번에 진짜 맛있는 맛집 찾아냈는데 같이 갈래요?",
+      "translation": "John! What are you doing now? I found a really delicious restaurant this time, do you want to go together?",
+      "lang": "KO",
+      "audio": "RR_025_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "조금 낮은 목소리로 조심스럽게",
+      "text": "아! 미나! 맛집요? 정말 가고 싶네요.",
+      "translation": "Ah, Mina! A restaurant? I'd really love to go.",
+      "lang": "KO",
+      "audio": "RR_025_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "정중하게 거절하며",
+      "text": "그런데 어쩌죠? 제가 지금은 통화하기가 좀 어려워서요.",
+      "translation": "But what should I do? It's a bit difficult for me to talk right now.",
+      "lang": "KO",
+      "audio": "RR_025_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": {
+        "title": "지금은 통화하기가",
+        "description": "Specific Situation",
+        "usage_tip": "Use this when you are in a quiet place or in the middle of a task."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "이해한다는 듯",
+      "text": "아~! 바쁘시구나! 제가 눈치 없이 전화를 걸었네요. 미안해요!",
+      "translation": "Ah, you're busy! I called without realizing the situation. Sorry!",
+      "lang": "KO",
+      "audio": "RR_025_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "미안함을 전하며",
+      "text": "아니에요. 정리되는 대로 제가 다시 전화드릴게요.",
+      "translation": "No, it's not. I'll call you back as soon as I'm done.",
+      "lang": "KO",
+      "audio": "RR_025_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": {
+        "title": "정리되는 대로",
+        "description": "'As soon as it's sorted/done'",
+        "usage_tip": "This shows that you are willing to call back soon."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "네, 알겠어요! 이따가 연락 줘요!",
+      "translation": "Okay, I see! Call me later!",
+      "lang": "KO",
+      "audio": "RR_025_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Phew! It was much easier to end the call when I used \"어려워서요\" instead of an excuse.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 자신의 상황을 정중하게 표현하면 상대방도 기분 나빠하지 않고 기다려 줄 수 있으니까요.",
+      "translation": "Right. If you express your situation politely, the other person can wait without feeling bad.",
+      "lang": "KO",
+      "audio": "RR_025_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"busy\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "지금은 통화하기가 좀 어려워서요!",
+      "translation": "It's a bit difficult for me to talk right now!",
+      "lang": "KO",
+      "audio": "RR_025_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "나중에 제가 다시 전화드릴게요!",
+      "translation": "I'll call you back later!",
+      "lang": "KO",
+      "audio": "RR_025_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "지금은 방문하기가 좀 곤란해서요!",
+      "translation": "It's a bit awkward for you to visit right now!",
+      "lang": "KO",
+      "audio": "RR_025_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": {
+        "title": "방문하기가",
+        "description": "For sudden visits",
+        "usage_tip": "Replaces '통화하기가' to handle unexpected guests."
+      }
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "일이 끝나는 대로 바로 연락드릴게요!",
+      "translation": "I'll contact you as soon as I finish work!",
+      "lang": "KO",
+      "audio": "RR_025_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "이해해 주셔서 정말 감사해요!",
+      "translation": "Thank you so much for understanding!",
+      "lang": "KO",
+      "audio": "RR_025_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 바쁜 순간에 전화가 온다면, 당황하지 말고 여러분의 상황을 정중하게 말해 보세요.",
+      "translation": "Everyone, if you get a call when you're busy, don't panic and try stating your situation politely.",
+      "lang": "KO",
+      "audio": "RR_025_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"지금은 통화하기가 좀 어려워서요.\"",
+      "translation": "It's a bit difficult to talk right now.",
+      "lang": "KO",
+      "audio": "RR_025_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_025_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_025_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "통화하다",
+      "meaning": "To talk on the phone",
+      "example": "업무 중에 개인적인 통화는 자제해 주세요. (Please refrain from personal calls during work.)",
+      "audio": "RR_025_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "어렵다",
+      "meaning": "To be difficult / To be not possible",
+      "example": "지금은 제가 도움을 드리기가 조금 어렵네요. (It's a bit difficult for me to help you right now.)",
+      "audio": "RR_025_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "곤란하다",
+      "meaning": "To be awkward / To be in a tough spot",
+      "example": "갑자기 오시면 제가 좀 곤란해요. (It's a bit tough for me if you come suddenly.)",
+      "audio": "RR_025_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "나중에",
+      "meaning": "Later",
+      "example": "지금 바쁘니까 나중에 다시 이야기해요. (I'm busy now, so let's talk again later.)",
+      "audio": "RR_025_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "정리되다",
+      "meaning": "To be sorted / To be finished",
+      "example": "회의가 정리되는 대로 바로 가겠습니다. (I'll go as soon as the meeting is finished.)",
+      "audio": "RR_025_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "눈치 없다",
+      "meaning": "To be tactless / Not sensing the situation",
+      "example": "그는 눈치가 없어서 분위기를 자주 망쳐요. (He is tactless, so he often ruins the mood.)",
+      "audio": "RR_025_v006.mp3",
+      "seq": 6
+    }
+  ]
+}

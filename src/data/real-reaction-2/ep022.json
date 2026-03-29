@@ -1,0 +1,470 @@
+{
+  "metadata": {
+    "id": "022",
+    "title": {
+      "en": "Expressing Hurt Feelings: \"Actually, I felt a bit hurt.\"",
+      "ko": "사실 나 좀 서운했어 (친구에게 서운함 표현하기)"
+    },
+    "description": {
+      "en": "Feeling neglected or disappointed? Learn how to use the \"magic word\" 서운하다 to express your feelings softly without starting a fight.",
+      "ko": "친구에게 화를 내기엔 애매하지만 내심 속상할 때! 관계를 해치지 않고 내 감정을 솔직하고 정중하게 전달하는 리액션을 배워봅니다."
+    },
+    "duration": {
+      "en": "",
+      "ko": ""
+    },
+    "level": "Intermediate",
+    "tags": [
+      "Situation. Social. Friendship. Emotion. Conflict. Soft Speech. Season 2"
+    ],
+    "course": "real-reaction-2",
+    "youtube": "",
+    "full_audio": ""
+  },
+  "content": [
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "조금 머뭇거리는 목소리로 바로 시작",
+      "text": "Mina, something happened with a friend recently. He went to a concert we both liked with someone else, without even asking me.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s001.mp3",
+      "playable": false,
+      "seq": 1,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "I’m not exactly \"angry,\" but I feel a bit sad and neglected. In English, I'd say \"I'm disappointed,\" but is there a more \"Korean\" way to say this?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s002.mp3",
+      "playable": false,
+      "seq": 2,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "고개를 끄덕이며",
+      "text": "그 기분 뭔지 알 것 같아요! 그럴 땐 화가 난다고 하기엔 너무 무겁고 그냥 넘어가기엔 속상하죠.",
+      "translation": "Ah, I know that feeling! In that case, saying \"I'm angry\" is too heavy, but just letting it go hurts.",
+      "lang": "KO",
+      "audio": "RR_022_s003.mp3",
+      "playable": true,
+      "seq": 3,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "한국인들은 이럴 때..., \"서운하다\" 라는 단어를 정말 많이 써요.",
+      "translation": "Koreans use the word \"Seoun-hada\" really often in these situations.",
+      "lang": "KO",
+      "audio": "RR_022_s004.mp3",
+      "playable": true,
+      "seq": 4,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "John",
+      "emotion": "흥미로워하며",
+      "text": "\"서운하다\"? Is it different from being \"disappointed\"?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s005.mp3",
+      "playable": false,
+      "seq": 5,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "비슷하지만 조금 더 애정이 섞인 표현이에요. \"난 널 좋아하는데 넌 나한테 왜 그랬어?\" 같은 느낌이죠.",
+      "translation": "It's similar, but it's an expression mixed with more 'affection.' It's like, \"I like you, so why did you do that to me?\"",
+      "lang": "KO",
+      "audio": "RR_022_s006.mp3",
+      "playable": true,
+      "seq": 6,
+      "insight": null
+    },
+    {
+      "type": "Intro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "오늘은 솔직하게 내 마음을 전하면서 관계도 지키는 서운함의 리액션들을 배워볼게요!",
+      "translation": "Today, we'll learn 'reactions of hurt feelings' that convey your heart honestly while protecting the relationship!",
+      "lang": "KO",
+      "audio": "RR_022_s007.mp3",
+      "playable": true,
+      "seq": 7,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "따라하며",
+      "text": "사실 나 좀 서운했어.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s008.mp3",
+      "playable": false,
+      "seq": 8,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "",
+      "text": "By saying \"Sasil\" at the beginning, it feels like I'm opening up my heart.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s009.mp3",
+      "playable": false,
+      "seq": 9,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요! \"사실\" 은..., \"Actually\" 라는 뜻인데 진지한 대화를 시작할 때 아주 좋은 완충제가 돼요.",
+      "translation": "Right! \"Sasil\" means \"Actually,\" and it acts as a very good buffer when starting a serious conversation.",
+      "lang": "KO",
+      "audio": "RR_022_s010.mp3",
+      "playable": true,
+      "seq": 10,
+      "insight": {
+        "title": "사실 나 좀 서운했어",
+        "description": "'Actually, I was a bit hurt'",
+        "usage_tip": "사실(Actually) + 나(I) + 좀(A bit) + 서운했어(Was hurt/disappointed). Unlike '화나다'(to be angry), '서운하다' focuses on your feelings rather than blaming the other person."
+      }
+    },
+    {
+      "type": "Vocab",
+      "speaker": "John",
+      "emotion": "궁금해하며",
+      "text": "What if I want to acknowledge their side first?",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s011.mp3",
+      "playable": false,
+      "seq": 11,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럴 땐..., \"바쁜 건 알지만 그래도 서운하더라\" 라고 말해보세요.",
+      "translation": "In that case, try saying \"I know you're busy, but I still felt hurt.\"",
+      "lang": "KO",
+      "audio": "RR_022_s012.mp3",
+      "playable": true,
+      "seq": 12,
+      "insight": null
+    },
+    {
+      "type": "Vocab",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "상대방의 상황을 이해한다고 먼저 말해주면 대화가 훨씬 부드러워지거든요.",
+      "translation": "The conversation becomes much smoother if you say you understand the other person's situation first.",
+      "lang": "KO",
+      "audio": "RR_022_s013.mp3",
+      "playable": true,
+      "seq": 13,
+      "insight": {
+        "title": "바쁜 건 알지만",
+        "description": "'I know you're busy, but...'",
+        "usage_tip": "Using this \"buffer phrase\" prevents the other person from getting defensive."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "상황극 시작",
+      "text": "Okay, let's jump in. Mina and I planned to study together, but she went to a cafe with another friend without telling me. I’m feeling a bit \"seoun-hae.\"",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s014.mp3",
+      "playable": false,
+      "seq": 14,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "조심스럽게 말을 꺼내며",
+      "text": "미나씨 저기... 혹시 어제 친구들이랑 카페 갔었어요?",
+      "translation": "Mina, um... did you go to a cafe with friends yesterday by any chance?",
+      "lang": "KO",
+      "audio": "RR_022_s015.mp3",
+      "playable": true,
+      "seq": 15,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "앗차 싶어하며",
+      "text": "아! 네! 갑자기 연락이 와서 잠깐 다녀왔어요. 왜요?",
+      "translation": "Ah, yes! They called suddenly, so I went for a bit. Why?",
+      "lang": "KO",
+      "audio": "RR_022_s016.mp3",
+      "playable": true,
+      "seq": 16,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "솔직하게",
+      "text": "아... 같이 공부하기로 했었는데 연락이 없어서요. 사실 나 좀 서운했어.",
+      "translation": "Ah... we were supposed to study together, and since I didn't hear from you... Actually, I was a bit hurt.",
+      "lang": "KO",
+      "audio": "RR_022_s017.mp3",
+      "playable": true,
+      "seq": 17,
+      "insight": {
+        "title": "사실 나 좀 서운했어",
+        "description": "Soft Expression",
+        "usage_tip": "John isn't shouting; he's sharing his feelings. This makes Mina want to apologize rather than argue."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "미안해하며",
+      "text": "어머! 존! 미안해요. 제가 정신이 없어서 연락하는 걸 깜빡했어요. 진짜 미안해요.",
+      "translation": "Oh my, John! I'm sorry. I was so hectic that I forgot to contact you. I'm truly sorry.",
+      "lang": "KO",
+      "audio": "RR_022_s018.mp3",
+      "playable": true,
+      "seq": 18,
+      "insight": null
+    },
+    {
+      "type": "Dial",
+      "speaker": "John",
+      "emotion": "미소 지으며",
+      "text": "말해줘서 고마워요. 다음에는 미리 말해줄 수 있어요?",
+      "translation": "Thank you for telling me. Could you let me know in advance next time?",
+      "lang": "KO",
+      "audio": "RR_022_s019.mp3",
+      "playable": true,
+      "seq": 19,
+      "insight": {
+        "title": "말해줘서 고마워요",
+        "description": "'Thank you for telling me/explaining'",
+        "usage_tip": "This is a great way to wrap up the conversation and move forward."
+      }
+    },
+    {
+      "type": "Dial",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "그럼요! 다음에는 제가 맛있는 커피 살게요. 미안해요!",
+      "translation": "Of course! Next time, the delicious coffee is on me. I'm sorry!",
+      "lang": "KO",
+      "audio": "RR_022_s020.mp3",
+      "playable": true,
+      "seq": 20,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "유쾌하게",
+      "text": "Wow, using \"서운하다\" really changed the vibe. Instead of an argument, it became a heart-to-heart talk!",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s021.mp3",
+      "playable": false,
+      "seq": 21,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "맞아요. 한국어에서 서운함은 서로를 아끼는 마음이 베이스에 깔려 있다는 걸 기억하세요.",
+      "translation": "Right. Remember that in Korean, 'seoun-ham' is based on 'cherishing each other.'",
+      "lang": "KO",
+      "audio": "RR_022_s022.mp3",
+      "playable": true,
+      "seq": 22,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "정리하며",
+      "text": "Let's review our \"gentle hurt\" reactions one last time.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s023.mp3",
+      "playable": false,
+      "seq": 23,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "사실 나 좀 서운했어!",
+      "translation": "Actually, I was a bit hurt!",
+      "lang": "KO",
+      "audio": "RR_022_s024.mp3",
+      "playable": true,
+      "seq": 24,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "바쁜 건 알지만 그래도 서운하더라!",
+      "translation": "I know you're busy, but I still felt hurt!",
+      "lang": "KO",
+      "audio": "RR_022_s025.mp3",
+      "playable": true,
+      "seq": 25,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "내 연락 기다린 줄 알았는데 서운해!",
+      "translation": "I thought you were waiting for my call, so I'm hurt!",
+      "lang": "KO",
+      "audio": "RR_022_s026.mp3",
+      "playable": true,
+      "seq": 26,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "말해줘서 고마워!",
+      "translation": "Thank you for telling me!",
+      "lang": "KO",
+      "audio": "RR_022_s027.mp3",
+      "playable": true,
+      "seq": 27,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "다음부터는 미리 말해줘!",
+      "translation": "Please tell me in advance from next time!",
+      "lang": "KO",
+      "audio": "RR_022_s028.mp3",
+      "playable": true,
+      "seq": 28,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "여러분도 소중한 사람에게 마음이 상했다면, 꾹 참지 말고 정중하게 리액션해 보세요.",
+      "translation": "Everyone, if your feelings are hurt by someone precious, don't just hold it in; try reacting politely.",
+      "lang": "KO",
+      "audio": "RR_022_s029.mp3",
+      "playable": true,
+      "seq": 29,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "",
+      "text": "\"사실 나 좀 서운했어.\"",
+      "translation": "Actually, I was a bit hurt.",
+      "lang": "KO",
+      "audio": "RR_022_s030.mp3",
+      "playable": true,
+      "seq": 30,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "John",
+      "emotion": "",
+      "text": "That's all for today. See you in the next episode.",
+      "translation": "",
+      "lang": "EN",
+      "audio": "RR_022_s031.mp3",
+      "playable": false,
+      "seq": 31,
+      "insight": null
+    },
+    {
+      "type": "Outro",
+      "speaker": "Mina",
+      "emotion": "손을 흔들며",
+      "text": "다음에 또 만나요. 안녕~!",
+      "translation": "See you again next time. Bye~!",
+      "lang": "KO",
+      "audio": "RR_022_s032.mp3",
+      "playable": true,
+      "seq": 32,
+      "insight": null
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "서운하다",
+      "meaning": "To be hurt / To be disappointed / To feel neglected",
+      "example": "친구가 연락을 안 해서 조금 서운했어요. (I was a bit hurt because my friend didn't contact me.)",
+      "audio": "RR_022_v001.mp3",
+      "seq": 1
+    },
+    {
+      "word": "사실",
+      "meaning": "Actually / In fact",
+      "example": "사실은 제가 그 일을 깜빡하고 안 했어요. (In fact, I forgot and didn't do that work.)",
+      "audio": "RR_022_v002.mp3",
+      "seq": 2
+    },
+    {
+      "word": "애정",
+      "meaning": "Affection / Love",
+      "example": "그녀는 강아지에게 아주 큰 애정을 가지고 있어요. (She has great affection for her puppy.)",
+      "audio": "RR_022_v003.mp3",
+      "seq": 3
+    },
+    {
+      "word": "정신이 없다",
+      "meaning": "To be hectic / Out of one's mind",
+      "example": "오늘 아침엔 너무 정신이 없어서 아침을 못 먹었어요. (I was so hectic this morning that I couldn't eat breakfast.)",
+      "audio": "RR_022_v004.mp3",
+      "seq": 4
+    },
+    {
+      "word": "속상하다",
+      "meaning": "To be upset / To feel distressed",
+      "example": "시험 결과가 좋지 않아서 정말 속상해요. (I'm really upset because the exam results weren't good.)",
+      "audio": "RR_022_v005.mp3",
+      "seq": 5
+    },
+    {
+      "word": "선",
+      "meaning": "Line / Boundary",
+      "example": "친구 사이에도 지켜야 할 선이 있어요. (There are lines that should be kept even between friends.)",
+      "audio": "RR_022_v006.mp3",
+      "seq": 6
+    }
+  ]
+}
