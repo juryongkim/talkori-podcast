@@ -978,24 +978,6 @@
     "status": "active",
     "episodes": [
       {
-        "id": "000",
-        "title": {
-          "en": "Episode 000",
-          "ko": "에피소드 000"
-        },
-        "description": {
-          "en": "",
-          "ko": ""
-        },
-        "duration": {
-          "en": "",
-          "ko": ""
-        },
-        "level": "",
-        "tags": [],
-        "dataFile": "ep000.json"
-      },
-      {
         "id": "001",
         "title": {
           "en": "No, you're overpraising me! 아니에요, 과찬이십니다! (Workplace Praise)",
